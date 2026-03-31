@@ -1,0 +1,34 @@
+name: Morning Newsletter
+
+on:
+  schedule:
+    # 6:30 UTC = 7:30 CET (winter). Change to '30 5 * * *' for CEST (summer, UTC+2).
+    # To handle DST automatically, main.py uses pytz — but the trigger time
+    # will shift by 1h between CET and CEST unless you update this manually.
+    - cron: '30 6 * * *'
+  workflow_dispatch: # Manual trigger for testing
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run newsletter pipeline
+        env:
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python main.py
