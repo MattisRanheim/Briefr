@@ -15,17 +15,21 @@ TOPICS = {
             "Focus on: new model releases, research breakthroughs, major product launches, "
             "and industry news. Prioritise sources like The Verge, Ars Technica, Hugging Face blog, "
             "Import AI newsletter, and top AI research labs (OpenAI, Anthropic, Google DeepMind, Meta AI). "
-            "Return 3–5 key developments with a brief explanation of each and source URLs."
+            "Return 5–7 key developments. For each item include: a clear title, a substantive explanation "
+            "(2–4 sentences covering what it is, why it matters, and any technical detail worth knowing), "
+            "and one or more source URLs."
         ),
     },
     "data_science_ml": {
         "label": "Data Science & ML",
         "prompt": (
             "Search for the most interesting Data Science and Machine Learning developments "
-            "from the last 24–48 hours. Focus on: new techniques, open-source tools, "
-            "notable Kaggle competitions, practical ML engineering insights. "
+            "from the last 24–48 hours. Focus on: new techniques, open-source tools and libraries, "
+            "notable papers, Kaggle competitions, and practical ML engineering insights. "
             "Prioritise sources like Towards Data Science, fast.ai blog, Papers With Code, "
-            "and ML Twitter/X. Return 3–5 items with explanations and source URLs."
+            "and ML Twitter/X. Return 5–7 items. For each include: a clear title, a substantive "
+            "explanation (2–4 sentences covering what it is, why it's useful, and any key results or "
+            "benchmarks), and one or more source URLs."
         ),
     },
     "quant_finance": {
@@ -35,7 +39,9 @@ TOPICS = {
             "from the last 24 hours. Focus on: macro developments, derivatives and risk "
             "management insights, quant research, notable market moves, and fintech. "
             "Prioritise sources like Quantocracy, SSRN new working papers, Risk.net, "
-            "FT Markets, and Bloomberg. Return 3–5 items with explanations and source URLs."
+            "FT Markets, and Bloomberg. Return 5–7 items. For each include: a clear title, a substantive "
+            "explanation (2–4 sentences covering the development, its market implications, and any "
+            "quantitative detail worth noting), and one or more source URLs."
         ),
     },
     "swedish_tech": {
@@ -45,7 +51,9 @@ TOPICS = {
             "from the last 24–48 hours. Focus on: funding rounds, notable product launches, "
             "founder stories, ecosystem developments, and policy changes relevant to Swedish tech. "
             "Prioritise sources like Breakit, DI Digital, Sifted (Nordics), and TechCrunch Europe. "
-            "Return 3–5 items with explanations and source URLs."
+            "Return 5–7 items. For each include: a clear title, a substantive explanation "
+            "(2–4 sentences covering what happened, who is involved, and why it matters for the "
+            "Swedish/Nordic ecosystem), and one or more source URLs."
         ),
     },
 }
@@ -54,8 +62,8 @@ TOPICS = {
 # Perplexity API settings
 # ---------------------------------------------------------------------------
 
-PERPLEXITY_MODEL = "llama-3.1-sonar-large-128k-online"
-PERPLEXITY_MAX_TOKENS = 1024
+PERPLEXITY_MODEL = "sonar-pro"
+PERPLEXITY_MAX_TOKENS = 1536
 PERPLEXITY_TEMPERATURE = 0.2
 PERPLEXITY_SYSTEM_PROMPT = (
     "You are a research assistant. Return structured, factual summaries with source URLs. "
@@ -67,12 +75,11 @@ PERPLEXITY_SYSTEM_PROMPT = (
 # ---------------------------------------------------------------------------
 
 WRITER_MODEL = "claude-haiku-4-5-20251001"
-WRITER_MAX_TOKENS = 2048
+WRITER_MAX_TOKENS = 3200
 
 WRITER_SYSTEM_PROMPT = """\
-You are a newsletter writer producing a daily briefing for a 22-year-old Swedish
-university student studying supply chain management with strong interests in AI,
-quantitative methods, and tech entrepreneurship.
+You are a newsletter writer producing a daily briefing for a 23-year-old Swedish
+university student studying Industrial Engineering and Management with strong interests in AI, ML, Data Science, quantitative finance, math and tech entrepreneurship.
 
 Write in a clear, intelligent, slightly conversational tone. Not overly formal,
 not casual. The reader is technically literate and intellectually curious.
@@ -81,11 +88,14 @@ Format the newsletter as valid HTML using inline styles only (for email compatib
 Structure:
 - Header with date and title "Morning Brief"
 - One section per topic, each with a <h2> heading
-- Each section: 2–3 medium-length paragraphs synthesising the research
+- Each section: 3–4 substantive paragraphs synthesising the research. Go deeper than
+  a surface summary — explain the significance, connect related items, and add context
+  where useful. Each paragraph should be 3–5 sentences.
 - End each section with a "Further reading" list of source links
 - Brief closing line at the bottom
 
-Total reading time: 4–8 minutes. Do not pad. Do not be verbose.
+Total reading time: 6–10 minutes. Use the full space — do not truncate sections early.
+Do not pad with filler, but do not be artificially brief either.
 
 HTML guidelines:
 - Outer wrapper: <div style="max-width:600px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:#ffffff;color:#1a1a1a;padding:24px;">

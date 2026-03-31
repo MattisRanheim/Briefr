@@ -24,17 +24,22 @@ Go to **Actions → Morning Newsletter → Run workflow**.
 
 ## Local testing
 
+Copy `.env.example` to `.env` and fill in your credentials:
+
+```bash
+cp .env.example .env
+# then open .env and add your values
+```
+
+`.env` is git-ignored and will never be committed. To load it and run:
+
 ```bash
 pip install -r requirements.txt
-
-export PERPLEXITY_API_KEY=...
-export ANTHROPIC_API_KEY=...
-export GMAIL_USER=...
-export GMAIL_APP_PASSWORD=...
-export RECIPIENT_EMAIL=...
-
-python main.py
+set -a && source .env && set +a
+python3 main.py
 ```
+
+`set -a` exports every variable defined in the file so they're visible to the subprocess. `set +a` turns that off afterwards.
 
 ## Customisation
 

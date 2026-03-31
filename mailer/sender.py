@@ -30,8 +30,12 @@ def send_email(
     msg["To"] = recipient
     msg.attach(MIMEText(html_content, "html"))
 
+    # Google displays app passwords as "xxxx xxxx xxxx xxxx" but accepts only the
+    # raw 16-char string. Strip spaces and underscores in case they were included.
+    clean_password = gmail_app_password.replace(" ", "").replace("_", "")
+
     print(f"Sending email to {recipient}...")
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(gmail_user, gmail_app_password)
+        server.login(gmail_user, clean_password)
         server.sendmail(gmail_user, recipient, msg.as_string())
     print("Email sent.")
