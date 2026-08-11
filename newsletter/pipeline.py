@@ -16,7 +16,7 @@ from agents.researcher import research
 from agents.extractor import extract_stories
 from agents.deduper import dedupe_stories
 from agents.writer import write_newsletter
-from config import TOPICS, DEDUPE_WINDOW_DAYS
+from config import TOPICS, DEDUPE_WINDOW_DAYS, MAX_STORIES_PER_TOPIC
 from newsletter.state import (
     load_state,
     save_state,
@@ -80,16 +80,21 @@ async def _extract_and_dedupe(
         return topic_key, []
 
     if not history:
-        print(f"  [OK] {topic_key}: {len(candidates)} new (no history to compare)")
-        return topic_key, candidates
+        kept = candidates
+        print(f"  [OK] {topic_key}: {len(kept)} new (no history to compare)")
+    else:
+        try:
+            kept = await dedupe_stories(topic_label, candidates, history, anthropic_key)
+        except Exception as exc:
+            print(f"  [WARN] Dedup failed for '{topic_key}', keeping all candidates: {exc}")
+            kept = candidates
+        else:
+            print(f"  [OK] {topic_key}: {len(kept)}/{len(candidates)} kept after dedup")
 
-    try:
-        kept = await dedupe_stories(topic_label, candidates, history, anthropic_key)
-    except Exception as exc:
-        print(f"  [WARN] Dedup failed for '{topic_key}', keeping all candidates: {exc}")
-        return topic_key, candidates
+    if len(kept) > MAX_STORIES_PER_TOPIC:
+        print(f"  [OK] {topic_key}: capped {len(kept)} -> {MAX_STORIES_PER_TOPIC} stories")
+        kept = kept[:MAX_STORIES_PER_TOPIC]
 
-    print(f"  [OK] {topic_key}: {len(kept)}/{len(candidates)} kept after dedup")
     return topic_key, kept
 
 
@@ -135,7 +140,7 @@ async def run_pipeline() -> str:
 
     # --- Write phase ---
     print("Writing newsletter...")
-    html = write_newsletter(topic_stories, TOPICS, anthropic_key)
+    html = write_newsletter(topic_stories, TOPICS, date.today().strftime("%B %d, %Y"), anthropic_key)
     print("Newsletter written.")
 
     _save_outputs(research_results, html)

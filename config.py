@@ -79,6 +79,12 @@ PERPLEXITY_SYSTEM_PROMPT = (
 # How many days of story history to compare new candidates against.
 DEDUPE_WINDOW_DAYS = 14
 
+# Hard cap on stories forwarded to the writer per topic, applied after dedup.
+# Keeps output length predictable on high-volume days (e.g. the very first
+# run, before any history exists to filter against) instead of relying on
+# the writer to compress an unbounded number of stories into budget.
+MAX_STORIES_PER_TOPIC = 5
+
 EXTRACTOR_MODEL = "claude-haiku-4-5-20251001"
 EXTRACTOR_MAX_TOKENS = 1024
 
@@ -132,7 +138,7 @@ repeats, and an empty section is fine if nothing new happened.
 # ---------------------------------------------------------------------------
 
 WRITER_MODEL = "claude-haiku-4-5-20251001"
-WRITER_MAX_TOKENS = 2100
+WRITER_MAX_TOKENS = 2800
 
 WRITER_SYSTEM_PROMPT = """\
 You are a newsletter writer producing a daily briefing for a 23-year-old Swedish
@@ -144,13 +150,21 @@ not casual. The reader is technically literate and intellectually curious.
 Format the newsletter as valid HTML using inline styles only (for email compatibility).
 Structure:
 - Header with date and title "Morning Brief"
-- One section per topic, each with a <h2> heading
-- Each section: 1–2 tight paragraphs, 2–3 sentences each. Lead every paragraph with
-  the concrete fact (what happened, what number, who) — do not open with scene-setting
-  or throat-clearing. Cut connective filler ("it's worth noting", "in other news",
-  "furthermore"). Only add context or explain significance if it's not obvious from
-  the fact itself; never restate the fact in different words.
-- End each section with a "Further reading" list of source links
+- Exactly one section per topic, each with exactly one <h2> heading — 4 topics means
+  4 <h2> headings total, never more. You will be given several input stories per
+  topic; do NOT give each story its own heading or sub-heading. Synthesize all of a
+  topic's stories together into that one section.
+- Each section: 1–2 tight paragraphs, 2–3 sentences each, covering ALL of that
+  topic's input stories — not one paragraph per story. If there are more stories
+  than fit naturally, prioritize the most significant 2-3 and fold the rest into a
+  single sentence, rather than expanding the section with more paragraphs or
+  headings. Lead every paragraph with the concrete fact (what happened, what number,
+  who) — do not open with scene-setting or throat-clearing. Cut connective filler
+  ("it's worth noting", "in other news", "furthermore"). Only add context or explain
+  significance if it's not obvious from the fact itself; never restate the fact in
+  different words.
+- End each section with a single "Further reading" list covering all of that
+  section's sources
 - Brief closing line at the bottom
 
 Total reading time: 4–6 minutes. Every sentence should carry a fact, a number, or a
@@ -162,10 +176,17 @@ write one short honest sentence saying there's nothing significant to report tod
 Do not pad, invent stories, or restate old news to fill space. Skip the "Further
 reading" list for that section.
 
+Output ONLY the raw HTML fragment below — a single <div>...</div>. Do not wrap it in
+markdown code fences (no ```). Do not include <html>, <head>, <body>, <script>, or
+<style> tags, or anything outside the outer <div>. This is an email body, not a web
+page — the fragment gets inserted directly into an email client.
+
 HTML guidelines:
 - Outer wrapper: <div style="max-width:600px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:#ffffff;color:#1a1a1a;padding:24px;">
 - Title <h1>: font-size:28px;font-weight:700;margin-bottom:4px;color:#0f0f0f;
-- Date line <p>: font-size:13px;color:#666;margin-top:0;margin-bottom:32px;
+- Date line <p>: font-size:13px;color:#666;margin-top:0;margin-bottom:32px; Write the
+  date given to you below as plain static text — never leave it empty or use
+  JavaScript/<script> to fill it in client-side.
 - Section <h2>: font-size:19px;font-weight:600;color:#0f0f0f;border-bottom:1px solid #e5e5e5;padding-bottom:6px;margin-top:32px;
 - Body <p>: font-size:15px;line-height:1.65;color:#333;margin:12px 0;
 - Further reading header <p>: font-size:13px;font-weight:600;color:#555;margin-top:16px;margin-bottom:4px;

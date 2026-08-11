@@ -9,9 +9,22 @@ import anthropic
 from config import WRITER_MODEL, WRITER_MAX_TOKENS, WRITER_SYSTEM_PROMPT
 
 
-def build_user_message(topic_stories: dict, topics_meta: dict) -> str:
+def _strip_code_fence(html: str) -> str:
+    """Strip a markdown code fence if the model wrapped its output in one."""
+    text = html.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1] if "\n" in text else ""
+        if text.endswith("```"):
+            text = text.rsplit("```", 1)[0]
+    return text.strip()
+
+
+def build_user_message(topic_stories: dict, topics_meta: dict, today_display: str) -> str:
     """Build the user message passed to Claude, structured by topic."""
-    sections = ["Here are today's deduplicated stories. Write the Morning Brief newsletter.\n"]
+    sections = [
+        f"Today's date: {today_display}\n\n"
+        "Here are today's deduplicated stories. Write the Morning Brief newsletter."
+    ]
     for key, stories in topic_stories.items():
         label = topics_meta[key]["label"]
         if not stories:
@@ -25,7 +38,7 @@ def build_user_message(topic_stories: dict, topics_meta: dict) -> str:
     return "\n\n".join(sections)
 
 
-def write_newsletter(topic_stories: dict, topics_meta: dict, api_key: str) -> str:
+def write_newsletter(topic_stories: dict, topics_meta: dict, today_display: str, api_key: str) -> str:
     """
     Call Claude Haiku to produce the HTML newsletter.
     Returns the full HTML string.
@@ -39,8 +52,13 @@ def write_newsletter(topic_stories: dict, topics_meta: dict, api_key: str) -> st
         messages=[
             {
                 "role": "user",
-                "content": build_user_message(topic_stories, topics_meta),
+                "content": build_user_message(topic_stories, topics_meta, today_display),
             }
         ],
     )
-    return message.content[0].text
+    if message.stop_reason == "max_tokens":
+        print(
+            f"  [WARN] Writer output was truncated by max_tokens ({WRITER_MAX_TOKENS}) "
+            "— the newsletter HTML is likely incomplete/broken."
+        )
+    return _strip_code_fence(message.content[0].text)
