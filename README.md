@@ -1,6 +1,6 @@
 # Morning Brief
 
-A daily newsletter delivered to your Gmail at 7:30am CET. Four parallel Perplexity research agents cover AI/LLMs, Data Science & ML, Quantitative Finance, and Swedish Tech. Claude Haiku synthesises the results into a clean HTML email.
+A daily newsletter delivered to your Gmail at 7:30am CET. Four parallel Perplexity research agents cover AI/LLMs, Data Science & ML, Quantitative Finance, and Scandinavian Tech & Entrepreneurship. Claude Haiku synthesises the results into a clean HTML email.
 
 ## Setup
 

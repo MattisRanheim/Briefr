@@ -44,16 +44,18 @@ TOPICS = {
             "quantitative detail worth noting), and one or more source URLs."
         ),
     },
-    "swedish_tech": {
-        "label": "Swedish Tech & Entrepreneurship",
+    "scandinavian_tech": {
+        "label": "Scandinavian Tech & Entrepreneurship",
         "prompt": (
-            "Search for the latest news in Swedish tech startups and entrepreneurship "
-            "from the last 24–48 hours. Focus on: funding rounds, notable product launches, "
-            "founder stories, ecosystem developments, and policy changes relevant to Swedish tech. "
-            "Prioritise sources like Breakit, DI Digital, Sifted (Nordics), and TechCrunch Europe. "
-            "Return 5–7 items. For each include: a clear title, a substantive explanation "
+            "Search for the latest news in Scandinavian tech startups and entrepreneurship — "
+            "Sweden, Denmark, and Norway only. Do not include Finland or other Nordic/Baltic "
+            "countries. Cover the last 24–48 hours. Focus on: funding rounds, notable product "
+            "launches, founder stories, ecosystem developments, and policy changes relevant to "
+            "the Swedish, Danish, and Norwegian tech scenes. Prioritise sources like Breakit and "
+            "DI Digital (Sweden), Shifter (Norway), TechSavvy (Denmark), Sifted, and TechCrunch "
+            "Europe. Return 5–7 items. For each include: a clear title, a substantive explanation "
             "(2–4 sentences covering what happened, who is involved, and why it matters for the "
-            "Swedish/Nordic ecosystem), and one or more source URLs."
+            "Scandinavian ecosystem), and one or more source URLs."
         ),
     },
 }
