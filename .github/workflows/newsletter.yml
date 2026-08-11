@@ -5,7 +5,7 @@ on:
     # 6:30 UTC = 7:30 CET (winter). Change to '30 5 * * *' for CEST (summer, UTC+2).
     # To handle DST automatically, main.py uses pytz — but the trigger time
     # will shift by 1h between CET and CEST unless you update this manually.
-    # - cron: '30 6 * * *'
+    - cron: '30 6 * * *'
   workflow_dispatch: # Manual trigger for testing
 
 permissions:
