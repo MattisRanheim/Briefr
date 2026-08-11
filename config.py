@@ -71,11 +71,66 @@ PERPLEXITY_SYSTEM_PROMPT = (
 )
 
 # ---------------------------------------------------------------------------
+# Story extraction & deduplication (Claude Haiku) settings
+# ---------------------------------------------------------------------------
+
+# How many days of story history to compare new candidates against.
+DEDUPE_WINDOW_DAYS = 14
+
+EXTRACTOR_MODEL = "claude-haiku-4-5-20251001"
+EXTRACTOR_MAX_TOKENS = 1024
+
+EXTRACTOR_SYSTEM_PROMPT = """\
+You parse a research summary into discrete, atomic news stories.
+
+Return ONLY a JSON array (no prose, no markdown fences). Each element:
+{
+  "id": "short-kebab-case-slug",
+  "title": "one-line headline",
+  "summary": "1-2 sentence factual summary",
+  "source_urls": ["https://..."]
+}
+
+Rules for "id":
+- Build it from the core entities + event (e.g. "deepseek-v4-launch",
+  "gemini-3-1-pro-arc-agi-score"), not from the outlet or exact wording.
+- It must stay the same if the same underlying event were reported again in
+  different words or by a different source.
+- Lowercase, hyphen-separated, no dates, 2-6 words.
+
+If the input contains no concrete stories (e.g. it's an apology, a refusal,
+or says no news was found), return an empty JSON array: []
+"""
+
+DEDUPE_MODEL = "claude-haiku-4-5-20251001"
+DEDUPE_MAX_TOKENS = 512
+
+DEDUPE_SYSTEM_PROMPT = """\
+You compare today's candidate stories against stories already sent to the
+reader in the last two weeks, and decide which candidates are genuinely new.
+
+Return ONLY a JSON array of the "id" values (from today's candidates) that
+should be KEPT. Omit the rest — no prose, no markdown fences.
+
+Drop a candidate if it reports the same underlying event as a previously-sent
+story, even if reworded, sourced differently, or synthesized from a different
+angle — e.g. "GPT-5.3 launches" reported again a few days later with no new
+information.
+
+Keep a candidate if it reports genuine new information about a
+previously-covered subject — e.g. a new benchmark result, a follow-up
+funding round, an updated price or metric, a concrete escalation of an
+ongoing story. When genuinely unsure whether it's new information or a
+rehash, drop it — the reader prefers fewer, meaningfully new items over
+repeats, and an empty section is fine if nothing new happened.
+"""
+
+# ---------------------------------------------------------------------------
 # Writer (Claude Haiku) settings
 # ---------------------------------------------------------------------------
 
 WRITER_MODEL = "claude-haiku-4-5-20251001"
-WRITER_MAX_TOKENS = 3200
+WRITER_MAX_TOKENS = 2100
 
 WRITER_SYSTEM_PROMPT = """\
 You are a newsletter writer producing a daily briefing for a 23-year-old Swedish
@@ -88,14 +143,22 @@ Format the newsletter as valid HTML using inline styles only (for email compatib
 Structure:
 - Header with date and title "Morning Brief"
 - One section per topic, each with a <h2> heading
-- Each section: 3–4 substantive paragraphs synthesising the research. Go deeper than
-  a surface summary — explain the significance, connect related items, and add context
-  where useful. Each paragraph should be 3–5 sentences.
+- Each section: 1–2 tight paragraphs, 2–3 sentences each. Lead every paragraph with
+  the concrete fact (what happened, what number, who) — do not open with scene-setting
+  or throat-clearing. Cut connective filler ("it's worth noting", "in other news",
+  "furthermore"). Only add context or explain significance if it's not obvious from
+  the fact itself; never restate the fact in different words.
 - End each section with a "Further reading" list of source links
 - Brief closing line at the bottom
 
-Total reading time: 6–10 minutes. Use the full space — do not truncate sections early.
-Do not pad with filler, but do not be artificially brief either.
+Total reading time: 4–6 minutes. Every sentence should carry a fact, a number, or a
+concrete implication — no filler, no padding, no hedge words.
+
+Some sections will be marked NO_NEW_DEVELOPMENTS — that topic had nothing new since
+the last update (already-covered stories were filtered out upstream). For those,
+write one short honest sentence saying there's nothing significant to report today.
+Do not pad, invent stories, or restate old news to fill space. Skip the "Further
+reading" list for that section.
 
 HTML guidelines:
 - Outer wrapper: <div style="max-width:600px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:#ffffff;color:#1a1a1a;padding:24px;">
