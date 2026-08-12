@@ -122,6 +122,56 @@
       ],
       "summary": "Machine Learning Mastery covers architectural approaches for preserving agent state while controlling cost and latency, addressing practical LLMOps challenges in extended agent workflows.",
       "title": "Strategies for context window management in long-running agents"
+    },
+    {
+      "first_seen": "2026-08-12",
+      "id": "nvidia-nemotron-3-5-lightning-moe",
+      "last_seen": "2026-08-12",
+      "source_urls": [
+        "https://www.alphasignal.ai/"
+      ],
+      "summary": "Nvidia announced Nemotron 3.5 Lightning, an open 30B-parameter mixture-of-experts model, alongside NeMo Switchyard, an open-source model routing library designed for efficient, lower-cost agentic AI systems with higher throughput.",
+      "title": "Nvidia releases Nemotron 3.5 Lightning 30B MoE model and NeMo Switchyard routing library"
+    },
+    {
+      "first_seen": "2026-08-12",
+      "id": "databricks-electric-acquisition-agent-postgres",
+      "last_seen": "2026-08-12",
+      "source_urls": [
+        "https://www.alphasignal.ai/"
+      ],
+      "summary": "Databricks acquired Electric to offer autonomous AI agents dedicated Postgres-backed data infrastructure, simplifying state management and reducing operational overhead for stateful agent workflows.",
+      "title": "Databricks acquires Electric to provide AI agents with Postgres-backed data layers"
+    },
+    {
+      "first_seen": "2026-08-12",
+      "id": "lmsys-sglang-hybrid-model-cache-rebuild",
+      "last_seen": "2026-08-12",
+      "source_urls": [
+        "https://www.alphasignal.ai/"
+      ],
+      "summary": "LMSYS implemented improvements to SGLang's caching system to support hybrid AI model deployments, reducing inference bottlenecks and improving latency and throughput in agent runtimes.",
+      "title": "LMSYS rebuilds SGLang cache to support hybrid AI models"
+    },
+    {
+      "first_seen": "2026-08-12",
+      "id": "nemotron-lightning-cost-inference-gains",
+      "last_seen": "2026-08-12",
+      "source_urls": [
+        "https://www.alphasignal.ai/"
+      ],
+      "summary": "Benchmark results show Nemotron 3.5 Lightning cuts agent inference costs by 58% while delivering 4x faster inference speed, offering meaningful optimizations for teams scaling tool-using and multi-step agents.",
+      "title": "Nemotron 3.5 Lightning achieves 58% cost reduction and 4x faster inference for agents"
+    },
+    {
+      "first_seen": "2026-08-12",
+      "id": "milvus-3-0-lake-native-vector-retrieval",
+      "last_seen": "2026-08-12",
+      "source_urls": [
+        "https://letsdatascience.com/news/topic/machine-learning"
+      ],
+      "summary": "Milvus 3.0.0 added lake-native retrieval capabilities over object storage and open formats, reducing friction between data lakes and vector search infrastructure for large-scale RAG systems.",
+      "title": "Milvus 3.0.0 extends open-source vector database with lake-native retrieval"
     }
   ],
   "quant_finance": [
@@ -186,5 +236,6 @@
       "title": "German funds hit \u20ac5 trillion in assets amid ETF boom; SEC considers direct funding for market-tracking database"
     }
   ],
+  "scandinavian_tech": [],
   "swedish_tech": []
 }
