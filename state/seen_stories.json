@@ -234,6 +234,46 @@
       ],
       "summary": "ETF assets in Germany exceeded \u20ac5 trillion while the SEC weighs funding for market infrastructure, reflecting ongoing structural changes in liquidity formation and data availability for systematic investors.",
       "title": "German funds hit \u20ac5 trillion in assets amid ETF boom; SEC considers direct funding for market-tracking database"
+    },
+    {
+      "first_seen": "2026-08-13",
+      "id": "ubs-merger-arbitrage-qis-launch",
+      "last_seen": "2026-08-13",
+      "source_urls": [
+        "https://www.risk.net/topics/quant-investing"
+      ],
+      "summary": "UBS is partnering with German asset manager First Private to build a merger-arbitrage quant investment strategy using ML-based deal screening, expanding access to event-driven systematic strategies.",
+      "title": "UBS to launch merger-arbitrage QIS with machine learning deal screening"
+    },
+    {
+      "first_seen": "2026-08-13",
+      "id": "ai-alpha-defensive-cta-tariff-stress",
+      "last_seen": "2026-08-13",
+      "source_urls": [
+        "https://www.risk.net/topics/quant-investing"
+      ],
+      "summary": "A novel risk-off CTA approach from Ai for Alpha demonstrated resilience during April tariff volatility, showing the effectiveness of regime-aware design for controlling drawdowns in policy shock scenarios.",
+      "title": "Ai for Alpha's defensive CTA strategy withstands tariff shock test"
+    },
+    {
+      "first_seen": "2026-08-13",
+      "id": "quant-hedge-funds-july-outperformance",
+      "last_seen": "2026-08-13",
+      "source_urls": [
+        "https://www.businessinsider.com/quant-hedge-fund-july-performance-renaissance-technologies-two-sigma-cfm-2026-8"
+      ],
+      "summary": "Renaissance Institutional Equities gained 9.2% and Citadel's equities fund gained 14.2% in July, demonstrating that systematic managers navigated chaotic conditions better than many discretionary peers.",
+      "title": "Computer-driven hedge funds outperform in volatile July market"
+    },
+    {
+      "first_seen": "2026-08-13",
+      "id": "quant-data-quality-ai-competitive-edge",
+      "last_seen": "2026-08-13",
+      "source_urls": [
+        "https://www.waterstechnology.com/topics/quantitative"
+      ],
+      "summary": "Quantitative managers are increasingly using AI to improve order-book data quality and implementing governance standards from autonomous systems, shifting focus from pure prediction to operational robustness.",
+      "title": "Data quality and AI governance emerge as core quant competitive advantages"
     }
   ],
   "scandinavian_tech": [],
