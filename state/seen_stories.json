@@ -276,6 +276,37 @@
       "title": "Data quality and AI governance emerge as core quant competitive advantages"
     }
   ],
-  "scandinavian_tech": [],
+  "scandinavian_tech": [
+    {
+      "first_seen": "2026-08-14",
+      "id": "lovable-series-c-346m",
+      "last_seen": "2026-08-14",
+      "source_urls": [
+        "[1]"
+      ],
+      "summary": "Stockholm-based AI software company Lovable closed a \u20ac346M Series C led by EQT, The Scaleup Europe Fund, and Menlo Ventures on August 12, 2026. The round represents Sweden's standout late-stage funding success and signals strong investor appetite for AI/software companies in the Swedish ecosystem.",
+      "title": "Lovable raises \u20ac346M Series C in Sweden's largest AI startup round"
+    },
+    {
+      "first_seen": "2026-08-14",
+      "id": "palette-software-preseed-3m",
+      "last_seen": "2026-08-14",
+      "source_urls": [
+        "[1]"
+      ],
+      "summary": "Copenhagen-based B2B software startup Palette Software raised \u20ac3.0M in pre-seed funding on August 11, 2026 from investors including Emblem, Ugly Duckling Ventures, and Acadian Ventures. The round demonstrates continued early-stage capital flow to Danish software companies despite broader European funding constraints.",
+      "title": "Palette Software secures \u20ac3.0M pre-seed funding in Copenhagen"
+    },
+    {
+      "first_seen": "2026-08-14",
+      "id": "visoid-raises-2-2m-oslo",
+      "last_seen": "2026-08-14",
+      "source_urls": [
+        "[1]"
+      ],
+      "summary": "Oslo-based software company VISOID raised \u20ac2.2M on August 10, 2026 from a consortium including byFounders Angel Collective, Antler, StartupLab, Skyfall Ventures, Farvatn, and OBOS. The diverse investor mix reflects active Nordic venture ecosystem support for Norwegian software startups.",
+      "title": "VISOID closes \u20ac2.2M funding round in Oslo"
+    }
+  ],
   "swedish_tech": []
 }
