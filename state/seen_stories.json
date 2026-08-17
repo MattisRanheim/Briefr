@@ -172,6 +172,59 @@
       ],
       "summary": "Milvus 3.0.0 added lake-native retrieval capabilities over object storage and open formats, reducing friction between data lakes and vector search infrastructure for large-scale RAG systems.",
       "title": "Milvus 3.0.0 extends open-source vector database with lake-native retrieval"
+    },
+    {
+      "first_seen": "2026-08-17",
+      "id": "arc-prize-2026-fluid-intelligence",
+      "last_seen": "2026-08-17",
+      "source_urls": [
+        "https://www.kaggle.com/",
+        "https://www.kaggle.com/competitions"
+      ],
+      "summary": "Kaggle's ARC Prize 2026 features ARC-AGI-2, ARC-AGI-3, and a Paper Track with prize pools exceeding $1.5M to advance AI systems toward human-like abstraction and systematic reasoning beyond pattern-matching.",
+      "title": "ARC Prize 2026 launches multi-track competitions for fluid intelligence and novel reasoning"
+    },
+    {
+      "first_seen": "2026-08-17",
+      "id": "kaggle-gemma-impact-challenge",
+      "last_seen": "2026-08-17",
+      "source_urls": [
+        "https://www.kaggle.com/competitions",
+        "https://www.kaggle.com/competitions?new=true"
+      ],
+      "summary": "New Kaggle competitions focus on applying Google's open-source Gemma models to socially beneficial applications and psychological trait inference through prompt engineering and fine-tuning.",
+      "title": "Kaggle launches Gemma 4 Good Hackathon and Gemma 3n Impact Challenge"
+    },
+    {
+      "first_seen": "2026-08-17",
+      "id": "rsna-knee-mri-detection-competition",
+      "last_seen": "2026-08-17",
+      "source_urls": [
+        "https://x.com/kaggle/status/2085036812922134737",
+        "https://www.kaggle.com/competitions"
+      ],
+      "summary": "A clinical computer vision competition challenges participants to detect twelve knee abnormalities from MRI scans, combining medical imaging with multi-label classification and uncertainty estimation techniques.",
+      "title": "RSNA launches $77k knee MRI abnormality detection competition on Kaggle"
+    },
+    {
+      "first_seen": "2026-08-17",
+      "id": "coverprune-3d-vision-language-efficiency",
+      "last_seen": "2026-08-17",
+      "source_urls": [
+        "https://arxiv.deeppaper.ai/papers/code"
+      ],
+      "summary": "A training-free framework uses optimal transport theory to intelligently prune tokens in 3D VLMs while preserving visual evidence coverage, reducing inference costs for resource-constrained deployment.",
+      "title": "CoverPrune applies optimal transport to efficient token pruning in 3D vision-language models"
+    },
+    {
+      "first_seen": "2026-08-17",
+      "id": "marc-clinical-multi-agent-reasoning",
+      "last_seen": "2026-08-17",
+      "source_urls": [
+        "https://arxiv.deeppaper.ai/papers/code"
+      ],
+      "summary": "An interpretable, model-agnostic framework decomposes complex medical reasoning tasks into modular agents with explicit communication, improving transparency and auditability for healthcare AI systems.",
+      "title": "MARC v1 introduces open-source multi-agent framework for clinical AI reasoning"
     }
   ],
   "quant_finance": [
