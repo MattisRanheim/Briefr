@@ -389,6 +389,56 @@
       ],
       "summary": "Swedish media group Bonnier completed the acquisition of Breakit, strengthening its Di business news platform and consolidating startup coverage distribution in Sweden.",
       "title": "Bonnier acquires Swedish startup media outlet Breakit"
+    },
+    {
+      "first_seen": "2026-08-18",
+      "id": "swedish-ai-startup-65b-sek-exit",
+      "last_seen": "2026-08-18",
+      "source_urls": [
+        "https://www.breakit.se/"
+      ],
+      "summary": "A Swedish AI startup founded three years ago was acquired for approximately SEK 65 billion, marking one of the largest AI-related exits in the Nordic ecosystem and reinforcing Stockholm's position as a leading European AI hub.",
+      "title": "Swedish AI startup sold for SEK 65 billion"
+    },
+    {
+      "first_seen": "2026-08-18",
+      "id": "douglas-stark-ai-startup-70m-sek",
+      "last_seen": "2026-08-18",
+      "source_urls": [
+        "https://www.breakit.se/?trk=public_post-text"
+      ],
+      "summary": "Prominent Swedish founder Douglas Stark launched a new AI startup and secured SEK 70 million in seed funding, signaling strong investor appetite for Swedish AI ventures in mid-2026.",
+      "title": "Douglas Stark launches AI startup with SEK 70 million funding"
+    },
+    {
+      "first_seen": "2026-08-18",
+      "id": "breakit-startupkollen-launch",
+      "last_seen": "2026-08-18",
+      "source_urls": [
+        "https://www.breakit.se/artikel/45492/fa-koll-pa-alla-nya-techbolag-breakit-lanserar-startupkollen"
+      ],
+      "summary": "Breakit introduced Startupkollen, a dedicated feature providing structured tracking and profiles of newly founded Swedish tech companies, improving ecosystem visibility and investor intelligence.",
+      "title": "Breakit launches Startupkollen registry for new Swedish tech companies"
+    },
+    {
+      "first_seen": "2026-08-18",
+      "id": "effitec-denmark-134k-funding",
+      "last_seen": "2026-08-18",
+      "source_urls": [
+        "https://hansaindex.com/companies/effitec"
+      ],
+      "summary": "Danish startup Effitec closed a \u20ac134,000 funding round on August 13, 2026, backed by experienced investors, demonstrating continued early-stage capital flow in the Danish ecosystem.",
+      "title": "Danish startup Effitec raises \u20ac134,000"
+    },
+    {
+      "first_seen": "2026-08-18",
+      "id": "breakit-data-600-unlisted-companies",
+      "last_seen": "2026-08-18",
+      "source_urls": [
+        "https://www.breakit.se/data"
+      ],
+      "summary": "Breakit's Data section now enables searching among over 600 unlisted Swedish tech companies, providing structured intelligence for founders, investors, and analysts navigating the private tech landscape.",
+      "title": "Breakit Data expands coverage to 600+ unlisted Swedish tech companies"
     }
   ],
   "swedish_tech": []
