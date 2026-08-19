@@ -327,6 +327,58 @@
       ],
       "summary": "Quantitative managers are increasingly using AI to improve order-book data quality and implementing governance standards from autonomous systems, shifting focus from pure prediction to operational robustness.",
       "title": "Data quality and AI governance emerge as core quant competitive advantages"
+    },
+    {
+      "first_seen": "2026-08-19",
+      "id": "nonparametric-high-dimensional-var-estimator",
+      "last_seen": "2026-08-19",
+      "source_urls": [
+        "https://arxiv.org/list/q-fin/new"
+      ],
+      "summary": "Researchers propose a scalable nonparametric value-at-risk estimator that maintains accuracy across thousands of risk factors, potentially improving tail-risk measurement in large trading books without strict parametric assumptions.",
+      "title": "New nonparametric VaR/CVaR algorithm for high-dimensional portfolios"
+    },
+    {
+      "first_seen": "2026-08-19",
+      "id": "cos-tt-chf-multi-asset-option-pricing",
+      "last_seen": "2026-08-19",
+      "source_urls": [
+        "https://arxiv.org/list/q-fin/new"
+      ],
+      "summary": "A new tensor-train characteristic-function method extends Fourier pricing to multi-asset derivatives under L\u00e9vy and affine models, reducing computational time for complex basket options and xVA calculations.",
+      "title": "Tensor-train COS method accelerates multi-asset option pricing"
+    },
+    {
+      "first_seen": "2026-08-19",
+      "id": "entropic-var-tempered-stable-levy-optimization",
+      "last_seen": "2026-08-19",
+      "source_urls": [
+        "https://arxiv.org/list/q-fin/new"
+      ],
+      "summary": "A new framework combines entropic value-at-risk with tempered stable L\u00e9vy processes for portfolio optimization, providing mathematically coherent treatment of fat tails and jump risk in asset allocation.",
+      "title": "Entropic VaR portfolio optimization incorporates heavy-tailed L\u00e9vy returns"
+    },
+    {
+      "first_seen": "2026-08-19",
+      "id": "llm-credit-risk-explanations",
+      "last_seen": "2026-08-19",
+      "source_urls": [
+        "https://arxiv.org/list/q-fin/new"
+      ],
+      "summary": "Researchers evaluate how LLMs can produce plain-language explanations for credit risk models, addressing regulatory explainability requirements and potential integration into model governance pipelines.",
+      "title": "Large language models generate explainable credit risk decisions"
+    },
+    {
+      "first_seen": "2026-08-19",
+      "id": "intramonth-momentum-sector-etf-rotation",
+      "last_seen": "2026-08-19",
+      "source_urls": [
+        "https://quantocracy.com/",
+        "https://quantocracy.com/category/daily-wraps/",
+        "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-08112026/"
+      ],
+      "summary": "Research highlights a persistent calendar-structure effect in sector rotation strategies, where risk-adjusted returns concentrate on specific days of the month for systematic traders.",
+      "title": "Intramonth momentum cycle identified in US sector ETFs"
     }
   ],
   "scandinavian_tech": [
