@@ -225,6 +225,56 @@
       ],
       "summary": "An interpretable, model-agnostic framework decomposes complex medical reasoning tasks into modular agents with explicit communication, improving transparency and auditability for healthcare AI systems.",
       "title": "MARC v1 introduces open-source multi-agent framework for clinical AI reasoning"
+    },
+    {
+      "first_seen": "2026-08-21",
+      "id": "transfer-learning-relu-networks-icml",
+      "last_seen": "2026-08-21",
+      "source_urls": [
+        "https://arxiv.org/list/stat.ML/recent"
+      ],
+      "summary": "New paper establishes theoretical guarantees for when transfer learning with deep ReLU networks improves performance on target tasks with limited data. Work formalizes conditions under which domain transfer is beneficial.",
+      "title": "Transfer Learning Theory for Deep ReLU Networks Accepted to ICML 2026"
+    },
+    {
+      "first_seen": "2026-08-21",
+      "id": "discrete-diffusion-sequential-monte-carlo",
+      "last_seen": "2026-08-21",
+      "source_urls": [
+        "https://arxiv.org/list/stat.ML/recent"
+      ],
+      "summary": "Novel approach enables controllable sampling from discrete diffusion models using nested Sequential Monte Carlo, allowing constraint-based steering of generative outputs without retraining. Improves practical applicability for constrained text and sequence generation.",
+      "title": "Discrete Diffusion Models Gain Inference-Time Control via Nested SMC"
+    },
+    {
+      "first_seen": "2026-08-21",
+      "id": "watermark-detection-machine-text-icml",
+      "last_seen": "2026-08-21",
+      "source_urls": [
+        "https://arxiv.org/list/stat.ML/recent"
+      ],
+      "summary": "ICML 2026 paper introduces robust watermark detection methods for distinguishing human-written from model-generated content using stability-aware feature design. Addresses adversarial and noisy detection scenarios across multiple generative models.",
+      "title": "Stability-Aware Features Improve Watermark Detection in AI-Generated Text"
+    },
+    {
+      "first_seen": "2026-08-21",
+      "id": "fair-multiview-determinantal-coresets",
+      "last_seen": "2026-08-21",
+      "source_urls": [
+        "https://arxiv.org/list/stat.ML/new"
+      ],
+      "summary": "New paper combines determinantal point processes with fairness constraints and multi-view structure for selecting representative subsets from large datasets. Reduces computational overhead while maintaining diversity and fairness across subgroups.",
+      "title": "Fair Multi-View Coresets Enable Diverse and Equitable Dataset Selection"
+    },
+    {
+      "first_seen": "2026-08-21",
+      "id": "llm-simulation-inference-operations",
+      "last_seen": "2026-08-21",
+      "source_urls": [
+        "https://arxiv.org/list/cs.LG/current"
+      ],
+      "summary": "Integrates LLMs into operations research workflows with explicit uncertainty quantification for simulation-based inference. Combines LLM-driven proposals with classical OR techniques for improved decision-making in logistics and optimization.",
+      "title": "Large Language Models Enhance Simulation-Based Inference for Operations Research"
     }
   ],
   "quant_finance": [
