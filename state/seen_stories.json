@@ -50,6 +50,57 @@
       ],
       "summary": "Cloudflare released Cloudflare Computer, an open-source runtime that provides AI agents with persistent state and realistic OS-level interaction capabilities.",
       "title": "Cloudflare introduces Computer, an open-source runtime for AI agents"
+    },
+    {
+      "first_seen": "2026-08-22",
+      "id": "white-house-ai-testing-framework-open-models-excluded",
+      "last_seen": "2026-08-22",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded"
+      ],
+      "summary": "The White House introduced an AI model testing framework focusing on cybersecurity risks of advanced AI, but explicitly excludes open-source models from its scope. The framework applies only to closed-source models with state-of-the-art capabilities and includes a 30-day government review window, leaving open-weight releases effectively unregulated.",
+      "title": "US government AI testing framework excludes open-source models from cybersecurity review"
+    },
+    {
+      "first_seen": "2026-08-22",
+      "id": "hugging-face-state-of-open-models-summer-2026",
+      "last_seen": "2026-08-22",
+      "source_urls": [
+        "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://www.my2cents.ai/news/2026-08-15-hugging-face/"
+      ],
+      "summary": "Hugging Face published 'State of Open Models: Summer 2026 Observations' analyzing the ecosystem from January-August 2026. The report finds Chinese labs released the largest models (up to 2.78T parameters) primarily using permissive licenses, while models under 1B parameters account for 83% of all downloads on the Hub.",
+      "title": "Hugging Face releases comprehensive open models ecosystem report for summer 2026"
+    },
+    {
+      "first_seen": "2026-08-22",
+      "id": "hugging-face-reproduces-2200-icml-papers-ai-agents",
+      "last_seen": "2026-08-22",
+      "source_urls": [
+        "https://huggingface.co/blog/icml-2026-open-reproductions"
+      ],
+      "summary": "Hugging Face automated the reproduction of 2,200 ICML 2026 papers using AI agents, generating 'Trackio' logbooks containing write-ups, code, artifacts, and execution traces. The project highlights reproducibility gaps in ML research and demonstrates scalable workflows for transparent research validation.",
+      "title": "Hugging Face reproduces 2,200 ICML 2026 papers using AI agents with full transparency logs"
+    },
+    {
+      "first_seen": "2026-08-22",
+      "id": "hugging-face-hub-surpasses-3-million-models",
+      "last_seen": "2026-08-22",
+      "source_urls": [
+        "https://x.com/huggingface/status/2089673018737869242"
+      ],
+      "summary": "Hugging Face announced the Hub has surpassed 3 million models, reflecting the growing scale of the open AI ecosystem. The milestone underscores the shift toward distributed AI development where small and mid-sized models dominate actual usage despite media focus on large models.",
+      "title": "Hugging Face Hub reaches 3 million models milestone"
+    },
+    {
+      "first_seen": "2026-08-22",
+      "id": "anthropic-claude-cowork-google-workspace-expansion",
+      "last_seen": "2026-08-22",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence"
+      ],
+      "summary": "Anthropic expanded Claude Cowork access across web and mobile for all paid users and upgraded Google Workspace connectors, allowing Claude to send emails via Gmail and manage files in Google Drive. The expansion represents movement toward more agentic AI systems capable of autonomous task execution.",
+      "title": "Anthropic expands Claude Cowork to all paid accounts with enhanced Google Workspace integration"
     }
   ],
   "data_science_ml": [
