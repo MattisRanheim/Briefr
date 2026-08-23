@@ -592,6 +592,56 @@
       ],
       "summary": "Breakit's Data section now enables searching among over 600 unlisted Swedish tech companies, providing structured intelligence for founders, investors, and analysts navigating the private tech landscape.",
       "title": "Breakit Data expands coverage to 600+ unlisted Swedish tech companies"
+    },
+    {
+      "first_seen": "2026-08-23",
+      "id": "swedish-deeptech-44m-sek-funding",
+      "last_seen": "2026-08-23",
+      "source_urls": [
+        "https://www.breakit.se/"
+      ],
+      "summary": "A Swedish deeptech company has secured a 44 million SEK funding round, positioning itself in a strong market position and strengthening Sweden's advanced technology sector.",
+      "title": "Swedish deeptech startup raises 44 million SEK"
+    },
+    {
+      "first_seen": "2026-08-23",
+      "id": "swedish-ai-startup-y-combinator-restaurant-phones",
+      "last_seen": "2026-08-23",
+      "source_urls": [
+        "https://www.breakit.se/"
+      ],
+      "summary": "A Swedish AI startup has been accepted into Y Combinator with a product focused on helping restaurants manage incoming phone calls using artificial intelligence.",
+      "title": "Swedish AI startup joins Y Combinator for restaurant phone management"
+    },
+    {
+      "first_seen": "2026-08-23",
+      "id": "fermi-sana-executives-125m-sek",
+      "last_seen": "2026-08-23",
+      "source_urls": [
+        "https://www.breakit.se/"
+      ],
+      "summary": "Two former executives from Swedish AI platform Sana have founded a new company called Fermi and raised 125 million SEK, reflecting a pattern of experienced operators launching ambitious ventures.",
+      "title": "Sana executives launch new AI startup Fermi with 125 million SEK"
+    },
+    {
+      "first_seen": "2026-08-23",
+      "id": "incredible-viss-ai-pivot-19m-sek",
+      "last_seen": "2026-08-23",
+      "source_urls": [
+        "https://www.breakit.se/feed/artiklar"
+      ],
+      "summary": "Viss.AI has rebranded as Incredible and raised 19 million SEK to develop voice-controlled computing technology, reflecting Swedish startups' strategic pivots during the AI boom.",
+      "title": "J\u00f6nk\u00f6ping startup Incredible pivots from Viss.AI, raises 19 million SEK"
+    },
+    {
+      "first_seen": "2026-08-23",
+      "id": "odense-robotics-fund-18m-dkk",
+      "last_seen": "2026-08-23",
+      "source_urls": [
+        "https://techsavvy.media/en/new-fund-aims-to-secure-denmarks-future-position-as-europes-robotics-capital/"
+      ],
+      "summary": "Danish robotics companies and investors have established the Odense Robotics StartUp Fund with 18.4 million DKK to support at least 30 robot and drone startups over six years.",
+      "title": "Odense Robotics StartUp Fund raises 18.4 million DKK for 30+ startups"
     }
   ],
   "swedish_tech": []
