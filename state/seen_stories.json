@@ -480,6 +480,46 @@
       ],
       "summary": "Research highlights a persistent calendar-structure effect in sector rotation strategies, where risk-adjusted returns concentrate on specific days of the month for systematic traders.",
       "title": "Intramonth momentum cycle identified in US sector ETFs"
+    },
+    {
+      "first_seen": "2026-08-24",
+      "id": "tokenised-treasuries-clearing-status",
+      "last_seen": "2026-08-24",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Risk.net reports uncertainty surrounding whether tokenised government bonds will be recognized in established clearing workflows, with decision likely deferred to DTCC. Unresolved status may constrain adoption despite settlement efficiency benefits.",
+      "title": "Tokenised Treasuries clearing status remains unresolved at DTCC"
+    },
+    {
+      "first_seen": "2026-08-24",
+      "id": "eu-eases-non-cleared-margin-rules",
+      "last_seen": "2026-08-24",
+      "source_urls": [
+        "https://www.risk.net/news"
+      ],
+      "summary": "The EU has relaxed non-cleared margin rules for smaller firms, reducing funding costs and operational overhead but potentially concentrating bilateral exposures. Changes affect OTC derivatives demand and clearing economics.",
+      "title": "EU eases non-cleared margin requirements for smaller derivatives counterparties"
+    },
+    {
+      "first_seen": "2026-08-24",
+      "id": "boe-retreats-mandatory-gilt-clearing",
+      "last_seen": "2026-08-24",
+      "source_urls": [
+        "https://www.risk.net/news"
+      ],
+      "summary": "The BoE is backing away from mandatory gilt clearing, preserving the current bilateral market structure. The retreat affects netting, margining, and liquidity demand dynamics in UK rates markets.",
+      "title": "Bank of England steps back from mandatory gilt clearing"
+    },
+    {
+      "first_seen": "2026-08-24",
+      "id": "banks-collaborate-stablecoin-development",
+      "last_seen": "2026-08-24",
+      "source_urls": [
+        "https://www.risk.net/news"
+      ],
+      "summary": "Traditional financial institutions are collaborating on tokenized payment and settlement rails to compress settlement times and reduce intraday liquidity needs. Impact measurable through payment-fail rates and cross-border transfer economics.",
+      "title": "Banks join forces on stablecoin infrastructure development"
     }
   ],
   "scandinavian_tech": [
