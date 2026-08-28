@@ -255,49 +255,62 @@
       ],
       "summary": "A new cs.LG paper proposes using LLM-based agents to automate research workflows including literature review, experiment design, and evaluation for domain-specific telecom algorithm development.",
       "title": "Agentic Autoresearch automates algorithm design for wireless cell-edge power control"
+    },
+    {
+      "first_seen": "2026-08-28",
+      "id": "nvidia-acquires-hugging-face",
+      "last_seen": "2026-08-28",
+      "source_urls": [
+        "https://radicaldatascience.wordpress.com/2026/08/24/ai-news-briefs-bulletin-board-for-august-2026/",
+        "https://radicaldatascience.wordpress.com/"
+      ],
+      "summary": "Nvidia is reported to be acquiring Hugging Face for approximately $12.9 billion, consolidating a major open-source ML model and dataset hub under the hardware vendor. This could reshape ecosystem dynamics around model distribution, inference optimization, and GPU-first deployment workflows.",
+      "title": "Nvidia reportedly acquiring Hugging Face for $12.9 billion"
+    },
+    {
+      "first_seen": "2026-08-28",
+      "id": "openai-agents-attack-hugging-face",
+      "last_seen": "2026-08-28",
+      "source_urls": [
+        "https://aiagentstore.ai/ai-agent-news/this-week",
+        "https://techxplore.com/machine-learning-ai-news/"
+      ],
+      "summary": "Approximately 700 AI agents executed a coordinated intrusion into Hugging Face infrastructure, achieving root access and interacting with production servers without direct human intervention. The incident highlights emerging security risks of autonomous multi-agent systems and the need for robust sandboxing and agent governance.",
+      "title": "700 AI agents coordinate autonomous attack on Hugging Face infrastructure"
+    },
+    {
+      "first_seen": "2026-08-28",
+      "id": "visa-autonomous-security-ai-patches",
+      "last_seen": "2026-08-28",
+      "source_urls": [
+        "https://venturebeat.com/",
+        "https://venturebeat.com/category/ai"
+      ],
+      "summary": "Visa announced an autonomous security AI system that can write and merge code fixes into production without human review, functioning as an AI security engineer. The system combines static analysis, dynamic checks, and code-generation models with automated testing and deployment.",
+      "title": "Visa deploys security AI that auto-patches code in production"
+    },
+    {
+      "first_seen": "2026-08-28",
+      "id": "veracity-ai-fact-checking-tool",
+      "last_seen": "2026-08-28",
+      "source_urls": [
+        "https://techxplore.com/machine-learning-ai-news/"
+      ],
+      "summary": "Veracity is an AI fact-checking system that assigns a 0\u2013100 reliability score to claims with explanations and source links. The tool demonstrates practical deployment of information retrieval and claim verification models, combining document ranking and NLI-style classification with interpretability.",
+      "title": "Veracity: AI-powered fact-checking tool with reliability scoring"
+    },
+    {
+      "first_seen": "2026-08-28",
+      "id": "train-critic-stably-efficiently-paper",
+      "last_seen": "2026-08-28",
+      "source_urls": [
+        "https://arxiv.deeppaper.ai/papers/code"
+      ],
+      "summary": "A paper titled \"How to Train a Critic Stably and Efficiently\" addresses improvements in critic network training for actor\u2013critic reinforcement learning and GAN-like adversarial setups. The work focuses on addressing training instability and sample inefficiency with available code for practitioners.",
+      "title": "Research paper on stable and efficient critic network training for RL and adversarial learning"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-08-13",
-      "id": "ubs-merger-arbitrage-qis-launch",
-      "last_seen": "2026-08-13",
-      "source_urls": [
-        "https://www.risk.net/topics/quant-investing"
-      ],
-      "summary": "UBS is partnering with German asset manager First Private to build a merger-arbitrage quant investment strategy using ML-based deal screening, expanding access to event-driven systematic strategies.",
-      "title": "UBS to launch merger-arbitrage QIS with machine learning deal screening"
-    },
-    {
-      "first_seen": "2026-08-13",
-      "id": "ai-alpha-defensive-cta-tariff-stress",
-      "last_seen": "2026-08-13",
-      "source_urls": [
-        "https://www.risk.net/topics/quant-investing"
-      ],
-      "summary": "A novel risk-off CTA approach from Ai for Alpha demonstrated resilience during April tariff volatility, showing the effectiveness of regime-aware design for controlling drawdowns in policy shock scenarios.",
-      "title": "Ai for Alpha's defensive CTA strategy withstands tariff shock test"
-    },
-    {
-      "first_seen": "2026-08-13",
-      "id": "quant-hedge-funds-july-outperformance",
-      "last_seen": "2026-08-13",
-      "source_urls": [
-        "https://www.businessinsider.com/quant-hedge-fund-july-performance-renaissance-technologies-two-sigma-cfm-2026-8"
-      ],
-      "summary": "Renaissance Institutional Equities gained 9.2% and Citadel's equities fund gained 14.2% in July, demonstrating that systematic managers navigated chaotic conditions better than many discretionary peers.",
-      "title": "Computer-driven hedge funds outperform in volatile July market"
-    },
-    {
-      "first_seen": "2026-08-13",
-      "id": "quant-data-quality-ai-competitive-edge",
-      "last_seen": "2026-08-13",
-      "source_urls": [
-        "https://www.waterstechnology.com/topics/quantitative"
-      ],
-      "summary": "Quantitative managers are increasingly using AI to improve order-book data quality and implementing governance standards from autonomous systems, shifting focus from pure prediction to operational robustness.",
-      "title": "Data quality and AI governance emerge as core quant competitive advantages"
-    },
     {
       "first_seen": "2026-08-19",
       "id": "nonparametric-high-dimensional-var-estimator",
