@@ -308,6 +308,47 @@
       ],
       "summary": "A paper titled \"How to Train a Critic Stably and Efficiently\" addresses improvements in critic network training for actor\u2013critic reinforcement learning and GAN-like adversarial setups. The work focuses on addressing training instability and sample inefficiency with available code for practitioners.",
       "title": "Research paper on stable and efficient critic network training for RL and adversarial learning"
+    },
+    {
+      "first_seen": "2026-08-29",
+      "id": "triton-llm-serving-production-readiness",
+      "last_seen": "2026-08-29",
+      "source_urls": [
+        "https://paperscode.org/"
+      ],
+      "summary": "A detailed breakdown examines whether Triton kernels are production-ready for LLM serving, comparing performance gains against established frameworks like TensorRT and vLLM across specialized kernels, custom attention variants, and quantization paths.",
+      "title": "Triton Kernels for LLM Inference: Production Readiness Analysis"
+    },
+    {
+      "first_seen": "2026-08-29",
+      "id": "fau-quantum-ml-heart-disease-prediction",
+      "last_seen": "2026-08-29",
+      "source_urls": [
+        "https://thequantuminsider.com/2026/08/27/fau-researchers-use-quantum-machine-learning-to-predict-heart-disease/"
+      ],
+      "summary": "Florida Atlantic University researchers developed a Quantum Support Vector Machine framework that achieved 90.26% accuracy and 0.93 AUC for predicting heart disease on a 918-patient dataset, outperforming classical baselines.",
+      "title": "Quantum Machine Learning Achieves 90% Accuracy in Heart Disease Prediction"
+    },
+    {
+      "first_seen": "2026-08-29",
+      "id": "kaggle-virtual-farm-agentic-ai-competition",
+      "last_seen": "2026-08-29",
+      "source_urls": [
+        "https://x.com/kaggle/status/2084326711248687165"
+      ],
+      "summary": "Kaggle opened 'Kaggriculture,' a competition where participants build AI agents to manage virtual farms including crop harvesting, animal management, and market trading, targeting agentic decision-making and long-horizon planning.",
+      "title": "Kaggle Launches Virtual Farm Competition for Agentic AI Development"
+    },
+    {
+      "first_seen": "2026-08-29",
+      "id": "anthropic-automated-alignment-researcher-agents",
+      "last_seen": "2026-08-29",
+      "source_urls": [
+        "https://aiagentstore.ai/ai-agent-news/today",
+        "https://aiagentstore.ai/ai-agent-news/2026-august"
+      ],
+      "summary": "Anthropic research shows that automated researcher agents can search literature, propose model modifications, and generate safety interventions that outperform some human-designed proposals on alignment benchmarks.",
+      "title": "Anthropic Develops Automated Alignment Researcher Agents"
     }
   ],
   "quant_finance": [
@@ -405,36 +446,6 @@
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-08-14",
-      "id": "lovable-series-c-346m",
-      "last_seen": "2026-08-14",
-      "source_urls": [
-        "[1]"
-      ],
-      "summary": "Stockholm-based AI software company Lovable closed a \u20ac346M Series C led by EQT, The Scaleup Europe Fund, and Menlo Ventures on August 12, 2026. The round represents Sweden's standout late-stage funding success and signals strong investor appetite for AI/software companies in the Swedish ecosystem.",
-      "title": "Lovable raises \u20ac346M Series C in Sweden's largest AI startup round"
-    },
-    {
-      "first_seen": "2026-08-14",
-      "id": "palette-software-preseed-3m",
-      "last_seen": "2026-08-14",
-      "source_urls": [
-        "[1]"
-      ],
-      "summary": "Copenhagen-based B2B software startup Palette Software raised \u20ac3.0M in pre-seed funding on August 11, 2026 from investors including Emblem, Ugly Duckling Ventures, and Acadian Ventures. The round demonstrates continued early-stage capital flow to Danish software companies despite broader European funding constraints.",
-      "title": "Palette Software secures \u20ac3.0M pre-seed funding in Copenhagen"
-    },
-    {
-      "first_seen": "2026-08-14",
-      "id": "visoid-raises-2-2m-oslo",
-      "last_seen": "2026-08-14",
-      "source_urls": [
-        "[1]"
-      ],
-      "summary": "Oslo-based software company VISOID raised \u20ac2.2M on August 10, 2026 from a consortium including byFounders Angel Collective, Antler, StartupLab, Skyfall Ventures, Farvatn, and OBOS. The diverse investor mix reflects active Nordic venture ecosystem support for Norwegian software startups.",
-      "title": "VISOID closes \u20ac2.2M funding round in Oslo"
-    },
     {
       "first_seen": "2026-08-16",
       "id": "volta-300m-funding-ai-compute",
