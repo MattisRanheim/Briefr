@@ -349,6 +349,57 @@
       ],
       "summary": "Anthropic research shows that automated researcher agents can search literature, propose model modifications, and generate safety interventions that outperform some human-designed proposals on alignment benchmarks.",
       "title": "Anthropic Develops Automated Alignment Researcher Agents"
+    },
+    {
+      "first_seen": "2026-08-31",
+      "id": "tencent-hy4-770b-sparse-model",
+      "last_seen": "2026-08-31",
+      "source_urls": [
+        "https://artificialintnews.site/",
+        "https://paperscode.org/"
+      ],
+      "summary": "Tencent has unveiled Hy4, a ~770B-parameter sparse-activation foundation model using mixture-of-experts style sparsity for efficient inference while enabling complex multi-step reasoning on coding and math tasks.",
+      "title": "Tencent previews Hy4, a 770B-parameter sparse-activation model for coding and research"
+    },
+    {
+      "first_seen": "2026-08-31",
+      "id": "consistency-driven-cross-representation-learning",
+      "last_seen": "2026-08-31",
+      "source_urls": [
+        "https://paperswithcode.co/papers/recent"
+      ],
+      "summary": "A consistency-driven co-evolution framework trains multiple representations jointly while allowing specialization, improving robustness and transfer in low-label and multi-view settings.",
+      "title": "New paper proposes consistency-driven co-evolution framework for self-supervised multi-representation learning"
+    },
+    {
+      "first_seen": "2026-08-31",
+      "id": "agent-against-agent-prompt-injection-red-teaming",
+      "last_seen": "2026-08-31",
+      "source_urls": [
+        "https://paperswithcode.co/papers/recent"
+      ],
+      "summary": "The 'Agent Against Agent' paper introduces an automated red-teaming system where one LLM agent generates and evaluates prompt-injection attacks against another, uncovering vulnerabilities at scale.",
+      "title": "Agent-based framework automates prompt-injection red teaming for LLM systems"
+    },
+    {
+      "first_seen": "2026-08-31",
+      "id": "worldcycle-helloworld-video-world-models",
+      "last_seen": "2026-08-31",
+      "source_urls": [
+        "https://paperswithcode.co/papers/recent"
+      ],
+      "summary": "Two papers introduce video world models enabling long-horizon planning and socially interactive characters in learned video environments without expensive 3D engines.",
+      "title": "WorldCycle and HelloWorld advance long-horizon video world models for interactive simulation"
+    },
+    {
+      "first_seen": "2026-08-31",
+      "id": "bridgevla-plus-plus-robotic-manipulation",
+      "last_seen": "2026-08-31",
+      "source_urls": [
+        "https://paperswithcode.co/papers/recent"
+      ],
+      "summary": "BridgeVLA++ combines vision-language interfaces with memory-augmented action policies to enable data-efficient 3D robotic manipulation in varied environments.",
+      "title": "BridgeVLA++ improves data efficiency for vision-language-action robotic manipulation"
     }
   ],
   "quant_finance": [
@@ -446,36 +497,6 @@
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-08-16",
-      "id": "volta-300m-funding-ai-compute",
-      "last_seen": "2026-08-16",
-      "source_urls": [
-        "https://cryptobriefing.com/volta-10b-partnership-a16z-series-a-funding/"
-      ],
-      "summary": "Norwegian AI infrastructure company Volta secured $300 million across Seed and Series A rounds and partnered with a16z on a $10 billion strategic AI compute capacity initiative, achieving a $2.4 billion post-money valuation.",
-      "title": "Volta raises $300M and announces $10B AI compute partnership in Norway"
-    },
-    {
-      "first_seen": "2026-08-16",
-      "id": "flow-intimates-dkk-funding",
-      "last_seen": "2026-08-16",
-      "source_urls": [
-        "https://www.futurefemhealth.com/p/four-new-funding-rounds-sprind-finalists"
-      ],
-      "summary": "Danish consumer health startup Flow Intimates secured DKK 1 million in funding to expand its reusable menstrual health brand into postpartum and incontinence products.",
-      "title": "Danish Flow Intimates raises DKK 1 million to expand menstrual health product lines"
-    },
-    {
-      "first_seen": "2026-08-16",
-      "id": "bonnier-acquires-breakit",
-      "last_seen": "2026-08-16",
-      "source_urls": [
-        "https://swedenherald.com/article/bonnier-buys-breakit-in-its-entirety-strategic-reinforcement-for-di"
-      ],
-      "summary": "Swedish media group Bonnier completed the acquisition of Breakit, strengthening its Di business news platform and consolidating startup coverage distribution in Sweden.",
-      "title": "Bonnier acquires Swedish startup media outlet Breakit"
-    },
     {
       "first_seen": "2026-08-18",
       "id": "swedish-ai-startup-65b-sek-exit",
