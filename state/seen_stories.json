@@ -351,58 +351,6 @@
   ],
   "quant_finance": [
     {
-      "first_seen": "2026-08-19",
-      "id": "nonparametric-high-dimensional-var-estimator",
-      "last_seen": "2026-08-19",
-      "source_urls": [
-        "https://arxiv.org/list/q-fin/new"
-      ],
-      "summary": "Researchers propose a scalable nonparametric value-at-risk estimator that maintains accuracy across thousands of risk factors, potentially improving tail-risk measurement in large trading books without strict parametric assumptions.",
-      "title": "New nonparametric VaR/CVaR algorithm for high-dimensional portfolios"
-    },
-    {
-      "first_seen": "2026-08-19",
-      "id": "cos-tt-chf-multi-asset-option-pricing",
-      "last_seen": "2026-08-19",
-      "source_urls": [
-        "https://arxiv.org/list/q-fin/new"
-      ],
-      "summary": "A new tensor-train characteristic-function method extends Fourier pricing to multi-asset derivatives under L\u00e9vy and affine models, reducing computational time for complex basket options and xVA calculations.",
-      "title": "Tensor-train COS method accelerates multi-asset option pricing"
-    },
-    {
-      "first_seen": "2026-08-19",
-      "id": "entropic-var-tempered-stable-levy-optimization",
-      "last_seen": "2026-08-19",
-      "source_urls": [
-        "https://arxiv.org/list/q-fin/new"
-      ],
-      "summary": "A new framework combines entropic value-at-risk with tempered stable L\u00e9vy processes for portfolio optimization, providing mathematically coherent treatment of fat tails and jump risk in asset allocation.",
-      "title": "Entropic VaR portfolio optimization incorporates heavy-tailed L\u00e9vy returns"
-    },
-    {
-      "first_seen": "2026-08-19",
-      "id": "llm-credit-risk-explanations",
-      "last_seen": "2026-08-19",
-      "source_urls": [
-        "https://arxiv.org/list/q-fin/new"
-      ],
-      "summary": "Researchers evaluate how LLMs can produce plain-language explanations for credit risk models, addressing regulatory explainability requirements and potential integration into model governance pipelines.",
-      "title": "Large language models generate explainable credit risk decisions"
-    },
-    {
-      "first_seen": "2026-08-19",
-      "id": "intramonth-momentum-sector-etf-rotation",
-      "last_seen": "2026-08-19",
-      "source_urls": [
-        "https://quantocracy.com/",
-        "https://quantocracy.com/category/daily-wraps/",
-        "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-08112026/"
-      ],
-      "summary": "Research highlights a persistent calendar-structure effect in sector rotation strategies, where risk-adjusted returns concentrate on specific days of the month for systematic traders.",
-      "title": "Intramonth momentum cycle identified in US sector ETFs"
-    },
-    {
       "first_seen": "2026-08-24",
       "id": "tokenised-treasuries-clearing-status",
       "last_seen": "2026-08-24",
@@ -441,6 +389,56 @@
       ],
       "summary": "Traditional financial institutions are collaborating on tokenized payment and settlement rails to compress settlement times and reduce intraday liquidity needs. Impact measurable through payment-fail rates and cross-border transfer economics.",
       "title": "Banks join forces on stablecoin infrastructure development"
+    },
+    {
+      "first_seen": "2026-09-03",
+      "id": "westpac-cva-ccr-aud-volatility",
+      "last_seen": "2026-09-03",
+      "source_urls": [
+        "https://www.risk.net/"
+      ],
+      "summary": "Westpac experienced a significant surge in CVA and CCR charges totaling approximately A$1.5 billion in its latest quarter, driven by mark-to-market movements in its derivatives book following sharp Australian dollar fluctuations. The episode highlights the sensitivity of counterparty credit exposure to FX volatility and regulatory capital requirements.",
+      "title": "Westpac reports A$1.5B credit risk charge from AUD derivatives volatility"
+    },
+    {
+      "first_seen": "2026-09-03",
+      "id": "ecb-geopolitical-stress-testing-gaps",
+      "last_seen": "2026-09-03",
+      "source_urls": [
+        "https://www.risk.net/news"
+      ],
+      "summary": "The ECB flagged significant gaps in how banks model geopolitical risks, noting that current frameworks often fail to capture cross-border contagion channels and non-linear market reactions. The analysis suggests the need for integrated stress-testing models linking sanctions, funding stresses, FX basis moves, and collateral dynamics.",
+      "title": "ECB identifies deficiencies in banks' geopolitical stress-testing frameworks"
+    },
+    {
+      "first_seen": "2026-09-03",
+      "id": "ucits-macro-derivatives-expansion",
+      "last_seen": "2026-09-03",
+      "source_urls": [
+        "https://www.risk.net/news"
+      ],
+      "summary": "Positioning data show UCITS funds ramping up activity in FX forwards, interest rate swaps, inflation swaps, and index CDS contracts, setting records in some segments. The shift reflects more aggressive macro views and hedging strategies amid uncertainty over rate paths and inflation persistence.",
+      "title": "UCITS funds significantly increase macro derivatives positioning"
+    },
+    {
+      "first_seen": "2026-09-03",
+      "id": "options-vanna-volatility-amplification",
+      "last_seen": "2026-09-03",
+      "source_urls": [
+        "https://www.risk.net/news"
+      ],
+      "summary": "Dealers report that options vanna positioning in US equities currently mirrors patterns preceding the 2024 volatility spike, with extreme negative positions in some areas. This configuration can amplify sell-off moves as hedging flows from dealer delta rebalancing reinforce downside pressure.",
+      "title": "US equity options vanna positioning signals potential volatility amplification risk"
+    },
+    {
+      "first_seen": "2026-09-03",
+      "id": "kospi-krw-correlation-decoupling",
+      "last_seen": "2026-09-03",
+      "source_urls": [
+        "https://www.risk.net/news"
+      ],
+      "summary": "The earlier decoupling between the KOSPI equity index and Korean won exchange rate has begun to wane, renewing attention to historically tight macro linkages. A renewed coupling could signal shifting capital flows or diverging local versus global growth expectations.",
+      "title": "Korean KOSPI-KRW decoupling trend shows signs of reversing"
     }
   ],
   "scandinavian_tech": [
