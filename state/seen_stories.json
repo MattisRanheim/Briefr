@@ -439,6 +439,59 @@
       ],
       "summary": "The earlier decoupling between the KOSPI equity index and Korean won exchange rate has begun to wane, renewing attention to historically tight macro linkages. A renewed coupling could signal shifting capital flows or diverging local versus global growth expectations.",
       "title": "Korean KOSPI-KRW decoupling trend shows signs of reversing"
+    },
+    {
+      "first_seen": "2026-09-04",
+      "id": "intraday-repo-liquidity-risk",
+      "last_seen": "2026-09-04",
+      "source_urls": [
+        "https://www.risk.net/news",
+        "https://www.risk.net/risk-management"
+      ],
+      "summary": "Increased intraday repo trading is drawing regulatory attention due to higher collateral velocity creating trade-offs between improved liquidity and amplified leverage risks. Risk managers are developing more sophisticated intraday liquidity risk metrics and stress scenarios to address potential fragility during market stress.",
+      "title": "Risk managers assess systemic hazards of intraday repo activity"
+    },
+    {
+      "first_seen": "2026-09-04",
+      "id": "cme-treasury-cross-margining-2027",
+      "last_seen": "2026-09-04",
+      "source_urls": [
+        "https://www.risk.net/latest",
+        "https://www.risk.net/news"
+      ],
+      "summary": "CME has filed an SEC proposal to offer internal cross-margining of U.S. Treasury products beyond its existing FICC joint programme, targeting 2027 launch. The expansion would reduce margin requirements for fixed-income strategies and require quant desks to update portfolio allocation and margin optimization models.",
+      "title": "CME proposes internal U.S. Treasury cross-margining program launching 2027"
+    },
+    {
+      "first_seen": "2026-09-04",
+      "id": "morgan-stanley-fcm-capital-record",
+      "last_seen": "2026-09-04",
+      "source_urls": [
+        "https://www.risk.net/",
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Morgan Stanley's futures commission merchant unit increased capital to USD 26.7 billion with a USD 6 billion monthly surge in July, despite lower regulatory requirements. The buildup signals strategic capacity expansion for cleared derivatives and suggests heightened institutional demand amid macro uncertainty.",
+      "title": "Morgan Stanley FCM capital reaches record USD 26.7 billion"
+    },
+    {
+      "first_seen": "2026-09-04",
+      "id": "deep-hedging-dynamic-risk-measures",
+      "last_seen": "2026-09-04",
+      "source_urls": [
+        "https://arxiv.org/list/q-fin/new"
+      ],
+      "summary": "New arXiv research on deep hedging strategies optimizes multi-period derivatives hedging using elicitable dynamic risk measures implemented in neural networks. The framework is directly applicable to quantitative risk desks developing AI-driven hedging for path-dependent exposures.",
+      "title": "Quant research advances deep learning hedging under time-consistent risk measures"
+    },
+    {
+      "first_seen": "2026-09-04",
+      "id": "transient-impact-price-manipulation",
+      "last_seen": "2026-09-04",
+      "source_urls": [
+        "https://arxiv.org/list/q-fin/new"
+      ],
+      "summary": "New arXiv paper analyzes how nonlinear transient impact models combined with memory kernels can avoid price manipulation by enforcing specific no-arbitrage constraints. Results provide guidance for quant trading teams designing optimal execution algorithms and transaction-cost models.",
+      "title": "Research identifies conditions preventing price manipulation in nonlinear impact models"
     }
   ],
   "scandinavian_tech": [
