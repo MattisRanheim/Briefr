@@ -54,56 +54,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-08-21",
-      "id": "transfer-learning-relu-networks-icml",
-      "last_seen": "2026-08-21",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/recent"
-      ],
-      "summary": "New paper establishes theoretical guarantees for when transfer learning with deep ReLU networks improves performance on target tasks with limited data. Work formalizes conditions under which domain transfer is beneficial.",
-      "title": "Transfer Learning Theory for Deep ReLU Networks Accepted to ICML 2026"
-    },
-    {
-      "first_seen": "2026-08-21",
-      "id": "discrete-diffusion-sequential-monte-carlo",
-      "last_seen": "2026-08-21",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/recent"
-      ],
-      "summary": "Novel approach enables controllable sampling from discrete diffusion models using nested Sequential Monte Carlo, allowing constraint-based steering of generative outputs without retraining. Improves practical applicability for constrained text and sequence generation.",
-      "title": "Discrete Diffusion Models Gain Inference-Time Control via Nested SMC"
-    },
-    {
-      "first_seen": "2026-08-21",
-      "id": "watermark-detection-machine-text-icml",
-      "last_seen": "2026-08-21",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/recent"
-      ],
-      "summary": "ICML 2026 paper introduces robust watermark detection methods for distinguishing human-written from model-generated content using stability-aware feature design. Addresses adversarial and noisy detection scenarios across multiple generative models.",
-      "title": "Stability-Aware Features Improve Watermark Detection in AI-Generated Text"
-    },
-    {
-      "first_seen": "2026-08-21",
-      "id": "fair-multiview-determinantal-coresets",
-      "last_seen": "2026-08-21",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/new"
-      ],
-      "summary": "New paper combines determinantal point processes with fairness constraints and multi-view structure for selecting representative subsets from large datasets. Reduces computational overhead while maintaining diversity and fairness across subgroups.",
-      "title": "Fair Multi-View Coresets Enable Diverse and Equitable Dataset Selection"
-    },
-    {
-      "first_seen": "2026-08-21",
-      "id": "llm-simulation-inference-operations",
-      "last_seen": "2026-08-21",
-      "source_urls": [
-        "https://arxiv.org/list/cs.LG/current"
-      ],
-      "summary": "Integrates LLMs into operations research workflows with explicit uncertainty quantification for simulation-based inference. Combines LLM-driven proposals with classical OR techniques for improved decision-making in logistics and optimization.",
-      "title": "Large Language Models Enhance Simulation-Based Inference for Operations Research"
-    },
-    {
       "first_seen": "2026-08-26",
       "id": "okta-agent-sso-launch",
       "last_seen": "2026-08-26",
@@ -347,6 +297,59 @@
       ],
       "summary": "BridgeVLA++ combines vision-language interfaces with memory-augmented action policies to enable data-efficient 3D robotic manipulation in varied environments.",
       "title": "BridgeVLA++ improves data efficiency for vision-language-action robotic manipulation"
+    },
+    {
+      "first_seen": "2026-09-05",
+      "id": "kaggriculture-agentic-rl-competition",
+      "last_seen": "2026-09-05",
+      "source_urls": [
+        "https://x.com/kaggle/status/2084326711248687165",
+        "https://www.linkedin.com/pulse/competition-kaggriculture-kaggle-google-2026-resquare-sfkgf",
+        "https://x.com/boredabdel/status/2084980345691144535"
+      ],
+      "summary": "Kaggle and Google have launched Kaggriculture, a simulation-based competition where participants build autonomous AI agents to manage virtual farms with dynamic markets. The competition features a $50,000 prize pool with entries due September 23, 2026.",
+      "title": "Kaggle and Google Launch Kaggriculture Agentic RL Competition"
+    },
+    {
+      "first_seen": "2026-09-05",
+      "id": "fast-ml-science-2026-conference",
+      "last_seen": "2026-09-05",
+      "source_urls": [
+        "https://indico.cern.ch/event/1654479/",
+        "https://calendar.ucsd.edu/event/fast-machine-learning-for-science-2026"
+      ],
+      "summary": "The Fast Machine Learning for Science 2026 conference at UC San Diego (August 31\u2013September 4) showcased emerging ML methods and hardware-software co-design for low-latency inference in scientific computing, including compressed neural networks, differentiable programming, and fast surrogate models.",
+      "title": "Fast Machine Learning for Science 2026 Conference Concludes at UC San Diego"
+    },
+    {
+      "first_seen": "2026-09-05",
+      "id": "ml-papers-latent-space-mapping",
+      "last_seen": "2026-09-05",
+      "source_urls": [
+        "https://paperscode.org/"
+      ],
+      "summary": "A Papers With Code project embeds over 37,000 ML research papers into a unified latent space to enable semantic exploration and discovery of related work through topic and methodology clustering.",
+      "title": "Papers With Code Maps 37,563 ML Papers into Unified Latent Space"
+    },
+    {
+      "first_seen": "2026-09-05",
+      "id": "arc-prize-2026-kaggle-competitions",
+      "last_seen": "2026-09-05",
+      "source_urls": [
+        "https://www.kaggle.com/"
+      ],
+      "summary": "Kaggle is hosting multiple ARC Prize 2026 competitions (ARC-AGI-3, ARC-AGI-2, and Paper Track) with over $2 million in prizes for models demonstrating fluid intelligence and novel reasoning on the Abstraction and Reasoning Corpus.",
+      "title": "ARC Prize 2026 Kaggle Competitions Offer $2M for AGI-Style Reasoning Tasks"
+    },
+    {
+      "first_seen": "2026-09-05",
+      "id": "biohub-cell-tracking-competition",
+      "last_seen": "2026-09-05",
+      "source_urls": [
+        "https://x.com/kaggle/status/2071691016105541929"
+      ],
+      "summary": "Kaggle is hosting 'Biohub \u2013 Cell Tracking During Development,' a $60,000 competition to detect and track zebrafish cells in 3D spatiotemporal microscopy data with an entry deadline of September 22, 2026.",
+      "title": "Kaggle Launches Biohub Cell Tracking During Development Competition"
     }
   ],
   "quant_finance": [
