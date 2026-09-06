@@ -1,57 +1,5 @@
 {
-  "ai_llms": [
-    {
-      "first_seen": "2026-08-22",
-      "id": "white-house-ai-testing-framework-open-models-excluded",
-      "last_seen": "2026-08-22",
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded"
-      ],
-      "summary": "The White House introduced an AI model testing framework focusing on cybersecurity risks of advanced AI, but explicitly excludes open-source models from its scope. The framework applies only to closed-source models with state-of-the-art capabilities and includes a 30-day government review window, leaving open-weight releases effectively unregulated.",
-      "title": "US government AI testing framework excludes open-source models from cybersecurity review"
-    },
-    {
-      "first_seen": "2026-08-22",
-      "id": "hugging-face-state-of-open-models-summer-2026",
-      "last_seen": "2026-08-22",
-      "source_urls": [
-        "https://huggingface.co/blog/state-of-open-models-summer-2026",
-        "https://www.my2cents.ai/news/2026-08-15-hugging-face/"
-      ],
-      "summary": "Hugging Face published 'State of Open Models: Summer 2026 Observations' analyzing the ecosystem from January-August 2026. The report finds Chinese labs released the largest models (up to 2.78T parameters) primarily using permissive licenses, while models under 1B parameters account for 83% of all downloads on the Hub.",
-      "title": "Hugging Face releases comprehensive open models ecosystem report for summer 2026"
-    },
-    {
-      "first_seen": "2026-08-22",
-      "id": "hugging-face-reproduces-2200-icml-papers-ai-agents",
-      "last_seen": "2026-08-22",
-      "source_urls": [
-        "https://huggingface.co/blog/icml-2026-open-reproductions"
-      ],
-      "summary": "Hugging Face automated the reproduction of 2,200 ICML 2026 papers using AI agents, generating 'Trackio' logbooks containing write-ups, code, artifacts, and execution traces. The project highlights reproducibility gaps in ML research and demonstrates scalable workflows for transparent research validation.",
-      "title": "Hugging Face reproduces 2,200 ICML 2026 papers using AI agents with full transparency logs"
-    },
-    {
-      "first_seen": "2026-08-22",
-      "id": "hugging-face-hub-surpasses-3-million-models",
-      "last_seen": "2026-08-22",
-      "source_urls": [
-        "https://x.com/huggingface/status/2089673018737869242"
-      ],
-      "summary": "Hugging Face announced the Hub has surpassed 3 million models, reflecting the growing scale of the open AI ecosystem. The milestone underscores the shift toward distributed AI development where small and mid-sized models dominate actual usage despite media focus on large models.",
-      "title": "Hugging Face Hub reaches 3 million models milestone"
-    },
-    {
-      "first_seen": "2026-08-22",
-      "id": "anthropic-claude-cowork-google-workspace-expansion",
-      "last_seen": "2026-08-22",
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence"
-      ],
-      "summary": "Anthropic expanded Claude Cowork access across web and mobile for all paid users and upgraded Google Workspace connectors, allowing Claude to send emails via Gmail and manage files in Google Drive. The expansion represents movement toward more agentic AI systems capable of autonomous task execution.",
-      "title": "Anthropic expands Claude Cowork to all paid accounts with enhanced Google Workspace integration"
-    }
-  ],
+  "ai_llms": [],
   "data_science_ml": [
     {
       "first_seen": "2026-08-26",
@@ -495,6 +443,58 @@
       ],
       "summary": "New arXiv paper analyzes how nonlinear transient impact models combined with memory kernels can avoid price manipulation by enforcing specific no-arbitrage constraints. Results provide guidance for quant trading teams designing optimal execution algorithms and transaction-cost models.",
       "title": "Research identifies conditions preventing price manipulation in nonlinear impact models"
+    },
+    {
+      "first_seen": "2026-09-06",
+      "id": "us-banks-equity-var-spike",
+      "last_seen": "2026-09-06",
+      "source_urls": [
+        "https://www.risk.net/regions/north-america"
+      ],
+      "summary": "Equity value-at-risk at top US banks including Goldman Sachs, Morgan Stanley, and JPMorgan has reached its highest level since 2020, signaling increased sensitivity of dealer books to equity market moves and higher market-risk capital requirements.",
+      "title": "US bank equity VaR hits highest level since 2020"
+    },
+    {
+      "first_seen": "2026-09-06",
+      "id": "us-gsibs-secured-funding-stress",
+      "last_seen": "2026-09-06",
+      "source_urls": [
+        "https://www.risk.net/regions/north-america"
+      ],
+      "summary": "The eight US globally systemically important banks face record $1.6 trillion in secured funding outflows under stressed assumptions, highlighting liquidity vulnerabilities in repo and secured funding markets.",
+      "title": "US G-SIB secured funding hits record $1.6 trillion outflow stress"
+    },
+    {
+      "first_seen": "2026-09-06",
+      "id": "uk-banks-leverage-headroom-decline",
+      "last_seen": "2026-09-06",
+      "source_urls": [
+        "https://www.risk.net/latest",
+        "https://www.risk.net/regulation"
+      ],
+      "summary": "NatWest and HSBC face record-low leverage headroom ahead of Bank of England leverage ratio reforms, constraining their ability to expand balance sheets and support dealer inventories.",
+      "title": "NatWest and HSBC leverage headroom fall to record lows"
+    },
+    {
+      "first_seen": "2026-09-06",
+      "id": "cross-border-credit-us-highest-2008",
+      "last_seen": "2026-09-06",
+      "source_urls": [
+        "https://www.risk.net/regions/north-america"
+      ],
+      "summary": "Cross-border credit to the US has risen to its highest level since 2008, exceeding one-fifth of US GDP, increasing global interconnectedness and contagion risk in dollar credit markets.",
+      "title": "Cross-border credit to US reaches highest level since 2008"
+    },
+    {
+      "first_seen": "2026-09-06",
+      "id": "sector-etf-intramonth-momentum-signal",
+      "last_seen": "2026-09-06",
+      "source_urls": [
+        "https://quantocracy.com/",
+        "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-04092026/"
+      ],
+      "summary": "Quantitative research documents a systematic intramonth momentum pattern in US sector ETFs that generates risk-adjusted returns through tactical timing and rotation strategies.",
+      "title": "Persistent intramonth momentum cycle discovered in US sector ETFs"
     }
   ],
   "scandinavian_tech": [
