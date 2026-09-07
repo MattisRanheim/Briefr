@@ -298,6 +298,57 @@
       ],
       "summary": "Kaggle is hosting 'Biohub \u2013 Cell Tracking During Development,' a $60,000 competition to detect and track zebrafish cells in 3D spatiotemporal microscopy data with an entry deadline of September 22, 2026.",
       "title": "Kaggle Launches Biohub Cell Tracking During Development Competition"
+    },
+    {
+      "first_seen": "2026-09-07",
+      "id": "weathernext-3-5km-resolution-global-weather",
+      "last_seen": "2026-09-07",
+      "source_urls": [
+        "https://explainx.ai/catch-up-on-ai/2026-09-07"
+      ],
+      "summary": "WeatherNext 3 delivers hourly global weather forecasts at 5km resolution, a major leap from previous 28km-resolution AI weather models, enabling more precise local weather and extreme event prediction through physics-aware sequence modeling.",
+      "title": "Google DeepMind releases WeatherNext 3 with 5km-resolution global weather forecasting"
+    },
+    {
+      "first_seen": "2026-09-07",
+      "id": "hermes-agent-open-source-framework",
+      "last_seen": "2026-09-07",
+      "source_urls": [
+        "https://buttondown.com/agent-k/archive/llm-daily-september-07-2026/"
+      ],
+      "summary": "Hermes Agent is a fast-growing Python-based open-source framework for building multi-step, tool-using AI agents with emphasis on task decomposition, memory orchestration, and real-system deployment.",
+      "title": "NousResearch's Hermes Agent gains traction as production-grade open-source agent framework"
+    },
+    {
+      "first_seen": "2026-09-07",
+      "id": "opencode-open-source-coding-assistant",
+      "last_seen": "2026-09-07",
+      "source_urls": [
+        "https://buttondown.com/agent-k/archive/llm-daily-september-07-2026/"
+      ],
+      "summary": "OpenCode is a TypeScript-based, open-source AI coding agent gaining rapid adoption, offering a transparent, self-hostable alternative to proprietary tools with full control over data and model choice.",
+      "title": "OpenCode emerges as open-source alternative to GitHub Copilot with high adoption"
+    },
+    {
+      "first_seen": "2026-09-07",
+      "id": "openai-research-intern-agent-system",
+      "last_seen": "2026-09-07",
+      "source_urls": [
+        "https://aiagentstore.ai/ai-agent-news/2026-september",
+        "https://buttondown.com/Praviveek/archive/ai-tech-digest-september-7-2026/"
+      ],
+      "summary": "OpenAI's agent system autonomously executes structured ML research workflows including coding, experiment setup, analysis, and documentation that would normally require several days of human researcher time.",
+      "title": "OpenAI's automated research intern agent completes multi-day ML projects autonomously"
+    },
+    {
+      "first_seen": "2026-09-07",
+      "id": "claude-fermat-last-theorem-formalization",
+      "last_seen": "2026-09-07",
+      "source_urls": [
+        "https://cloudflareos.jp/en/news/"
+      ],
+      "summary": "Claude autonomously produced the first complete computer-verified formalization of Fermat's Last Theorem over 11 days, proving tens of thousands of intermediate theorems and demonstrating long-horizon structured reasoning with strict correctness constraints.",
+      "title": "Anthropic's Claude formalizes Fermat's Last Theorem in Lean proof assistant"
     }
   ],
   "quant_finance": [
@@ -498,56 +549,6 @@
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-08-23",
-      "id": "swedish-deeptech-44m-sek-funding",
-      "last_seen": "2026-08-23",
-      "source_urls": [
-        "https://www.breakit.se/"
-      ],
-      "summary": "A Swedish deeptech company has secured a 44 million SEK funding round, positioning itself in a strong market position and strengthening Sweden's advanced technology sector.",
-      "title": "Swedish deeptech startup raises 44 million SEK"
-    },
-    {
-      "first_seen": "2026-08-23",
-      "id": "swedish-ai-startup-y-combinator-restaurant-phones",
-      "last_seen": "2026-08-23",
-      "source_urls": [
-        "https://www.breakit.se/"
-      ],
-      "summary": "A Swedish AI startup has been accepted into Y Combinator with a product focused on helping restaurants manage incoming phone calls using artificial intelligence.",
-      "title": "Swedish AI startup joins Y Combinator for restaurant phone management"
-    },
-    {
-      "first_seen": "2026-08-23",
-      "id": "fermi-sana-executives-125m-sek",
-      "last_seen": "2026-08-23",
-      "source_urls": [
-        "https://www.breakit.se/"
-      ],
-      "summary": "Two former executives from Swedish AI platform Sana have founded a new company called Fermi and raised 125 million SEK, reflecting a pattern of experienced operators launching ambitious ventures.",
-      "title": "Sana executives launch new AI startup Fermi with 125 million SEK"
-    },
-    {
-      "first_seen": "2026-08-23",
-      "id": "incredible-viss-ai-pivot-19m-sek",
-      "last_seen": "2026-08-23",
-      "source_urls": [
-        "https://www.breakit.se/feed/artiklar"
-      ],
-      "summary": "Viss.AI has rebranded as Incredible and raised 19 million SEK to develop voice-controlled computing technology, reflecting Swedish startups' strategic pivots during the AI boom.",
-      "title": "J\u00f6nk\u00f6ping startup Incredible pivots from Viss.AI, raises 19 million SEK"
-    },
-    {
-      "first_seen": "2026-08-23",
-      "id": "odense-robotics-fund-18m-dkk",
-      "last_seen": "2026-08-23",
-      "source_urls": [
-        "https://techsavvy.media/en/new-fund-aims-to-secure-denmarks-future-position-as-europes-robotics-capital/"
-      ],
-      "summary": "Danish robotics companies and investors have established the Odense Robotics StartUp Fund with 18.4 million DKK to support at least 30 robot and drone startups over six years.",
-      "title": "Odense Robotics StartUp Fund raises 18.4 million DKK for 30+ startups"
-    },
     {
       "first_seen": "2026-08-30",
       "id": "norway-crowdfunding-regulation-august-2026",
