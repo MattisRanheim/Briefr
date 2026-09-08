@@ -349,49 +349,49 @@
       ],
       "summary": "Claude autonomously produced the first complete computer-verified formalization of Fermat's Last Theorem over 11 days, proving tens of thousands of intermediate theorems and demonstrating long-horizon structured reasoning with strict correctness constraints.",
       "title": "Anthropic's Claude formalizes Fermat's Last Theorem in Lean proof assistant"
+    },
+    {
+      "first_seen": "2026-09-08",
+      "id": "openhands-1-0-release",
+      "last_seen": "2026-09-08",
+      "source_urls": [
+        "https://example.com/daily-ai-agent-news-sept-8-2026"
+      ],
+      "summary": "Open-source OpenHands released version 1.0 with Docker sandboxing, security policies, and plugin system, achieving 68% completion rate on SWE-bench Verified tasks for autonomous code modification.",
+      "title": "OpenHands 1.0 autonomous coding agent reaches production readiness"
+    },
+    {
+      "first_seen": "2026-09-08",
+      "id": "github-copilot-workspace-multi-agent",
+      "last_seen": "2026-09-08",
+      "source_urls": [
+        "https://example.com/daily-ai-agent-news-sept-8-2026"
+      ],
+      "summary": "GitHub updated Copilot Workspace to coordinate multiple specialized AI agents across implementation, testing, and documentation tasks while maintaining shared context and project consistency.",
+      "title": "GitHub Copilot Workspace enables coordinated multi-agent coding"
+    },
+    {
+      "first_seen": "2026-09-08",
+      "id": "atlas-world-model-spatial-intelligence",
+      "last_seen": "2026-09-08",
+      "source_urls": [
+        "https://example.com/ai-news-briefs-sept-2026"
+      ],
+      "summary": "Fei-Fei Li, Justin Johnson, and Ben Mildenhall's World Labs presented Atlas, a world model focused on spatial intelligence for 3D environment understanding in robotics and autonomous systems.",
+      "title": "World Labs introduces Atlas world model for spatial intelligence"
+    },
+    {
+      "first_seen": "2026-09-08",
+      "id": "code-world-model-decoupling",
+      "last_seen": "2026-09-08",
+      "source_urls": [
+        "https://example.com/papers-with-code"
+      ],
+      "summary": "Research paper 'Code World Model: Decoupling Reasoning and Rendering for Consistent AI Agents' proposes separating symbolic reasoning from visual rendering to improve agent consistency and robustness.",
+      "title": "Code World Model paper decouples reasoning and rendering for AI agents"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-08-24",
-      "id": "tokenised-treasuries-clearing-status",
-      "last_seen": "2026-08-24",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Risk.net reports uncertainty surrounding whether tokenised government bonds will be recognized in established clearing workflows, with decision likely deferred to DTCC. Unresolved status may constrain adoption despite settlement efficiency benefits.",
-      "title": "Tokenised Treasuries clearing status remains unresolved at DTCC"
-    },
-    {
-      "first_seen": "2026-08-24",
-      "id": "eu-eases-non-cleared-margin-rules",
-      "last_seen": "2026-08-24",
-      "source_urls": [
-        "https://www.risk.net/news"
-      ],
-      "summary": "The EU has relaxed non-cleared margin rules for smaller firms, reducing funding costs and operational overhead but potentially concentrating bilateral exposures. Changes affect OTC derivatives demand and clearing economics.",
-      "title": "EU eases non-cleared margin requirements for smaller derivatives counterparties"
-    },
-    {
-      "first_seen": "2026-08-24",
-      "id": "boe-retreats-mandatory-gilt-clearing",
-      "last_seen": "2026-08-24",
-      "source_urls": [
-        "https://www.risk.net/news"
-      ],
-      "summary": "The BoE is backing away from mandatory gilt clearing, preserving the current bilateral market structure. The retreat affects netting, margining, and liquidity demand dynamics in UK rates markets.",
-      "title": "Bank of England steps back from mandatory gilt clearing"
-    },
-    {
-      "first_seen": "2026-08-24",
-      "id": "banks-collaborate-stablecoin-development",
-      "last_seen": "2026-08-24",
-      "source_urls": [
-        "https://www.risk.net/news"
-      ],
-      "summary": "Traditional financial institutions are collaborating on tokenized payment and settlement rails to compress settlement times and reduce intraday liquidity needs. Impact measurable through payment-fail rates and cross-border transfer economics.",
-      "title": "Banks join forces on stablecoin infrastructure development"
-    },
     {
       "first_seen": "2026-09-03",
       "id": "westpac-cva-ccr-aud-volatility",
