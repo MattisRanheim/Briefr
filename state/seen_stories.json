@@ -2,56 +2,6 @@
   "ai_llms": [],
   "data_science_ml": [
     {
-      "first_seen": "2026-08-26",
-      "id": "okta-agent-sso-launch",
-      "last_seen": "2026-08-26",
-      "source_urls": [
-        "https://aiagentstore.ai/ai-agent-news/2026-august"
-      ],
-      "summary": "Okta released Agent SSO, enabling AI agents to be treated as first-class identities in its Universal Directory with scoped access controls and short-lived tokens, improving auditability and security for production LLM-based agent deployments.",
-      "title": "Okta launches Agent SSO for AI agent identity management"
-    },
-    {
-      "first_seen": "2026-08-26",
-      "id": "google-gemini-3-7-flash-release",
-      "last_seen": "2026-08-26",
-      "source_urls": [
-        "https://aiagentstore.ai/ai-agent-news/2026-august"
-      ],
-      "summary": "Google unveiled Gemini 3.7 Flash, a lightweight model targeted at software development and agent tasks at approximately half the cost of Gemini 3.6 Flash, enabling cheaper inference for coding assistants and workflow automation.",
-      "title": "Google releases Gemini 3.7 Flash optimized for developers and agents"
-    },
-    {
-      "first_seen": "2026-08-26",
-      "id": "openai-astra-reasoning-math-problems",
-      "last_seen": "2026-08-26",
-      "source_urls": [
-        "https://aiagentstore.ai/ai-agent-news/2026-august"
-      ],
-      "summary": "OpenAI unveiled its Astra reasoning family, which autonomously solved ten previously unsolved math and theoretical computer science problems through multi-agent collaboration with only ~$2,000 in API costs.",
-      "title": "OpenAI's Astra reasoning model solves long-standing math and TCS problems"
-    },
-    {
-      "first_seen": "2026-08-26",
-      "id": "langflow-rce-vulnerability-cve-2026-9198",
-      "last_seen": "2026-08-26",
-      "source_urls": [
-        "https://aiagentstore.ai/ai-agent-news/2026-august"
-      ],
-      "summary": "A critical remote code execution vulnerability (CVE-2026-9198) was found in IBM's Langflow low-code AI agent platform, allowing unauthenticated exploitation on default deployments and added to CISA's Known Exploited Vulnerabilities catalog.",
-      "title": "Critical RCE vulnerability discovered in Langflow agent builder"
-    },
-    {
-      "first_seen": "2026-08-26",
-      "id": "kaggle-ai-agent-security-tool-attacks",
-      "last_seen": "2026-08-26",
-      "source_urls": [
-        "https://x.com/kaggle/status/2065427486280728765"
-      ],
-      "summary": "Kaggle launched the AI Agent Security \u2013 Multi-Step Tool Attacks competition in partnership with OpenAI and Google, challenging participants to design attack algorithms that stress-test tool-using AI agents on a deterministic benchmark.",
-      "title": "Kaggle launches AI Agent Security competition with OpenAI and Google"
-    },
-    {
       "first_seen": "2026-08-27",
       "id": "agentic-context-management-long-context",
       "last_seen": "2026-08-27",
@@ -546,6 +496,48 @@
       ],
       "summary": "Quantitative research documents a systematic intramonth momentum pattern in US sector ETFs that generates risk-adjusted returns through tactical timing and rotation strategies.",
       "title": "Persistent intramonth momentum cycle discovered in US sector ETFs"
+    },
+    {
+      "first_seen": "2026-09-10",
+      "id": "us-banks-equity-collateral-record",
+      "last_seen": "2026-09-10",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Major US banks have increased equity collateral to a record approximately $140bn, driven by higher market valuations and expanded use in derivatives margining. The surge raises quantitative risk concerns around wrong-way risk, collateral haircuts, and procyclicality in margin frameworks.",
+      "title": "US banks' equity collateral reaches record $140bn"
+    },
+    {
+      "first_seen": "2026-09-10",
+      "id": "jscc-futures-default-funds-merger",
+      "last_seen": "2026-09-10",
+      "source_urls": [
+        "https://www.risk.net/latest",
+        "https://www.risk.net/risk-management"
+      ],
+      "summary": "Japan Securities Clearing Corporation plans to merge separate futures default funds into a single pool, but market participants oppose the move citing risks of cross-product loss mutualization. The debate centers on portfolio margining models, stress testing, and default waterfall allocation.",
+      "title": "JSCC faces industry pushback on futures default fund consolidation"
+    },
+    {
+      "first_seen": "2026-09-10",
+      "id": "seb-liquidity-coverage-ratio-decline",
+      "last_seen": "2026-09-10",
+      "source_urls": [
+        "https://www.risk.net/risk-management",
+        "https://www.risk.net"
+      ],
+      "summary": "Swedish bank SEB's LCR dropped to its lowest level in six years due to a surge in corporate deposits treated as less stable under regulatory metrics. The decline highlights the need for refined behavioral deposit models and dynamic liquidity optimization.",
+      "title": "SEB's Liquidity Coverage Ratio falls to six-year low"
+    },
+    {
+      "first_seen": "2026-09-10",
+      "id": "short-selling-bans-rough-volatility-research",
+      "last_seen": "2026-09-10",
+      "source_urls": [
+        "https://thequant.space/"
+      ],
+      "summary": "The Quant Finance Research Hub highlights papers including analyses of short-selling bans' market microstructure effects, variance-optimal hedging in rough volatility models, and analytical treatment of variance swap Greeks. Research informs model risk and regulatory policy analysis.",
+      "title": "New quant papers on short-selling bans, rough volatility, and variance swaps"
     }
   ],
   "scandinavian_tech": [
