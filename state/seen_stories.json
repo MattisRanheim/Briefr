@@ -2,56 +2,6 @@
   "ai_llms": [],
   "data_science_ml": [
     {
-      "first_seen": "2026-08-27",
-      "id": "agentic-context-management-long-context",
-      "last_seen": "2026-08-27",
-      "source_urls": [
-        "https://podcasts.getpagespeed.com/the-stack/"
-      ],
-      "summary": "A new framework called Agentic Context Management (ACM) proposes five primitives to control context flow in long-running LLM agents, achieving linear rather than quadratic token cost growth while maintaining 92\u201393% performance on long-context benchmarks.",
-      "title": "Agentic Context Management reduces long-context agent costs while maintaining performance"
-    },
-    {
-      "first_seen": "2026-08-27",
-      "id": "task-specs-token-spend-coding-agents",
-      "last_seen": "2026-08-27",
-      "source_urls": [
-        "https://arxiv.org/list/cs.AI/recent"
-      ],
-      "summary": "A new arXiv paper demonstrates that how tasks are specified\u2014including verbosity, structure, and instruction style\u2014materially impacts token consumption and cost of coding agents without necessarily harming performance.",
-      "title": "Task specification design significantly affects token spend in LLM-based coding agents"
-    },
-    {
-      "first_seen": "2026-08-27",
-      "id": "diffusion-inversion-convex-optimization",
-      "last_seen": "2026-08-27",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/recent"
-      ],
-      "summary": "A new stat.ML paper shows that a single inverse step in diffusion models can be formulated as a convex program, enabling principled calibration for improved image editing, reconstruction, and inversion-based tasks.",
-      "title": "Single diffusion inversion step framed as convex optimization for Bayes-optimal calibration"
-    },
-    {
-      "first_seen": "2026-08-27",
-      "id": "markov-physics-informed-neural-operator",
-      "last_seen": "2026-08-27",
-      "source_urls": [
-        "https://arxiv.org/list/cs.LG/recent"
-      ],
-      "summary": "A new cs.LG paper introduces MPNO, which combines Markovian structure with physics-informed constraints to ensure stable, physically plausible long-term predictions in PDE surrogates and engineering simulations.",
-      "title": "Markov Physics-Informed Neural Operator provides autoregressive stability for transient dynamics"
-    },
-    {
-      "first_seen": "2026-08-27",
-      "id": "agentic-autoresearch-power-control",
-      "last_seen": "2026-08-27",
-      "source_urls": [
-        "https://arxiv.org/list/cs.LG/recent"
-      ],
-      "summary": "A new cs.LG paper proposes using LLM-based agents to automate research workflows including literature review, experiment design, and evaluation for domain-specific telecom algorithm development.",
-      "title": "Agentic Autoresearch automates algorithm design for wireless cell-edge power control"
-    },
-    {
       "first_seen": "2026-08-28",
       "id": "nvidia-acquires-hugging-face",
       "last_seen": "2026-08-28",
