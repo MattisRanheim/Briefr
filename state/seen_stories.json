@@ -1,47 +1,62 @@
 {
-  "ai_llms": [],
+  "ai_llms": [
+    {
+      "first_seen": "2026-09-13",
+      "id": "anthropic-claude-fable-5-1-mythos-5-1-launch",
+      "last_seen": "2026-09-13",
+      "source_urls": [
+        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+        "https://x.com/i/article/2095390833319301375"
+      ],
+      "summary": "Anthropic shipped major upgrades to Claude Fable 5.1 and Mythos 5.1 with emphasis on coding, agentic scientific research, and enterprise safeguards for multi-step knowledge work.",
+      "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 models"
+    },
+    {
+      "first_seen": "2026-09-13",
+      "id": "google-gemini-3-8-flash-cyber-release",
+      "last_seen": "2026-09-13",
+      "source_urls": [
+        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+        "https://flowtivity.ai/blog/gpt-6-astra-vs-fable-5-1-vs-gemini-3-8-flash/"
+      ],
+      "summary": "Google released Gemini 3.8 Flash with a specialized Cyber edition designed for defensive security, vulnerability discovery, and patching work.",
+      "title": "Google DeepMind launches Gemini 3.8 Flash and specialized Cyber variant"
+    },
+    {
+      "first_seen": "2026-09-13",
+      "id": "meta-muse-spark-1-3-launch",
+      "last_seen": "2026-09-13",
+      "source_urls": [
+        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+        "https://x.com/i/article/2095390833319301375"
+      ],
+      "summary": "Meta shipped Muse Spark 1.3 positioned for coding, long-horizon agents, and real-world computer use, signaling entry into productivity and agentic model competition.",
+      "title": "Meta releases Muse Spark 1.3 for agentic workflows and computer use"
+    },
+    {
+      "first_seen": "2026-09-13",
+      "id": "openai-gpt-6-astra-launch",
+      "last_seen": "2026-09-13",
+      "source_urls": [
+        "https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html",
+        "https://www.dutchstartup.ai/en/news/four-major-ai-labs-launch-new-models-in-the-first-week-of-september-2026"
+      ],
+      "summary": "OpenAI released GPT-6 Astra, described as the first model to cross a critical cybersecurity threshold, with emphasis on safety gating and cyber-risk evaluation.",
+      "title": "OpenAI announces GPT-6 Astra with cybersecurity threshold focus"
+    },
+    {
+      "first_seen": "2026-09-13",
+      "id": "hugging-face-hub-telemetry-environment-scan",
+      "last_seen": "2026-09-13",
+      "source_urls": [
+        "https://aiweekly.co/ai-news-today",
+        "https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html"
+      ],
+      "summary": "The huggingface_hub Python SDK has been reported to scan environment variables for coding agents and tag Hub API calls with agent identifiers, raising privacy and supply-chain concerns.",
+      "title": "Hugging Face hub SDK reportedly scans environment variables for agent identifiers"
+    }
+  ],
   "data_science_ml": [
-    {
-      "first_seen": "2026-08-29",
-      "id": "triton-llm-serving-production-readiness",
-      "last_seen": "2026-08-29",
-      "source_urls": [
-        "https://paperscode.org/"
-      ],
-      "summary": "A detailed breakdown examines whether Triton kernels are production-ready for LLM serving, comparing performance gains against established frameworks like TensorRT and vLLM across specialized kernels, custom attention variants, and quantization paths.",
-      "title": "Triton Kernels for LLM Inference: Production Readiness Analysis"
-    },
-    {
-      "first_seen": "2026-08-29",
-      "id": "fau-quantum-ml-heart-disease-prediction",
-      "last_seen": "2026-08-29",
-      "source_urls": [
-        "https://thequantuminsider.com/2026/08/27/fau-researchers-use-quantum-machine-learning-to-predict-heart-disease/"
-      ],
-      "summary": "Florida Atlantic University researchers developed a Quantum Support Vector Machine framework that achieved 90.26% accuracy and 0.93 AUC for predicting heart disease on a 918-patient dataset, outperforming classical baselines.",
-      "title": "Quantum Machine Learning Achieves 90% Accuracy in Heart Disease Prediction"
-    },
-    {
-      "first_seen": "2026-08-29",
-      "id": "kaggle-virtual-farm-agentic-ai-competition",
-      "last_seen": "2026-08-29",
-      "source_urls": [
-        "https://x.com/kaggle/status/2084326711248687165"
-      ],
-      "summary": "Kaggle opened 'Kaggriculture,' a competition where participants build AI agents to manage virtual farms including crop harvesting, animal management, and market trading, targeting agentic decision-making and long-horizon planning.",
-      "title": "Kaggle Launches Virtual Farm Competition for Agentic AI Development"
-    },
-    {
-      "first_seen": "2026-08-29",
-      "id": "anthropic-automated-alignment-researcher-agents",
-      "last_seen": "2026-08-29",
-      "source_urls": [
-        "https://aiagentstore.ai/ai-agent-news/today",
-        "https://aiagentstore.ai/ai-agent-news/2026-august"
-      ],
-      "summary": "Anthropic research shows that automated researcher agents can search literature, propose model modifications, and generate safety interventions that outperform some human-designed proposals on alignment benchmarks.",
-      "title": "Anthropic Develops Automated Alignment Researcher Agents"
-    },
     {
       "first_seen": "2026-08-31",
       "id": "tencent-hy4-770b-sparse-model",
