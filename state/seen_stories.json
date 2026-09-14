@@ -302,6 +302,56 @@
       ],
       "summary": "The ClimX Challenge (Sep\u2013Nov 2026) invites ML practitioners to build emulators predicting climate extreme indices from Earth system model forcings, with tracks for main prediction and uncertainty quantification.",
       "title": "ClimX Challenge: ML Competition for Emulating Climate Extremes"
+    },
+    {
+      "first_seen": "2026-09-14",
+      "id": "maxbench-concept-recovery-benchmark",
+      "last_seen": "2026-09-14",
+      "source_urls": [
+        "https://arxiv.org/list/cs.LG/recent"
+      ],
+      "summary": "MAxBench is a new benchmark for testing whether language models can recover fine-grained multinomial concepts in their internal representations, enabling structured evaluation of model interpretability and concept alignment.",
+      "title": "MAxBench released for LLM concept interpretability evaluation"
+    },
+    {
+      "first_seen": "2026-09-14",
+      "id": "canvasanneal-curriculum-rl-diffusion",
+      "last_seen": "2026-09-14",
+      "source_urls": [
+        "https://arxiv.org/list/cs.LG/recent"
+      ],
+      "summary": "CanvasAnneal introduces a curriculum reinforcement learning approach tailored to diffusion language models to improve training dynamics and downstream performance through progressive task difficulty.",
+      "title": "CanvasAnneal proposes curriculum RL framework for diffusion language models"
+    },
+    {
+      "first_seen": "2026-09-14",
+      "id": "gollum-uncertainty-experimental-optimization",
+      "last_seen": "2026-09-14",
+      "source_urls": [
+        "https://techxplore.com/news/2026-09-adding-detector-ai-optimize.html"
+      ],
+      "summary": "GOLLuM combines large language models with Gaussian processes to add uncertainty calibration to experimental optimization, enabling AI agents to select experiments more efficiently and reduce required tests by approximately 40%.",
+      "title": "GOLLuM reduces experimental tests by 40% using LLM uncertainty detection"
+    },
+    {
+      "first_seen": "2026-09-14",
+      "id": "exact-global-mcmc-denoising-diffusion",
+      "last_seen": "2026-09-14",
+      "source_urls": [
+        "https://arxiv.org/list/stat.ML/current"
+      ],
+      "summary": "A new method uses denoising diffusion models to construct Markov Chain Monte Carlo samplers with exact global proposals, potentially improving Bayesian posterior sampling in high-dimensional spaces.",
+      "title": "Denoising diffusion enables exact global MCMC sampling"
+    },
+    {
+      "first_seen": "2026-09-14",
+      "id": "federated-rl-logarithmic-communication",
+      "last_seen": "2026-09-14",
+      "source_urls": [
+        "https://arxiv.org/list/stat.ML/current"
+      ],
+      "summary": "A provably efficient federated reinforcement learning algorithm with linear function approximation maintains theoretical guarantees while keeping communication costs logarithmic, enabling decentralized RL applications.",
+      "title": "Federated RL algorithm achieves efficiency with logarithmic communication"
     }
   ],
   "quant_finance": [
@@ -503,39 +553,6 @@
       "title": "New quant papers on short-selling bans, rough volatility, and variance swaps"
     }
   ],
-  "scandinavian_tech": [
-    {
-      "first_seen": "2026-08-30",
-      "id": "norway-crowdfunding-regulation-august-2026",
-      "last_seen": "2026-08-30",
-      "source_urls": [],
-      "summary": "Norway's new crowdfunding act took effect on 1 August 2026, unifying loan- and investment-based crowdfunding regulations and implementing the EU crowdfunding framework into Norwegian law.",
-      "title": "Norway implements unified crowdfunding framework aligned with EU rules"
-    },
-    {
-      "first_seen": "2026-08-30",
-      "id": "sweden-ai-act-compliance-deadline-august-2026",
-      "last_seen": "2026-08-30",
-      "source_urls": [],
-      "summary": "EU AI Act high-risk provisions begin general application in Sweden on 2 August 2026, requiring documentation, risk management, oversight, and post-market monitoring for regulated AI systems.",
-      "title": "Sweden's AI Act high-risk compliance provisions enter general application"
-    },
-    {
-      "first_seen": "2026-08-30",
-      "id": "norway-startup-grants-discontinued-2026",
-      "last_seen": "2026-08-30",
-      "source_urls": [],
-      "summary": "Multiple Norwegian startup grant schemes were discontinued in 2026, including Startup Grant 3, Scaling Mentor, and ecosystem grants, tightening available support for early-stage ventures.",
-      "title": "Norway cuts several startup support programs including Startup Grant 3"
-    },
-    {
-      "first_seen": "2026-08-30",
-      "id": "denmark-loan-and-try-robot-grant-opens",
-      "last_seen": "2026-08-30",
-      "source_urls": [],
-      "summary": "Denmark's \"Loan and try a robot\" grant program opened on 24 August 2026, providing public support for automation and AI adoption among smaller firms.",
-      "title": "Denmark launches AI and automation grant for SMEs"
-    }
-  ],
+  "scandinavian_tech": [],
   "swedish_tech": []
 }
