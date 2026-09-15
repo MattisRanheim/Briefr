@@ -58,57 +58,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-08-31",
-      "id": "tencent-hy4-770b-sparse-model",
-      "last_seen": "2026-08-31",
-      "source_urls": [
-        "https://artificialintnews.site/",
-        "https://paperscode.org/"
-      ],
-      "summary": "Tencent has unveiled Hy4, a ~770B-parameter sparse-activation foundation model using mixture-of-experts style sparsity for efficient inference while enabling complex multi-step reasoning on coding and math tasks.",
-      "title": "Tencent previews Hy4, a 770B-parameter sparse-activation model for coding and research"
-    },
-    {
-      "first_seen": "2026-08-31",
-      "id": "consistency-driven-cross-representation-learning",
-      "last_seen": "2026-08-31",
-      "source_urls": [
-        "https://paperswithcode.co/papers/recent"
-      ],
-      "summary": "A consistency-driven co-evolution framework trains multiple representations jointly while allowing specialization, improving robustness and transfer in low-label and multi-view settings.",
-      "title": "New paper proposes consistency-driven co-evolution framework for self-supervised multi-representation learning"
-    },
-    {
-      "first_seen": "2026-08-31",
-      "id": "agent-against-agent-prompt-injection-red-teaming",
-      "last_seen": "2026-08-31",
-      "source_urls": [
-        "https://paperswithcode.co/papers/recent"
-      ],
-      "summary": "The 'Agent Against Agent' paper introduces an automated red-teaming system where one LLM agent generates and evaluates prompt-injection attacks against another, uncovering vulnerabilities at scale.",
-      "title": "Agent-based framework automates prompt-injection red teaming for LLM systems"
-    },
-    {
-      "first_seen": "2026-08-31",
-      "id": "worldcycle-helloworld-video-world-models",
-      "last_seen": "2026-08-31",
-      "source_urls": [
-        "https://paperswithcode.co/papers/recent"
-      ],
-      "summary": "Two papers introduce video world models enabling long-horizon planning and socially interactive characters in learned video environments without expensive 3D engines.",
-      "title": "WorldCycle and HelloWorld advance long-horizon video world models for interactive simulation"
-    },
-    {
-      "first_seen": "2026-08-31",
-      "id": "bridgevla-plus-plus-robotic-manipulation",
-      "last_seen": "2026-08-31",
-      "source_urls": [
-        "https://paperswithcode.co/papers/recent"
-      ],
-      "summary": "BridgeVLA++ combines vision-language interfaces with memory-augmented action policies to enable data-efficient 3D robotic manipulation in varied environments.",
-      "title": "BridgeVLA++ improves data efficiency for vision-language-action robotic manipulation"
-    },
-    {
       "first_seen": "2026-09-05",
       "id": "kaggriculture-agentic-rl-competition",
       "last_seen": "2026-09-05",
@@ -551,6 +500,46 @@
       ],
       "summary": "The Quant Finance Research Hub highlights papers including analyses of short-selling bans' market microstructure effects, variance-optimal hedging in rough volatility models, and analytical treatment of variance swap Greeks. Research informs model risk and regulatory policy analysis.",
       "title": "New quant papers on short-selling bans, rough volatility, and variance swaps"
+    },
+    {
+      "first_seen": "2026-09-15",
+      "id": "nscc-record-margin-call-q2",
+      "last_seen": "2026-09-15",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "The U.S. equity clearing house NSCC issued a record $27.6 billion initial margin call in Q2, with required IM hitting an all-time high as posted cash nearly doubled, reflecting elevated volatility and concentration risk in U.S. equity markets.",
+      "title": "NSCC issues record $27.6bn margin call in Q2"
+    },
+    {
+      "first_seen": "2026-09-15",
+      "id": "us-gsib-equity-shorts-record-356bn",
+      "last_seen": "2026-09-15",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "U.S. global systemically important banks' equity short positions reached a record $356 billion in Q2, with JP Morgan accounting for nearly half of the increase as rising equity prices pushed up short liabilities.",
+      "title": "US G-SIBs' equity short positions reach record $356bn"
+    },
+    {
+      "first_seen": "2026-09-15",
+      "id": "alphabet-micron-fx-hedging-surge",
+      "last_seen": "2026-09-15",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Tech firms Alphabet and Micron have significantly increased their FX derivatives usage in the year to Q2, leading a broader surge in corporate FX hedging amid currency risk reassessment.",
+      "title": "Alphabet and Micron significantly increase FX derivatives hedging"
+    },
+    {
+      "first_seen": "2026-09-15",
+      "id": "bloomberg-efx-options-api-launch",
+      "last_seen": "2026-09-15",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Bloomberg has launched e-FX options trading via API, allowing buy-side users to run the full RFQ workflow for vanilla and exotic FX options through a single programmatic connection.",
+      "title": "Bloomberg launches e-FX options trading via API"
     }
   ],
   "scandinavian_tech": [],
