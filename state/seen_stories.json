@@ -540,6 +540,36 @@
       ],
       "summary": "Bloomberg has launched e-FX options trading via API, allowing buy-side users to run the full RFQ workflow for vanilla and exotic FX options through a single programmatic connection.",
       "title": "Bloomberg launches e-FX options trading via API"
+    },
+    {
+      "first_seen": "2026-09-16",
+      "id": "us-buyside-fx-forwards-options-q1-surge",
+      "last_seen": "2026-09-16",
+      "source_urls": [
+        "https://www.risk.net/news?_hsmi"
+      ],
+      "summary": "US funds and insurers, led by Pimco and TIAA, drove strong demand for FX hedges in Q1, with forwards notional rising $187 billion as portfolios remain sensitive to currency and cross-asset volatility.",
+      "title": "US buy-side flocks to FX forwards and options, notional rises $187 billion in Q1"
+    },
+    {
+      "first_seen": "2026-09-16",
+      "id": "dealers-retreat-yen-barriers-intervention-risk",
+      "last_seen": "2026-09-16",
+      "source_urls": [
+        "https://www.risk.net/news?_hsmi"
+      ],
+      "summary": "Market-makers are retreating from exotic FX structures amid heightened intervention risk, altering derivative supply and pricing in barrier and structured products.",
+      "title": "Dealers shun yen barrier products after joint US-Japan intervention action"
+    },
+    {
+      "first_seen": "2026-09-16",
+      "id": "jpmorgan-qis-notional-100-billion-milestone",
+      "last_seen": "2026-09-16",
+      "source_urls": [
+        "https://www.risk.net/topics/quant-investing"
+      ],
+      "summary": "JP Morgan's systematic quant strategies reach $100 billion in notional exposure as banks and hedge funds continue expanding rules-based equity and volatility products across asset classes.",
+      "title": "JP Morgan quantitative investment strategies hit $100 billion notional milestone"
     }
   ],
   "scandinavian_tech": [],
