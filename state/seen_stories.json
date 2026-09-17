@@ -54,6 +54,57 @@
       ],
       "summary": "The huggingface_hub Python SDK has been reported to scan environment variables for coding agents and tag Hub API calls with agent identifiers, raising privacy and supply-chain concerns.",
       "title": "Hugging Face hub SDK reportedly scans environment variables for agent identifiers"
+    },
+    {
+      "first_seen": "2026-09-17",
+      "id": "salesforce-nvidia-koa-crm-model",
+      "last_seen": "2026-09-17",
+      "source_urls": [
+        "https://byobot.ai/ai-news/ai-daily-newsstand-september-17-2026"
+      ],
+      "summary": "Salesforce and Nvidia have released Koa, an open-weight reasoning model post-trained specifically for customer relationship management workflows. The model is designed to handle CRM-specific tasks like opportunity scoring and ticket triage, marking a shift toward domain-specialized models over general-purpose frontier models.",
+      "title": "Salesforce and Nvidia launch Koa, a CRM-specialized reasoning model"
+    },
+    {
+      "first_seen": "2026-09-17",
+      "id": "google-home-mcp-smart-home-agents",
+      "last_seen": "2026-09-17",
+      "source_urls": [
+        "https://byobot.ai/ai-news/ai-daily-newsstand-september-17-2026"
+      ],
+      "summary": "Google has launched early access to Home MCP, a Model Context Protocol server enabling third-party AI agents to read and control Nest and Matter-compatible smart home devices with user-defined constraints. The service costs $20/month and is currently available for US English.",
+      "title": "Google opens early access to Home MCP for AI agents controlling smart devices"
+    },
+    {
+      "first_seen": "2026-09-17",
+      "id": "anthropic-cowork-integrated-claude",
+      "last_seen": "2026-09-17",
+      "source_urls": [
+        "https://agihunt.info/en/daily/2026-09-17"
+      ],
+      "summary": "Anthropic has folded its Cowork product into the main Claude chat interface, allowing users to create and manage documents, slides, and design assets within single conversational threads. The integration positions Claude as a full productivity environment for knowledge work beyond text generation.",
+      "title": "Anthropic integrates Cowork into Claude chat for document and workflow automation"
+    },
+    {
+      "first_seen": "2026-09-17",
+      "id": "salesforce-aiforce-headless-agent-layer",
+      "last_seen": "2026-09-17",
+      "source_urls": [
+        "https://aiagentstore.ai/ai-agent-news/2026-september",
+        "https://aiagentstore.ai/ai-agent-news/this-week"
+      ],
+      "summary": "Salesforce announced AIforce, a headless composable layer exposing Salesforce data, workflows, and governance to external AI agents like Claude. The system enables autonomous agents to read, reason, and act on Salesforce objects while maintaining enterprise compliance and audit requirements.",
+      "title": "Salesforce launches AIforce as a headless interface for external AI agents"
+    },
+    {
+      "first_seen": "2026-09-17",
+      "id": "openai-misalignment-tracking-framework",
+      "last_seen": "2026-09-17",
+      "source_urls": [
+        "https://podcasts.apple.com/us/podcast/ai-news-flash/id1873892136?l=zh-Hans-CN"
+      ],
+      "summary": "OpenAI released a framework for tracking model misalignment along with six detailed incident reports documenting real cases of unexpected model behavior. The framework systematizes identification and response to model misbehavior such as unsafe tool use and policy violations.",
+      "title": "OpenAI publishes misalignment tracking framework and six incident reports"
     }
   ],
   "data_science_ml": [
