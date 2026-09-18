@@ -356,56 +356,6 @@
   ],
   "quant_finance": [
     {
-      "first_seen": "2026-09-03",
-      "id": "westpac-cva-ccr-aud-volatility",
-      "last_seen": "2026-09-03",
-      "source_urls": [
-        "https://www.risk.net/"
-      ],
-      "summary": "Westpac experienced a significant surge in CVA and CCR charges totaling approximately A$1.5 billion in its latest quarter, driven by mark-to-market movements in its derivatives book following sharp Australian dollar fluctuations. The episode highlights the sensitivity of counterparty credit exposure to FX volatility and regulatory capital requirements.",
-      "title": "Westpac reports A$1.5B credit risk charge from AUD derivatives volatility"
-    },
-    {
-      "first_seen": "2026-09-03",
-      "id": "ecb-geopolitical-stress-testing-gaps",
-      "last_seen": "2026-09-03",
-      "source_urls": [
-        "https://www.risk.net/news"
-      ],
-      "summary": "The ECB flagged significant gaps in how banks model geopolitical risks, noting that current frameworks often fail to capture cross-border contagion channels and non-linear market reactions. The analysis suggests the need for integrated stress-testing models linking sanctions, funding stresses, FX basis moves, and collateral dynamics.",
-      "title": "ECB identifies deficiencies in banks' geopolitical stress-testing frameworks"
-    },
-    {
-      "first_seen": "2026-09-03",
-      "id": "ucits-macro-derivatives-expansion",
-      "last_seen": "2026-09-03",
-      "source_urls": [
-        "https://www.risk.net/news"
-      ],
-      "summary": "Positioning data show UCITS funds ramping up activity in FX forwards, interest rate swaps, inflation swaps, and index CDS contracts, setting records in some segments. The shift reflects more aggressive macro views and hedging strategies amid uncertainty over rate paths and inflation persistence.",
-      "title": "UCITS funds significantly increase macro derivatives positioning"
-    },
-    {
-      "first_seen": "2026-09-03",
-      "id": "options-vanna-volatility-amplification",
-      "last_seen": "2026-09-03",
-      "source_urls": [
-        "https://www.risk.net/news"
-      ],
-      "summary": "Dealers report that options vanna positioning in US equities currently mirrors patterns preceding the 2024 volatility spike, with extreme negative positions in some areas. This configuration can amplify sell-off moves as hedging flows from dealer delta rebalancing reinforce downside pressure.",
-      "title": "US equity options vanna positioning signals potential volatility amplification risk"
-    },
-    {
-      "first_seen": "2026-09-03",
-      "id": "kospi-krw-correlation-decoupling",
-      "last_seen": "2026-09-03",
-      "source_urls": [
-        "https://www.risk.net/news"
-      ],
-      "summary": "The earlier decoupling between the KOSPI equity index and Korean won exchange rate has begun to wane, renewing attention to historically tight macro linkages. A renewed coupling could signal shifting capital flows or diverging local versus global growth expectations.",
-      "title": "Korean KOSPI-KRW decoupling trend shows signs of reversing"
-    },
-    {
       "first_seen": "2026-09-04",
       "id": "intraday-repo-liquidity-risk",
       "last_seen": "2026-09-04",
