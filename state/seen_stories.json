@@ -157,6 +157,56 @@
       ],
       "summary": "OpenAI released Astra for Law, a legal-focused configuration of GPT-6 Astra with specialized tools, system instructions, and features tailored to legal workflows including document analysis and citation generation. The launch exemplifies a broader trend toward deeply verticalized frontier-model offerings.",
       "title": "OpenAI launches Astra for Law, a domain-specialized legal configuration of GPT-6"
+    },
+    {
+      "first_seen": "2026-09-21",
+      "id": "alibaba-qwen-image-2-1-release",
+      "last_seen": "2026-09-21",
+      "source_urls": [
+        "https://cloudflareos.jp/en/news/"
+      ],
+      "summary": "Alibaba has released Qwen-Image-2.1, a compact open-weight model that unifies image generation and editing in a single architecture, featuring multi-reference support and transparent-background generation for lower-cost image prototyping.",
+      "title": "Alibaba releases Qwen-Image-2.1 open-weight multimodal model"
+    },
+    {
+      "first_seen": "2026-09-21",
+      "id": "google-gemini-3-8-live",
+      "last_seen": "2026-09-21",
+      "source_urls": [
+        "https://cloudflareos.jp/en/news/"
+      ],
+      "summary": "Google has introduced Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, focusing on natural voice-based dialogue with extended reasoning capabilities for complex multi-step tasks.",
+      "title": "Google releases Gemini 3.8 Live and 3.8 Live Extended Thinking"
+    },
+    {
+      "first_seen": "2026-09-21",
+      "id": "google-nasa-methane-detection-ai",
+      "last_seen": "2026-09-21",
+      "source_urls": [
+        "https://cloudflareos.jp/en/news/"
+      ],
+      "summary": "Google Research and NASA have announced an AI system that detects methane plumes in satellite data with 50% better accuracy than human review, identifying most of the world's large landfills using physics-informed machine learning.",
+      "title": "Google Research and NASA deploy AI system for satellite methane plume detection"
+    },
+    {
+      "first_seen": "2026-09-21",
+      "id": "gavel-graph-world-models-planning",
+      "last_seen": "2026-09-21",
+      "source_urls": [
+        "https://emergent.sh/news"
+      ],
+      "summary": "GAVEL, a new framework using graph-based world models, reduces hallucination and improves efficiency in long-horizon LLM task planning by structuring tasks and verifying plan consistency.",
+      "title": "GAVEL framework uses graph world models to improve LLM task planning"
+    },
+    {
+      "first_seen": "2026-09-21",
+      "id": "google-gemini-robotics-er-2",
+      "last_seen": "2026-09-21",
+      "source_urls": [
+        "https://emergent.sh/news"
+      ],
+      "summary": "Google DeepMind's Gemini Robotics ER 2 brings advanced video understanding and multi-robot collaboration capabilities to real-world robotics applications with improved task orchestration.",
+      "title": "Google DeepMind launches Gemini Robotics ER 2 for multi-robot collaboration"
     }
   ],
   "data_science_ml": [
@@ -354,58 +404,6 @@
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-09-06",
-      "id": "us-banks-equity-var-spike",
-      "last_seen": "2026-09-06",
-      "source_urls": [
-        "https://www.risk.net/regions/north-america"
-      ],
-      "summary": "Equity value-at-risk at top US banks including Goldman Sachs, Morgan Stanley, and JPMorgan has reached its highest level since 2020, signaling increased sensitivity of dealer books to equity market moves and higher market-risk capital requirements.",
-      "title": "US bank equity VaR hits highest level since 2020"
-    },
-    {
-      "first_seen": "2026-09-06",
-      "id": "us-gsibs-secured-funding-stress",
-      "last_seen": "2026-09-06",
-      "source_urls": [
-        "https://www.risk.net/regions/north-america"
-      ],
-      "summary": "The eight US globally systemically important banks face record $1.6 trillion in secured funding outflows under stressed assumptions, highlighting liquidity vulnerabilities in repo and secured funding markets.",
-      "title": "US G-SIB secured funding hits record $1.6 trillion outflow stress"
-    },
-    {
-      "first_seen": "2026-09-06",
-      "id": "uk-banks-leverage-headroom-decline",
-      "last_seen": "2026-09-06",
-      "source_urls": [
-        "https://www.risk.net/latest",
-        "https://www.risk.net/regulation"
-      ],
-      "summary": "NatWest and HSBC face record-low leverage headroom ahead of Bank of England leverage ratio reforms, constraining their ability to expand balance sheets and support dealer inventories.",
-      "title": "NatWest and HSBC leverage headroom fall to record lows"
-    },
-    {
-      "first_seen": "2026-09-06",
-      "id": "cross-border-credit-us-highest-2008",
-      "last_seen": "2026-09-06",
-      "source_urls": [
-        "https://www.risk.net/regions/north-america"
-      ],
-      "summary": "Cross-border credit to the US has risen to its highest level since 2008, exceeding one-fifth of US GDP, increasing global interconnectedness and contagion risk in dollar credit markets.",
-      "title": "Cross-border credit to US reaches highest level since 2008"
-    },
-    {
-      "first_seen": "2026-09-06",
-      "id": "sector-etf-intramonth-momentum-signal",
-      "last_seen": "2026-09-06",
-      "source_urls": [
-        "https://quantocracy.com/",
-        "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-04092026/"
-      ],
-      "summary": "Quantitative research documents a systematic intramonth momentum pattern in US sector ETFs that generates risk-adjusted returns through tactical timing and rotation strategies.",
-      "title": "Persistent intramonth momentum cycle discovered in US sector ETFs"
-    },
     {
       "first_seen": "2026-09-10",
       "id": "us-banks-equity-collateral-record",
