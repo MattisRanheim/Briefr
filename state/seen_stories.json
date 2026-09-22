@@ -211,57 +211,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-09-07",
-      "id": "weathernext-3-5km-resolution-global-weather",
-      "last_seen": "2026-09-07",
-      "source_urls": [
-        "https://explainx.ai/catch-up-on-ai/2026-09-07"
-      ],
-      "summary": "WeatherNext 3 delivers hourly global weather forecasts at 5km resolution, a major leap from previous 28km-resolution AI weather models, enabling more precise local weather and extreme event prediction through physics-aware sequence modeling.",
-      "title": "Google DeepMind releases WeatherNext 3 with 5km-resolution global weather forecasting"
-    },
-    {
-      "first_seen": "2026-09-07",
-      "id": "hermes-agent-open-source-framework",
-      "last_seen": "2026-09-07",
-      "source_urls": [
-        "https://buttondown.com/agent-k/archive/llm-daily-september-07-2026/"
-      ],
-      "summary": "Hermes Agent is a fast-growing Python-based open-source framework for building multi-step, tool-using AI agents with emphasis on task decomposition, memory orchestration, and real-system deployment.",
-      "title": "NousResearch's Hermes Agent gains traction as production-grade open-source agent framework"
-    },
-    {
-      "first_seen": "2026-09-07",
-      "id": "opencode-open-source-coding-assistant",
-      "last_seen": "2026-09-07",
-      "source_urls": [
-        "https://buttondown.com/agent-k/archive/llm-daily-september-07-2026/"
-      ],
-      "summary": "OpenCode is a TypeScript-based, open-source AI coding agent gaining rapid adoption, offering a transparent, self-hostable alternative to proprietary tools with full control over data and model choice.",
-      "title": "OpenCode emerges as open-source alternative to GitHub Copilot with high adoption"
-    },
-    {
-      "first_seen": "2026-09-07",
-      "id": "openai-research-intern-agent-system",
-      "last_seen": "2026-09-07",
-      "source_urls": [
-        "https://aiagentstore.ai/ai-agent-news/2026-september",
-        "https://buttondown.com/Praviveek/archive/ai-tech-digest-september-7-2026/"
-      ],
-      "summary": "OpenAI's agent system autonomously executes structured ML research workflows including coding, experiment setup, analysis, and documentation that would normally require several days of human researcher time.",
-      "title": "OpenAI's automated research intern agent completes multi-day ML projects autonomously"
-    },
-    {
-      "first_seen": "2026-09-07",
-      "id": "claude-fermat-last-theorem-formalization",
-      "last_seen": "2026-09-07",
-      "source_urls": [
-        "https://cloudflareos.jp/en/news/"
-      ],
-      "summary": "Claude autonomously produced the first complete computer-verified formalization of Fermat's Last Theorem over 11 days, proving tens of thousands of intermediate theorems and demonstrating long-horizon structured reasoning with strict correctness constraints.",
-      "title": "Anthropic's Claude formalizes Fermat's Last Theorem in Lean proof assistant"
-    },
-    {
       "first_seen": "2026-09-08",
       "id": "openhands-1-0-release",
       "last_seen": "2026-09-08",
