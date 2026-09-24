@@ -424,6 +424,56 @@
       ],
       "summary": "JP Morgan's systematic quant strategies reach $100 billion in notional exposure as banks and hedge funds continue expanding rules-based equity and volatility products across asset classes.",
       "title": "JP Morgan quantitative investment strategies hit $100 billion notional milestone"
+    },
+    {
+      "first_seen": "2026-09-24",
+      "id": "us-rates-volatility-fx-hedging-demand",
+      "last_seen": "2026-09-24",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Rising US yields have prompted multinational corporations to increase foreign-exchange net-investment hedges to protect translated asset values and capture positive carry, affecting cross-currency basis and forward-point dynamics.",
+      "title": "US rates surge drives corporate FX net-investment hedges"
+    },
+    {
+      "first_seen": "2026-09-24",
+      "id": "hedge-funds-treasury-steepener-unwinds",
+      "last_seen": "2026-09-24",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Leveraged funds have stepped back from Treasury volatility strategies as the yield curve flattened, with steepener position unwinds amplifying moves across the curve.",
+      "title": "Hedge funds reduce Treasury steepener positions as curve flattens"
+    },
+    {
+      "first_seen": "2026-09-24",
+      "id": "us-gsib-derivatives-exposure-1-82-trillion",
+      "last_seen": "2026-09-24",
+      "source_urls": [
+        "https://www.risk.net/"
+      ],
+      "summary": "Aggregate derivatives exposure at US global systemically important banks reached $1.82 trillion, the highest level in ten years, raising concerns about margin liquidity and counterparty risk interconnectedness.",
+      "title": "US G-SIBs derivatives exposure hits $1.82 trillion decade-high"
+    },
+    {
+      "first_seen": "2026-09-24",
+      "id": "treasury-tga-repo-market-lending",
+      "last_seen": "2026-09-24",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "US Treasury is evaluating a plan to lend Treasury General Account cash into repo markets to ease collateral pressure, with viability depending on repo rates exceeding the interest on reserve balances.",
+      "title": "Treasury considers lending TGA cash into repo markets"
+    },
+    {
+      "first_seen": "2026-09-24",
+      "id": "mid-sized-banks-market-risk-rwa-surge",
+      "last_seen": "2026-09-24",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Market-risk-weighted assets surged at several mid-sized banks including Mizuho Americas (+$3.6 billion) and Northern Trust (212% increase), raising capital costs for trading businesses.",
+      "title": "Mid-sized banks report sharp increase in market-risk RWAs"
     }
   ],
   "scandinavian_tech": [
