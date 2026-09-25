@@ -314,48 +314,6 @@
   ],
   "quant_finance": [
     {
-      "first_seen": "2026-09-10",
-      "id": "us-banks-equity-collateral-record",
-      "last_seen": "2026-09-10",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Major US banks have increased equity collateral to a record approximately $140bn, driven by higher market valuations and expanded use in derivatives margining. The surge raises quantitative risk concerns around wrong-way risk, collateral haircuts, and procyclicality in margin frameworks.",
-      "title": "US banks' equity collateral reaches record $140bn"
-    },
-    {
-      "first_seen": "2026-09-10",
-      "id": "jscc-futures-default-funds-merger",
-      "last_seen": "2026-09-10",
-      "source_urls": [
-        "https://www.risk.net/latest",
-        "https://www.risk.net/risk-management"
-      ],
-      "summary": "Japan Securities Clearing Corporation plans to merge separate futures default funds into a single pool, but market participants oppose the move citing risks of cross-product loss mutualization. The debate centers on portfolio margining models, stress testing, and default waterfall allocation.",
-      "title": "JSCC faces industry pushback on futures default fund consolidation"
-    },
-    {
-      "first_seen": "2026-09-10",
-      "id": "seb-liquidity-coverage-ratio-decline",
-      "last_seen": "2026-09-10",
-      "source_urls": [
-        "https://www.risk.net/risk-management",
-        "https://www.risk.net"
-      ],
-      "summary": "Swedish bank SEB's LCR dropped to its lowest level in six years due to a surge in corporate deposits treated as less stable under regulatory metrics. The decline highlights the need for refined behavioral deposit models and dynamic liquidity optimization.",
-      "title": "SEB's Liquidity Coverage Ratio falls to six-year low"
-    },
-    {
-      "first_seen": "2026-09-10",
-      "id": "short-selling-bans-rough-volatility-research",
-      "last_seen": "2026-09-10",
-      "source_urls": [
-        "https://thequant.space/"
-      ],
-      "summary": "The Quant Finance Research Hub highlights papers including analyses of short-selling bans' market microstructure effects, variance-optimal hedging in rough volatility models, and analytical treatment of variance swap Greeks. Research informs model risk and regulatory policy analysis.",
-      "title": "New quant papers on short-selling bans, rough volatility, and variance swaps"
-    },
-    {
       "first_seen": "2026-09-15",
       "id": "nscc-record-margin-call-q2",
       "last_seen": "2026-09-15",
