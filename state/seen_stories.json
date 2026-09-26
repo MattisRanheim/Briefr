@@ -432,6 +432,26 @@
       ],
       "summary": "Market-risk-weighted assets surged at several mid-sized banks including Mizuho Americas (+$3.6 billion) and Northern Trust (212% increase), raising capital costs for trading businesses.",
       "title": "Mid-sized banks report sharp increase in market-risk RWAs"
+    },
+    {
+      "first_seen": "2026-09-26",
+      "id": "sofr-futures-fed-rate-uncertainty",
+      "last_seen": "2026-09-26",
+      "source_urls": [
+        "https://www.bloomberg.com/professional/insights/category/trading/?pg=86"
+      ],
+      "summary": "Trading in SOFR futures continued to reflect elevated inflation uncertainty and assessments of potential additional Federal Reserve rate hikes, with higher front-end volatility increasing hedging costs for leveraged portfolios.",
+      "title": "SOFR futures remain elevated amid inflation and Fed rate-hike uncertainty"
+    },
+    {
+      "first_seen": "2026-09-26",
+      "id": "september-macro-themes-dollar-bitcoin-prediction",
+      "last_seen": "2026-09-26",
+      "source_urls": [
+        "https://www.bloomberg.com/professional/insights/category/trading/?pg=86"
+      ],
+      "summary": "Bloomberg identified prediction markets, Bitcoin ETFs, shifting dollar positioning, and data-center construction as key September market drivers, representing correlated sources of factor, liquidity, and thematic risk for quantitative investors.",
+      "title": "Dollar, Bitcoin ETFs, prediction markets, and data-center construction emerge as major September macro themes"
     }
   ],
   "scandinavian_tech": [
