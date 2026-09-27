@@ -211,57 +211,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-09-12",
-      "id": "timesfm-foundation-model",
-      "last_seen": "2026-09-12",
-      "source_urls": [
-        "https://github.com/google-research/timesfm"
-      ],
-      "summary": "Google Research published TimesFM, a pretrained foundation model for time-series forecasting that provides general-purpose capabilities across domains like demand forecasting and anomaly detection, reducing the need for bespoke per-dataset models.",
-      "title": "Google Releases TimesFM: Pretrained Time-Series Foundation Model"
-    },
-    {
-      "first_seen": "2026-09-12",
-      "id": "mimir-research-workflow-platform",
-      "last_seen": "2026-09-12",
-      "source_urls": [
-        "https://github.com/1692775560/dsh-Mimir-Academic-research"
-      ],
-      "summary": "Mimir Academic Research is a rapidly growing platform that integrates LaTeX writing, arXiv management, experiment tracking, and GPU orchestration to streamline reproducible ML research from code through publication.",
-      "title": "Mimir: Integrated Platform for ML Research Workflows"
-    },
-    {
-      "first_seen": "2026-09-12",
-      "id": "local-deep-research-qa-accuracy",
-      "last_seen": "2026-09-12",
-      "source_urls": [
-        "https://github.com/LearningCircuit/local-deep-research"
-      ],
-      "summary": "The local-deep-research project demonstrated near-SOTA question-answering performance (95% on SimpleQA) using a Qwen 27B model on a single RTX 3090, showing how optimized RAG pipelines can match cloud services with modest hardware.",
-      "title": "Local Deep Research Achieves 95% Accuracy on QA with Single GPU"
-    },
-    {
-      "first_seen": "2026-09-12",
-      "id": "toolgrad-api-chain-generation",
-      "last_seen": "2026-09-12",
-      "source_urls": [
-        "https://www.marktechpost.com/category/technology/artificial-intelligence/machine-learning/"
-      ],
-      "summary": "ToolGrad, accepted to ACL 2026, inverts dataset generation for tool-using LLMs by constructing verified API call chains first, then generating matching queries, ensuring correct tool usage patterns in training data.",
-      "title": "Google's ToolGrad Framework Improves Tool-Using LLM Training Data"
-    },
-    {
-      "first_seen": "2026-09-12",
-      "id": "climx-challenge-ml-climate",
-      "last_seen": "2026-09-12",
-      "source_urls": [
-        "https://www.kaggle.com/competitions/climx-main-track",
-        "https://www.kaggle.com/competitions/climx-uq-track"
-      ],
-      "summary": "The ClimX Challenge (Sep\u2013Nov 2026) invites ML practitioners to build emulators predicting climate extreme indices from Earth system model forcings, with tracks for main prediction and uncertainty quantification.",
-      "title": "ClimX Challenge: ML Competition for Emulating Climate Extremes"
-    },
-    {
       "first_seen": "2026-09-14",
       "id": "maxbench-concept-recovery-benchmark",
       "last_seen": "2026-09-14",
