@@ -1,61 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-09-13",
-      "id": "anthropic-claude-fable-5-1-mythos-5-1-launch",
-      "last_seen": "2026-09-13",
-      "source_urls": [
-        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
-        "https://x.com/i/article/2095390833319301375"
-      ],
-      "summary": "Anthropic shipped major upgrades to Claude Fable 5.1 and Mythos 5.1 with emphasis on coding, agentic scientific research, and enterprise safeguards for multi-step knowledge work.",
-      "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 models"
-    },
-    {
-      "first_seen": "2026-09-13",
-      "id": "google-gemini-3-8-flash-cyber-release",
-      "last_seen": "2026-09-13",
-      "source_urls": [
-        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
-        "https://flowtivity.ai/blog/gpt-6-astra-vs-fable-5-1-vs-gemini-3-8-flash/"
-      ],
-      "summary": "Google released Gemini 3.8 Flash with a specialized Cyber edition designed for defensive security, vulnerability discovery, and patching work.",
-      "title": "Google DeepMind launches Gemini 3.8 Flash and specialized Cyber variant"
-    },
-    {
-      "first_seen": "2026-09-13",
-      "id": "meta-muse-spark-1-3-launch",
-      "last_seen": "2026-09-13",
-      "source_urls": [
-        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
-        "https://x.com/i/article/2095390833319301375"
-      ],
-      "summary": "Meta shipped Muse Spark 1.3 positioned for coding, long-horizon agents, and real-world computer use, signaling entry into productivity and agentic model competition.",
-      "title": "Meta releases Muse Spark 1.3 for agentic workflows and computer use"
-    },
-    {
-      "first_seen": "2026-09-13",
-      "id": "openai-gpt-6-astra-launch",
-      "last_seen": "2026-09-13",
-      "source_urls": [
-        "https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html",
-        "https://www.dutchstartup.ai/en/news/four-major-ai-labs-launch-new-models-in-the-first-week-of-september-2026"
-      ],
-      "summary": "OpenAI released GPT-6 Astra, described as the first model to cross a critical cybersecurity threshold, with emphasis on safety gating and cyber-risk evaluation.",
-      "title": "OpenAI announces GPT-6 Astra with cybersecurity threshold focus"
-    },
-    {
-      "first_seen": "2026-09-13",
-      "id": "hugging-face-hub-telemetry-environment-scan",
-      "last_seen": "2026-09-13",
-      "source_urls": [
-        "https://aiweekly.co/ai-news-today",
-        "https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html"
-      ],
-      "summary": "The huggingface_hub Python SDK has been reported to scan environment variables for coding agents and tag Hub API calls with agent identifiers, raising privacy and supply-chain concerns.",
-      "title": "Hugging Face hub SDK reportedly scans environment variables for agent identifiers"
-    },
-    {
       "first_seen": "2026-09-17",
       "id": "salesforce-nvidia-koa-crm-model",
       "last_seen": "2026-09-17",
