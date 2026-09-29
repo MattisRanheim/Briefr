@@ -156,54 +156,54 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-09-14",
-      "id": "maxbench-concept-recovery-benchmark",
-      "last_seen": "2026-09-14",
+      "first_seen": "2026-09-29",
+      "id": "hybridinfer-thermal-aware-llm-routing",
+      "last_seen": "2026-09-29",
+      "source_urls": [
+        "https://arxiv.org/abs/2609.30270"
+      ],
+      "summary": "HybridInfer proposes a reinforcement learning approach to dynamically route inference among on-device, edge, and cloud resources while accounting for thermal conditions, evaluated on Samsung Galaxy S25+ to reduce latency, energy, and thermal throttling.",
+      "title": "HybridInfer uses RL to route LLM inference across device, edge, and cloud based on thermal conditions"
+    },
+    {
+      "first_seen": "2026-09-29",
+      "id": "trace-rag-fine-tuning-robustness",
+      "last_seen": "2026-09-29",
+      "source_urls": [
+        "https://arxiv.org/abs/2609.30270"
+      ],
+      "summary": "TRACE examines how fine-tuning balances parameter capacity and retrieved context to address knowledge obsolescence and factual hallucination in retrieval-augmented generation, accepted to ICDM 2026.",
+      "title": "TRACE studies parameter capacity and retrieved context interaction for more robust RAG systems"
+    },
+    {
+      "first_seen": "2026-09-29",
+      "id": "sinkhorn-outlier-generation-robustness",
+      "last_seen": "2026-09-29",
+      "source_urls": [
+        "https://arxiv.org/abs/2609.31470"
+      ],
+      "summary": "A method using Sinkhorn optimal transport to generate realistic distribution shifts and outliers beyond empirical support, designed for fraud detection and safety evaluation, accepted to NeurIPS 2026.",
+      "title": "Beyond Empirical Support generates structured outliers using Sinkhorn optimal transport for robustness testing"
+    },
+    {
+      "first_seen": "2026-09-29",
+      "id": "adam-optimizer-stability-nonquadratic-loss",
+      "last_seen": "2026-09-29",
+      "source_urls": [
+        "https://arxiv.org/abs/2609.XXXX"
+      ],
+      "summary": "Beyond Quadratic Loss investigates training instabilities in Adam optimizer for non-quadratic objectives, providing insight into loss spikes and optimization challenges in deep learning.",
+      "title": "Analysis shows Adam optimizer instability extends beyond quadratic loss functions"
+    },
+    {
+      "first_seen": "2026-09-29",
+      "id": "tokencast-agent-token-consumption-forecasting",
+      "last_seen": "2026-09-29",
       "source_urls": [
         "https://arxiv.org/list/cs.LG/recent"
       ],
-      "summary": "MAxBench is a new benchmark for testing whether language models can recover fine-grained multinomial concepts in their internal representations, enabling structured evaluation of model interpretability and concept alignment.",
-      "title": "MAxBench released for LLM concept interpretability evaluation"
-    },
-    {
-      "first_seen": "2026-09-14",
-      "id": "canvasanneal-curriculum-rl-diffusion",
-      "last_seen": "2026-09-14",
-      "source_urls": [
-        "https://arxiv.org/list/cs.LG/recent"
-      ],
-      "summary": "CanvasAnneal introduces a curriculum reinforcement learning approach tailored to diffusion language models to improve training dynamics and downstream performance through progressive task difficulty.",
-      "title": "CanvasAnneal proposes curriculum RL framework for diffusion language models"
-    },
-    {
-      "first_seen": "2026-09-14",
-      "id": "gollum-uncertainty-experimental-optimization",
-      "last_seen": "2026-09-14",
-      "source_urls": [
-        "https://techxplore.com/news/2026-09-adding-detector-ai-optimize.html"
-      ],
-      "summary": "GOLLuM combines large language models with Gaussian processes to add uncertainty calibration to experimental optimization, enabling AI agents to select experiments more efficiently and reduce required tests by approximately 40%.",
-      "title": "GOLLuM reduces experimental tests by 40% using LLM uncertainty detection"
-    },
-    {
-      "first_seen": "2026-09-14",
-      "id": "exact-global-mcmc-denoising-diffusion",
-      "last_seen": "2026-09-14",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/current"
-      ],
-      "summary": "A new method uses denoising diffusion models to construct Markov Chain Monte Carlo samplers with exact global proposals, potentially improving Bayesian posterior sampling in high-dimensional spaces.",
-      "title": "Denoising diffusion enables exact global MCMC sampling"
-    },
-    {
-      "first_seen": "2026-09-14",
-      "id": "federated-rl-logarithmic-communication",
-      "last_seen": "2026-09-14",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/current"
-      ],
-      "summary": "A provably efficient federated reinforcement learning algorithm with linear function approximation maintains theoretical guarantees while keeping communication costs logarithmic, enabling decentralized RL applications.",
-      "title": "Federated RL algorithm achieves efficiency with logarithmic communication"
+      "summary": "TokenCast predicts token usage for executing LLM agents, enabling budget-aware routing and workflow termination to manage costs and latency in production systems.",
+      "title": "TokenCast forecasts token consumption during LLM agent execution for cost and latency planning"
     }
   ],
   "quant_finance": [
