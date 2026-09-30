@@ -204,49 +204,60 @@
       ],
       "summary": "TokenCast predicts token usage for executing LLM agents, enabling budget-aware routing and workflow termination to manage costs and latency in production systems.",
       "title": "TokenCast forecasts token consumption during LLM agent execution for cost and latency planning"
+    },
+    {
+      "first_seen": "2026-09-30",
+      "id": "rrsi-self-improving-llm-agents",
+      "last_seen": "2026-09-30",
+      "source_urls": [
+        "https://www.marktechpost.com/category/technology/artificial-intelligence/machine-learning/"
+      ],
+      "summary": "Google Cloud AI Research open-sourced RRSI, a framework enabling agents to revise prompts, tools, and memory while keeping model weights frozen. The framework improved Claude Opus performance on Terminal-Bench 2.1 from 74.2% to 80.2%.",
+      "title": "Google Cloud open-sources RRSI framework for self-improving LLM agents"
+    },
+    {
+      "first_seen": "2026-09-30",
+      "id": "sgd-heavy-tailed-noise-guarantees",
+      "last_seen": "2026-09-30",
+      "source_urls": [
+        "https://arxiv.org/list/stat.ML/new"
+      ],
+      "summary": "Researchers published analysis providing high-probability convergence guarantees for stochastic gradient descent when gradient noise follows heavy-tailed distributions, addressing a gap in standard optimization theory that typically assumes bounded or sub-Gaussian noise.",
+      "title": "New theoretical guarantees for SGD under heavy-tailed gradient noise"
+    },
+    {
+      "first_seen": "2026-09-30",
+      "id": "propagate-then-sharpen-graph-classifiers",
+      "last_seen": "2026-09-30",
+      "source_urls": [
+        "https://arxiv.org/list/stat.ML/new"
+      ],
+      "summary": "\"Propagate, Then Sharpen\" demonstrates improving node-classification predictions using only graph structure and frozen model outputs, without requiring node features, parameters, or gradients. The approach enables lightweight improvements to deployed graph models without retraining.",
+      "title": "Post-hoc refinement method for frozen graph neural network classifiers"
+    },
+    {
+      "first_seen": "2026-09-30",
+      "id": "openai-persistent-background-agents-dots",
+      "last_seen": "2026-09-30",
+      "source_urls": [
+        "https://letsdatascience.com/news",
+        "https://techcrunch.com/category/artificial-intelligence/"
+      ],
+      "summary": "OpenAI introduced Dots, persistent agents that can work on tasks in the background and connect to external applications, representing a shift from single-turn inference toward long-lived workflows with state, tool use, and scheduling.",
+      "title": "OpenAI introduces Dots, persistent background assistants for long-running tasks"
+    },
+    {
+      "first_seen": "2026-09-30",
+      "id": "mongodb-9-atlas-agent-engine",
+      "last_seen": "2026-09-30",
+      "source_urls": [
+        "https://letsdatascience.com/news"
+      ],
+      "summary": "MongoDB released version 9.0 with previews of Atlas Infinite and Atlas Agent Engine, integrating operational databases more closely with agent workflows to support retrieval, data access, and governed tool execution in enterprise systems.",
+      "title": "MongoDB 9.0 announces Atlas Agent Engine for agent-oriented workflows"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-09-15",
-      "id": "nscc-record-margin-call-q2",
-      "last_seen": "2026-09-15",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "The U.S. equity clearing house NSCC issued a record $27.6 billion initial margin call in Q2, with required IM hitting an all-time high as posted cash nearly doubled, reflecting elevated volatility and concentration risk in U.S. equity markets.",
-      "title": "NSCC issues record $27.6bn margin call in Q2"
-    },
-    {
-      "first_seen": "2026-09-15",
-      "id": "us-gsib-equity-shorts-record-356bn",
-      "last_seen": "2026-09-15",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "U.S. global systemically important banks' equity short positions reached a record $356 billion in Q2, with JP Morgan accounting for nearly half of the increase as rising equity prices pushed up short liabilities.",
-      "title": "US G-SIBs' equity short positions reach record $356bn"
-    },
-    {
-      "first_seen": "2026-09-15",
-      "id": "alphabet-micron-fx-hedging-surge",
-      "last_seen": "2026-09-15",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Tech firms Alphabet and Micron have significantly increased their FX derivatives usage in the year to Q2, leading a broader surge in corporate FX hedging amid currency risk reassessment.",
-      "title": "Alphabet and Micron significantly increase FX derivatives hedging"
-    },
-    {
-      "first_seen": "2026-09-15",
-      "id": "bloomberg-efx-options-api-launch",
-      "last_seen": "2026-09-15",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Bloomberg has launched e-FX options trading via API, allowing buy-side users to run the full RFQ workflow for vanilla and exotic FX options through a single programmatic connection.",
-      "title": "Bloomberg launches e-FX options trading via API"
-    },
     {
       "first_seen": "2026-09-16",
       "id": "us-buyside-fx-forwards-options-q1-surge",
