@@ -259,36 +259,6 @@
   ],
   "quant_finance": [
     {
-      "first_seen": "2026-09-16",
-      "id": "us-buyside-fx-forwards-options-q1-surge",
-      "last_seen": "2026-09-16",
-      "source_urls": [
-        "https://www.risk.net/news?_hsmi"
-      ],
-      "summary": "US funds and insurers, led by Pimco and TIAA, drove strong demand for FX hedges in Q1, with forwards notional rising $187 billion as portfolios remain sensitive to currency and cross-asset volatility.",
-      "title": "US buy-side flocks to FX forwards and options, notional rises $187 billion in Q1"
-    },
-    {
-      "first_seen": "2026-09-16",
-      "id": "dealers-retreat-yen-barriers-intervention-risk",
-      "last_seen": "2026-09-16",
-      "source_urls": [
-        "https://www.risk.net/news?_hsmi"
-      ],
-      "summary": "Market-makers are retreating from exotic FX structures amid heightened intervention risk, altering derivative supply and pricing in barrier and structured products.",
-      "title": "Dealers shun yen barrier products after joint US-Japan intervention action"
-    },
-    {
-      "first_seen": "2026-09-16",
-      "id": "jpmorgan-qis-notional-100-billion-milestone",
-      "last_seen": "2026-09-16",
-      "source_urls": [
-        "https://www.risk.net/topics/quant-investing"
-      ],
-      "summary": "JP Morgan's systematic quant strategies reach $100 billion in notional exposure as banks and hedge funds continue expanding rules-based equity and volatility products across asset classes.",
-      "title": "JP Morgan quantitative investment strategies hit $100 billion notional milestone"
-    },
-    {
       "first_seen": "2026-09-24",
       "id": "us-rates-volatility-fx-hedging-demand",
       "last_seen": "2026-09-24",
@@ -357,6 +327,56 @@
       ],
       "summary": "Bloomberg identified prediction markets, Bitcoin ETFs, shifting dollar positioning, and data-center construction as key September market drivers, representing correlated sources of factor, liquidity, and thematic risk for quantitative investors.",
       "title": "Dollar, Bitcoin ETFs, prediction markets, and data-center construction emerge as major September macro themes"
+    },
+    {
+      "first_seen": "2026-10-01",
+      "id": "jscc-stress-loss-breach-q2",
+      "last_seen": "2026-10-01",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "JSCC's cash-securities division exceeded initial margin and default resources by \u00a56.8 billion in Q2, signaling material clearing-risk sensitivity to concentrated equity exposures during stressed conditions.",
+      "title": "Japan Securities Clearing Corporation records \u00a56.8 billion stress-loss breach"
+    },
+    {
+      "first_seen": "2026-10-01",
+      "id": "us-banks-equity-swap-notional-surge",
+      "last_seen": "2026-10-01",
+      "source_urls": [
+        "https://www.risk.net/topics/derivatives"
+      ],
+      "summary": "Major US systemically important banks increased equity-swap notional by 16% in Q2, reflecting strong institutional demand for synthetic equity exposure and raising counterparty-credit and collateral risks.",
+      "title": "US global banks' equity-swap notional rises 16% to $5.5 trillion"
+    },
+    {
+      "first_seen": "2026-10-01",
+      "id": "bank-of-china-cva-exposure-jump",
+      "last_seen": "2026-10-01",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Bank of China led Chinese globally systemically important banks in the largest quarterly increase in credit valuation adjustment exposure, signaling greater sensitivity to counterparty-credit spreads and derivatives volatility.",
+      "title": "Bank of China records sharp increase in CVA exposure among Chinese G-SIBs"
+    },
+    {
+      "first_seen": "2026-10-01",
+      "id": "enterprise-risk-scenario-governance-shift",
+      "last_seen": "2026-10-01",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Larger banks are increasing enterprise-risk-management control over stress-test scenario construction, reflecting a move toward centralized governance that may improve consistency but creates model-risk concerns.",
+      "title": "Banks centralize scenario construction under enterprise-risk-management teams"
+    },
+    {
+      "first_seen": "2026-10-01",
+      "id": "regulators-revise-bank-resolution-frameworks",
+      "last_seen": "2026-10-01",
+      "source_urls": [
+        "https://www.risk.net/latest"
+      ],
+      "summary": "Regulators are updating resolution frameworks to address criticisms that banks' recovery and resolution plans were inadequately deployed during past collapses, affecting resolvability measurement and capital allocation.",
+      "title": "Regulators plan changes to bank-resolution rules following living-will failures"
     }
   ],
   "scandinavian_tech": [
