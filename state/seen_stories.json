@@ -337,6 +337,57 @@
       ],
       "summary": "Regulators are updating resolution frameworks to address criticisms that banks' recovery and resolution plans were inadequately deployed during past collapses, affecting resolvability measurement and capital allocation.",
       "title": "Regulators plan changes to bank-resolution rules following living-will failures"
+    },
+    {
+      "first_seen": "2026-10-03",
+      "id": "us-payrolls-fed-hike-expectations",
+      "last_seen": "2026-10-03",
+      "source_urls": [
+        "https://www.imfconnect.org/content/dam/imf/News%20and%20Generic%20Content/GMM/archive/GMM%20October%202,%202026.pdf"
+      ],
+      "summary": "U.S. hiring and wage growth undershot forecasts, causing the two-year Treasury yield to fall 10 basis points to 4.69% and shifting Fed-hike expectations toward December rather than October.",
+      "title": "Weaker U.S. payrolls reduce near-term Fed-hike expectations"
+    },
+    {
+      "first_seen": "2026-10-03",
+      "id": "european-sovereign-risk-intensifies",
+      "last_seen": "2026-10-03",
+      "source_urls": [
+        "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take--france-debt-drama-intensifies-us-payrolls---02-october-2026-02102026",
+        "https://www.bloomberg.com/news/articles/2026-10-02/bofa-s-hartnett-sees-risk-off-mood-lasting-until-dollar-peaks"
+      ],
+      "summary": "France's fiscal and debt concerns have triggered broader risk-off sentiment, with investors maintaining defensive positioning until the dollar surge peaks and long-term bond yields retreat.",
+      "title": "European sovereign-risk concerns intensify amid France debt stress"
+    },
+    {
+      "first_seen": "2026-10-03",
+      "id": "bridgewater-pure-alpha-macro-gains",
+      "last_seen": "2026-10-03",
+      "source_urls": [
+        "https://hedgeweek.com/news"
+      ],
+      "summary": "Systematic macro strategies, including Bridgewater's Pure Alpha fund, benefited significantly from the global government bond sell-off during 2026, with trend-following positioning generating substantial returns.",
+      "title": "Bridgewater's Pure Alpha gains 18.4% year-to-date from bond sell-off"
+    },
+    {
+      "first_seen": "2026-10-03",
+      "id": "proprietary-amm-outperformance",
+      "last_seen": "2026-10-03",
+      "source_urls": [
+        "https://www.ml-quant.com/issues/2026-10-02/"
+      ],
+      "summary": "Research shows that continuously repricing proprietary automated market makers earned 0.37\u20131.19 basis points within two seconds, while passive AMMs lost 0.22\u20130.62 basis points over the same period.",
+      "title": "Proprietary AMMs outperform passive liquidity provision by 0.59\u20131.81 bps"
+    },
+    {
+      "first_seen": "2026-10-03",
+      "id": "fed-shock-equity-liquidity-impact",
+      "last_seen": "2026-10-03",
+      "source_urls": [
+        "https://www.ml-quant.com/issues/2026-10-02/"
+      ],
+      "summary": "U.S. federal-funds-rate shocks widen equity bid-ask spreads across 37 markets with liquidity effects lasting up to two months, while longer-maturity yield surprises reprice equities without comparable liquidity deterioration.",
+      "title": "Federal-funds-rate shocks widen equity bid-ask spreads for two months"
     }
   ],
   "scandinavian_tech": [
