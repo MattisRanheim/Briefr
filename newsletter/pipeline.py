@@ -1,10 +1,10 @@
 """
 newsletter/pipeline.py — Orchestrator.
 
-Runs all research agents in parallel, extracts discrete stories from each
-topic's raw research, filters out stories already sent in the last
-DEDUPE_WINDOW_DAYS days, writes the newsletter, and persists the updated
-story log for future runs.
+Runs all research agents in parallel, then hands the raw research plus the
+recently-sent story log to a single editor/writer call that filters (for
+significance and novelty), writes the newsletter, and reports which stories
+it used. The story log is persisted for future dedup.
 """
 
 import asyncio
@@ -13,10 +13,8 @@ from datetime import date
 from pathlib import Path
 
 from agents.researcher import research
-from agents.extractor import extract_stories
-from agents.deduper import dedupe_stories
-from agents.writer import write_newsletter
-from config import TOPICS, DEDUPE_WINDOW_DAYS, MAX_STORIES_PER_TOPIC
+from agents.writer import write_newsletter, RESEARCH_FAILED
+from config import TOPICS, DEDUPE_WINDOW_DAYS
 from newsletter.state import (
     load_state,
     save_state,
@@ -27,7 +25,6 @@ from newsletter.state import (
 
 OUTPUT_DIR = Path(__file__).parent.parent / "output"
 
-FALLBACK_TEMPLATE = "No data available for this topic today."
 
 
 def _save_outputs(research_results: dict, html: str) -> None:
@@ -55,53 +52,19 @@ async def _run_research(topic_key: str, prompt: str, api_key: str) -> tuple[str,
         return topic_key, content
     except Exception as exc:
         print(f"  [WARN] Research failed for '{topic_key}': {exc}")
-        return topic_key, FALLBACK_TEMPLATE
+        return topic_key, RESEARCH_FAILED
 
 
-async def _extract_and_dedupe(
-    topic_key: str,
-    topic_label: str,
-    raw_text: str,
-    history: list[dict],
-    anthropic_key: str,
-) -> tuple[str, list[dict]]:
-    """Extract discrete stories from raw research, then drop ones already sent recently."""
-    if raw_text == FALLBACK_TEMPLATE:
-        return topic_key, []
-
-    try:
-        candidates = await extract_stories(topic_label, raw_text, anthropic_key)
-    except Exception as exc:
-        print(f"  [WARN] Extraction failed for '{topic_key}': {exc}")
-        return topic_key, []
-
-    if not candidates:
-        print(f"  [OK] {topic_key}: no stories extracted")
-        return topic_key, []
-
-    if not history:
-        kept = candidates
-        print(f"  [OK] {topic_key}: {len(kept)} new (no history to compare)")
-    else:
-        try:
-            kept = await dedupe_stories(topic_label, candidates, history, anthropic_key)
-        except Exception as exc:
-            print(f"  [WARN] Dedup failed for '{topic_key}', keeping all candidates: {exc}")
-            kept = candidates
-        else:
-            print(f"  [OK] {topic_key}: {len(kept)}/{len(candidates)} kept after dedup")
-
-    if len(kept) > MAX_STORIES_PER_TOPIC:
-        print(f"  [OK] {topic_key}: capped {len(kept)} -> {MAX_STORIES_PER_TOPIC} stories")
-        kept = kept[:MAX_STORIES_PER_TOPIC]
-
-    return topic_key, kept
+def _valid_story(story) -> bool:
+    return isinstance(story, dict) and all(
+        isinstance(story.get(k), str) and story[k] for k in ("id", "title", "summary")
+    )
 
 
 async def run_pipeline() -> str:
     """
-    Full pipeline: research (parallel) → extract + dedupe (parallel) →
-    write → persist story log → return HTML.
+    Full pipeline: research (parallel) → edit + write (one Sonnet call) →
+    persist story log → return HTML.
     Reads API keys from environment variables.
     """
     perplexity_key = os.environ["PERPLEXITY_API_KEY"]
@@ -118,30 +81,32 @@ async def run_pipeline() -> str:
     ]
     research_results = dict(await asyncio.gather(*research_tasks))
 
-    # --- Extraction + dedup phase (parallel) ---
-    print("Extracting and deduplicating stories...")
-    dedupe_tasks = [
-        _extract_and_dedupe(
-            key,
-            TOPICS[key]["label"],
-            research_results[key],
-            get_recent_history(state, key, DEDUPE_WINDOW_DAYS),
-            anthropic_key,
-        )
-        for key in TOPICS
-    ]
-    topic_stories = dict(await asyncio.gather(*dedupe_tasks))
+    # --- Edit + write phase ---
+    print("Editing and writing newsletter...")
+    history = {
+        key: get_recent_history(state, key, DEDUPE_WINDOW_DAYS)
+        for key in [*TOPICS, "explainers"]
+    }
+    html, story_log = write_newsletter(
+        research_results,
+        history,
+        TOPICS,
+        date.today().strftime("%B %d, %Y"),
+        anthropic_key,
+    )
+    print("Newsletter written.")
 
     # --- Persist story log ---
-    for key, stories in topic_stories.items():
+    for key in TOPICS:
+        stories = [s for s in story_log.get(key, []) if _valid_story(s)]
+        print(f"  [OK] {key}: {len(stories)} stories sent")
         state = update_state(state, key, stories, today)
+    explainer = story_log.get("explainer")
+    if _valid_story(explainer):
+        print(f"  [OK] explainer: {explainer['title']}")
+        state = update_state(state, "explainers", [explainer], today)
     state = prune_state(state, DEDUPE_WINDOW_DAYS)
     save_state(state)
-
-    # --- Write phase ---
-    print("Writing newsletter...")
-    html = write_newsletter(topic_stories, TOPICS, date.today().strftime("%B %d, %Y"), anthropic_key)
-    print("Newsletter written.")
 
     _save_outputs(research_results, html)
 

@@ -1,7 +1,7 @@
 """
 newsletter/state.py — Persisted story log.
 
-Tracks which stories have already been sent, keyed by topic, so the dedupe
+Tracks which stories have already been sent, keyed by topic, so the editor
 agent can compare against a rolling window of recent history. Unlike
 output/ (git-ignored, ephemeral per CI run), state/seen_stories.json is
 git-tracked — the workflow commits it back after each run so history

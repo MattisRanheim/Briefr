@@ -43,17 +43,17 @@ python3 main.py
 
 ## Customisation
 
-All topics and prompts live in [config.py](config.py). Edit `TOPICS` to add, remove, or rephrase topics. The writer's persona and HTML styles are in `WRITER_SYSTEM_PROMPT`.
+All topics and prompts live in [config.py](config.py). Edit `TOPICS` to add, remove, or rephrase topics. The editor/writer's reader profile, editorial rules and HTML styles are in `WRITER_SYSTEM_PROMPT`.
 
-## Duplicate-story detection
+## Editing and duplicate-story detection
 
-Raw research is parsed into discrete stories (`agents/extractor.py`), each given a
-stable id based on its core entities/event rather than exact wording. Before writing,
-each story is checked against `state/seen_stories.json` — up to `DEDUPE_WINDOW_DAYS`
-(default 14) of story history per topic — and a Claude Haiku call (`agents/deduper.py`)
-judges whether it's a genuine repeat or a real update on a known subject. Topics with
-nothing new are written as one honest line instead of padding — that's expected on
-slow news days, not a bug.
+A single Claude Sonnet call (`agents/writer.py`) acts as editor and writer. It receives
+the raw Perplexity research plus the stories and explainers sent in the last
+`DEDUPE_WINDOW_DAYS` (default 14) from `state/seen_stories.json`. It drops repeats and
+anything not significant, writes at most `MAX_STORIES_PER_TOPIC` stories per section,
+omits empty sections entirely, adds a "One thing to understand today" explainer, and
+returns a JSON log of what it used, which becomes the next day's dedup memory. Empty
+sections and quiet days are expected, not bugs.
 
 `state/seen_stories.json` is git-tracked (unlike `output/`, which is git-ignored) so
 history survives between GitHub Actions runs: the workflow commits it back after
