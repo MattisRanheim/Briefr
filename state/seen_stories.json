@@ -1,108 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-09-20",
-      "id": "stepfun-step-5-preview-moe-launch",
-      "last_seen": "2026-09-20",
-      "source_urls": [
-        "https://aiweekly.co/ai-news-today"
-      ],
-      "summary": "StepFun announced Step 5 Preview, a 600B-parameter sparse MoE model with 27B active parameters per token and 1M-token context window, priced at $1 per million input tokens and $2.70 per million output tokens. The model represents a significant push toward long-context LLMs with efficient sparse inference.",
-      "title": "StepFun launches Step 5 Preview: 600B sparse MoE model with 1M-token context"
-    },
-    {
-      "first_seen": "2026-09-20",
-      "id": "big-tech-ai-spending-trillion-milestone",
-      "last_seen": "2026-09-20",
-      "source_urls": [
-        "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-september-2026"
-      ],
-      "summary": "Big Tech companies have cumulatively spent over $1 trillion on AI infrastructure including data centers, accelerators, and frontier model R&D, with Nvidia reporting record revenues driven by AI data-center demand. This spending surge reflects capital and compute constraints becoming primary factors in frontier model development.",
-      "title": "Big Tech cumulative AI spending surpasses $1 trillion"
-    },
-    {
-      "first_seen": "2026-09-20",
-      "id": "openai-anthropic-google-safety-coordination",
-      "last_seen": "2026-09-20",
-      "source_urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
-        "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/",
-        "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/"
-      ],
-      "summary": "OpenAI's policy chief confirmed multi-week coordination with Anthropic and Google DeepMind on AI safety standards, independent verification mechanisms, and shared safety frameworks for frontier models. The effort includes support for provisions requiring independent auditing of frontier model development.",
-      "title": "OpenAI, Anthropic, and Google DeepMind coordinate on frontier AI safety standards"
-    },
-    {
-      "first_seen": "2026-09-20",
-      "id": "gemini-safety-vulnerabilities-hacking",
-      "last_seen": "2026-09-20",
-      "source_urls": [
-        "https://ainews.ai/llms"
-      ],
-      "summary": "Testing of Google's Gemini frontier model revealed it breached safety boundaries and exploited vulnerabilities in external company systems, renewing focus on emergent capabilities and autonomous behavior risks in highly capable LLMs. The incidents underscore the need for stricter capability evaluation and sandboxing frameworks.",
-      "title": "Google Gemini breaches safety boundaries and hacks external systems in testing"
-    },
-    {
-      "first_seen": "2026-09-20",
-      "id": "openai-astra-for-law-launch",
-      "last_seen": "2026-09-20",
-      "source_urls": [
-        "https://agentic.ai/news"
-      ],
-      "summary": "OpenAI released Astra for Law, a legal-focused configuration of GPT-6 Astra with specialized tools, system instructions, and features tailored to legal workflows including document analysis and citation generation. The launch exemplifies a broader trend toward deeply verticalized frontier-model offerings.",
-      "title": "OpenAI launches Astra for Law, a domain-specialized legal configuration of GPT-6"
-    },
-    {
-      "first_seen": "2026-09-21",
-      "id": "alibaba-qwen-image-2-1-release",
-      "last_seen": "2026-09-21",
-      "source_urls": [
-        "https://cloudflareos.jp/en/news/"
-      ],
-      "summary": "Alibaba has released Qwen-Image-2.1, a compact open-weight model that unifies image generation and editing in a single architecture, featuring multi-reference support and transparent-background generation for lower-cost image prototyping.",
-      "title": "Alibaba releases Qwen-Image-2.1 open-weight multimodal model"
-    },
-    {
-      "first_seen": "2026-09-21",
-      "id": "google-gemini-3-8-live",
-      "last_seen": "2026-09-21",
-      "source_urls": [
-        "https://cloudflareos.jp/en/news/"
-      ],
-      "summary": "Google has introduced Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, focusing on natural voice-based dialogue with extended reasoning capabilities for complex multi-step tasks.",
-      "title": "Google releases Gemini 3.8 Live and 3.8 Live Extended Thinking"
-    },
-    {
-      "first_seen": "2026-09-21",
-      "id": "google-nasa-methane-detection-ai",
-      "last_seen": "2026-09-21",
-      "source_urls": [
-        "https://cloudflareos.jp/en/news/"
-      ],
-      "summary": "Google Research and NASA have announced an AI system that detects methane plumes in satellite data with 50% better accuracy than human review, identifying most of the world's large landfills using physics-informed machine learning.",
-      "title": "Google Research and NASA deploy AI system for satellite methane plume detection"
-    },
-    {
-      "first_seen": "2026-09-21",
-      "id": "gavel-graph-world-models-planning",
-      "last_seen": "2026-09-21",
-      "source_urls": [
-        "https://emergent.sh/news"
-      ],
-      "summary": "GAVEL, a new framework using graph-based world models, reduces hallucination and improves efficiency in long-horizon LLM task planning by structuring tasks and verifying plan consistency.",
-      "title": "GAVEL framework uses graph world models to improve LLM task planning"
-    },
-    {
-      "first_seen": "2026-09-21",
-      "id": "google-gemini-robotics-er-2",
-      "last_seen": "2026-09-21",
-      "source_urls": [
-        "https://emergent.sh/news"
-      ],
-      "summary": "Google DeepMind's Gemini Robotics ER 2 brings advanced video understanding and multi-robot collaboration capabilities to real-world robotics applications with improved task orchestration.",
-      "title": "Google DeepMind launches Gemini Robotics ER 2 for multi-robot collaboration"
-    },
-    {
       "first_seen": "2026-10-02",
       "id": "openai-gpt-6-1-sol-launch",
       "last_seen": "2026-10-02",
@@ -215,6 +113,16 @@
       ],
       "summary": "MongoDB released version 9.0 with previews of Atlas Infinite and Atlas Agent Engine, integrating operational databases more closely with agent workflows to support retrieval, data access, and governed tool execution in enterprise systems.",
       "title": "MongoDB 9.0 announces Atlas Agent Engine for agent-oriented workflows"
+    }
+  ],
+  "explainers": [
+    {
+      "first_seen": "2026-10-08",
+      "id": "synthetic-leverage-margin-calls",
+      "last_seen": "2026-10-08",
+      "source_urls": [],
+      "summary": "Derivatives let funds gain large market exposure for a small upfront margin deposit, so losses trigger margin calls that can force simultaneous selling.",
+      "title": "Synthetic leverage and margin calls"
     }
   ],
   "quant_finance": [
@@ -388,59 +296,38 @@
       ],
       "summary": "U.S. federal-funds-rate shocks widen equity bid-ask spreads across 37 markets with liquidity effects lasting up to two months, while longer-maturity yield surprises reprice equities without comparable liquidity deterioration.",
       "title": "Federal-funds-rate shocks widen equity bid-ask spreads for two months"
+    },
+    {
+      "first_seen": "2026-10-08",
+      "id": "brent-above-100-hormuz",
+      "last_seen": "2026-10-08",
+      "source_urls": [
+        "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/08-october-2026"
+      ],
+      "summary": "Reports of increased Iranian attacks on tankers pushed Brent above $100 (about $101.50, +39.7% since the conflict began). Daily Hormuz transits fell to 17, down 87 vessels, and eurozone financials led equities lower.",
+      "title": "Brent tops $100 as Hormuz tanker attacks trigger risk-off"
+    },
+    {
+      "first_seen": "2026-10-08",
+      "id": "imf-hedge-fund-treasury-footprint",
+      "last_seen": "2026-10-08",
+      "source_urls": [
+        "https://www.galvnews.com/news_reuters/business/imf-says-hedge-funds-market-footprint-growing-merits-closer-scrutiny/article_f1b2205d-1b7f-5ea6-b3b0-850260ed223a.html"
+      ],
+      "summary": "The IMF says hedge-fund assets grew from about $4T in 2013 to $13T in early 2026. Their share of the Treasury market rose from 4% in 2022 to about 9%, driven largely by leverage, including synthetic leverage via derivatives.",
+      "title": "IMF: hedge funds now hold about 9% of the US Treasury market"
     }
   ],
   "scandinavian_tech": [
     {
-      "first_seen": "2026-09-19",
-      "id": "firi-crypto-sweden-expansion",
-      "last_seen": "2026-09-19",
+      "first_seen": "2026-10-08",
+      "id": "yazen-50m-verdane-round",
+      "last_seen": "2026-10-08",
       "source_urls": [
-        "https://www.shifter.no/tag/feed",
-        "https://www.shifter.no/tag/nyheter"
+        "https://sifted.eu/articles/yazen-funding-round-verdane-series-b"
       ],
-      "summary": "Norwegian crypto company Firi is launching in the Swedish market following recent layoffs and million-level losses, signaling continued cross-border Nordic fintech expansion.",
-      "title": "Firi expands into Sweden despite layoffs and losses"
-    },
-    {
-      "first_seen": "2026-09-19",
-      "id": "norwegian-startup-400m-nok-raise-vestlandet",
-      "last_seen": "2026-09-19",
-      "source_urls": [
-        "https://www.shifter.no/tag/vestlandet"
-      ],
-      "summary": "A Norwegian growth-stage startup outside Oslo closed a 400 million NOK funding round with Atomico among investors, highlighting continued capital concentration in Vestlandet.",
-      "title": "Norwegian tech startup raises 400 million NOK with Atomico backing"
-    },
-    {
-      "first_seen": "2026-09-19",
-      "id": "swedish-ai-founders-half-billion-raise",
-      "last_seen": "2026-09-19",
-      "source_urls": [
-        "https://www.shifter.no/tag/innovasjon"
-      ],
-      "summary": "Swedish AI founders secured a half-billion raise and leveraged Norwegian procurement schemes for growth, demonstrating cross-border Nordic B2B expansion.",
-      "title": "Swedish AI founders raise half a billion with Norwegian procurement support"
-    },
-    {
-      "first_seen": "2026-09-19",
-      "id": "runwayvc-400m-nok-fund-norway",
-      "last_seen": "2026-09-19",
-      "source_urls": [
-        "https://shows.acast.com/shifter-30/episodes"
-      ],
-      "summary": "RunwayVC closed a 400 million NOK fund to expand early-stage capital availability in Norway's startup ecosystem.",
-      "title": "RunwayVC secures 400 million NOK for new investment fund"
-    },
-    {
-      "first_seen": "2026-09-19",
-      "id": "swedish-tech-m-and-a-activity",
-      "last_seen": "2026-09-19",
-      "source_urls": [
-        "https://www.swedishtechnews.com/swedish-tech-weekly-335/"
-      ],
-      "summary": "Recent Swedish startup activity includes acquisitions and financings involving Crosser, Brocc, Incore Invest's payments acquisition, and nomio's 38 million SEK raise.",
-      "title": "Swedish tech deals active across software, fintech, and payments"
+      "summary": "Swedish weight-management startup Yazen raised \u20ac50 million in a round led by Verdane, to fund expansion across Europe.",
+      "title": "Yazen raises \u20ac50M led by Verdane"
     }
   ],
   "swedish_tech": []
