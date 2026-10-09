@@ -123,59 +123,17 @@
       "source_urls": [],
       "summary": "Derivatives let funds gain large market exposure for a small upfront margin deposit, so losses trigger margin calls that can force simultaneous selling.",
       "title": "Synthetic leverage and margin calls"
+    },
+    {
+      "first_seen": "2026-10-09",
+      "id": "cva-capital-charge-explained",
+      "last_seen": "2026-10-09",
+      "source_urls": [],
+      "summary": "CVA prices the risk that a derivatives counterparty defaults before a trade matures, and banks must hold regulatory capital against swings in it.",
+      "title": "Credit valuation adjustment (CVA) and its capital charge"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-09-24",
-      "id": "us-rates-volatility-fx-hedging-demand",
-      "last_seen": "2026-09-24",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Rising US yields have prompted multinational corporations to increase foreign-exchange net-investment hedges to protect translated asset values and capture positive carry, affecting cross-currency basis and forward-point dynamics.",
-      "title": "US rates surge drives corporate FX net-investment hedges"
-    },
-    {
-      "first_seen": "2026-09-24",
-      "id": "hedge-funds-treasury-steepener-unwinds",
-      "last_seen": "2026-09-24",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Leveraged funds have stepped back from Treasury volatility strategies as the yield curve flattened, with steepener position unwinds amplifying moves across the curve.",
-      "title": "Hedge funds reduce Treasury steepener positions as curve flattens"
-    },
-    {
-      "first_seen": "2026-09-24",
-      "id": "us-gsib-derivatives-exposure-1-82-trillion",
-      "last_seen": "2026-09-24",
-      "source_urls": [
-        "https://www.risk.net/"
-      ],
-      "summary": "Aggregate derivatives exposure at US global systemically important banks reached $1.82 trillion, the highest level in ten years, raising concerns about margin liquidity and counterparty risk interconnectedness.",
-      "title": "US G-SIBs derivatives exposure hits $1.82 trillion decade-high"
-    },
-    {
-      "first_seen": "2026-09-24",
-      "id": "treasury-tga-repo-market-lending",
-      "last_seen": "2026-09-24",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "US Treasury is evaluating a plan to lend Treasury General Account cash into repo markets to ease collateral pressure, with viability depending on repo rates exceeding the interest on reserve balances.",
-      "title": "Treasury considers lending TGA cash into repo markets"
-    },
-    {
-      "first_seen": "2026-09-24",
-      "id": "mid-sized-banks-market-risk-rwa-surge",
-      "last_seen": "2026-09-24",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Market-risk-weighted assets surged at several mid-sized banks including Mizuho Americas (+$3.6 billion) and Northern Trust (212% increase), raising capital costs for trading businesses.",
-      "title": "Mid-sized banks report sharp increase in market-risk RWAs"
-    },
     {
       "first_seen": "2026-09-26",
       "id": "sofr-futures-fed-rate-uncertainty",
@@ -316,6 +274,24 @@
       ],
       "summary": "The IMF says hedge-fund assets grew from about $4T in 2013 to $13T in early 2026. Their share of the Treasury market rose from 4% in 2022 to about 9%, driven largely by leverage, including synthetic leverage via derivatives.",
       "title": "IMF: hedge funds now hold about 9% of the US Treasury market"
+    },
+    {
+      "first_seen": "2026-10-09",
+      "id": "us-10y-24-year-high-oat-spread",
+      "last_seen": "2026-10-09",
+      "source_urls": [
+        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-10-09/"
+      ],
+      "summary": "The US 10-year yield briefly hit 5.364%, a 24-year high, and the 30-year auction cleared at its highest yield since 2000. The French\u2013German 10-year spread passed 140 bp, the widest since 2012, the euro fell to $1.1161 and Brent rose above $104.",
+      "title": "US 10-year yield hits 24-year high as French\u2013German spread passes 140 bp"
+    },
+    {
+      "first_seen": "2026-10-09",
+      "id": "unicredit-cva-rwa-doubles-commerzbank",
+      "last_seen": "2026-10-09",
+      "source_urls": [],
+      "summary": "UniCredit's credit valuation adjustment risk-weighted assets doubled, which the bank attributes to strategic transactions tied to building its Commerzbank stake.",
+      "title": "UniCredit's CVA risk-weighted assets double during Commerzbank stake build-up"
     }
   ],
   "scandinavian_tech": [
