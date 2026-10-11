@@ -113,6 +113,16 @@
       ],
       "summary": "MongoDB released version 9.0 with previews of Atlas Infinite and Atlas Agent Engine, integrating operational databases more closely with agent workflows to support retrieval, data access, and governed tool execution in enterprise systems.",
       "title": "MongoDB 9.0 announces Atlas Agent Engine for agent-oriented workflows"
+    },
+    {
+      "first_seen": "2026-10-11",
+      "id": "lace-llm-algorithm-construction",
+      "last_seen": "2026-10-11",
+      "source_urls": [
+        "https://techxplore.com/news/2026-10-ai-custom-decision-software-hour.html"
+      ],
+      "summary": "NTU researchers introduced LACE in Nature Machine Intelligence, an LLM-driven system that builds portfolios of specialized heuristics. On four new maritime routing problems it reached 97\u201399% of the best tested result in about an hour at roughly US$10.",
+      "title": "LACE builds near-best optimization heuristics in about an hour for ~$10"
     }
   ],
   "explainers": [
@@ -131,29 +141,17 @@
       "source_urls": [],
       "summary": "CVA prices the risk that a derivatives counterparty defaults before a trade matures, and banks must hold regulatory capital against swings in it.",
       "title": "Credit valuation adjustment (CVA) and its capital charge"
+    },
+    {
+      "first_seen": "2026-10-11",
+      "id": "covered-interest-parity-fx-forwards",
+      "last_seen": "2026-10-11",
+      "source_urls": [],
+      "summary": "A forward FX rate is pinned to spot by the interest-rate gap between two currencies, so curbs on derivatives also affect spot pressure and hedging costs.",
+      "title": "Covered interest parity: why FX forwards tie to the spot rate"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-09-26",
-      "id": "sofr-futures-fed-rate-uncertainty",
-      "last_seen": "2026-09-26",
-      "source_urls": [
-        "https://www.bloomberg.com/professional/insights/category/trading/?pg=86"
-      ],
-      "summary": "Trading in SOFR futures continued to reflect elevated inflation uncertainty and assessments of potential additional Federal Reserve rate hikes, with higher front-end volatility increasing hedging costs for leveraged portfolios.",
-      "title": "SOFR futures remain elevated amid inflation and Fed rate-hike uncertainty"
-    },
-    {
-      "first_seen": "2026-09-26",
-      "id": "september-macro-themes-dollar-bitcoin-prediction",
-      "last_seen": "2026-09-26",
-      "source_urls": [
-        "https://www.bloomberg.com/professional/insights/category/trading/?pg=86"
-      ],
-      "summary": "Bloomberg identified prediction markets, Bitcoin ETFs, shifting dollar positioning, and data-center construction as key September market drivers, representing correlated sources of factor, liquidity, and thematic risk for quantitative investors.",
-      "title": "Dollar, Bitcoin ETFs, prediction markets, and data-center construction emerge as major September macro themes"
-    },
     {
       "first_seen": "2026-10-01",
       "id": "jscc-stress-loss-breach-q2",
@@ -292,6 +290,16 @@
       "source_urls": [],
       "summary": "UniCredit's credit valuation adjustment risk-weighted assets doubled, which the bank attributes to strategic transactions tied to building its Commerzbank stake.",
       "title": "UniCredit's CVA risk-weighted assets double during Commerzbank stake build-up"
+    },
+    {
+      "first_seen": "2026-10-11",
+      "id": "rbi-rupee-defence-fx-derivatives-reserve",
+      "last_seen": "2026-10-11",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-11/india-s-rupee-defense-raises-question-of-how-far-rbi-will-go"
+      ],
+      "summary": "On October 10 the RBI introduced a dollar liquidity window for state-owned oil refiners and a reserve requirement on FX derivatives as the rupee neared a record low. It had raised rates on October 7 and signalled more tightening was possible.",
+      "title": "RBI adds oil-refiner dollar window and FX-derivatives reserve requirement"
     }
   ],
   "scandinavian_tech": [
