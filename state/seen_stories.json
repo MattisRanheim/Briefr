@@ -149,6 +149,14 @@
       "source_urls": [],
       "summary": "A forward FX rate is pinned to spot by the interest-rate gap between two currencies, so curbs on derivatives also affect spot pressure and hedging costs.",
       "title": "Covered interest parity: why FX forwards tie to the spot rate"
+    },
+    {
+      "first_seen": "2026-10-12",
+      "id": "rate-hike-probabilities-from-futures",
+      "last_seen": "2026-10-12",
+      "source_urls": [],
+      "summary": "Futures and swap prices embed an expected policy rate, and dividing the gap to the current rate by the size of one hike gives a probability, with caveats about risk premia.",
+      "title": "How a market-implied rate-hike probability is computed"
     }
   ],
   "quant_finance": [
@@ -300,6 +308,27 @@
       ],
       "summary": "On October 10 the RBI introduced a dollar liquidity window for state-owned oil refiners and a reserve requirement on FX derivatives as the rupee neared a record low. It had raised rates on October 7 and signalled more tightening was possible.",
       "title": "RBI adds oil-refiner dollar window and FX-derivatives reserve requirement"
+    },
+    {
+      "first_seen": "2026-10-12",
+      "id": "houthi-saudi-attacks-brent-fed-pricing",
+      "last_seen": "2026-10-12",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-11/oil-rises-on-mideast-attacks-dollar-edges-higher-markets-wrap",
+        "https://www.swissinfo.ch/eng/oil-rises-on-mideast-attacks,-dollar-edges-higher:-markets-wrap/92200845"
+      ],
+      "summary": "Houthi attacks on Saudi Arabia pushed Brent above $105.50 before it reversed to about $104.15. Markets price an 18% chance of a Fed hike this month and 85% for December.",
+      "title": "Houthi strikes on Saudi Arabia spike Brent past $105; December Fed hike now 85% priced"
+    },
+    {
+      "first_seen": "2026-10-12",
+      "id": "korea-bond-rally-bok-hike-pricing",
+      "last_seen": "2026-10-12",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-12/korean-bond-rally-seen-faltering-as-traders-brace-for-rate-hikes"
+      ],
+      "summary": "Strategists expect South Korea's 3- and 10-year bonds to retest last month's four-year-high yields. Won swaps price about a 70% chance of 50 bp of cumulative BoK hikes over six months.",
+      "title": "Won swaps price a 70% chance of 50 bp in Bank of Korea hikes"
     }
   ],
   "scandinavian_tech": [
