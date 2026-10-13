@@ -157,6 +157,14 @@
       "source_urls": [],
       "summary": "Futures and swap prices embed an expected policy rate, and dividing the gap to the current rate by the size of one hike gives a probability, with caveats about risk premia.",
       "title": "How a market-implied rate-hike probability is computed"
+    },
+    {
+      "first_seen": "2026-10-13",
+      "id": "non-deliverable-forwards-ndf",
+      "last_seen": "2026-10-13",
+      "source_urls": [],
+      "summary": "NDFs are cash-settled FX forwards on restricted currencies, traded offshore, which is why regulators target them when defending a currency.",
+      "title": "Non-deliverable forwards (NDFs)"
     }
   ],
   "quant_finance": [
@@ -329,6 +337,27 @@
       ],
       "summary": "Strategists expect South Korea's 3- and 10-year bonds to retest last month's four-year-high yields. Won swaps price about a 70% chance of 50 bp of cumulative BoK hikes over six months.",
       "title": "Won swaps price a 70% chance of 50 bp in Bank of Korea hikes"
+    },
+    {
+      "first_seen": "2026-10-13",
+      "id": "rbi-fx-reserve-rule-details",
+      "last_seen": "2026-10-13",
+      "source_urls": [
+        "https://www.thehindubusinessline.com/money-and-banking/rbi-widens-ambit-of-forex-risk-reserve-requirement-tightens-ndf-rules/article71577809.ece/amp/",
+        "https://www.business-standard.com/industry/banking/banks-flag-liquidity-concerns-over-rbi-new-forex-derivative-reserve-rule-126101201187_1.html"
+      ],
+      "summary": "The RBI requires banks to deposit cash equal to 20% of the rupee notional of qualifying FX derivative contracts, now including banks' own hedges, and limited non-resident NDFs to hedging. SBI estimates the measures could drain over \u20b91 trillion from the banking system, and banks are lobbying for a client fee instead.",
+      "title": "RBI's 20% cash reserve on rupee FX derivatives extends to banks' own hedges; banks warn of \u20b91 trillion drain"
+    },
+    {
+      "first_seen": "2026-10-13",
+      "id": "imf-ai-circular-financing-risk",
+      "last_seen": "2026-10-13",
+      "source_urls": [
+        "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KBN3VT18B?channel=FBi345"
+      ],
+      "summary": "The IMF's Global Financial Stability Report reviewed 14 AI transactions since 2023 involving about $300B of equity and $650B of debt, exchanged for $1.4T of future revenue commitments. It warns an AI slowdown could trigger a leverage-amplified correction.",
+      "title": "IMF flags leveraged, circular AI financing as a correction trigger"
     }
   ],
   "scandinavian_tech": [
