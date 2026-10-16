@@ -14,107 +14,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-09-29",
-      "id": "hybridinfer-thermal-aware-llm-routing",
-      "last_seen": "2026-09-29",
-      "source_urls": [
-        "https://arxiv.org/abs/2609.30270"
-      ],
-      "summary": "HybridInfer proposes a reinforcement learning approach to dynamically route inference among on-device, edge, and cloud resources while accounting for thermal conditions, evaluated on Samsung Galaxy S25+ to reduce latency, energy, and thermal throttling.",
-      "title": "HybridInfer uses RL to route LLM inference across device, edge, and cloud based on thermal conditions"
-    },
-    {
-      "first_seen": "2026-09-29",
-      "id": "trace-rag-fine-tuning-robustness",
-      "last_seen": "2026-09-29",
-      "source_urls": [
-        "https://arxiv.org/abs/2609.30270"
-      ],
-      "summary": "TRACE examines how fine-tuning balances parameter capacity and retrieved context to address knowledge obsolescence and factual hallucination in retrieval-augmented generation, accepted to ICDM 2026.",
-      "title": "TRACE studies parameter capacity and retrieved context interaction for more robust RAG systems"
-    },
-    {
-      "first_seen": "2026-09-29",
-      "id": "sinkhorn-outlier-generation-robustness",
-      "last_seen": "2026-09-29",
-      "source_urls": [
-        "https://arxiv.org/abs/2609.31470"
-      ],
-      "summary": "A method using Sinkhorn optimal transport to generate realistic distribution shifts and outliers beyond empirical support, designed for fraud detection and safety evaluation, accepted to NeurIPS 2026.",
-      "title": "Beyond Empirical Support generates structured outliers using Sinkhorn optimal transport for robustness testing"
-    },
-    {
-      "first_seen": "2026-09-29",
-      "id": "adam-optimizer-stability-nonquadratic-loss",
-      "last_seen": "2026-09-29",
-      "source_urls": [
-        "https://arxiv.org/abs/2609.XXXX"
-      ],
-      "summary": "Beyond Quadratic Loss investigates training instabilities in Adam optimizer for non-quadratic objectives, providing insight into loss spikes and optimization challenges in deep learning.",
-      "title": "Analysis shows Adam optimizer instability extends beyond quadratic loss functions"
-    },
-    {
-      "first_seen": "2026-09-29",
-      "id": "tokencast-agent-token-consumption-forecasting",
-      "last_seen": "2026-09-29",
-      "source_urls": [
-        "https://arxiv.org/list/cs.LG/recent"
-      ],
-      "summary": "TokenCast predicts token usage for executing LLM agents, enabling budget-aware routing and workflow termination to manage costs and latency in production systems.",
-      "title": "TokenCast forecasts token consumption during LLM agent execution for cost and latency planning"
-    },
-    {
-      "first_seen": "2026-09-30",
-      "id": "rrsi-self-improving-llm-agents",
-      "last_seen": "2026-09-30",
-      "source_urls": [
-        "https://www.marktechpost.com/category/technology/artificial-intelligence/machine-learning/"
-      ],
-      "summary": "Google Cloud AI Research open-sourced RRSI, a framework enabling agents to revise prompts, tools, and memory while keeping model weights frozen. The framework improved Claude Opus performance on Terminal-Bench 2.1 from 74.2% to 80.2%.",
-      "title": "Google Cloud open-sources RRSI framework for self-improving LLM agents"
-    },
-    {
-      "first_seen": "2026-09-30",
-      "id": "sgd-heavy-tailed-noise-guarantees",
-      "last_seen": "2026-09-30",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/new"
-      ],
-      "summary": "Researchers published analysis providing high-probability convergence guarantees for stochastic gradient descent when gradient noise follows heavy-tailed distributions, addressing a gap in standard optimization theory that typically assumes bounded or sub-Gaussian noise.",
-      "title": "New theoretical guarantees for SGD under heavy-tailed gradient noise"
-    },
-    {
-      "first_seen": "2026-09-30",
-      "id": "propagate-then-sharpen-graph-classifiers",
-      "last_seen": "2026-09-30",
-      "source_urls": [
-        "https://arxiv.org/list/stat.ML/new"
-      ],
-      "summary": "\"Propagate, Then Sharpen\" demonstrates improving node-classification predictions using only graph structure and frozen model outputs, without requiring node features, parameters, or gradients. The approach enables lightweight improvements to deployed graph models without retraining.",
-      "title": "Post-hoc refinement method for frozen graph neural network classifiers"
-    },
-    {
-      "first_seen": "2026-09-30",
-      "id": "openai-persistent-background-agents-dots",
-      "last_seen": "2026-09-30",
-      "source_urls": [
-        "https://letsdatascience.com/news",
-        "https://techcrunch.com/category/artificial-intelligence/"
-      ],
-      "summary": "OpenAI introduced Dots, persistent agents that can work on tasks in the background and connect to external applications, representing a shift from single-turn inference toward long-lived workflows with state, tool use, and scheduling.",
-      "title": "OpenAI introduces Dots, persistent background assistants for long-running tasks"
-    },
-    {
-      "first_seen": "2026-09-30",
-      "id": "mongodb-9-atlas-agent-engine",
-      "last_seen": "2026-09-30",
-      "source_urls": [
-        "https://letsdatascience.com/news"
-      ],
-      "summary": "MongoDB released version 9.0 with previews of Atlas Infinite and Atlas Agent Engine, integrating operational databases more closely with agent workflows to support retrieval, data access, and governed tool execution in enterprise systems.",
-      "title": "MongoDB 9.0 announces Atlas Agent Engine for agent-oriented workflows"
-    },
-    {
       "first_seen": "2026-10-11",
       "id": "lace-llm-algorithm-construction",
       "last_seen": "2026-10-11",
@@ -123,6 +22,16 @@
       ],
       "summary": "NTU researchers introduced LACE in Nature Machine Intelligence, an LLM-driven system that builds portfolios of specialized heuristics. On four new maritime routing problems it reached 97\u201399% of the best tested result in about an hour at roughly US$10.",
       "title": "LACE builds near-best optimization heuristics in about an hour for ~$10"
+    },
+    {
+      "first_seen": "2026-10-16",
+      "id": "apertus-1-5-release",
+      "last_seen": "2026-10-16",
+      "source_urls": [
+        "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
+      ],
+      "summary": "The Swiss AI team released Apertus 1.5 (8B and 70B) with image and audio understanding, an optional thinking mode, 4x longer context and stronger tool use under Apache 2.0, with base, SFT, RLVR and DPO checkpoints and training datasets on Hugging Face. The 8B model reportedly matches GPT-OSS-20B on the Last Translation Benchmark and beats Claude Haiku 4.5 and Google Translate.",
+      "title": "Apertus 1.5 adds multimodality and reasoning to Apache-2.0 8B and 70B models"
     }
   ],
   "explainers": [
@@ -165,59 +74,17 @@
       "source_urls": [],
       "summary": "NDFs are cash-settled FX forwards on restricted currencies, traded offshore, which is why regulators target them when defending a currency.",
       "title": "Non-deliverable forwards (NDFs)"
+    },
+    {
+      "first_seen": "2026-10-16",
+      "id": "circular-vendor-financing",
+      "last_seen": "2026-10-16",
+      "source_urls": [],
+      "summary": "When a supplier funds its own customer, who spends the money on the supplier's products, reported demand depends on the supplier's own capital and risk becomes correlated across both firms.",
+      "title": "Circular (vendor) financing"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-01",
-      "id": "jscc-stress-loss-breach-q2",
-      "last_seen": "2026-10-01",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "JSCC's cash-securities division exceeded initial margin and default resources by \u00a56.8 billion in Q2, signaling material clearing-risk sensitivity to concentrated equity exposures during stressed conditions.",
-      "title": "Japan Securities Clearing Corporation records \u00a56.8 billion stress-loss breach"
-    },
-    {
-      "first_seen": "2026-10-01",
-      "id": "us-banks-equity-swap-notional-surge",
-      "last_seen": "2026-10-01",
-      "source_urls": [
-        "https://www.risk.net/topics/derivatives"
-      ],
-      "summary": "Major US systemically important banks increased equity-swap notional by 16% in Q2, reflecting strong institutional demand for synthetic equity exposure and raising counterparty-credit and collateral risks.",
-      "title": "US global banks' equity-swap notional rises 16% to $5.5 trillion"
-    },
-    {
-      "first_seen": "2026-10-01",
-      "id": "bank-of-china-cva-exposure-jump",
-      "last_seen": "2026-10-01",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Bank of China led Chinese globally systemically important banks in the largest quarterly increase in credit valuation adjustment exposure, signaling greater sensitivity to counterparty-credit spreads and derivatives volatility.",
-      "title": "Bank of China records sharp increase in CVA exposure among Chinese G-SIBs"
-    },
-    {
-      "first_seen": "2026-10-01",
-      "id": "enterprise-risk-scenario-governance-shift",
-      "last_seen": "2026-10-01",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Larger banks are increasing enterprise-risk-management control over stress-test scenario construction, reflecting a move toward centralized governance that may improve consistency but creates model-risk concerns.",
-      "title": "Banks centralize scenario construction under enterprise-risk-management teams"
-    },
-    {
-      "first_seen": "2026-10-01",
-      "id": "regulators-revise-bank-resolution-frameworks",
-      "last_seen": "2026-10-01",
-      "source_urls": [
-        "https://www.risk.net/latest"
-      ],
-      "summary": "Regulators are updating resolution frameworks to address criticisms that banks' recovery and resolution plans were inadequately deployed during past collapses, affecting resolvability measurement and capital allocation.",
-      "title": "Regulators plan changes to bank-resolution rules following living-will failures"
-    },
     {
       "first_seen": "2026-10-03",
       "id": "us-payrolls-fed-hike-expectations",
@@ -358,6 +225,16 @@
       ],
       "summary": "The IMF's Global Financial Stability Report reviewed 14 AI transactions since 2023 involving about $300B of equity and $650B of debt, exchanged for $1.4T of future revenue commitments. It warns an AI slowdown could trigger a leverage-amplified correction.",
       "title": "IMF flags leveraged, circular AI financing as a correction trigger"
+    },
+    {
+      "first_seen": "2026-10-16",
+      "id": "asian-tech-rebound-coreweave-debt",
+      "last_seen": "2026-10-16",
+      "source_urls": [
+        "https://finance.yahoo.com/markets/world-indices/articles/most-asian-stocks-rise-calm-063159271.html"
+      ],
+      "summary": "On October 16 the Nikkei rose 1.9% after almost 5% fall and the KOSPI rose 3.3% after an almost 8% drop, following renewed concern over CoreWeave's debt load and AI-boom financing. US Nasdaq and S&P 500 futures were up 0.2% early.",
+      "title": "Nikkei and KOSPI rebound after near-5% and near-8% drops on AI-financing worries"
     }
   ],
   "scandinavian_tech": [
