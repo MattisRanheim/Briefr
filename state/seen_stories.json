@@ -1,17 +1,5 @@
 {
-  "ai_llms": [
-    {
-      "first_seen": "2026-10-02",
-      "id": "openai-gpt-6-1-sol-launch",
-      "last_seen": "2026-10-02",
-      "source_urls": [
-        "https://openai.com/news/",
-        "https://openai.com/index/devday-2026-recap/"
-      ],
-      "summary": "OpenAI introduced GPT\u20116.1 Sol, described as a major upgrade to GPT\u20116 Sol focused on agentic coding, computer use, and professional workflows. The model reportedly approaches GPT\u20116 Astra's performance at approximately one-fifth of Astra's standard pricing, positioning it as a cost-performance release for developers.",
-      "title": "OpenAI releases GPT\u20116.1 Sol for agentic coding and computer use"
-    }
-  ],
+  "ai_llms": [],
   "data_science_ml": [
     {
       "first_seen": "2026-10-11",
@@ -32,6 +20,16 @@
       ],
       "summary": "The Swiss AI team released Apertus 1.5 (8B and 70B) with image and audio understanding, an optional thinking mode, 4x longer context and stronger tool use under Apache 2.0, with base, SFT, RLVR and DPO checkpoints and training datasets on Hugging Face. The 8B model reportedly matches GPT-OSS-20B on the Last Translation Benchmark and beats Claude Haiku 4.5 and Google Translate.",
       "title": "Apertus 1.5 adds multimodality and reasoning to Apache-2.0 8B and 70B models"
+    },
+    {
+      "first_seen": "2026-10-18",
+      "id": "deepseek-v41-flash-1017-release",
+      "last_seen": "2026-10-18",
+      "source_urls": [
+        "https://www.developersdigest.tech/blog/deepseek-v4-1-flash-1017-release-guide-2026"
+      ],
+      "summary": "DeepSeek released the V4.1-Flash-1017 checkpoint on October 17, with gains on Terminal-Bench 4.0 (+11.1), ProgramBench (+8.8), Apex Bench (+7.5) and DeepSWE v1.1 (+2.8). API pricing is reportedly unchanged and the license is MIT.",
+      "title": "DeepSeek V4.1-Flash-1017 lifts Terminal-Bench 4.0 from 31.2 to 42.3 under MIT license"
     }
   ],
   "explainers": [
@@ -82,60 +80,17 @@
       "source_urls": [],
       "summary": "When a supplier funds its own customer, who spends the money on the supplier's products, reported demand depends on the supplier's own capital and risk becomes correlated across both firms.",
       "title": "Circular (vendor) financing"
+    },
+    {
+      "first_seen": "2026-10-18",
+      "id": "agent-benchmark-harness-sensitivity",
+      "last_seen": "2026-10-18",
+      "source_urls": [],
+      "summary": "Scores on terminal and coding-agent benchmarks reflect the model plus its scaffold, tools and limits, so numbers from different reports are often not directly comparable.",
+      "title": "Why agent benchmark scores depend on the harness"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-03",
-      "id": "us-payrolls-fed-hike-expectations",
-      "last_seen": "2026-10-03",
-      "source_urls": [
-        "https://www.imfconnect.org/content/dam/imf/News%20and%20Generic%20Content/GMM/archive/GMM%20October%202,%202026.pdf"
-      ],
-      "summary": "U.S. hiring and wage growth undershot forecasts, causing the two-year Treasury yield to fall 10 basis points to 4.69% and shifting Fed-hike expectations toward December rather than October.",
-      "title": "Weaker U.S. payrolls reduce near-term Fed-hike expectations"
-    },
-    {
-      "first_seen": "2026-10-03",
-      "id": "european-sovereign-risk-intensifies",
-      "last_seen": "2026-10-03",
-      "source_urls": [
-        "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take--france-debt-drama-intensifies-us-payrolls---02-october-2026-02102026",
-        "https://www.bloomberg.com/news/articles/2026-10-02/bofa-s-hartnett-sees-risk-off-mood-lasting-until-dollar-peaks"
-      ],
-      "summary": "France's fiscal and debt concerns have triggered broader risk-off sentiment, with investors maintaining defensive positioning until the dollar surge peaks and long-term bond yields retreat.",
-      "title": "European sovereign-risk concerns intensify amid France debt stress"
-    },
-    {
-      "first_seen": "2026-10-03",
-      "id": "bridgewater-pure-alpha-macro-gains",
-      "last_seen": "2026-10-03",
-      "source_urls": [
-        "https://hedgeweek.com/news"
-      ],
-      "summary": "Systematic macro strategies, including Bridgewater's Pure Alpha fund, benefited significantly from the global government bond sell-off during 2026, with trend-following positioning generating substantial returns.",
-      "title": "Bridgewater's Pure Alpha gains 18.4% year-to-date from bond sell-off"
-    },
-    {
-      "first_seen": "2026-10-03",
-      "id": "proprietary-amm-outperformance",
-      "last_seen": "2026-10-03",
-      "source_urls": [
-        "https://www.ml-quant.com/issues/2026-10-02/"
-      ],
-      "summary": "Research shows that continuously repricing proprietary automated market makers earned 0.37\u20131.19 basis points within two seconds, while passive AMMs lost 0.22\u20130.62 basis points over the same period.",
-      "title": "Proprietary AMMs outperform passive liquidity provision by 0.59\u20131.81 bps"
-    },
-    {
-      "first_seen": "2026-10-03",
-      "id": "fed-shock-equity-liquidity-impact",
-      "last_seen": "2026-10-03",
-      "source_urls": [
-        "https://www.ml-quant.com/issues/2026-10-02/"
-      ],
-      "summary": "U.S. federal-funds-rate shocks widen equity bid-ask spreads across 37 markets with liquidity effects lasting up to two months, while longer-maturity yield surprises reprice equities without comparable liquidity deterioration.",
-      "title": "Federal-funds-rate shocks widen equity bid-ask spreads for two months"
-    },
     {
       "first_seen": "2026-10-08",
       "id": "brent-above-100-hormuz",
