@@ -15,6 +15,7 @@ import anthropic
 from config import WRITER_MODEL, WRITER_MAX_TOKENS, WRITER_SYSTEM_PROMPT
 
 RESEARCH_FAILED = "RESEARCH_FAILED"
+MAX_ATTEMPTS = 2
 
 
 def _strip_code_fence(text: str) -> str:
@@ -90,21 +91,26 @@ def write_newsletter(
     Raises anthropic.APIError on failure, ValueError if no newsletter was produced.
     """
     client = anthropic.Anthropic(api_key=api_key)
-    message = client.messages.create(
-        model=WRITER_MODEL,
-        max_tokens=WRITER_MAX_TOKENS,
-        system=WRITER_SYSTEM_PROMPT,
-        messages=[
-            {
-                "role": "user",
-                "content": build_user_message(research, history, topics_meta, today_display),
-            }
-        ],
-    )
-    if message.stop_reason == "max_tokens":
-        print(
-            f"  [WARN] Writer output was truncated by max_tokens ({WRITER_MAX_TOKENS}) "
-            "— the newsletter HTML is likely incomplete/broken."
-        )
-    text = "".join(b.text for b in message.content if b.type == "text")
-    return parse_response(text)
+    user_content = build_user_message(research, history, topics_meta, today_display)
+
+    last_error: Exception | None = None
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        # Stream: large max_tokens values are rejected for non-streaming requests.
+        with client.messages.stream(
+            model=WRITER_MODEL,
+            max_tokens=WRITER_MAX_TOKENS,
+            system=WRITER_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_content}],
+        ) as stream:
+            message = stream.get_final_message()
+        if message.stop_reason == "max_tokens":
+            print(
+                f"  [WARN] Writer output truncated by max_tokens ({WRITER_MAX_TOKENS}) "
+                f"on attempt {attempt}/{MAX_ATTEMPTS}."
+            )
+        text = "".join(b.text for b in message.content if b.type == "text")
+        try:
+            return parse_response(text)
+        except ValueError as exc:
+            last_error = exc
+    raise last_error

@@ -103,7 +103,8 @@ DEDUPE_WINDOW_DAYS = 14
 MAX_STORIES_PER_TOPIC = 2
 
 WRITER_MODEL = "claude-sonnet-5-5"
-WRITER_MAX_TOKENS = 6000
+# Generous: thinking blocks count against this limit, and a truncated reply means no email.
+WRITER_MAX_TOKENS = 20000
 
 WRITER_SYSTEM_PROMPT = """\
 You are the editor and writer of "Morning Brief", a daily email for one reader: a 23-year-old
