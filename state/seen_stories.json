@@ -1,5 +1,16 @@
 {
-  "ai_llms": [],
+  "ai_llms": [
+    {
+      "first_seen": "2026-10-19",
+      "id": "openai-gpt-6-intelligent-ui",
+      "last_seen": "2026-10-19",
+      "source_urls": [
+        "https://openai.com/index/gpt-6-for-everyone/"
+      ],
+      "summary": "ChatGPT can now generate interactive interfaces and task-specific tools instead of only text. Paid tiers get GPT-6 Sol first, and Free and Go users get GPT-6 Luna the next day.",
+      "title": "OpenAI rolls out GPT-6 with Intelligent UI, free tiers follow a day later"
+    }
+  ],
   "data_science_ml": [
     {
       "first_seen": "2026-10-11",
@@ -30,6 +41,14 @@
       ],
       "summary": "DeepSeek released the V4.1-Flash-1017 checkpoint on October 17, with gains on Terminal-Bench 4.0 (+11.1), ProgramBench (+8.8), Apex Bench (+7.5) and DeepSWE v1.1 (+2.8). API pricing is reportedly unchanged and the license is MIT.",
       "title": "DeepSeek V4.1-Flash-1017 lifts Terminal-Bench 4.0 from 31.2 to 42.3 under MIT license"
+    },
+    {
+      "first_seen": "2026-10-19",
+      "id": "premisesql-text-to-sql-benchmark",
+      "last_seen": "2026-10-19",
+      "source_urls": [],
+      "summary": "The benchmark pairs 1,800 flawed requests, covering four types of premise error, with their valid originals and tests three prompting settings. Frontier systems usually trust the premise and generate SQL rather than challenge the request or abstain.",
+      "title": "PremiseSQL shows frontier text-to-SQL models accept flawed requests instead of pushing back"
     }
   ],
   "explainers": [
@@ -88,6 +107,14 @@
       "source_urls": [],
       "summary": "Scores on terminal and coding-agent benchmarks reflect the model plus its scaffold, tools and limits, so numbers from different reports are often not directly comparable.",
       "title": "Why agent benchmark scores depend on the harness"
+    },
+    {
+      "first_seen": "2026-10-19",
+      "id": "abstention-selective-prediction-risk-coverage",
+      "last_seen": "2026-10-19",
+      "source_urls": [],
+      "summary": "A model that can decline to answer trades coverage (how many queries it answers) for risk (error rate on those it answers), which is why text-to-SQL needs premise checks.",
+      "title": "Abstention and the risk\u2013coverage trade-off"
     }
   ],
   "quant_finance": [
@@ -190,6 +217,16 @@
       ],
       "summary": "On October 16 the Nikkei rose 1.9% after almost 5% fall and the KOSPI rose 3.3% after an almost 8% drop, following renewed concern over CoreWeave's debt load and AI-boom financing. US Nasdaq and S&P 500 futures were up 0.2% early.",
       "title": "Nikkei and KOSPI rebound after near-5% and near-8% drops on AI-financing worries"
+    },
+    {
+      "first_seen": "2026-10-19",
+      "id": "asian-equities-fall-ai-funding-oil-bonds",
+      "last_seen": "2026-10-19",
+      "source_urls": [
+        "https://investmentguruindia.com/newsdetail/asian-stocks-slip-wall-st-and-bonds-benefit-from-oil-skid320134"
+      ],
+      "summary": "On October 19 the Nikkei fell 1.2% and Korea 0.4% after weekly losses of 5.4% and over 14%. The 10-year Treasury yield dropped 4 bp to 5.0525% as oil fell on a possible US sanctions waiver for Russian fuel.",
+      "title": "Asian equities fall again on AI-funding worries as oil slide lifts Treasuries"
     }
   ],
   "scandinavian_tech": [
@@ -202,6 +239,16 @@
       ],
       "summary": "Swedish weight-management startup Yazen raised \u20ac50 million in a round led by Verdane, to fund expansion across Europe.",
       "title": "Yazen raises \u20ac50M led by Verdane"
+    },
+    {
+      "first_seen": "2026-10-19",
+      "id": "seed-capital-fund-v-nordic-expansion",
+      "last_seen": "2026-10-19",
+      "source_urls": [
+        "https://thenextweb.com/news/seed-capital-closes-130-million-fund-v"
+      ],
+      "summary": "Copenhagen-based Seed Capital raised a \u20ac130M fifth fund to back 15\u201317 startups with \u20ac3\u20136M initial cheques. It will invest outside Denmark for the first time, with a focus on Sweden, and adds cybersecurity.",
+      "title": "Seed Capital closes \u20ac130M Fund V and expands to Sweden"
     }
   ],
   "swedish_tech": []
