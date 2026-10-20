@@ -115,6 +115,14 @@
       "source_urls": [],
       "summary": "A model that can decline to answer trades coverage (how many queries it answers) for risk (error rate on those it answers), which is why text-to-SQL needs premise checks.",
       "title": "Abstention and the risk\u2013coverage trade-off"
+    },
+    {
+      "first_seen": "2026-10-20",
+      "id": "repo-haircuts-collateral-stress",
+      "last_seen": "2026-10-20",
+      "source_urls": [],
+      "summary": "A repo is a secured loan made by selling a security with an agreement to buy it back, and haircuts on the collateral can rise in stress, forcing deleveraging.",
+      "title": "Repo: secured funding, haircuts and collateral stress"
     }
   ],
   "quant_finance": [
@@ -227,6 +235,14 @@
       ],
       "summary": "On October 19 the Nikkei fell 1.2% and Korea 0.4% after weekly losses of 5.4% and over 14%. The 10-year Treasury yield dropped 4 bp to 5.0525% as oil fell on a possible US sanctions waiver for Russian fuel.",
       "title": "Asian equities fall again on AI-funding worries as oil slide lifts Treasuries"
+    },
+    {
+      "first_seen": "2026-10-20",
+      "id": "european-banks-securities-financing-record",
+      "last_seen": "2026-10-20",
+      "source_urls": [],
+      "summary": "Risk.net reports exposures at 29 European banks rose 14% to \u20ac881 billion, with 18 banks at all-time highs. The rise was driven by larger repo and securities-lending positions, especially at German banks.",
+      "title": "European banks' securities-financing exposure hits record \u20ac881B"
     }
   ],
   "scandinavian_tech": [
@@ -249,6 +265,16 @@
       ],
       "summary": "Copenhagen-based Seed Capital raised a \u20ac130M fifth fund to back 15\u201317 startups with \u20ac3\u20136M initial cheques. It will invest outside Denmark for the first time, with a focus on Sweden, and adds cybersecurity.",
       "title": "Seed Capital closes \u20ac130M Fund V and expands to Sweden"
+    },
+    {
+      "first_seen": "2026-10-20",
+      "id": "minesto-euro-dragon-farm-innovation-fund",
+      "last_seen": "2026-10-20",
+      "source_urls": [
+        "https://bebeez.eu/2026/10/19/minesto-selected-for-20-2-m-eur-innovation-fund-grant-for-proposed-euro-dragon-farm-project-grant-agreement-preparation-initiated/"
+      ],
+      "summary": "Swedish ocean-energy company Minesto was selected for a \u20ac20.2M EU Innovation Fund grant for its proposed Euro Dragon Farm project. Grant-agreement preparation began on 19 October.",
+      "title": "Minesto selected for \u20ac20.2M EU Innovation Fund grant"
     }
   ],
   "swedish_tech": []
