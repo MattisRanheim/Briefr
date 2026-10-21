@@ -9,6 +9,14 @@
       ],
       "summary": "ChatGPT can now generate interactive interfaces and task-specific tools instead of only text. Paid tiers get GPT-6 Sol first, and Free and Go users get GPT-6 Luna the next day.",
       "title": "OpenAI rolls out GPT-6 with Intelligent UI, free tiers follow a day later"
+    },
+    {
+      "first_seen": "2026-10-21",
+      "id": "anthropic-claude-5-5-launch",
+      "last_seen": "2026-10-21",
+      "source_urls": [],
+      "summary": "Anthropic released Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 on October 21. It says Opus 5.5 leads in agentic coding and knowledge work at 40% lower cost than Opus 5, and Sonnet 5.5 is over 30% faster and up to 30% cheaper.",
+      "title": "Anthropic launches Claude Opus, Sonnet and Haiku 5.5, with Opus 40% cheaper to run"
     }
   ],
   "data_science_ml": [
@@ -123,6 +131,14 @@
       "source_urls": [],
       "summary": "A repo is a secured loan made by selling a security with an agreement to buy it back, and haircuts on the collateral can rise in stress, forcing deleveraging.",
       "title": "Repo: secured funding, haircuts and collateral stress"
+    },
+    {
+      "first_seen": "2026-10-21",
+      "id": "bank-sovereign-doom-loop",
+      "last_seen": "2026-10-21",
+      "source_urls": [],
+      "summary": "Banks hold large amounts of their own government's debt, so falling bond prices weaken the banks, and weaker banks raise the state's risk, which pushes bond prices down further.",
+      "title": "The bank\u2013sovereign doom loop"
     }
   ],
   "quant_finance": [
@@ -243,6 +259,16 @@
       "source_urls": [],
       "summary": "Risk.net reports exposures at 29 European banks rose 14% to \u20ac881 billion, with 18 banks at all-time highs. The rise was driven by larger repo and securities-lending positions, especially at German banks.",
       "title": "European banks' securities-financing exposure hits record \u20ac881B"
+    },
+    {
+      "first_seen": "2026-10-21",
+      "id": "france-10-year-yield-5-percent",
+      "last_seen": "2026-10-21",
+      "source_urls": [
+        "https://www.reuters.com/5f374b32b07b/world/china/global-markets-global-markets-2026-10-21/"
+      ],
+      "summary": "France's 10-year government bond yield touched 5% on October 21, the highest since 2002, amid protests and doubts over fiscal repair. Brent rose above $110 and US Treasury yields also rose.",
+      "title": "France's 10-year yield touches 5%, highest since 2002, as Brent rebounds above $110"
     }
   ],
   "scandinavian_tech": [
