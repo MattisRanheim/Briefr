@@ -17,6 +17,14 @@
       "source_urls": [],
       "summary": "Anthropic released Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 on October 21. It says Opus 5.5 leads in agentic coding and knowledge work at 40% lower cost than Opus 5, and Sonnet 5.5 is over 30% faster and up to 30% cheaper.",
       "title": "Anthropic launches Claude Opus, Sonnet and Haiku 5.5, with Opus 40% cheaper to run"
+    },
+    {
+      "first_seen": "2026-10-22",
+      "id": "mistral-large-4-preview",
+      "last_seen": "2026-10-22",
+      "source_urls": [],
+      "summary": "Mistral Large 4 is a multimodal mixture-of-experts model with about 1T total and 49\u201352B active parameters. A public-preview API is live at about $1.36/$4.18 per million input/output tokens, with weights expected later in October.",
+      "title": "Mistral previews Large 4, a ~1T-parameter open-weight multimodal MoE"
     }
   ],
   "data_science_ml": [
@@ -57,6 +65,26 @@
       "source_urls": [],
       "summary": "The benchmark pairs 1,800 flawed requests, covering four types of premise error, with their valid originals and tests three prompting settings. Frontier systems usually trust the premise and generate SQL rather than challenge the request or abstain.",
       "title": "PremiseSQL shows frontier text-to-SQL models accept flawed requests instead of pushing back"
+    },
+    {
+      "first_seen": "2026-10-22",
+      "id": "lumma-fev-27b-decision-model",
+      "last_seen": "2026-10-22",
+      "source_urls": [
+        "https://huggingface.co/blog/FrontiersMind/lumma-fev-27b"
+      ],
+      "summary": "FrontiersMind released Lumma-Fev-27B under Apache 2.0, a Qwen3.8-27B-based model that scores options in one forward pass. On 4,454 held-out decisions it reached 90.7% accuracy against 83.9% for Jev, with better-calibrated confidence.",
+      "title": "Lumma-Fev-27B beats Jev on decision accuracy, 90.7% vs 83.9%"
+    },
+    {
+      "first_seen": "2026-10-22",
+      "id": "openai-rosalind-brain-cell-agents",
+      "last_seen": "2026-10-22",
+      "source_urls": [
+        "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
+      ],
+      "summary": "Thousands of GPT-Rosalind-powered agents analyzed existing data from millions of mouse brain cells in 32 minutes. The leads they generate still need experimental validation.",
+      "title": "OpenAI, PerturbAI and Scripps run thousands of agents over millions of brain cells in 32 minutes"
     }
   ],
   "explainers": [
@@ -139,6 +167,14 @@
       "source_urls": [],
       "summary": "Banks hold large amounts of their own government's debt, so falling bond prices weaken the banks, and weaker banks raise the state's risk, which pushes bond prices down further.",
       "title": "The bank\u2013sovereign doom loop"
+    },
+    {
+      "first_seen": "2026-10-22",
+      "id": "calibration-expected-calibration-error",
+      "last_seen": "2026-10-22",
+      "source_urls": [],
+      "summary": "A model is calibrated when its stated confidence matches its actual hit rate, which is measured separately from accuracy and can be adjusted after training.",
+      "title": "Calibration and expected calibration error"
     }
   ],
   "quant_finance": [
@@ -269,6 +305,26 @@
       ],
       "summary": "France's 10-year government bond yield touched 5% on October 21, the highest since 2002, amid protests and doubts over fiscal repair. Brent rose above $110 and US Treasury yields also rose.",
       "title": "France's 10-year yield touches 5%, highest since 2002, as Brent rebounds above $110"
+    },
+    {
+      "first_seen": "2026-10-22",
+      "id": "france-bund-spread-165bp",
+      "last_seen": "2026-10-22",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-view-europe-2026-10-22/"
+      ],
+      "summary": "France's 10-year yield is above 5% and its spread over Germany reached 165 bp, the widest since 2011, on stalled budget talks and downgrade risk. European equity futures fell 0.7%.",
+      "title": "French\u2013German 10-year spread widens to 165 bp, widest since 2011"
+    },
+    {
+      "first_seen": "2026-10-22",
+      "id": "brent-above-112-nasdaq-futures-drop",
+      "last_seen": "2026-10-22",
+      "source_urls": [
+        "https://www.swissinfo.ch/eng/stocks-slide-as-ai-trade-falters-and-oil-rallies:-markets-wrap/92254614"
+      ],
+      "summary": "Brent rose about 3% to above $112, its highest since May. Nasdaq 100 futures fell 1.8% and S&P 500 futures 1%, putting the Nasdaq 100's 2.2% weekly gain at risk.",
+      "title": "Brent above $112, highest since May, as Nasdaq 100 futures fall 1.8%"
     }
   ],
   "scandinavian_tech": [
