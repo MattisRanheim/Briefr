@@ -25,6 +25,16 @@
       "source_urls": [],
       "summary": "Mistral Large 4 is a multimodal mixture-of-experts model with about 1T total and 49\u201352B active parameters. A public-preview API is live at about $1.36/$4.18 per million input/output tokens, with weights expected later in October.",
       "title": "Mistral previews Large 4, a ~1T-parameter open-weight multimodal MoE"
+    },
+    {
+      "first_seen": "2026-10-23",
+      "id": "anthropic-agent-skills-aaif-donation",
+      "last_seen": "2026-10-23",
+      "source_urls": [
+        "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+      ],
+      "summary": "Anthropic announced on October 22 that it is donating Agent Skills, its open standard for giving agents specialized knowledge and repeatable workflows, to the Agentic AI Foundation.",
+      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation"
     }
   ],
   "data_science_ml": [
@@ -85,17 +95,19 @@
       ],
       "summary": "Thousands of GPT-Rosalind-powered agents analyzed existing data from millions of mouse brain cells in 32 minutes. The leads they generate still need experimental validation.",
       "title": "OpenAI, PerturbAI and Scripps run thousands of agents over millions of brain cells in 32 minutes"
+    },
+    {
+      "first_seen": "2026-10-23",
+      "id": "nvidia-kumo-relational-release",
+      "last_seen": "2026-10-23",
+      "source_urls": [
+        "https://www.techtimes.com/articles/329369/20261022/nvidia-kumo-relational-beats-xgboost-enterprise-databases-without-feature-engineering.htm"
+      ],
+      "summary": "NVIDIA published Kumo Relational, a Relational Graph Transformer for multi-table data, which reportedly beat XGBoost pipelines on 41 tasks across 15 databases. The library is Apache 2.0 but the weights use the more restrictive OpenMDW license.",
+      "title": "NVIDIA releases Kumo Relational, beating XGBoost on 41 relational tasks without feature engineering"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-08",
-      "id": "synthetic-leverage-margin-calls",
-      "last_seen": "2026-10-08",
-      "source_urls": [],
-      "summary": "Derivatives let funds gain large market exposure for a small upfront margin deposit, so losses trigger margin calls that can force simultaneous selling.",
-      "title": "Synthetic leverage and margin calls"
-    },
     {
       "first_seen": "2026-10-09",
       "id": "cva-capital-charge-explained",
@@ -175,29 +187,17 @@
       "source_urls": [],
       "summary": "A model is calibrated when its stated confidence matches its actual hit rate, which is measured separately from accuracy and can be adjusted after training.",
       "title": "Calibration and expected calibration error"
+    },
+    {
+      "first_seen": "2026-10-23",
+      "id": "relational-deep-learning-feature-engineering",
+      "last_seen": "2026-10-23",
+      "source_urls": [],
+      "summary": "Joining and aggregating multi-table data into one row per entity discards structure that graph-based models over rows and foreign keys can use directly.",
+      "title": "Why flattening relational tables loses information"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-08",
-      "id": "brent-above-100-hormuz",
-      "last_seen": "2026-10-08",
-      "source_urls": [
-        "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/08-october-2026"
-      ],
-      "summary": "Reports of increased Iranian attacks on tankers pushed Brent above $100 (about $101.50, +39.7% since the conflict began). Daily Hormuz transits fell to 17, down 87 vessels, and eurozone financials led equities lower.",
-      "title": "Brent tops $100 as Hormuz tanker attacks trigger risk-off"
-    },
-    {
-      "first_seen": "2026-10-08",
-      "id": "imf-hedge-fund-treasury-footprint",
-      "last_seen": "2026-10-08",
-      "source_urls": [
-        "https://www.galvnews.com/news_reuters/business/imf-says-hedge-funds-market-footprint-growing-merits-closer-scrutiny/article_f1b2205d-1b7f-5ea6-b3b0-850260ed223a.html"
-      ],
-      "summary": "The IMF says hedge-fund assets grew from about $4T in 2013 to $13T in early 2026. Their share of the Treasury market rose from 4% in 2022 to about 9%, driven largely by leverage, including synthetic leverage via derivatives.",
-      "title": "IMF: hedge funds now hold about 9% of the US Treasury market"
-    },
     {
       "first_seen": "2026-10-09",
       "id": "us-10y-24-year-high-oat-spread",
@@ -325,19 +325,19 @@
       ],
       "summary": "Brent rose about 3% to above $112, its highest since May. Nasdaq 100 futures fell 1.8% and S&P 500 futures 1%, putting the Nasdaq 100's 2.2% weekly gain at risk.",
       "title": "Brent above $112, highest since May, as Nasdaq 100 futures fall 1.8%"
+    },
+    {
+      "first_seen": "2026-10-23",
+      "id": "ai-funding-selloff-treasury-rally",
+      "last_seen": "2026-10-23",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
+      ],
+      "summary": "The Nasdaq Composite fell 2.6%, erasing about $1T, and the SOX fell 6.7%, while the 10-year Treasury yield dropped over 19 bp to 4.9591%. Goldman data show several hedge-fund strategy groups each lost over 1% on October 22.",
+      "title": "Nasdaq falls 2.6% and 10-year yield drops 19 bp as AI-funding fears hit hedge funds"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-10-08",
-      "id": "yazen-50m-verdane-round",
-      "last_seen": "2026-10-08",
-      "source_urls": [
-        "https://sifted.eu/articles/yazen-funding-round-verdane-series-b"
-      ],
-      "summary": "Swedish weight-management startup Yazen raised \u20ac50 million in a round led by Verdane, to fund expansion across Europe.",
-      "title": "Yazen raises \u20ac50M led by Verdane"
-    },
     {
       "first_seen": "2026-10-19",
       "id": "seed-capital-fund-v-nordic-expansion",
