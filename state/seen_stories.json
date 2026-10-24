@@ -109,14 +109,6 @@
   ],
   "explainers": [
     {
-      "first_seen": "2026-10-09",
-      "id": "cva-capital-charge-explained",
-      "last_seen": "2026-10-09",
-      "source_urls": [],
-      "summary": "CVA prices the risk that a derivatives counterparty defaults before a trade matures, and banks must hold regulatory capital against swings in it.",
-      "title": "Credit valuation adjustment (CVA) and its capital charge"
-    },
-    {
       "first_seen": "2026-10-11",
       "id": "covered-interest-parity-fx-forwards",
       "last_seen": "2026-10-11",
@@ -195,27 +187,17 @@
       "source_urls": [],
       "summary": "Joining and aggregating multi-table data into one row per entity discards structure that graph-based models over rows and foreign keys can use directly.",
       "title": "Why flattening relational tables loses information"
+    },
+    {
+      "first_seen": "2026-10-24",
+      "id": "credit-spreads-and-cds",
+      "last_seen": "2026-10-24",
+      "source_urls": [],
+      "summary": "A credit spread is the extra yield investors demand over government bonds for default risk, and a credit default swap is the insurance-style contract that prices the same risk directly.",
+      "title": "Credit spreads and default insurance (CDS)"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-09",
-      "id": "us-10y-24-year-high-oat-spread",
-      "last_seen": "2026-10-09",
-      "source_urls": [
-        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-10-09/"
-      ],
-      "summary": "The US 10-year yield briefly hit 5.364%, a 24-year high, and the 30-year auction cleared at its highest yield since 2000. The French\u2013German 10-year spread passed 140 bp, the widest since 2012, the euro fell to $1.1161 and Brent rose above $104.",
-      "title": "US 10-year yield hits 24-year high as French\u2013German spread passes 140 bp"
-    },
-    {
-      "first_seen": "2026-10-09",
-      "id": "unicredit-cva-rwa-doubles-commerzbank",
-      "last_seen": "2026-10-09",
-      "source_urls": [],
-      "summary": "UniCredit's credit valuation adjustment risk-weighted assets doubled, which the bank attributes to strategic transactions tied to building its Commerzbank stake.",
-      "title": "UniCredit's CVA risk-weighted assets double during Commerzbank stake build-up"
-    },
     {
       "first_seen": "2026-10-11",
       "id": "rbi-rupee-defence-fx-derivatives-reserve",
@@ -335,6 +317,16 @@
       ],
       "summary": "The Nasdaq Composite fell 2.6%, erasing about $1T, and the SOX fell 6.7%, while the 10-year Treasury yield dropped over 19 bp to 4.9591%. Goldman data show several hedge-fund strategy groups each lost over 1% on October 22.",
       "title": "Nasdaq falls 2.6% and 10-year yield drops 19 bp as AI-funding fears hit hedge funds"
+    },
+    {
+      "first_seen": "2026-10-24",
+      "id": "global-credit-spreads-17-month-high",
+      "last_seen": "2026-10-24",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-23/ai-tech-fears-push-global-credit-spreads-to-17-month-high"
+      ],
+      "summary": "A Bloomberg index of global corporate-bond spreads reached 129 bp, the widest since May 2025, and the cost of insuring blue-chip US corporate debt against default hit its highest since March. On October 23 WTI rose 4.2% to $103.63 and the US 10-year yield rose 5 bp to 5.00%.",
+      "title": "Global corporate credit spreads hit 129 bp, widest since May 2025, on AI-debt worries and oil"
     }
   ],
   "scandinavian_tech": [
