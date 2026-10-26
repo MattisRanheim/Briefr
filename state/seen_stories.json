@@ -39,16 +39,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-10-11",
-      "id": "lace-llm-algorithm-construction",
-      "last_seen": "2026-10-11",
-      "source_urls": [
-        "https://techxplore.com/news/2026-10-ai-custom-decision-software-hour.html"
-      ],
-      "summary": "NTU researchers introduced LACE in Nature Machine Intelligence, an LLM-driven system that builds portfolios of specialized heuristics. On four new maritime routing problems it reached 97\u201399% of the best tested result in about an hour at roughly US$10.",
-      "title": "LACE builds near-best optimization heuristics in about an hour for ~$10"
-    },
-    {
       "first_seen": "2026-10-16",
       "id": "apertus-1-5-release",
       "last_seen": "2026-10-16",
@@ -105,17 +95,17 @@
       ],
       "summary": "NVIDIA published Kumo Relational, a Relational Graph Transformer for multi-table data, which reportedly beat XGBoost pipelines on 41 tasks across 15 databases. The library is Apache 2.0 but the weights use the more restrictive OpenMDW license.",
       "title": "NVIDIA releases Kumo Relational, beating XGBoost on 41 relational tasks without feature engineering"
+    },
+    {
+      "first_seen": "2026-10-26",
+      "id": "carbon-x-open-dna-model",
+      "last_seen": "2026-10-26",
+      "source_urls": [],
+      "summary": "Carbon-X is an Apache 2.0, 14.8B-parameter model that reads raw DNA and answers in English. It averaged 66.7% across five DNA benchmarks versus 67.5% for GPT-6.1 Sol, and fits on one 80 GB GPU.",
+      "title": "Carbon-X: open 14.8B DNA model scores 66.7% vs 67.5% for GPT-6.1 Sol"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-11",
-      "id": "covered-interest-parity-fx-forwards",
-      "last_seen": "2026-10-11",
-      "source_urls": [],
-      "summary": "A forward FX rate is pinned to spot by the interest-rate gap between two currencies, so curbs on derivatives also affect spot pressure and hedging costs.",
-      "title": "Covered interest parity: why FX forwards tie to the spot rate"
-    },
     {
       "first_seen": "2026-10-12",
       "id": "rate-hike-probabilities-from-futures",
@@ -195,19 +185,17 @@
       "source_urls": [],
       "summary": "A credit spread is the extra yield investors demand over government bonds for default risk, and a credit default swap is the insurance-style contract that prices the same risk directly.",
       "title": "Credit spreads and default insurance (CDS)"
+    },
+    {
+      "first_seen": "2026-10-26",
+      "id": "looking-through-supply-shocks",
+      "last_seen": "2026-10-26",
+      "source_urls": [],
+      "summary": "Central banks usually ignore one-off supply-driven price jumps, but respond if the shock persists and pushes up inflation expectations and wages.",
+      "title": "Why central banks 'look through' oil shocks, until they don't"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-11",
-      "id": "rbi-rupee-defence-fx-derivatives-reserve",
-      "last_seen": "2026-10-11",
-      "source_urls": [
-        "https://www.bloomberg.com/news/articles/2026-10-11/india-s-rupee-defense-raises-question-of-how-far-rbi-will-go"
-      ],
-      "summary": "On October 10 the RBI introduced a dollar liquidity window for state-owned oil refiners and a reserve requirement on FX derivatives as the rupee neared a record low. It had raised rates on October 7 and signalled more tightening was possible.",
-      "title": "RBI adds oil-refiner dollar window and FX-derivatives reserve requirement"
-    },
     {
       "first_seen": "2026-10-12",
       "id": "houthi-saudi-attacks-brent-fed-pricing",
@@ -327,6 +315,16 @@
       ],
       "summary": "A Bloomberg index of global corporate-bond spreads reached 129 bp, the widest since May 2025, and the cost of insuring blue-chip US corporate debt against default hit its highest since March. On October 23 WTI rose 4.2% to $103.63 and the US 10-year yield rose 5 bp to 5.00%.",
       "title": "Global corporate credit spreads hit 129 bp, widest since May 2025, on AI-debt worries and oil"
+    },
+    {
+      "first_seen": "2026-10-26",
+      "id": "brent-falls-qatar-mediation-tehran",
+      "last_seen": "2026-10-26",
+      "source_urls": [
+        "https://www.reuters.com/world/asia-pacific/global-markets-pix-2026-10-26/"
+      ],
+      "summary": "Brent fell about 2% to $114.60 on October 26 after reports of Qatari mediators in Tehran, following a 6.2% weekly gain to the highest weekly close since mid-2022. Goldman expects no October Fed hike but a possible December hike.",
+      "title": "Brent falls 2% to $114.60 on Qatari mediation in Tehran"
     }
   ],
   "scandinavian_tech": [
@@ -349,6 +347,16 @@
       ],
       "summary": "Swedish ocean-energy company Minesto was selected for a \u20ac20.2M EU Innovation Fund grant for its proposed Euro Dragon Farm project. Grant-agreement preparation began on 19 October.",
       "title": "Minesto selected for \u20ac20.2M EU Innovation Fund grant"
+    },
+    {
+      "first_seen": "2026-10-26",
+      "id": "legora-550m-series-valuation",
+      "last_seen": "2026-10-26",
+      "source_urls": [
+        "https://www.breakit.se/artikel/47792/legora-stanger-ny-superrunda-varderas-till-88-miljarder"
+      ],
+      "summary": "Stockholm legal-AI company Legora raised $550M led by Atreides Management at an $8.8B valuation, up from about $5.5B at its previous round.",
+      "title": "Legora raises $550M at $8.8B valuation"
     }
   ],
   "swedish_tech": []
