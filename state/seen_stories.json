@@ -35,6 +35,26 @@
       ],
       "summary": "Anthropic announced on October 22 that it is donating Agent Skills, its open standard for giving agents specialized knowledge and repeatable workflows, to the Agentic AI Foundation.",
       "title": "Anthropic donates Agent Skills to the Agentic AI Foundation"
+    },
+    {
+      "first_seen": "2026-10-27",
+      "id": "openai-gpt-6-1-terra-launch",
+      "last_seen": "2026-10-27",
+      "source_urls": [
+        "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900"
+      ],
+      "summary": "OpenAI released GPT-6.1 Terra on October 26 for computer use, visual reasoning and high-volume workflows. It completes tasks over 3x faster than GPT-6 Astra and GPT-6.1 Sol, with API pricing of $1/$5 per million input/output tokens.",
+      "title": "OpenAI releases GPT-6.1 Terra: matches GPT-6 Astra at about a tenth of the token cost"
+    },
+    {
+      "first_seen": "2026-10-27",
+      "id": "google-gemini-4-argon-announcement",
+      "last_seen": "2026-10-27",
+      "source_urls": [
+        "https://www.thedailystar.net/news/technology/news/google-announces-gemini-4-argon-its-new-frontier-model-4287686"
+      ],
+      "summary": "Google announced Gemini 4 Argon, scoring 77.9% on DeepSWE v1.1 and ranking first on AutomationBench at 51.3%, with output raised from 64K to 1M tokens. Initial access is limited to trusted cyber defenders via the Fairwind Program.",
+      "title": "Google announces Gemini 4 Argon with 1M-token output limit"
     }
   ],
   "data_science_ml": [
@@ -106,14 +126,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-12",
-      "id": "rate-hike-probabilities-from-futures",
-      "last_seen": "2026-10-12",
-      "source_urls": [],
-      "summary": "Futures and swap prices embed an expected policy rate, and dividing the gap to the current rate by the size of one hike gives a probability, with caveats about risk premia.",
-      "title": "How a market-implied rate-hike probability is computed"
-    },
     {
       "first_seen": "2026-10-13",
       "id": "non-deliverable-forwards-ndf",
@@ -193,30 +205,17 @@
       "source_urls": [],
       "summary": "Central banks usually ignore one-off supply-driven price jumps, but respond if the shock persists and pushes up inflation expectations and wages.",
       "title": "Why central banks 'look through' oil shocks, until they don't"
+    },
+    {
+      "first_seen": "2026-10-27",
+      "id": "prompt-caching-kv-reuse",
+      "last_seen": "2026-10-27",
+      "source_urls": [],
+      "summary": "Providers reuse the stored key/value attention states of a repeated prompt prefix, so repeated context is cheap and agent loops become affordable.",
+      "title": "Prompt caching: why cached input tokens cost a fraction"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-12",
-      "id": "houthi-saudi-attacks-brent-fed-pricing",
-      "last_seen": "2026-10-12",
-      "source_urls": [
-        "https://www.bloomberg.com/news/articles/2026-10-11/oil-rises-on-mideast-attacks-dollar-edges-higher-markets-wrap",
-        "https://www.swissinfo.ch/eng/oil-rises-on-mideast-attacks,-dollar-edges-higher:-markets-wrap/92200845"
-      ],
-      "summary": "Houthi attacks on Saudi Arabia pushed Brent above $105.50 before it reversed to about $104.15. Markets price an 18% chance of a Fed hike this month and 85% for December.",
-      "title": "Houthi strikes on Saudi Arabia spike Brent past $105; December Fed hike now 85% priced"
-    },
-    {
-      "first_seen": "2026-10-12",
-      "id": "korea-bond-rally-bok-hike-pricing",
-      "last_seen": "2026-10-12",
-      "source_urls": [
-        "https://www.bloomberg.com/news/articles/2026-10-12/korean-bond-rally-seen-faltering-as-traders-brace-for-rate-hikes"
-      ],
-      "summary": "Strategists expect South Korea's 3- and 10-year bonds to retest last month's four-year-high yields. Won swaps price about a 70% chance of 50 bp of cumulative BoK hikes over six months.",
-      "title": "Won swaps price a 70% chance of 50 bp in Bank of Korea hikes"
-    },
     {
       "first_seen": "2026-10-13",
       "id": "rbi-fx-reserve-rule-details",
@@ -325,6 +324,26 @@
       ],
       "summary": "Brent fell about 2% to $114.60 on October 26 after reports of Qatari mediators in Tehran, following a 6.2% weekly gain to the highest weekly close since mid-2022. Goldman expects no October Fed hike but a possible December hike.",
       "title": "Brent falls 2% to $114.60 on Qatari mediation in Tehran"
+    },
+    {
+      "first_seen": "2026-10-27",
+      "id": "brazil-lula-reelection-selloff",
+      "last_seen": "2026-10-27",
+      "source_urls": [
+        "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KCN3W62IB?channel=FBi345"
+      ],
+      "summary": "After Lula won Brazil's runoff, equities fell about 14% and the real lost 8.5%, its largest one-day fall since the 1999 devaluation. The government announced bond buybacks and cancelled auctions.",
+      "title": "Brazilian assets plunge after Lula's re-election: equities -14%, real -8.5%"
+    },
+    {
+      "first_seen": "2026-10-27",
+      "id": "anthropic-ipo-filing-kospi-rally",
+      "last_seen": "2026-10-27",
+      "source_urls": [
+        "https://www.reuters.com/business/media-telecom/global-markets-view-europe-2026-10-27/"
+      ],
+      "summary": "Anthropic PBC filed paperwork for a US IPO, sparking a tech rally. The Kospi rose 4.5% and MSCI Asia Pacific 1%, led by SK Hynix and Samsung Electronics.",
+      "title": "Anthropic files for US IPO; Kospi jumps 4.5%"
     }
   ],
   "scandinavian_tech": [
@@ -357,6 +376,16 @@
       ],
       "summary": "Stockholm legal-AI company Legora raised $550M led by Atreides Management at an $8.8B valuation, up from about $5.5B at its previous round.",
       "title": "Legora raises $550M at $8.8B valuation"
+    },
+    {
+      "first_seen": "2026-10-27",
+      "id": "strawberry-ai-browser-launch",
+      "last_seen": "2026-10-27",
+      "source_urls": [
+        "https://sifted.eu/articles/strawberry-ai-browser-launch-charles-maddock"
+      ],
+      "summary": "Strawberry, founded by Charles Maddock and backed by General Catalyst and EQT Ventures, launched its first full product on October 26. Teams create 'companions' that find leads, book calls and take notes across browser tabs.",
+      "title": "Stockholm's Strawberry launches Strawberry 1.0, an AI browser with agent 'companions'"
     }
   ],
   "swedish_tech": []
