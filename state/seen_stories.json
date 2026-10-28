@@ -55,6 +55,16 @@
       ],
       "summary": "Google announced Gemini 4 Argon, scoring 77.9% on DeepSWE v1.1 and ranking first on AutomationBench at 51.3%, with output raised from 64K to 1M tokens. Initial access is limited to trusted cyber defenders via the Fairwind Program.",
       "title": "Google announces Gemini 4 Argon with 1M-token output limit"
+    },
+    {
+      "first_seen": "2026-10-28",
+      "id": "flashmap-speculative-decoding-drafter",
+      "last_seen": "2026-10-28",
+      "source_urls": [
+        "https://ground.news/article/polymathic-ai-and-princeton-researchers-release-flashmap-a-flow-map-drafter-for-614x-faster-llm-decoding"
+      ],
+      "summary": "Researchers from Polymathic AI, Princeton and USC ISI released FlashMap, a speculative-decoding drafter that proposes 16-token blocks in one pass. With Qwen3-8B it reached up to 6.14x lossless speedup on GSM8K, with lower, task-dependent gains elsewhere.",
+      "title": "FlashMap drafts 16 tokens per pass for up to 6.14x lossless decoding speedup"
     }
   ],
   "data_science_ml": [
@@ -123,17 +133,19 @@
       "source_urls": [],
       "summary": "Carbon-X is an Apache 2.0, 14.8B-parameter model that reads raw DNA and answers in English. It averaged 66.7% across five DNA benchmarks versus 67.5% for GPT-6.1 Sol, and fits on one 80 GB GPU.",
       "title": "Carbon-X: open 14.8B DNA model scores 66.7% vs 67.5% for GPT-6.1 Sol"
+    },
+    {
+      "first_seen": "2026-10-28",
+      "id": "nvidia-nemotron-3-5-retrievers",
+      "last_seen": "2026-10-28",
+      "source_urls": [
+        "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval"
+      ],
+      "summary": "NVIDIA added Nemotron 3.5 Embed (8B, 1B and an NVFP4 1B), Rerank 8B and Parse 631M to its open Nemotron Retriever collection. The 8B BF16 embedding model scored 61.17 nDCG@10 on ViDoRe v3.1, first among dense retrievers.",
+      "title": "NVIDIA releases Nemotron 3.5 retrieval models; Embed 8B leads ViDoRe v3.1 dense retrieval"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-13",
-      "id": "non-deliverable-forwards-ndf",
-      "last_seen": "2026-10-13",
-      "source_urls": [],
-      "summary": "NDFs are cash-settled FX forwards on restricted currencies, traded offshore, which is why regulators target them when defending a currency.",
-      "title": "Non-deliverable forwards (NDFs)"
-    },
     {
       "first_seen": "2026-10-16",
       "id": "circular-vendor-financing",
@@ -213,30 +225,17 @@
       "source_urls": [],
       "summary": "Providers reuse the stored key/value attention states of a repeated prompt prefix, so repeated context is cheap and agent loops become affordable.",
       "title": "Prompt caching: why cached input tokens cost a fraction"
+    },
+    {
+      "first_seen": "2026-10-28",
+      "id": "lossless-speculative-decoding-acceptance",
+      "last_seen": "2026-10-28",
+      "source_urls": [],
+      "summary": "A cheap drafter proposes tokens and the target model verifies them in one parallel pass using rejection sampling, which preserves the target's output distribution exactly, so speedup depends on how many drafted tokens are accepted.",
+      "title": "Why speculative decoding is lossless"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-13",
-      "id": "rbi-fx-reserve-rule-details",
-      "last_seen": "2026-10-13",
-      "source_urls": [
-        "https://www.thehindubusinessline.com/money-and-banking/rbi-widens-ambit-of-forex-risk-reserve-requirement-tightens-ndf-rules/article71577809.ece/amp/",
-        "https://www.business-standard.com/industry/banking/banks-flag-liquidity-concerns-over-rbi-new-forex-derivative-reserve-rule-126101201187_1.html"
-      ],
-      "summary": "The RBI requires banks to deposit cash equal to 20% of the rupee notional of qualifying FX derivative contracts, now including banks' own hedges, and limited non-resident NDFs to hedging. SBI estimates the measures could drain over \u20b91 trillion from the banking system, and banks are lobbying for a client fee instead.",
-      "title": "RBI's 20% cash reserve on rupee FX derivatives extends to banks' own hedges; banks warn of \u20b91 trillion drain"
-    },
-    {
-      "first_seen": "2026-10-13",
-      "id": "imf-ai-circular-financing-risk",
-      "last_seen": "2026-10-13",
-      "source_urls": [
-        "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KBN3VT18B?channel=FBi345"
-      ],
-      "summary": "The IMF's Global Financial Stability Report reviewed 14 AI transactions since 2023 involving about $300B of equity and $650B of debt, exchanged for $1.4T of future revenue commitments. It warns an AI slowdown could trigger a leverage-amplified correction.",
-      "title": "IMF flags leveraged, circular AI financing as a correction trigger"
-    },
     {
       "first_seen": "2026-10-16",
       "id": "asian-tech-rebound-coreweave-debt",
@@ -344,6 +343,26 @@
       ],
       "summary": "Anthropic PBC filed paperwork for a US IPO, sparking a tech rally. The Kospi rose 4.5% and MSCI Asia Pacific 1%, led by SK Hynix and Samsung Electronics.",
       "title": "Anthropic files for US IPO; Kospi jumps 4.5%"
+    },
+    {
+      "first_seen": "2026-10-28",
+      "id": "ai-chip-rally-kospi-sox-tuesday",
+      "last_seen": "2026-10-28",
+      "source_urls": [
+        "https://www.reuters.com/5f374b32b07b/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-10-27/"
+      ],
+      "summary": "On Tuesday the Kospi rose 6%, the Philadelphia semiconductor index 3.6%, the Nasdaq 1.2% and the S&P 500 0.6%. Dell and Super Micro each gained about 7.5%, and WTI fell about 1.7% to below $100.",
+      "title": "Kospi up 6% and Philadelphia semiconductor index up 3.6% as AI rally extends to US stocks"
+    },
+    {
+      "first_seen": "2026-10-28",
+      "id": "rbnz-surprise-hold-2-75",
+      "last_seen": "2026-10-28",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-28/"
+      ],
+      "summary": "The Reserve Bank of New Zealand kept its official cash rate at 2.75% in a narrow vote that surprised markets. The New Zealand dollar fell more than 1% to $0.5583.",
+      "title": "RBNZ unexpectedly holds at 2.75%, NZ dollar falls over 1%"
     }
   ],
   "scandinavian_tech": [
