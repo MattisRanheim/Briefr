@@ -65,6 +65,16 @@
       ],
       "summary": "Researchers from Polymathic AI, Princeton and USC ISI released FlashMap, a speculative-decoding drafter that proposes 16-token blocks in one pass. With Qwen3-8B it reached up to 6.14x lossless speedup on GSM8K, with lower, task-dependent gains elsewhere.",
       "title": "FlashMap drafts 16 tokens per pass for up to 6.14x lossless decoding speedup"
+    },
+    {
+      "first_seen": "2026-10-29",
+      "id": "anthropic-haiku-5-5-pricing-osworld",
+      "last_seen": "2026-10-29",
+      "source_urls": [
+        "https://ground.news/article/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo"
+      ],
+      "summary": "Anthropic's Haiku 5.5 starts at $0.10 input / $0.50 output per million tokens, about 75% cheaper than Haiku 4.5, and scores 72.4% on OSWorld 2.1. It is available on AWS, Google Cloud and Azure, with effort controls and updated cyber safeguards.",
+      "title": "Claude Haiku 5.5 priced from $0.10/$0.50 per million tokens, scores 72.4% on OSWorld 2.1"
     }
   ],
   "data_science_ml": [
@@ -233,6 +243,14 @@
       "source_urls": [],
       "summary": "A cheap drafter proposes tokens and the target model verifies them in one parallel pass using rejection sampling, which preserves the target's output distribution exactly, so speedup depends on how many drafted tokens are accepted.",
       "title": "Why speculative decoding is lossless"
+    },
+    {
+      "first_seen": "2026-10-29",
+      "id": "equity-duration-discount-rates",
+      "last_seen": "2026-10-29",
+      "source_urls": [],
+      "summary": "A stock is a claim on distant cash flows, so its value is highly sensitive to the discount rate, much like a long-duration bond.",
+      "title": "Equity duration: why higher yields hit long-dated cash flows hardest"
     }
   ],
   "quant_finance": [
@@ -363,6 +381,26 @@
       ],
       "summary": "The Reserve Bank of New Zealand kept its official cash rate at 2.75% in a narrow vote that surprised markets. The New Zealand dollar fell more than 1% to $0.5583.",
       "title": "RBNZ unexpectedly holds at 2.75%, NZ dollar falls over 1%"
+    },
+    {
+      "first_seen": "2026-10-29",
+      "id": "fed-holds-10-2-warsh-dissents",
+      "last_seen": "2026-10-29",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-28/key-takeaways-from-fed-decision-to-hold-rates-steady"
+      ],
+      "summary": "The FOMC held rates with Hammack and Cook dissenting; Chair Warsh said inflation is still too high. The 10-year yield rose over 4 bp to about 5.04% and derivatives price an 85% chance of a December hike.",
+      "title": "Fed holds at 3.75%\u20134% on a 10\u20132 vote; December hike priced at 85%"
+    },
+    {
+      "first_seen": "2026-10-29",
+      "id": "microsoft-alphabet-earnings-ai-trade",
+      "last_seen": "2026-10-29",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates"
+      ],
+      "summary": "Nasdaq 100 futures fell 0.8% after Microsoft and Alphabet results revived doubts about AI spending returns, even as SK Hynix reported roughly sevenfold profit growth and Oracle jumped 11%.",
+      "title": "AI trade stalls after Microsoft and Alphabet results despite SK Hynix profit surge"
     }
   ],
   "scandinavian_tech": [
@@ -405,6 +443,14 @@
       ],
       "summary": "Strawberry, founded by Charles Maddock and backed by General Catalyst and EQT Ventures, launched its first full product on October 26. Teams create 'companions' that find leads, book calls and take notes across browser tabs.",
       "title": "Stockholm's Strawberry launches Strawberry 1.0, an AI browser with agent 'companions'"
+    },
+    {
+      "first_seen": "2026-10-29",
+      "id": "lovable-employee-secondary-sale",
+      "last_seen": "2026-10-29",
+      "source_urls": [],
+      "summary": "Swedish AI coding-tool company Lovable, with about 200 employees, is allowing staff to sell roughly SEK 800 million of shares in a secondary transaction rather than a new funding round.",
+      "title": "Lovable lets employees sell about SEK 800M of shares"
     }
   ],
   "swedish_tech": []
