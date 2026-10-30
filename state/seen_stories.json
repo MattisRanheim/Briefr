@@ -75,6 +75,16 @@
       ],
       "summary": "Anthropic's Haiku 5.5 starts at $0.10 input / $0.50 output per million tokens, about 75% cheaper than Haiku 4.5, and scores 72.4% on OSWorld 2.1. It is available on AWS, Google Cloud and Azure, with effort controls and updated cyber safeguards.",
       "title": "Claude Haiku 5.5 priced from $0.10/$0.50 per million tokens, scores 72.4% on OSWorld 2.1"
+    },
+    {
+      "first_seen": "2026-10-30",
+      "id": "gemini-4-carbon-cyber-launch",
+      "last_seen": "2026-10-30",
+      "source_urls": [
+        "https://www.aiimpacthub.com/ai-news/2026-10-30"
+      ],
+      "summary": "Google announced Gemini 4 Carbon on October 28 with access limited to selected cybersecurity organizations. It reports 88.2% on SEC-bench Pro, 54.8% on ExploitGym and 71.0% on CWE-bench, and a lead on Artificial Analysis Intelligence Index v5 (59), with API pricing of $2/$10 per million tokens.",
+      "title": "Google launches Gemini 4 Carbon for cyber defense via Fairwind Program"
     }
   ],
   "data_science_ml": [
@@ -153,6 +163,26 @@
       ],
       "summary": "NVIDIA added Nemotron 3.5 Embed (8B, 1B and an NVFP4 1B), Rerank 8B and Parse 631M to its open Nemotron Retriever collection. The 8B BF16 embedding model scored 61.17 nDCG@10 on ViDoRe v3.1, first among dense retrievers.",
       "title": "NVIDIA releases Nemotron 3.5 retrieval models; Embed 8B leads ViDoRe v3.1 dense retrieval"
+    },
+    {
+      "first_seen": "2026-10-30",
+      "id": "mistral-large-4-weights-release",
+      "last_seen": "2026-10-30",
+      "source_urls": [
+        "https://huggingface.co/blog/mistral-large4"
+      ],
+      "summary": "Mistral published the open weights of its multimodal MoE Large 4. Reported scores include 61.7% on DeepSWE v1.1, 82% on the Artificial Analysis Cyber Index and a 49.8% Coding Agent Index, ahead of DeepSeek V4 Pro 0813 and Qwen3.8 Max.",
+      "title": "Mistral Large 4 weights released on Hugging Face with benchmark results"
+    },
+    {
+      "first_seen": "2026-10-30",
+      "id": "mlops-bench-coding-agents",
+      "last_seen": "2026-10-30",
+      "source_urls": [
+        "https://agentry.news/research/mlops-bench-agents-solve-just-31-of-real-ml-engineering-tasks"
+      ],
+      "summary": "A benchmark of 212 validated tasks from 31 public ML repositories. Across six agent configurations the best, Codex with GPT-5.5, completed 31.2% of tasks and passed 68.7% of individual tests.",
+      "title": "MLOps-Bench: best coding agent completes only 31.2% of real ML engineering tasks"
     }
   ],
   "explainers": [
@@ -251,6 +281,14 @@
       "source_urls": [],
       "summary": "A stock is a claim on distant cash flows, so its value is highly sensitive to the discount rate, much like a long-duration bond.",
       "title": "Equity duration: why higher yields hit long-dated cash flows hardest"
+    },
+    {
+      "first_seen": "2026-10-30",
+      "id": "stablecoin-freeze-blacklist-mechanism",
+      "last_seen": "2026-10-30",
+      "source_urls": [],
+      "summary": "Centrally issued stablecoins like USDT and USDC have issuer-controlled contract functions that can block specific addresses from transferring tokens, unlike decentralized assets such as bitcoin.",
+      "title": "How a stablecoin issuer can freeze funds"
     }
   ],
   "quant_finance": [
@@ -401,6 +439,26 @@
       ],
       "summary": "Nasdaq 100 futures fell 0.8% after Microsoft and Alphabet results revived doubts about AI spending returns, even as SK Hynix reported roughly sevenfold profit growth and Oracle jumped 11%.",
       "title": "AI trade stalls after Microsoft and Alphabet results despite SK Hynix profit surge"
+    },
+    {
+      "first_seen": "2026-10-30",
+      "id": "binance-6-3b-crypto-theft",
+      "last_seen": "2026-10-30",
+      "source_urls": [
+        "https://www.reuters.com/5f374b32b07b/legal/transactional/tether-circle-freeze-238-billion-after-binance-reports-security-incident-2026-10-29/"
+      ],
+      "summary": "Hackers stole about $6.3B from Binance, which halted withdrawals and said it will cover customer losses. Circle and Tether froze about $2.38B of related assets, and bitcoin fell to a six-week low of $76,368.",
+      "title": "Binance hit by record $6.3B theft; Circle and Tether freeze $2.38B"
+    },
+    {
+      "first_seen": "2026-10-30",
+      "id": "alphabet-plunges-negative-free-cash-flow",
+      "last_seen": "2026-10-30",
+      "source_urls": [
+        "https://www.fidelity.com/news/article/international/202610300302RTRSNEWSCOMBINED_L2N46G05O_1"
+      ],
+      "summary": "Alphabet shares fell 12.6%, erasing about $500B of market value, after a second consecutive quarter of negative free cash flow. Amazon disclosed $42.4B of trailing-12-month cash burn, and Treasuries headed for their strongest monthly gain in almost three years.",
+      "title": "Alphabet falls 12.6% on second straight negative free cash flow quarter"
     }
   ],
   "scandinavian_tech": [
@@ -451,6 +509,16 @@
       "source_urls": [],
       "summary": "Swedish AI coding-tool company Lovable, with about 200 employees, is allowing staff to sell roughly SEK 800 million of shares in a secondary transaction rather than a new funding round.",
       "title": "Lovable lets employees sell about SEK 800M of shares"
+    },
+    {
+      "first_seen": "2026-10-30",
+      "id": "velatir-5m-seed-ai-control",
+      "last_seen": "2026-10-30",
+      "source_urls": [
+        "https://techfundingnews.com/ex-meta-security-lead-raises-5m-ai-control-layer/"
+      ],
+      "summary": "Odense-based Velatir, co-founded in 2023 by a former Meta security executive, raised a \u20ac5M seed round led by existing investors Spintop Ventures and Ugly Duckling Ventures. It is building a real-time control layer for enterprise AI applications.",
+      "title": "Velatir raises \u20ac5M seed for enterprise AI control layer"
     }
   ],
   "swedish_tech": []
