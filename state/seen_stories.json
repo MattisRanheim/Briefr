@@ -89,16 +89,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-10-16",
-      "id": "apertus-1-5-release",
-      "last_seen": "2026-10-16",
-      "source_urls": [
-        "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
-      ],
-      "summary": "The Swiss AI team released Apertus 1.5 (8B and 70B) with image and audio understanding, an optional thinking mode, 4x longer context and stronger tool use under Apache 2.0, with base, SFT, RLVR and DPO checkpoints and training datasets on Hugging Face. The 8B model reportedly matches GPT-OSS-20B on the Last Translation Benchmark and beats Claude Haiku 4.5 and Google Translate.",
-      "title": "Apertus 1.5 adds multimodality and reasoning to Apache-2.0 8B and 70B models"
-    },
-    {
       "first_seen": "2026-10-18",
       "id": "deepseek-v41-flash-1017-release",
       "last_seen": "2026-10-18",
@@ -183,17 +173,17 @@
       ],
       "summary": "A benchmark of 212 validated tasks from 31 public ML repositories. Across six agent configurations the best, Codex with GPT-5.5, completed 31.2% of tasks and passed 68.7% of individual tests.",
       "title": "MLOps-Bench: best coding agent completes only 31.2% of real ML engineering tasks"
+    },
+    {
+      "first_seen": "2026-10-31",
+      "id": "llm-d-1-0-release",
+      "last_seen": "2026-10-31",
+      "source_urls": [],
+      "summary": "llm-d v1.0, built by 500+ contributors across 25+ organizations in the CNCF Sandbox, adds multi-tenant flow control, zero-downtime DisaggregatedSet upgrades and session-aware KV-cache routing across vLLM, SGLang, GPUs and TPUs.",
+      "title": "llm-d 1.0 brings production-grade distributed inference to vLLM and SGLang"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-16",
-      "id": "circular-vendor-financing",
-      "last_seen": "2026-10-16",
-      "source_urls": [],
-      "summary": "When a supplier funds its own customer, who spends the money on the supplier's products, reported demand depends on the supplier's own capital and risk becomes correlated across both firms.",
-      "title": "Circular (vendor) financing"
-    },
     {
       "first_seen": "2026-10-18",
       "id": "agent-benchmark-harness-sensitivity",
@@ -289,19 +279,17 @@
       "source_urls": [],
       "summary": "Centrally issued stablecoins like USDT and USDC have issuer-controlled contract functions that can block specific addresses from transferring tokens, unlike decentralized assets such as bitcoin.",
       "title": "How a stablecoin issuer can freeze funds"
+    },
+    {
+      "first_seen": "2026-10-31",
+      "id": "prefill-decode-disaggregation",
+      "last_seen": "2026-10-31",
+      "source_urls": [],
+      "summary": "Prefill is compute-bound and decode is memory-bandwidth-bound, so serving stacks can split them onto separate GPU pools to improve utilization and latency.",
+      "title": "Prefill/decode disaggregation in LLM serving"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-16",
-      "id": "asian-tech-rebound-coreweave-debt",
-      "last_seen": "2026-10-16",
-      "source_urls": [
-        "https://finance.yahoo.com/markets/world-indices/articles/most-asian-stocks-rise-calm-063159271.html"
-      ],
-      "summary": "On October 16 the Nikkei rose 1.9% after almost 5% fall and the KOSPI rose 3.3% after an almost 8% drop, following renewed concern over CoreWeave's debt load and AI-boom financing. US Nasdaq and S&P 500 futures were up 0.2% early.",
-      "title": "Nikkei and KOSPI rebound after near-5% and near-8% drops on AI-financing worries"
-    },
     {
       "first_seen": "2026-10-19",
       "id": "asian-equities-fall-ai-funding-oil-bonds",
@@ -459,6 +447,26 @@
       ],
       "summary": "Alphabet shares fell 12.6%, erasing about $500B of market value, after a second consecutive quarter of negative free cash flow. Amazon disclosed $42.4B of trailing-12-month cash burn, and Treasuries headed for their strongest monthly gain in almost three years.",
       "title": "Alphabet falls 12.6% on second straight negative free cash flow quarter"
+    },
+    {
+      "first_seen": "2026-10-31",
+      "id": "intel-broadcom-record-cds",
+      "last_seen": "2026-10-31",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-30/tech-firms-debt-protection-costs-are-surging-on-profit-concerns"
+      ],
+      "summary": "Five-year Intel CDS widened by as much as 22.4 bp to a record 127.9 bp, Broadcom hit a record and AMD its highest since early 2019, after weak Intel and Amazon results revived AI-funding worries.",
+      "title": "Intel's default insurance hits a record 127.9 bp as Broadcom and AMD CDS also surge"
+    },
+    {
+      "first_seen": "2026-10-31",
+      "id": "nasdaq-futures-amazon-intel-selloff",
+      "last_seen": "2026-10-31",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-sp-500-live-updates-2026-10-29"
+      ],
+      "summary": "Nasdaq 100 futures fell 2.3% on weaker-than-expected Amazon and Intel results, bitcoin dropped almost 3% to about $76,600, and investors moved into Treasuries amid a global tech selloff.",
+      "title": "Nasdaq 100 futures drop 2.3% after weak Amazon and Intel results"
     }
   ],
   "scandinavian_tech": [
@@ -519,6 +527,26 @@
       ],
       "summary": "Odense-based Velatir, co-founded in 2023 by a former Meta security executive, raised a \u20ac5M seed round led by existing investors Spintop Ventures and Ugly Duckling Ventures. It is building a real-time control layer for enterprise AI applications.",
       "title": "Velatir raises \u20ac5M seed for enterprise AI control layer"
+    },
+    {
+      "first_seen": "2026-10-31",
+      "id": "jenz-pre-seed-antler-ada",
+      "last_seen": "2026-10-31",
+      "source_urls": [
+        "https://www.shifter.no/nyheter/finansiering-i-boks-fire-maneder-etter-hackathon-seier/479627"
+      ],
+      "summary": "Norwegian startup Jenz, building AI agents for retailers' back-office work, raised \u20ac540,000 pre-seed from Antler and Ada Ventures plus a NOK 1M Innovation Norway grant.",
+      "title": "Jenz raises \u20ac540,000 four months after winning a hackathon"
+    },
+    {
+      "first_seen": "2026-10-31",
+      "id": "cortas-dkk-11m-pre-seed",
+      "last_seen": "2026-10-31",
+      "source_urls": [
+        "https://techsavvy.media/en/a-break-from-traditional-property-management-ai-startup-raises-tens-of-millions/"
+      ],
+      "summary": "Danish startup Cortas raised DKK 11M pre-seed from PSV Tech, JRNY Capital, EIFO and the founders of Flatpay and Spirii to build AI property-management software.",
+      "title": "Cortas raises DKK 11M pre-seed for AI property management"
     }
   ],
   "swedish_tech": []
