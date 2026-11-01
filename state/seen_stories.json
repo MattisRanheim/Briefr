@@ -181,6 +181,14 @@
       "source_urls": [],
       "summary": "llm-d v1.0, built by 500+ contributors across 25+ organizations in the CNCF Sandbox, adds multi-tenant flow control, zero-downtime DisaggregatedSet upgrades and session-aware KV-cache routing across vLLM, SGLang, GPUs and TPUs.",
       "title": "llm-d 1.0 brings production-grade distributed inference to vLLM and SGLang"
+    },
+    {
+      "first_seen": "2026-11-01",
+      "id": "snap-alchemist-agentic-experimentation",
+      "last_seen": "2026-11-01",
+      "source_urls": [],
+      "summary": "Snap introduced Alchemist, an agentic ML experimentation platform with a deterministic harness for plan validation, budget enforcement and human approval. In a Story ads feature-selection use case it cut cycle time from four weeks to two and removed 30% of features without metric regression.",
+      "title": "Snap's Alchemist halves ML experiment cycle time with a controlled agent harness"
     }
   ],
   "explainers": [
@@ -287,6 +295,14 @@
       "source_urls": [],
       "summary": "Prefill is compute-bound and decode is memory-bandwidth-bound, so serving stacks can split them onto separate GPU pools to improve utilization and latency.",
       "title": "Prefill/decode disaggregation in LLM serving"
+    },
+    {
+      "first_seen": "2026-11-01",
+      "id": "correlation-spikes-in-stress",
+      "last_seen": "2026-11-01",
+      "source_urls": [],
+      "summary": "In stress, forced selling to meet margin calls hits liquid assets regardless of fundamentals, so correlations rise and assets like gold and bitcoin fall alongside equities.",
+      "title": "Why diversifiers sell off together in a crash"
     }
   ],
   "quant_finance": [
@@ -467,6 +483,27 @@
       ],
       "summary": "Nasdaq 100 futures fell 2.3% on weaker-than-expected Amazon and Intel results, bitcoin dropped almost 3% to about $76,600, and investors moved into Treasuries amid a global tech selloff.",
       "title": "Nasdaq 100 futures drop 2.3% after weak Amazon and Intel results"
+    },
+    {
+      "first_seen": "2026-11-01",
+      "id": "nasdaq-100-correction-gold-bitcoin-fall",
+      "last_seen": "2026-11-01",
+      "source_urls": [
+        "https://www.swissinfo.ch/eng/tech-rout-deepens-as-earnings-stoke-ai-reckoning:-markets-wrap/92299351",
+        "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html"
+      ],
+      "summary": "The Nasdaq 100 fell 3.5% and briefly entered a correction, the S&P 500 dropped 1.8% below its 100-day moving average, and gold fell 3.3% and bitcoin 2.5%. The Nasdaq Composite lost 5.3% in October while the Dow gained 1.7%.",
+      "title": "Nasdaq 100 drops 3.5% into a technical correction; gold and bitcoin fall with it"
+    },
+    {
+      "first_seen": "2026-11-01",
+      "id": "france-q3-gdp-contraction",
+      "last_seen": "2026-11-01",
+      "source_urls": [
+        "https://businessmirror.com.ph/2026/11/01/french-economy-unexpectedly-shrinks-as-headwinds-strengthen/"
+      ],
+      "summary": "French GDP fell 0.1% quarter over quarter in the third quarter as investment kept declining and exports weakened.",
+      "title": "France's economy unexpectedly shrinks 0.1% in Q3"
     }
   ],
   "scandinavian_tech": [
@@ -547,6 +584,16 @@
       ],
       "summary": "Danish startup Cortas raised DKK 11M pre-seed from PSV Tech, JRNY Capital, EIFO and the founders of Flatpay and Spirii to build AI property-management software.",
       "title": "Cortas raises DKK 11M pre-seed for AI property management"
+    },
+    {
+      "first_seen": "2026-11-01",
+      "id": "oaiz-raises-sek-20m-malmo",
+      "last_seen": "2026-11-01",
+      "source_urls": [
+        "https://www.breakit.se/artikel/47867/legora-aloi-ai-north-house-warmare-och-oaiz-har-ar-senaste-rundorna"
+      ],
+      "summary": "Oaiz, founded by people associated with the sale of cybersecurity company Debricked, raised more than SEK 20 million in its first round from Node, Icebreaker and Karaoke Club. It is building a platform to automate repetitive administrative work.",
+      "title": "Malm\u00f6's Oaiz raises over SEK 20M for administrative automation"
     }
   ],
   "swedish_tech": []
