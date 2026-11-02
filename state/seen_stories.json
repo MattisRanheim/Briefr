@@ -89,16 +89,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-10-18",
-      "id": "deepseek-v41-flash-1017-release",
-      "last_seen": "2026-10-18",
-      "source_urls": [
-        "https://www.developersdigest.tech/blog/deepseek-v4-1-flash-1017-release-guide-2026"
-      ],
-      "summary": "DeepSeek released the V4.1-Flash-1017 checkpoint on October 17, with gains on Terminal-Bench 4.0 (+11.1), ProgramBench (+8.8), Apex Bench (+7.5) and DeepSWE v1.1 (+2.8). API pricing is reportedly unchanged and the license is MIT.",
-      "title": "DeepSeek V4.1-Flash-1017 lifts Terminal-Bench 4.0 from 31.2 to 42.3 under MIT license"
-    },
-    {
       "first_seen": "2026-10-19",
       "id": "premisesql-text-to-sql-benchmark",
       "last_seen": "2026-10-19",
@@ -189,17 +179,17 @@
       "source_urls": [],
       "summary": "Snap introduced Alchemist, an agentic ML experimentation platform with a deterministic harness for plan validation, budget enforcement and human approval. In a Story ads feature-selection use case it cut cycle time from four weeks to two and removed 30% of features without metric regression.",
       "title": "Snap's Alchemist halves ML experiment cycle time with a controlled agent harness"
+    },
+    {
+      "first_seen": "2026-11-02",
+      "id": "torchtpu-native-pytorch-backend",
+      "last_seen": "2026-11-02",
+      "source_urls": [],
+      "summary": "Google and Meta's PyTorch team introduced TorchTPU, a native C++ PrivateUse1 backend meant to replace PyTorch/XLA's lazy-tensor approach. It combines TorchDynamo compilation with a hybrid eager mode and was reportedly validated on 5,000 Hugging Face models.",
+      "title": "TorchTPU brings native PyTorch execution to Google TPUs"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-18",
-      "id": "agent-benchmark-harness-sensitivity",
-      "last_seen": "2026-10-18",
-      "source_urls": [],
-      "summary": "Scores on terminal and coding-agent benchmarks reflect the model plus its scaffold, tools and limits, so numbers from different reports are often not directly comparable.",
-      "title": "Why agent benchmark scores depend on the harness"
-    },
     {
       "first_seen": "2026-10-19",
       "id": "abstention-selective-prediction-risk-coverage",
@@ -303,6 +293,14 @@
       "source_urls": [],
       "summary": "In stress, forced selling to meet margin calls hits liquid assets regardless of fundamentals, so correlations rise and assets like gold and bitcoin fall alongside equities.",
       "title": "Why diversifiers sell off together in a crash"
+    },
+    {
+      "first_seen": "2026-11-02",
+      "id": "lazy-tensors-vs-eager-execution",
+      "last_seen": "2026-11-02",
+      "source_urls": [],
+      "summary": "Lazy-tensor backends like PyTorch/XLA record operations into a graph and compile it later, while eager mode runs each op immediately. This explains why TPU support has needed workarounds.",
+      "title": "Lazy tensors vs. eager execution"
     }
   ],
   "quant_finance": [
@@ -504,6 +502,26 @@
       ],
       "summary": "French GDP fell 0.1% quarter over quarter in the third quarter as investment kept declining and exports weakened.",
       "title": "France's economy unexpectedly shrinks 0.1% in Q3"
+    },
+    {
+      "first_seen": "2026-11-02",
+      "id": "binance-withdrawals-after-heist",
+      "last_seen": "2026-11-02",
+      "source_urls": [
+        "https://www.newsobserver.com/news/business/article317877174.html"
+      ],
+      "summary": "Binance resumed service after the $6.3B theft, which the FBI attributed to North Korea. Customers withdrew $3.64B, 2.1% of its assets, and bitcoin and ether rebounded slightly.",
+      "title": "Binance customers pull $3.64B after the $6.3B hack"
+    },
+    {
+      "first_seen": "2026-11-02",
+      "id": "brent-falls-us-iran-talks",
+      "last_seen": "2026-11-02",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates"
+      ],
+      "summary": "Brent fell to about $106 after Iran's supreme leader approved pursuing talks that could resolve the conflict. Stocks and bonds rose and tech led an S&P 500 rebound after its worst session since June.",
+      "title": "Brent falls to about $106 as Iran approves talks"
     }
   ],
   "scandinavian_tech": [
@@ -594,6 +612,16 @@
       ],
       "summary": "Oaiz, founded by people associated with the sale of cybersecurity company Debricked, raised more than SEK 20 million in its first round from Node, Icebreaker and Karaoke Club. It is building a platform to automate repetitive administrative work.",
       "title": "Malm\u00f6's Oaiz raises over SEK 20M for administrative automation"
+    },
+    {
+      "first_seen": "2026-11-02",
+      "id": "almi-invest-eu-capital-rejection",
+      "last_seen": "2026-11-02",
+      "source_urls": [
+        "https://www.breakit.se/artikel/47855/efter-kritiken-almi-invest-overvager-att-nobba-eu-miljoner"
+      ],
+      "summary": "Almi Invest CEO Joachim Karlsson says the state-backed investor is weighing a stop to its use of EU capital. A Riksrevisionen report argued that EU-capital rules have restricted its investments and weakened returns.",
+      "title": "Almi Invest considers dropping EU funding after audit criticism"
     }
   ],
   "swedish_tech": []
