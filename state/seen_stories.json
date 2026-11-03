@@ -1,16 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-10-19",
-      "id": "openai-gpt-6-intelligent-ui",
-      "last_seen": "2026-10-19",
-      "source_urls": [
-        "https://openai.com/index/gpt-6-for-everyone/"
-      ],
-      "summary": "ChatGPT can now generate interactive interfaces and task-specific tools instead of only text. Paid tiers get GPT-6 Sol first, and Free and Go users get GPT-6 Luna the next day.",
-      "title": "OpenAI rolls out GPT-6 with Intelligent UI, free tiers follow a day later"
-    },
-    {
       "first_seen": "2026-10-21",
       "id": "anthropic-claude-5-5-launch",
       "last_seen": "2026-10-21",
@@ -85,17 +75,17 @@
       ],
       "summary": "Google announced Gemini 4 Carbon on October 28 with access limited to selected cybersecurity organizations. It reports 88.2% on SEC-bench Pro, 54.8% on ExploitGym and 71.0% on CWE-bench, and a lead on Artificial Analysis Intelligence Index v5 (59), with API pricing of $2/$10 per million tokens.",
       "title": "Google launches Gemini 4 Carbon for cyber defense via Fairwind Program"
+    },
+    {
+      "first_seen": "2026-11-03",
+      "id": "meituan-longcat-2-5-release",
+      "last_seen": "2026-11-03",
+      "source_urls": [],
+      "summary": "Meituan released LongCat-2.5 on November 2: 1.6T total and ~48B active parameters, 1M-token context, 128K max output. API pricing is $0.30 input / $1.20 output per million tokens.",
+      "title": "Meituan releases LongCat-2.5: 1.6T-parameter MoE with 1M context at $0.30/$1.20"
     }
   ],
   "data_science_ml": [
-    {
-      "first_seen": "2026-10-19",
-      "id": "premisesql-text-to-sql-benchmark",
-      "last_seen": "2026-10-19",
-      "source_urls": [],
-      "summary": "The benchmark pairs 1,800 flawed requests, covering four types of premise error, with their valid originals and tests three prompting settings. Frontier systems usually trust the premise and generate SQL rather than challenge the request or abstain.",
-      "title": "PremiseSQL shows frontier text-to-SQL models accept flawed requests instead of pushing back"
-    },
     {
       "first_seen": "2026-10-22",
       "id": "lumma-fev-27b-decision-model",
@@ -187,17 +177,19 @@
       "source_urls": [],
       "summary": "Google and Meta's PyTorch team introduced TorchTPU, a native C++ PrivateUse1 backend meant to replace PyTorch/XLA's lazy-tensor approach. It combines TorchDynamo compilation with a hybrid eager mode and was reportedly validated on 5,000 Hugging Face models.",
       "title": "TorchTPU brings native PyTorch execution to Google TPUs"
+    },
+    {
+      "first_seen": "2026-11-03",
+      "id": "diffuspace-clover-35b-a3b-preview",
+      "last_seen": "2026-11-03",
+      "source_urls": [
+        "https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview"
+      ],
+      "summary": "DiffuSpace released Clover-35B-A3B-Preview on October 30: a 35B total / 3B active-parameter diffusion language model with a selectable thinking mode under Apache licensing. It runs in SGLang and llama.cpp.",
+      "title": "DiffuSpace releases Clover-35B-A3B-Preview, an open MoE diffusion language model"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-19",
-      "id": "abstention-selective-prediction-risk-coverage",
-      "last_seen": "2026-10-19",
-      "source_urls": [],
-      "summary": "A model that can decline to answer trades coverage (how many queries it answers) for risk (error rate on those it answers), which is why text-to-SQL needs premise checks.",
-      "title": "Abstention and the risk\u2013coverage trade-off"
-    },
     {
       "first_seen": "2026-10-20",
       "id": "repo-haircuts-collateral-stress",
@@ -301,19 +293,17 @@
       "source_urls": [],
       "summary": "Lazy-tensor backends like PyTorch/XLA record operations into a graph and compile it later, while eager mode runs each op immediately. This explains why TPU support has needed workarounds.",
       "title": "Lazy tensors vs. eager execution"
+    },
+    {
+      "first_seen": "2026-11-03",
+      "id": "diffusion-language-models-parallel-decoding",
+      "last_seen": "2026-11-03",
+      "source_urls": [],
+      "summary": "Masked diffusion LMs start from a fully masked sequence and unmask many tokens in parallel over several refinement steps, instead of generating left to right.",
+      "title": "How diffusion language models generate text"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-19",
-      "id": "asian-equities-fall-ai-funding-oil-bonds",
-      "last_seen": "2026-10-19",
-      "source_urls": [
-        "https://investmentguruindia.com/newsdetail/asian-stocks-slip-wall-st-and-bonds-benefit-from-oil-skid320134"
-      ],
-      "summary": "On October 19 the Nikkei fell 1.2% and Korea 0.4% after weekly losses of 5.4% and over 14%. The 10-year Treasury yield dropped 4 bp to 5.0525% as oil fell on a possible US sanctions waiver for Russian fuel.",
-      "title": "Asian equities fall again on AI-funding worries as oil slide lifts Treasuries"
-    },
     {
       "first_seen": "2026-10-20",
       "id": "european-banks-securities-financing-record",
@@ -522,19 +512,19 @@
       ],
       "summary": "Brent fell to about $106 after Iran's supreme leader approved pursuing talks that could resolve the conflict. Stocks and bonds rose and tech led an S&P 500 rebound after its worst session since June.",
       "title": "Brent falls to about $106 as Iran approves talks"
+    },
+    {
+      "first_seen": "2026-11-03",
+      "id": "rba-fifth-hike-final-signal",
+      "last_seen": "2026-11-03",
+      "source_urls": [
+        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-03/"
+      ],
+      "summary": "The Reserve Bank of Australia raised rates for the fifth time this year, taking them to an 18-year high, and signaled this could be the final hike of the cycle.",
+      "title": "RBA raises rates a fifth time in 2026 to an 18-year high, signals it may be the last"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-10-19",
-      "id": "seed-capital-fund-v-nordic-expansion",
-      "last_seen": "2026-10-19",
-      "source_urls": [
-        "https://thenextweb.com/news/seed-capital-closes-130-million-fund-v"
-      ],
-      "summary": "Copenhagen-based Seed Capital raised a \u20ac130M fifth fund to back 15\u201317 startups with \u20ac3\u20136M initial cheques. It will invest outside Denmark for the first time, with a focus on Sweden, and adds cybersecurity.",
-      "title": "Seed Capital closes \u20ac130M Fund V and expands to Sweden"
-    },
     {
       "first_seen": "2026-10-20",
       "id": "minesto-euro-dragon-farm-innovation-fund",
@@ -622,6 +612,16 @@
       ],
       "summary": "Almi Invest CEO Joachim Karlsson says the state-backed investor is weighing a stop to its use of EU capital. A Riksrevisionen report argued that EU-capital rules have restricted its investments and weakened returns.",
       "title": "Almi Invest considers dropping EU funding after audit criticism"
+    },
+    {
+      "first_seen": "2026-11-03",
+      "id": "creandum-sek-7-5b-fund",
+      "last_seen": "2026-11-03",
+      "source_urls": [
+        "https://www.di.se/nyheter/creandum-slar-fondrekord-ett-av-sex-bolag-i-blir-vart-1-miljard-dollar/"
+      ],
+      "summary": "Creandum raised SEK 7.5 billion for a new early-stage fund. Partner Fredrik Cassel, who led the Spotify and Lovable investments, expects about one in six portfolio companies to reach a $1B+ valuation.",
+      "title": "Creandum raises SEK 7.5B early-stage fund"
     }
   ],
   "swedish_tech": []
