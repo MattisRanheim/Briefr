@@ -187,17 +187,19 @@
       ],
       "summary": "DiffuSpace released Clover-35B-A3B-Preview on October 30: a 35B total / 3B active-parameter diffusion language model with a selectable thinking mode under Apache licensing. It runs in SGLang and llama.cpp.",
       "title": "DiffuSpace releases Clover-35B-A3B-Preview, an open MoE diffusion language model"
+    },
+    {
+      "first_seen": "2026-11-04",
+      "id": "google-mercor-physical-engineering-exam",
+      "last_seen": "2026-11-04",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents"
+      ],
+      "summary": "Google's AI & Infrastructure team and Mercor released PLE, a benchmark of 29 public physical-engineering tasks with grading scripts, an evaluation container and an open leaderboard.",
+      "title": "Google and Mercor release Physical-Engineering's Last Exam for engineering agents"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-20",
-      "id": "repo-haircuts-collateral-stress",
-      "last_seen": "2026-10-20",
-      "source_urls": [],
-      "summary": "A repo is a secured loan made by selling a security with an agreement to buy it back, and haircuts on the collateral can rise in stress, forcing deleveraging.",
-      "title": "Repo: secured funding, haircuts and collateral stress"
-    },
     {
       "first_seen": "2026-10-21",
       "id": "bank-sovereign-doom-loop",
@@ -301,17 +303,17 @@
       "source_urls": [],
       "summary": "Masked diffusion LMs start from a fully masked sequence and unmask many tokens in parallel over several refinement steps, instead of generating left to right.",
       "title": "How diffusion language models generate text"
+    },
+    {
+      "first_seen": "2026-11-04",
+      "id": "bond-tranches-multi-currency-issuance",
+      "last_seen": "2026-11-04",
+      "source_urls": [],
+      "summary": "A multi-part offering splits one raise into maturities priced separately off the yield curve, and a new currency widens the investor base.",
+      "title": "Why big issuers sell bonds in tranches and in several currencies"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-20",
-      "id": "european-banks-securities-financing-record",
-      "last_seen": "2026-10-20",
-      "source_urls": [],
-      "summary": "Risk.net reports exposures at 29 European banks rose 14% to \u20ac881 billion, with 18 banks at all-time highs. The rise was driven by larger repo and securities-lending positions, especially at German banks.",
-      "title": "European banks' securities-financing exposure hits record \u20ac881B"
-    },
     {
       "first_seen": "2026-10-21",
       "id": "france-10-year-yield-5-percent",
@@ -522,19 +524,30 @@
       ],
       "summary": "The Reserve Bank of Australia raised rates for the fifth time this year, taking them to an 18-year high, and signaled this could be the final hike of the cycle.",
       "title": "RBA raises rates a fifth time in 2026 to an 18-year high, signals it may be the last"
+    },
+    {
+      "first_seen": "2026-11-04",
+      "id": "democrats-sweep-congress-market-reaction",
+      "last_seen": "2026-11-04",
+      "source_urls": [
+        "https://www.reuters.com/business/investors-ready-possible-shake-up-congress-election-day-arrives-2026-11-03/",
+        "https://www.reuters.com/world/china/global-markets-view-europe-2026-11-04/"
+      ],
+      "summary": "Democrats won both chambers in the November 3 midterms. Nasdaq futures fell as much as 1.5%, bitcoin dropped to about $75.7K, the dollar weakened across G10 and the 10-year yield fell 7 bp to 4.89%.",
+      "title": "Democrats win Senate and House; Nasdaq futures fall, Treasuries rally"
+    },
+    {
+      "first_seen": "2026-11-04",
+      "id": "meta-15b-bond-euro-debut",
+      "last_seen": "2026-11-04",
+      "source_urls": [
+        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-04/"
+      ],
+      "summary": "Meta Platforms was reported to be raising $15B through a five-part US-dollar bond offering and issued euro-denominated bonds for the first time.",
+      "title": "Meta raises $15B in five-part dollar bond and debuts in euros"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-10-20",
-      "id": "minesto-euro-dragon-farm-innovation-fund",
-      "last_seen": "2026-10-20",
-      "source_urls": [
-        "https://bebeez.eu/2026/10/19/minesto-selected-for-20-2-m-eur-innovation-fund-grant-for-proposed-euro-dragon-farm-project-grant-agreement-preparation-initiated/"
-      ],
-      "summary": "Swedish ocean-energy company Minesto was selected for a \u20ac20.2M EU Innovation Fund grant for its proposed Euro Dragon Farm project. Grant-agreement preparation began on 19 October.",
-      "title": "Minesto selected for \u20ac20.2M EU Innovation Fund grant"
-    },
     {
       "first_seen": "2026-10-26",
       "id": "legora-550m-series-valuation",
