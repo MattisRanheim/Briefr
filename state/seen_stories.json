@@ -1,14 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-10-21",
-      "id": "anthropic-claude-5-5-launch",
-      "last_seen": "2026-10-21",
-      "source_urls": [],
-      "summary": "Anthropic released Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 on October 21. It says Opus 5.5 leads in agentic coding and knowledge work at 40% lower cost than Opus 5, and Sonnet 5.5 is over 30% faster and up to 30% cheaper.",
-      "title": "Anthropic launches Claude Opus, Sonnet and Haiku 5.5, with Opus 40% cheaper to run"
-    },
-    {
       "first_seen": "2026-10-22",
       "id": "mistral-large-4-preview",
       "last_seen": "2026-10-22",
@@ -201,14 +193,6 @@
   ],
   "explainers": [
     {
-      "first_seen": "2026-10-21",
-      "id": "bank-sovereign-doom-loop",
-      "last_seen": "2026-10-21",
-      "source_urls": [],
-      "summary": "Banks hold large amounts of their own government's debt, so falling bond prices weaken the banks, and weaker banks raise the state's risk, which pushes bond prices down further.",
-      "title": "The bank\u2013sovereign doom loop"
-    },
-    {
       "first_seen": "2026-10-22",
       "id": "calibration-expected-calibration-error",
       "last_seen": "2026-10-22",
@@ -311,19 +295,17 @@
       "source_urls": [],
       "summary": "A multi-part offering splits one raise into maturities priced separately off the yield curve, and a new currency widens the investor base.",
       "title": "Why big issuers sell bonds in tranches and in several currencies"
+    },
+    {
+      "first_seen": "2026-11-05",
+      "id": "breakeven-inflation-oil-link",
+      "last_seen": "2026-11-05",
+      "source_urls": [],
+      "summary": "The breakeven rate is the gap between nominal and inflation-linked Treasury yields, and it moves with oil because oil feeds near-term inflation expectations.",
+      "title": "Breakeven inflation: how bonds price inflation expectations"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-21",
-      "id": "france-10-year-yield-5-percent",
-      "last_seen": "2026-10-21",
-      "source_urls": [
-        "https://www.reuters.com/5f374b32b07b/world/china/global-markets-global-markets-2026-10-21/"
-      ],
-      "summary": "France's 10-year government bond yield touched 5% on October 21, the highest since 2002, amid protests and doubts over fiscal repair. Brent rose above $110 and US Treasury yields also rose.",
-      "title": "France's 10-year yield touches 5%, highest since 2002, as Brent rebounds above $110"
-    },
     {
       "first_seen": "2026-10-22",
       "id": "france-bund-spread-165bp",
@@ -545,6 +527,26 @@
       ],
       "summary": "Meta Platforms was reported to be raising $15B through a five-part US-dollar bond offering and issued euro-denominated bonds for the first time.",
       "title": "Meta raises $15B in five-part dollar bond and debuts in euros"
+    },
+    {
+      "first_seen": "2026-11-05",
+      "id": "brent-plunges-after-midterms",
+      "last_seen": "2026-11-05",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/global-markets-global-markets-2026-11-05/"
+      ],
+      "summary": "Brent fell nearly 9\u201310%, briefly below $100 and to about $93.50 in Asian trading, on expectations that a Democratic Congress would constrain Trump's Iran war response. Treasury yields fell to a two-month low and the dollar weakened to about $1.1273 per euro.",
+      "title": "Brent plunges nearly 10% to about $93.50 as Treasury yields hit two-month low"
+    },
+    {
+      "first_seen": "2026-11-05",
+      "id": "sp500-rally-chip-stocks-fall",
+      "last_seen": "2026-11-05",
+      "source_urls": [
+        "https://www.fidelity.com/news/article/us-markets/202611050741RTRSNEWSCOMBINED_KCN3WG1HG-OUSTP_1"
+      ],
+      "summary": "The S&P 500 rose 1.6% on Wednesday, its best day in three months, and European shares hit a two-month high. Marvell fell 3.4%, Nvidia 0.8% and Intel 2% in premarket trading on data-center scrutiny under a Democratic Congress.",
+      "title": "S&P 500 gains 1.6% while Nvidia, Marvell and Intel fall"
     }
   ],
   "scandinavian_tech": [
