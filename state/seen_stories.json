@@ -1,16 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-10-23",
-      "id": "anthropic-agent-skills-aaif-donation",
-      "last_seen": "2026-10-23",
-      "source_urls": [
-        "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
-      ],
-      "summary": "Anthropic announced on October 22 that it is donating Agent Skills, its open standard for giving agents specialized knowledge and repeatable workflows, to the Agentic AI Foundation.",
-      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation"
-    },
-    {
       "first_seen": "2026-10-27",
       "id": "openai-gpt-6-1-terra-launch",
       "last_seen": "2026-10-27",
@@ -81,16 +71,6 @@
     }
   ],
   "data_science_ml": [
-    {
-      "first_seen": "2026-10-23",
-      "id": "nvidia-kumo-relational-release",
-      "last_seen": "2026-10-23",
-      "source_urls": [
-        "https://www.techtimes.com/articles/329369/20261022/nvidia-kumo-relational-beats-xgboost-enterprise-databases-without-feature-engineering.htm"
-      ],
-      "summary": "NVIDIA published Kumo Relational, a Relational Graph Transformer for multi-table data, which reportedly beat XGBoost pipelines on 41 tasks across 15 databases. The library is Apache 2.0 but the weights use the more restrictive OpenMDW license.",
-      "title": "NVIDIA releases Kumo Relational, beating XGBoost on 41 relational tasks without feature engineering"
-    },
     {
       "first_seen": "2026-10-26",
       "id": "carbon-x-open-dna-model",
@@ -190,17 +170,19 @@
       ],
       "summary": "A benchmark of 56 physics research tasks from 42 physicists across 26 institutions found Claude Opus 5.5 leading with a 27.4% pass rate. The tasks cover the full research loop from literature review to manuscript writing.",
       "title": "FrontierPhysics: no AI agent passes more than 46 of 168 research attempts"
+    },
+    {
+      "first_seen": "2026-11-07",
+      "id": "thinking-machines-inkling-2-small",
+      "last_seen": "2026-11-07",
+      "source_urls": [
+        "https://siliconangle.com/2026/11/06/thinking-machines-debuts-inkling-2-small-amid-reported-5b-fundraising-push/"
+      ],
+      "summary": "Thinking Machines Labs released Inkling 2 Small via its Tinker cloud service. In a company-reported test it doubled the forecasting score of a fine-tuned Qwen3.5-4B in 4.5 hours, and open weights are promised the following week.",
+      "title": "Thinking Machines releases Inkling 2 Small, which automates model fine-tuning"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-23",
-      "id": "relational-deep-learning-feature-engineering",
-      "last_seen": "2026-10-23",
-      "source_urls": [],
-      "summary": "Joining and aggregating multi-table data into one row per entity discards structure that graph-based models over rows and foreign keys can use directly.",
-      "title": "Why flattening relational tables loses information"
-    },
     {
       "first_seen": "2026-10-24",
       "id": "credit-spreads-and-cds",
@@ -304,19 +286,17 @@
       "source_urls": [],
       "summary": "Exploit generation has an automatic pass/fail check, so models can generate many candidates and keep only the verified ones, which makes search and RL work well compared with fuzzier domains like physics research.",
       "title": "Why exploits are such a good target for AI: cheap verification"
+    },
+    {
+      "first_seen": "2026-11-07",
+      "id": "rate-futures-implied-hike-probability",
+      "last_seen": "2026-11-07",
+      "source_urls": [],
+      "summary": "Short-term rate futures price the expected average policy rate, so the gap between the implied rate and the current rate, divided by the hike size, gives a market-implied hike probability.",
+      "title": "How hike probabilities are read from rate futures"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-23",
-      "id": "ai-funding-selloff-treasury-rally",
-      "last_seen": "2026-10-23",
-      "source_urls": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
-      ],
-      "summary": "The Nasdaq Composite fell 2.6%, erasing about $1T, and the SOX fell 6.7%, while the 10-year Treasury yield dropped over 19 bp to 4.9591%. Goldman data show several hedge-fund strategy groups each lost over 1% on October 22.",
-      "title": "Nasdaq falls 2.6% and 10-year yield drops 19 bp as AI-funding fears hit hedge funds"
-    },
     {
       "first_seen": "2026-10-24",
       "id": "global-credit-spreads-17-month-high",
@@ -538,6 +518,27 @@
       ],
       "summary": "On November 5 the S&P 500 tech sector fell 7.3% and the Philadelphia Semiconductor Index more than 12%, both the largest one-day drops in over six years. The Nasdaq fell as much as 14% from its record and SoftBank's default-insurance cost hit a four-year high.",
       "title": "S&P 500 tech falls 7.3% and semiconductor index over 12%, erasing nearly $3T"
+    },
+    {
+      "first_seen": "2026-11-07",
+      "id": "nasdaq-100-rebound-taiwan-rout",
+      "last_seen": "2026-11-07",
+      "source_urls": [
+        "https://www.reuters.com/business/retail-consumer/trader-angst-pivots-inflation-growth-tech-rout-deepens-2026-11-06/",
+        "https://www.bloomberg.com/graphics/2026-ai-bubble-financial-markets/"
+      ],
+      "summary": "The Nasdaq 100 fell 6.4% as about $3.2T was erased, its deepest one-day drop since April 2025, then rebounded 1.4%. Taiwan stocks had their worst week since 2001 and tech bond spreads widened.",
+      "title": "Nasdaq 100 fell 6.4% in its worst day since April 2025, then rebounded 1.4%"
+    },
+    {
+      "first_seen": "2026-11-07",
+      "id": "december-fed-ecb-hike-odds-fall",
+      "last_seen": "2026-11-07",
+      "source_urls": [
+        "https://www.reuters.com/business/retail-consumer/trader-angst-pivots-inflation-growth-tech-rout-deepens-2026-11-06/"
+      ],
+      "summary": "Markets cut the implied chance of a December Fed hike from over 80% to roughly 70%, and of an ECB hike from 75% to about 60%, as growth fears from the tech rout outweighed the energy-driven inflation push.",
+      "title": "December hike odds drop to about 70% for the Fed and 60% for the ECB"
     }
   ],
   "scandinavian_tech": [
