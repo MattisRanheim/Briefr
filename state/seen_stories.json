@@ -188,6 +188,16 @@
       ],
       "summary": "Thinking Machines Labs released Inkling 2 Small via its Tinker cloud service. In a company-reported test it doubled the forecasting score of a fine-tuned Qwen3.5-4B in 4.5 hours, and open weights are promised the following week.",
       "title": "Thinking Machines releases Inkling 2 Small, which automates model fine-tuning"
+    },
+    {
+      "first_seen": "2026-11-09",
+      "id": "artificial-analysis-decision-index-v2",
+      "last_seen": "2026-11-09",
+      "source_urls": [
+        "https://artificialanalysis.ai/es/articles/decision-index-v2"
+      ],
+      "summary": "Decision Index v2 (Nov 8) rewards correctness plus calibrated confidence, raises private datasets from 25% to 45% and adds EvalSafe-O*NET-AA at 15%. Claude Haiku 5.5 Max scores 77 and GPT-6 Luna Max 76, ahead of specialist models Drex Max v1.1 and GLiDE v1.2 at 73.",
+      "title": "Artificial Analysis launches Decision Index v2, scoring calibrated confidence; Claude Haiku 5.5 Max leads at 77"
     }
   ],
   "explainers": [
@@ -302,6 +312,14 @@
       "source_urls": [],
       "summary": "Repeating attempts averages out sampling noise within each task but not the noise from having only a small set of tasks, so small benchmarks still carry wide error bars.",
       "title": "Why five attempts per task doesn't fix a 100-task benchmark"
+    },
+    {
+      "first_seen": "2026-11-09",
+      "id": "cds-spread-implied-default-probability",
+      "last_seen": "2026-11-09",
+      "source_urls": [],
+      "summary": "A CDS spread is roughly the annual default hazard rate times one minus the recovery rate, so it can be inverted into a market-implied default probability.",
+      "title": "What a 1,000 bp CDS spread implies about default"
     }
   ],
   "quant_finance": [
@@ -537,6 +555,26 @@
       ],
       "summary": "Markets cut the implied chance of a December Fed hike from over 80% to roughly 70%, and of an ECB hike from 75% to about 60%, as growth fears from the tech rout outweighed the energy-driven inflation push.",
       "title": "December hike odds drop to about 70% for the Fed and 60% for the ECB"
+    },
+    {
+      "first_seen": "2026-11-09",
+      "id": "coreweave-cds-above-1000bp",
+      "last_seen": "2026-11-09",
+      "source_urls": [
+        "https://www.fidelity.com/news/article/us-markets/202611090304RTRSNEWSCOMBINED_KCN3WH2ER-OUSBS_1"
+      ],
+      "summary": "Five-year credit-default-swap spreads on neocloud company CoreWeave rose above 1,000 bp, a record high and distressed territory, as investors reassessed the AI investment cycle.",
+      "title": "CoreWeave five-year CDS tops 1,000 bp to a record"
+    },
+    {
+      "first_seen": "2026-11-09",
+      "id": "fed-december-hike-odds-81",
+      "last_seen": "2026-11-09",
+      "source_urls": [
+        "https://www.fidelity.com/news/article/international/202611090509RTRSNEWSCOMBINED_L6N46Q0HM_1"
+      ],
+      "summary": "Markets price about an 81% chance of a Fed hike on December 9, up from 71% a week earlier, after stronger-than-expected US employment data. The dollar index had its largest one-day gain in nearly six months on Friday.",
+      "title": "Fed December hike odds rise to 81% after strong jobs data; dollar had biggest gain in six months"
     }
   ],
   "scandinavian_tech": [
@@ -637,6 +675,24 @@
       ],
       "summary": "Portuguese defence-drone company TEKEVER raised a \u20ac520M Series D at a reported \u20ac5.7B valuation, with \u20ac13M from Denmark's EIFO, and will set up its first operational Nordic presence in Denmark.",
       "title": "TEKEVER raises \u20ac520M Series D and opens first Nordic base in Denmark"
+    },
+    {
+      "first_seen": "2026-11-09",
+      "id": "claimlane-series-a-verb-ventures",
+      "last_seen": "2026-11-09",
+      "source_urls": [],
+      "summary": "Danish company Claimlane raised a \u20ac5.6M Series A led by Verb Ventures to build AI agents that resolve after-sales issues such as returns, repairs and refunds, and to expand in the US.",
+      "title": "Copenhagen's Claimlane raises \u20ac5.6M Series A for AI after-sales agents"
+    },
+    {
+      "first_seen": "2026-11-09",
+      "id": "matters-ai-bank-pre-seed",
+      "last_seen": "2026-11-09",
+      "source_urls": [
+        "https://ground.news/article/matters-emerges-from-stealth-with-5m-in-pre-seed-funding-to-build-ai-native-consumer-bank"
+      ],
+      "summary": "Stockholm-based Matters raised a $5M pre-seed round led by Swedish angel Jakob Johansson to build an AI-powered consumer bank.",
+      "title": "Stockholm's Matters emerges from stealth with $5M pre-seed for an AI-native consumer bank"
     }
   ],
   "swedish_tech": []
