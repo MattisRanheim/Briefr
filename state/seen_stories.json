@@ -80,14 +80,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-10-26",
-      "id": "carbon-x-open-dna-model",
-      "last_seen": "2026-10-26",
-      "source_urls": [],
-      "summary": "Carbon-X is an Apache 2.0, 14.8B-parameter model that reads raw DNA and answers in English. It averaged 66.7% across five DNA benchmarks versus 67.5% for GPT-6.1 Sol, and fits on one 80 GB GPU.",
-      "title": "Carbon-X: open 14.8B DNA model scores 66.7% vs 67.5% for GPT-6.1 Sol"
-    },
-    {
       "first_seen": "2026-10-28",
       "id": "nvidia-nemotron-3-5-retrievers",
       "last_seen": "2026-10-28",
@@ -202,14 +194,6 @@
   ],
   "explainers": [
     {
-      "first_seen": "2026-10-26",
-      "id": "looking-through-supply-shocks",
-      "last_seen": "2026-10-26",
-      "source_urls": [],
-      "summary": "Central banks usually ignore one-off supply-driven price jumps, but respond if the shock persists and pushes up inflation expectations and wages.",
-      "title": "Why central banks 'look through' oil shocks, until they don't"
-    },
-    {
       "first_seen": "2026-10-27",
       "id": "prompt-caching-kv-reuse",
       "last_seen": "2026-10-27",
@@ -320,19 +304,17 @@
       "source_urls": [],
       "summary": "A CDS spread is roughly the annual default hazard rate times one minus the recovery rate, so it can be inverted into a market-implied default probability.",
       "title": "What a 1,000 bp CDS spread implies about default"
+    },
+    {
+      "first_seen": "2026-11-10",
+      "id": "core-vs-headline-cpi",
+      "last_seen": "2026-11-10",
+      "source_urls": [],
+      "summary": "Core CPI strips out food and energy because they are volatile and mean-revert, so it is a better signal of persistent inflation, though energy can still leak into core and into expectations.",
+      "title": "Why central banks watch core CPI, not headline"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-26",
-      "id": "brent-falls-qatar-mediation-tehran",
-      "last_seen": "2026-10-26",
-      "source_urls": [
-        "https://www.reuters.com/world/asia-pacific/global-markets-pix-2026-10-26/"
-      ],
-      "summary": "Brent fell about 2% to $114.60 on October 26 after reports of Qatari mediators in Tehran, following a 6.2% weekly gain to the highest weekly close since mid-2022. Goldman expects no October Fed hike but a possible December hike.",
-      "title": "Brent falls 2% to $114.60 on Qatari mediation in Tehran"
-    },
     {
       "first_seen": "2026-10-27",
       "id": "brazil-lula-reelection-selloff",
@@ -575,19 +557,19 @@
       ],
       "summary": "Markets price about an 81% chance of a Fed hike on December 9, up from 71% a week earlier, after stronger-than-expected US employment data. The dollar index had its largest one-day gain in nearly six months on Friday.",
       "title": "Fed December hike odds rise to 81% after strong jobs data; dollar had biggest gain in six months"
+    },
+    {
+      "first_seen": "2026-11-10",
+      "id": "brent-below-90-iran-deescalation",
+      "last_seen": "2026-11-10",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-10/"
+      ],
+      "summary": "Brent fell more than 2% to below $90 after Trump said he would hold off on new strikes on Iran, down 22% since end-October. The US two-year yield rose to about 4.56-4.58% and December Fed hike odds reached 84%.",
+      "title": "Brent falls below $90 for the first time since August as Trump holds off on Iran strikes"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-10-26",
-      "id": "legora-550m-series-valuation",
-      "last_seen": "2026-10-26",
-      "source_urls": [
-        "https://www.breakit.se/artikel/47792/legora-stanger-ny-superrunda-varderas-till-88-miljarder"
-      ],
-      "summary": "Stockholm legal-AI company Legora raised $550M led by Atreides Management at an $8.8B valuation, up from about $5.5B at its previous round.",
-      "title": "Legora raises $550M at $8.8B valuation"
-    },
     {
       "first_seen": "2026-10-27",
       "id": "strawberry-ai-browser-launch",
