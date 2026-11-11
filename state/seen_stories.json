@@ -1,26 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-10-27",
-      "id": "openai-gpt-6-1-terra-launch",
-      "last_seen": "2026-10-27",
-      "source_urls": [
-        "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900"
-      ],
-      "summary": "OpenAI released GPT-6.1 Terra on October 26 for computer use, visual reasoning and high-volume workflows. It completes tasks over 3x faster than GPT-6 Astra and GPT-6.1 Sol, with API pricing of $1/$5 per million input/output tokens.",
-      "title": "OpenAI releases GPT-6.1 Terra: matches GPT-6 Astra at about a tenth of the token cost"
-    },
-    {
-      "first_seen": "2026-10-27",
-      "id": "google-gemini-4-argon-announcement",
-      "last_seen": "2026-10-27",
-      "source_urls": [
-        "https://www.thedailystar.net/news/technology/news/google-announces-gemini-4-argon-its-new-frontier-model-4287686"
-      ],
-      "summary": "Google announced Gemini 4 Argon, scoring 77.9% on DeepSWE v1.1 and ranking first on AutomationBench at 51.3%, with output raised from 64K to 1M tokens. Initial access is limited to trusted cyber defenders via the Fairwind Program.",
-      "title": "Google announces Gemini 4 Argon with 1M-token output limit"
-    },
-    {
       "first_seen": "2026-10-28",
       "id": "flashmap-speculative-decoding-drafter",
       "last_seen": "2026-10-28",
@@ -194,14 +174,6 @@
   ],
   "explainers": [
     {
-      "first_seen": "2026-10-27",
-      "id": "prompt-caching-kv-reuse",
-      "last_seen": "2026-10-27",
-      "source_urls": [],
-      "summary": "Providers reuse the stored key/value attention states of a repeated prompt prefix, so repeated context is cheap and agent loops become affordable.",
-      "title": "Prompt caching: why cached input tokens cost a fraction"
-    },
-    {
       "first_seen": "2026-10-28",
       "id": "lossless-speculative-decoding-acceptance",
       "last_seen": "2026-10-28",
@@ -312,29 +284,17 @@
       "source_urls": [],
       "summary": "Core CPI strips out food and energy because they are volatile and mean-revert, so it is a better signal of persistent inflation, though energy can still leak into core and into expectations.",
       "title": "Why central banks watch core CPI, not headline"
+    },
+    {
+      "first_seen": "2026-11-11",
+      "id": "two-year-yield-policy-path",
+      "last_seen": "2026-11-11",
+      "source_urls": [],
+      "summary": "The 2-year yield is roughly the average expected policy rate over two years plus a term premium, so it reprices fastest when the expected Fed path changes.",
+      "title": "What the 2-year Treasury yield actually measures"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-27",
-      "id": "brazil-lula-reelection-selloff",
-      "last_seen": "2026-10-27",
-      "source_urls": [
-        "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KCN3W62IB?channel=FBi345"
-      ],
-      "summary": "After Lula won Brazil's runoff, equities fell about 14% and the real lost 8.5%, its largest one-day fall since the 1999 devaluation. The government announced bond buybacks and cancelled auctions.",
-      "title": "Brazilian assets plunge after Lula's re-election: equities -14%, real -8.5%"
-    },
-    {
-      "first_seen": "2026-10-27",
-      "id": "anthropic-ipo-filing-kospi-rally",
-      "last_seen": "2026-10-27",
-      "source_urls": [
-        "https://www.reuters.com/business/media-telecom/global-markets-view-europe-2026-10-27/"
-      ],
-      "summary": "Anthropic PBC filed paperwork for a US IPO, sparking a tech rally. The Kospi rose 4.5% and MSCI Asia Pacific 1%, led by SK Hynix and Samsung Electronics.",
-      "title": "Anthropic files for US IPO; Kospi jumps 4.5%"
-    },
     {
       "first_seen": "2026-10-28",
       "id": "ai-chip-rally-kospi-sox-tuesday",
@@ -567,19 +527,29 @@
       ],
       "summary": "Brent fell more than 2% to below $90 after Trump said he would hold off on new strikes on Iran, down 22% since end-October. The US two-year yield rose to about 4.56-4.58% and December Fed hike odds reached 84%.",
       "title": "Brent falls below $90 for the first time since August as Trump holds off on Iran strikes"
+    },
+    {
+      "first_seen": "2026-11-11",
+      "id": "waller-50bp-december-hike-cpi",
+      "last_seen": "2026-11-11",
+      "source_urls": [
+        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-11/"
+      ],
+      "summary": "After hotter-than-expected US CPI, Fed Governor Waller said a 50 bp December hike should be considered if core monthly inflation again reaches 0.3% or more. Two-year yields rose by as much as 20 bp, the S&P 500 fell 0.38% and Nvidia fell 5.4%.",
+      "title": "Hot US CPI: Waller floats a 50 bp December hike, 2-year yield jumps up to 20 bp"
+    },
+    {
+      "first_seen": "2026-11-11",
+      "id": "anthropic-ipo-roadshow-valuation",
+      "last_seen": "2026-11-11",
+      "source_urls": [
+        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-11/"
+      ],
+      "summary": "Anthropic began marketing an IPO of almost $90B in new shares at an indicated valuation of about $1.4T. That is below the roughly $2T discussed in the market several months earlier.",
+      "title": "Anthropic starts IPO roadshow at about $1.4T valuation, raising almost $90B"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-10-27",
-      "id": "strawberry-ai-browser-launch",
-      "last_seen": "2026-10-27",
-      "source_urls": [
-        "https://sifted.eu/articles/strawberry-ai-browser-launch-charles-maddock"
-      ],
-      "summary": "Strawberry, founded by Charles Maddock and backed by General Catalyst and EQT Ventures, launched its first full product on October 26. Teams create 'companions' that find leads, book calls and take notes across browser tabs.",
-      "title": "Stockholm's Strawberry launches Strawberry 1.0, an AI browser with agent 'companions'"
-    },
     {
       "first_seen": "2026-10-29",
       "id": "lovable-employee-secondary-sale",
