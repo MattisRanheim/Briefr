@@ -1,16 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-10-28",
-      "id": "flashmap-speculative-decoding-drafter",
-      "last_seen": "2026-10-28",
-      "source_urls": [
-        "https://ground.news/article/polymathic-ai-and-princeton-researchers-release-flashmap-a-flow-map-drafter-for-614x-faster-llm-decoding"
-      ],
-      "summary": "Researchers from Polymathic AI, Princeton and USC ISI released FlashMap, a speculative-decoding drafter that proposes 16-token blocks in one pass. With Qwen3-8B it reached up to 6.14x lossless speedup on GSM8K, with lower, task-dependent gains elsewhere.",
-      "title": "FlashMap drafts 16 tokens per pass for up to 6.14x lossless decoding speedup"
-    },
-    {
       "first_seen": "2026-10-29",
       "id": "anthropic-haiku-5-5-pricing-osworld",
       "last_seen": "2026-10-29",
@@ -59,16 +49,6 @@
     }
   ],
   "data_science_ml": [
-    {
-      "first_seen": "2026-10-28",
-      "id": "nvidia-nemotron-3-5-retrievers",
-      "last_seen": "2026-10-28",
-      "source_urls": [
-        "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval"
-      ],
-      "summary": "NVIDIA added Nemotron 3.5 Embed (8B, 1B and an NVFP4 1B), Rerank 8B and Parse 631M to its open Nemotron Retriever collection. The 8B BF16 embedding model scored 61.17 nDCG@10 on ViDoRe v3.1, first among dense retrievers.",
-      "title": "NVIDIA releases Nemotron 3.5 retrieval models; Embed 8B leads ViDoRe v3.1 dense retrieval"
-    },
     {
       "first_seen": "2026-10-30",
       "id": "mistral-large-4-weights-release",
@@ -173,14 +153,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-28",
-      "id": "lossless-speculative-decoding-acceptance",
-      "last_seen": "2026-10-28",
-      "source_urls": [],
-      "summary": "A cheap drafter proposes tokens and the target model verifies them in one parallel pass using rejection sampling, which preserves the target's output distribution exactly, so speedup depends on how many drafted tokens are accepted.",
-      "title": "Why speculative decoding is lossless"
-    },
     {
       "first_seen": "2026-10-29",
       "id": "equity-duration-discount-rates",
@@ -292,29 +264,17 @@
       "source_urls": [],
       "summary": "The 2-year yield is roughly the average expected policy rate over two years plus a term premium, so it reprices fastest when the expected Fed path changes.",
       "title": "What the 2-year Treasury yield actually measures"
+    },
+    {
+      "first_seen": "2026-11-12",
+      "id": "central-clearing-margin-default-waterfall",
+      "last_seen": "2026-11-12",
+      "source_urls": [],
+      "summary": "A central counterparty steps between buyer and seller, earns per-contract fees, and covers default risk with margin and a layered loss buffer.",
+      "title": "How a clearing house earns on volume without betting on direction"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-28",
-      "id": "ai-chip-rally-kospi-sox-tuesday",
-      "last_seen": "2026-10-28",
-      "source_urls": [
-        "https://www.reuters.com/5f374b32b07b/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-10-27/"
-      ],
-      "summary": "On Tuesday the Kospi rose 6%, the Philadelphia semiconductor index 3.6%, the Nasdaq 1.2% and the S&P 500 0.6%. Dell and Super Micro each gained about 7.5%, and WTI fell about 1.7% to below $100.",
-      "title": "Kospi up 6% and Philadelphia semiconductor index up 3.6% as AI rally extends to US stocks"
-    },
-    {
-      "first_seen": "2026-10-28",
-      "id": "rbnz-surprise-hold-2-75",
-      "last_seen": "2026-10-28",
-      "source_urls": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-28/"
-      ],
-      "summary": "The Reserve Bank of New Zealand kept its official cash rate at 2.75% in a narrow vote that surprised markets. The New Zealand dollar fell more than 1% to $0.5583.",
-      "title": "RBNZ unexpectedly holds at 2.75%, NZ dollar falls over 1%"
-    },
     {
       "first_seen": "2026-10-29",
       "id": "fed-holds-10-2-warsh-dissents",
@@ -547,6 +507,26 @@
       ],
       "summary": "Anthropic began marketing an IPO of almost $90B in new shares at an indicated valuation of about $1.4T. That is below the roughly $2T discussed in the market several months earlier.",
       "title": "Anthropic starts IPO roadshow at about $1.4T valuation, raising almost $90B"
+    },
+    {
+      "first_seen": "2026-11-12",
+      "id": "nvidia-huang-removal-report-selloff",
+      "last_seen": "2026-11-12",
+      "source_urls": [
+        "https://www.reuters.com/business/retail-consumer/global-markets-view-europe-2026-11-12/"
+      ],
+      "summary": "Nvidia fell 7.7% premarket on unconfirmed reports that its board was considering removing CEO Jensen Huang. Nasdaq-100 futures fell about 1%, and Intel, Marvell, Micron and CoreWeave also dropped.",
+      "title": "Nvidia drops 7.7% premarket on reports its board is weighing removing Jensen Huang"
+    },
+    {
+      "first_seen": "2026-11-12",
+      "id": "cme-record-revenue-volume",
+      "last_seen": "2026-11-12",
+      "source_urls": [
+        "https://www.investing.com/news/stock-market-news/while-banks-fear-volatility-cme-group-surged-15-is-it-a-buy-5018813"
+      ],
+      "summary": "CME Group reported record quarterly revenue of $1.74B against a $1.71B consensus, and record average daily volume of 29.4M contracts, up 16% year over year. Its shares are up more than 15% since early October.",
+      "title": "CME posts record quarterly revenue of $1.74B on record volume"
     }
   ],
   "scandinavian_tech": [
@@ -645,6 +625,14 @@
       ],
       "summary": "Stockholm-based Matters raised a $5M pre-seed round led by Swedish angel Jakob Johansson to build an AI-powered consumer bank.",
       "title": "Stockholm's Matters emerges from stealth with $5M pre-seed for an AI-native consumer bank"
+    },
+    {
+      "first_seen": "2026-11-12",
+      "id": "sumary-25m-seed-singular",
+      "last_seen": "2026-11-12",
+      "source_urls": [],
+      "summary": "Sumary raised a $25M seed round led by Singular, with byFounders, Partech and Tenity participating. It builds AI software for accounting firms and calls it Europe's largest accounting-software seed round.",
+      "title": "Copenhagen-founded Sumary raises $25M seed for AI accounting software"
     }
   ],
   "swedish_tech": []
