@@ -1,16 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-10-29",
-      "id": "anthropic-haiku-5-5-pricing-osworld",
-      "last_seen": "2026-10-29",
-      "source_urls": [
-        "https://ground.news/article/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo"
-      ],
-      "summary": "Anthropic's Haiku 5.5 starts at $0.10 input / $0.50 output per million tokens, about 75% cheaper than Haiku 4.5, and scores 72.4% on OSWorld 2.1. It is available on AWS, Google Cloud and Azure, with effort controls and updated cyber safeguards.",
-      "title": "Claude Haiku 5.5 priced from $0.10/$0.50 per million tokens, scores 72.4% on OSWorld 2.1"
-    },
-    {
       "first_seen": "2026-10-30",
       "id": "gemini-4-carbon-cyber-launch",
       "last_seen": "2026-10-30",
@@ -154,14 +144,6 @@
   ],
   "explainers": [
     {
-      "first_seen": "2026-10-29",
-      "id": "equity-duration-discount-rates",
-      "last_seen": "2026-10-29",
-      "source_urls": [],
-      "summary": "A stock is a claim on distant cash flows, so its value is highly sensitive to the discount rate, much like a long-duration bond.",
-      "title": "Equity duration: why higher yields hit long-dated cash flows hardest"
-    },
-    {
       "first_seen": "2026-10-30",
       "id": "stablecoin-freeze-blacklist-mechanism",
       "last_seen": "2026-10-30",
@@ -272,29 +254,17 @@
       "source_urls": [],
       "summary": "A central counterparty steps between buyer and seller, earns per-contract fees, and covers default risk with margin and a layered loss buffer.",
       "title": "How a clearing house earns on volume without betting on direction"
+    },
+    {
+      "first_seen": "2026-11-13",
+      "id": "interest-rate-differentials-currency-carry",
+      "last_seen": "2026-11-13",
+      "source_urls": [],
+      "summary": "Currencies move with interest-rate differentials: investors borrow low-yield currencies like the yen to hold higher-yield dollar assets, and a wider gap makes that carry trade more attractive.",
+      "title": "Why a bigger Fed hike pushes the yen down"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-29",
-      "id": "fed-holds-10-2-warsh-dissents",
-      "last_seen": "2026-10-29",
-      "source_urls": [
-        "https://www.bloomberg.com/news/articles/2026-10-28/key-takeaways-from-fed-decision-to-hold-rates-steady"
-      ],
-      "summary": "The FOMC held rates with Hammack and Cook dissenting; Chair Warsh said inflation is still too high. The 10-year yield rose over 4 bp to about 5.04% and derivatives price an 85% chance of a December hike.",
-      "title": "Fed holds at 3.75%\u20134% on a 10\u20132 vote; December hike priced at 85%"
-    },
-    {
-      "first_seen": "2026-10-29",
-      "id": "microsoft-alphabet-earnings-ai-trade",
-      "last_seen": "2026-10-29",
-      "source_urls": [
-        "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates"
-      ],
-      "summary": "Nasdaq 100 futures fell 0.8% after Microsoft and Alphabet results revived doubts about AI spending returns, even as SK Hynix reported roughly sevenfold profit growth and Oracle jumped 11%.",
-      "title": "AI trade stalls after Microsoft and Alphabet results despite SK Hynix profit surge"
-    },
     {
       "first_seen": "2026-10-30",
       "id": "binance-6-3b-crypto-theft",
@@ -527,17 +497,29 @@
       ],
       "summary": "CME Group reported record quarterly revenue of $1.74B against a $1.71B consensus, and record average daily volume of 29.4M contracts, up 16% year over year. Its shares are up more than 15% since early October.",
       "title": "CME posts record quarterly revenue of $1.74B on record volume"
+    },
+    {
+      "first_seen": "2026-11-13",
+      "id": "nvidia-huang-resigns-europe-stocks",
+      "last_seen": "2026-11-13",
+      "source_urls": [
+        "https://www.galvnews.com/news_reuters/business/european-shares-retreat-from-record-highs-ai-uncertainty-weighs/article_7f5bd8f9-6cf4-5969-8c9a-66527634c99b.html"
+      ],
+      "summary": "Nvidia CEO Jensen Huang abruptly resigned, a day after unconfirmed reports that the board was weighing his removal. The STOXX 600 fell 0.2% to 662.64 after a record high, with Siltronic and Aixtron down more than 1%.",
+      "title": "Nvidia CEO Jensen Huang resigns; European shares slip from record"
+    },
+    {
+      "first_seen": "2026-11-13",
+      "id": "dollar-19-month-high-yen-160",
+      "last_seen": "2026-11-13",
+      "source_urls": [
+        "https://www.reuters.com/5f374b32b07b/world/africa/dollar-near-19-month-high-fed-hike-bets-yen-tests-160-2026-11-13/"
+      ],
+      "summary": "The dollar index reached a 19-month high and the yen hovered at \u00a5159.875 per dollar, renewing intervention concerns, as markets weigh a possible 50 bp Fed hike in December. The euro fell 0.1% to $1.1049.",
+      "title": "Dollar hits 19-month high as yen tests \u00a5160"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-10-29",
-      "id": "lovable-employee-secondary-sale",
-      "last_seen": "2026-10-29",
-      "source_urls": [],
-      "summary": "Swedish AI coding-tool company Lovable, with about 200 employees, is allowing staff to sell roughly SEK 800 million of shares in a secondary transaction rather than a new funding round.",
-      "title": "Lovable lets employees sell about SEK 800M of shares"
-    },
     {
       "first_seen": "2026-10-30",
       "id": "velatir-5m-seed-ai-control",
@@ -633,6 +615,16 @@
       "source_urls": [],
       "summary": "Sumary raised a $25M seed round led by Singular, with byFounders, Partech and Tenity participating. It builds AI software for accounting firms and calls it Europe's largest accounting-software seed round.",
       "title": "Copenhagen-founded Sumary raises $25M seed for AI accounting software"
+    },
+    {
+      "first_seen": "2026-11-13",
+      "id": "gefion-danish-ai-centre-funding",
+      "last_seen": "2026-11-13",
+      "source_urls": [
+        "https://thelongbuild.eu/briefings/2026/11/12/builders-science-briefing"
+      ],
+      "summary": "The Danish Centre for AI Innovation, which operates the Gefion supercomputer, is receiving \u20ac67M. Netcompany joins as a shareholder with \u20ac43.6M and state investor EIFO contributes \u20ac20.1M.",
+      "title": "Denmark's Gefion AI centre gets \u20ac67M, with Netcompany as new shareholder"
     }
   ],
   "swedish_tech": []
