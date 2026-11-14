@@ -1,16 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-10-30",
-      "id": "gemini-4-carbon-cyber-launch",
-      "last_seen": "2026-10-30",
-      "source_urls": [
-        "https://www.aiimpacthub.com/ai-news/2026-10-30"
-      ],
-      "summary": "Google announced Gemini 4 Carbon on October 28 with access limited to selected cybersecurity organizations. It reports 88.2% on SEC-bench Pro, 54.8% on ExploitGym and 71.0% on CWE-bench, and a lead on Artificial Analysis Intelligence Index v5 (59), with API pricing of $2/$10 per million tokens.",
-      "title": "Google launches Gemini 4 Carbon for cyber defense via Fairwind Program"
-    },
-    {
       "first_seen": "2026-11-03",
       "id": "meituan-longcat-2-5-release",
       "last_seen": "2026-11-03",
@@ -39,26 +29,6 @@
     }
   ],
   "data_science_ml": [
-    {
-      "first_seen": "2026-10-30",
-      "id": "mistral-large-4-weights-release",
-      "last_seen": "2026-10-30",
-      "source_urls": [
-        "https://huggingface.co/blog/mistral-large4"
-      ],
-      "summary": "Mistral published the open weights of its multimodal MoE Large 4. Reported scores include 61.7% on DeepSWE v1.1, 82% on the Artificial Analysis Cyber Index and a 49.8% Coding Agent Index, ahead of DeepSeek V4 Pro 0813 and Qwen3.8 Max.",
-      "title": "Mistral Large 4 weights released on Hugging Face with benchmark results"
-    },
-    {
-      "first_seen": "2026-10-30",
-      "id": "mlops-bench-coding-agents",
-      "last_seen": "2026-10-30",
-      "source_urls": [
-        "https://agentry.news/research/mlops-bench-agents-solve-just-31-of-real-ml-engineering-tasks"
-      ],
-      "summary": "A benchmark of 212 validated tasks from 31 public ML repositories. Across six agent configurations the best, Codex with GPT-5.5, completed 31.2% of tasks and passed 68.7% of individual tests.",
-      "title": "MLOps-Bench: best coding agent completes only 31.2% of real ML engineering tasks"
-    },
     {
       "first_seen": "2026-10-31",
       "id": "llm-d-1-0-release",
@@ -140,17 +110,19 @@
       ],
       "summary": "Decision Index v2 (Nov 8) rewards correctness plus calibrated confidence, raises private datasets from 25% to 45% and adds EvalSafe-O*NET-AA at 15%. Claude Haiku 5.5 Max scores 77 and GPT-6 Luna Max 76, ahead of specialist models Drex Max v1.1 and GLiDE v1.2 at 73.",
       "title": "Artificial Analysis launches Decision Index v2, scoring calibrated confidence; Claude Haiku 5.5 Max leads at 77"
+    },
+    {
+      "first_seen": "2026-11-14",
+      "id": "expertcrowd-swe-benchmark-launch",
+      "last_seen": "2026-11-14",
+      "source_urls": [
+        "https://abc17news.com/stacker-ai/2026/11/13/how-reliable-are-ai-coding-tools-a-new-test-focuses-on-each-models-limits/"
+      ],
+      "summary": "ExpertCrowd, Toptal AI and HUD released a coding-agent benchmark built from tasks in 87 open-source projects across 11 languages. Claude Opus 5.5 scored 67.3%, GPT-6 Astra 63.7% and Grok 4.6 32.2%.",
+      "title": "ExpertCrowd-SWE benchmark: Claude Opus 5.5 leads realistic coding-agent test at 67.3%"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-10-30",
-      "id": "stablecoin-freeze-blacklist-mechanism",
-      "last_seen": "2026-10-30",
-      "source_urls": [],
-      "summary": "Centrally issued stablecoins like USDT and USDC have issuer-controlled contract functions that can block specific addresses from transferring tokens, unlike decentralized assets such as bitcoin.",
-      "title": "How a stablecoin issuer can freeze funds"
-    },
     {
       "first_seen": "2026-10-31",
       "id": "prefill-decode-disaggregation",
@@ -262,29 +234,17 @@
       "source_urls": [],
       "summary": "Currencies move with interest-rate differentials: investors borrow low-yield currencies like the yen to hold higher-yield dollar assets, and a wider gap makes that carry trade more attractive.",
       "title": "Why a bigger Fed hike pushes the yen down"
+    },
+    {
+      "first_seen": "2026-11-14",
+      "id": "equity-duration-discount-rates",
+      "last_seen": "2026-11-14",
+      "source_urls": [],
+      "summary": "A stock's rate sensitivity is roughly 1/(r\u2212g), like bond duration, so stocks whose cash flows lie far in the future lose the most when discount rates rise.",
+      "title": "Equity duration: why rate rises hit growth stocks hardest"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-10-30",
-      "id": "binance-6-3b-crypto-theft",
-      "last_seen": "2026-10-30",
-      "source_urls": [
-        "https://www.reuters.com/5f374b32b07b/legal/transactional/tether-circle-freeze-238-billion-after-binance-reports-security-incident-2026-10-29/"
-      ],
-      "summary": "Hackers stole about $6.3B from Binance, which halted withdrawals and said it will cover customer losses. Circle and Tether froze about $2.38B of related assets, and bitcoin fell to a six-week low of $76,368.",
-      "title": "Binance hit by record $6.3B theft; Circle and Tether freeze $2.38B"
-    },
-    {
-      "first_seen": "2026-10-30",
-      "id": "alphabet-plunges-negative-free-cash-flow",
-      "last_seen": "2026-10-30",
-      "source_urls": [
-        "https://www.fidelity.com/news/article/international/202610300302RTRSNEWSCOMBINED_L2N46G05O_1"
-      ],
-      "summary": "Alphabet shares fell 12.6%, erasing about $500B of market value, after a second consecutive quarter of negative free cash flow. Amazon disclosed $42.4B of trailing-12-month cash burn, and Treasuries headed for their strongest monthly gain in almost three years.",
-      "title": "Alphabet falls 12.6% on second straight negative free cash flow quarter"
-    },
     {
       "first_seen": "2026-10-31",
       "id": "intel-broadcom-record-cds",
@@ -517,19 +477,30 @@
       ],
       "summary": "The dollar index reached a 19-month high and the yen hovered at \u00a5159.875 per dollar, renewing intervention concerns, as markets weigh a possible 50 bp Fed hike in December. The euro fell 0.1% to $1.1049.",
       "title": "Dollar hits 19-month high as yen tests \u00a5160"
+    },
+    {
+      "first_seen": "2026-11-14",
+      "id": "us-ppi-6-5-percent-hike-pricing",
+      "last_seen": "2026-11-14",
+      "source_urls": [
+        "https://www.moneycontrol.com/news/business/markets/wall-street-ends-lower-as-nvidia-turmoil-weighs-on-tech-stocks-inflation-keeps-fed-rate-hike-bets-alive-14079893.html/amp",
+        "https://www.reuters.com/5f374b32b07b/world/africa/dollar-near-19-month-high-fed-hike-bets-yen-tests-160-2026-11-13/"
+      ],
+      "summary": "October US PPI rose 6.5% year over year, the largest annual rise since November 2022. The two-year Treasury yield rose about 34 bp on the week to about 4.87%, with roughly 90% odds of a 25 bp December Fed hike and about 10% for 50 bp.",
+      "title": "US producer prices rise 6.5% year over year; two-year yield up 34 bp on the week"
+    },
+    {
+      "first_seen": "2026-11-14",
+      "id": "nvidia-sixth-weekly-decline",
+      "last_seen": "2026-11-14",
+      "source_urls": [
+        "https://www.moneycontrol.com/news/business/markets/wall-street-ends-lower-as-nvidia-turmoil-weighs-on-tech-stocks-inflation-keeps-fed-rate-hike-bets-alive-14079893.html/amp"
+      ],
+      "summary": "Nvidia fell for a sixth consecutive week, its longest streak since October 2012, after CEO Jensen Huang resigned. The S&P 500 closed down 0.42% at 7,560.87 and the Nasdaq Composite down 0.91% at 25,135.96, while the Dow rose 0.09%.",
+      "title": "Nvidia posts sixth straight weekly decline, longest since 2012"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-10-30",
-      "id": "velatir-5m-seed-ai-control",
-      "last_seen": "2026-10-30",
-      "source_urls": [
-        "https://techfundingnews.com/ex-meta-security-lead-raises-5m-ai-control-layer/"
-      ],
-      "summary": "Odense-based Velatir, co-founded in 2023 by a former Meta security executive, raised a \u20ac5M seed round led by existing investors Spintop Ventures and Ugly Duckling Ventures. It is building a real-time control layer for enterprise AI applications.",
-      "title": "Velatir raises \u20ac5M seed for enterprise AI control layer"
-    },
     {
       "first_seen": "2026-10-31",
       "id": "jenz-pre-seed-antler-ada",
