@@ -30,14 +30,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-11-01",
-      "id": "snap-alchemist-agentic-experimentation",
-      "last_seen": "2026-11-01",
-      "source_urls": [],
-      "summary": "Snap introduced Alchemist, an agentic ML experimentation platform with a deterministic harness for plan validation, budget enforcement and human approval. In a Story ads feature-selection use case it cut cycle time from four weeks to two and removed 30% of features without metric regression.",
-      "title": "Snap's Alchemist halves ML experiment cycle time with a controlled agent harness"
-    },
-    {
       "first_seen": "2026-11-02",
       "id": "torchtpu-native-pytorch-backend",
       "last_seen": "2026-11-02",
@@ -115,14 +107,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-01",
-      "id": "correlation-spikes-in-stress",
-      "last_seen": "2026-11-01",
-      "source_urls": [],
-      "summary": "In stress, forced selling to meet margin calls hits liquid assets regardless of fundamentals, so correlations rise and assets like gold and bitcoin fall alongside equities.",
-      "title": "Why diversifiers sell off together in a crash"
-    },
     {
       "first_seen": "2026-11-02",
       "id": "lazy-tensors-vs-eager-execution",
@@ -226,30 +210,17 @@
       "source_urls": [],
       "summary": "A stock's rate sensitivity is roughly 1/(r\u2212g), like bond duration, so stocks whose cash flows lie far in the future lose the most when discount rates rise.",
       "title": "Equity duration: why rate rises hit growth stocks hardest"
+    },
+    {
+      "first_seen": "2026-11-16",
+      "id": "ipo-bookbuilding-pricing",
+      "last_seen": "2026-11-16",
+      "source_urls": [],
+      "summary": "Underwriters collect investor orders at different prices during the roadshow and set the final price where demand clears, usually with a small discount to leave room for a first-day gain.",
+      "title": "How an IPO gets its price: bookbuilding"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-01",
-      "id": "nasdaq-100-correction-gold-bitcoin-fall",
-      "last_seen": "2026-11-01",
-      "source_urls": [
-        "https://www.swissinfo.ch/eng/tech-rout-deepens-as-earnings-stoke-ai-reckoning:-markets-wrap/92299351",
-        "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html"
-      ],
-      "summary": "The Nasdaq 100 fell 3.5% and briefly entered a correction, the S&P 500 dropped 1.8% below its 100-day moving average, and gold fell 3.3% and bitcoin 2.5%. The Nasdaq Composite lost 5.3% in October while the Dow gained 1.7%.",
-      "title": "Nasdaq 100 drops 3.5% into a technical correction; gold and bitcoin fall with it"
-    },
-    {
-      "first_seen": "2026-11-01",
-      "id": "france-q3-gdp-contraction",
-      "last_seen": "2026-11-01",
-      "source_urls": [
-        "https://businessmirror.com.ph/2026/11/01/french-economy-unexpectedly-shrinks-as-headwinds-strengthen/"
-      ],
-      "summary": "French GDP fell 0.1% quarter over quarter in the third quarter as investment kept declining and exports weakened.",
-      "title": "France's economy unexpectedly shrinks 0.1% in Q3"
-    },
     {
       "first_seen": "2026-11-02",
       "id": "binance-withdrawals-after-heist",
@@ -462,19 +433,19 @@
       ],
       "summary": "Nvidia fell for a sixth consecutive week, its longest streak since October 2012, after CEO Jensen Huang resigned. The S&P 500 closed down 0.42% at 7,560.87 and the Nasdaq Composite down 0.91% at 25,135.96, while the Dow rose 0.09%.",
       "title": "Nvidia posts sixth straight weekly decline, longest since 2012"
+    },
+    {
+      "first_seen": "2026-11-16",
+      "id": "nasdaq-futures-anthropic-ipo-pricing",
+      "last_seen": "2026-11-16",
+      "source_urls": [
+        "https://www.reuters.com/5f374b32b07b/markets/europe/global-markets-view-europe-2026-11-16/"
+      ],
+      "summary": "Nasdaq-100 futures fell 0.5% on November 16 after the cash index lost 1.2% on Friday, with semiconductors weak ahead of Nvidia earnings. Anthropic is scheduled to price its IPO on November 17 and begin Nasdaq trading later in the week.",
+      "title": "Nasdaq-100 futures fall 0.5% after a 1.2% Friday drop, with Anthropic pricing its IPO Tuesday"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-11-01",
-      "id": "oaiz-raises-sek-20m-malmo",
-      "last_seen": "2026-11-01",
-      "source_urls": [
-        "https://www.breakit.se/artikel/47867/legora-aloi-ai-north-house-warmare-och-oaiz-har-ar-senaste-rundorna"
-      ],
-      "summary": "Oaiz, founded by people associated with the sale of cybersecurity company Debricked, raised more than SEK 20 million in its first round from Node, Icebreaker and Karaoke Club. It is building a platform to automate repetitive administrative work.",
-      "title": "Malm\u00f6's Oaiz raises over SEK 20M for administrative automation"
-    },
     {
       "first_seen": "2026-11-02",
       "id": "almi-invest-eu-capital-rejection",
