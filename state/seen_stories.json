@@ -26,17 +26,19 @@
       "source_urls": [],
       "summary": "OpenAI and enzyme-design company Ligo released BioBasicsBench, 100 routine bench-science tasks covering data interpretation, error detection and recognising insufficient evidence. GPT-6 Astra scored 66.7%, GPT-6.1 Sol 62.0% and GPT-5.6 Sol 43.8%.",
       "title": "OpenAI and Ligo release BioBasicsBench; GPT-6 Astra tops wet-lab tasks at 66.7%"
+    },
+    {
+      "first_seen": "2026-11-17",
+      "id": "alibaba-qwen4-max-launch",
+      "last_seen": "2026-11-17",
+      "source_urls": [
+        "https://www.aiimpacthub.com/ai-news/2026-11-17"
+      ],
+      "summary": "Alibaba released Qwen4-Max on November 16, a 2.4T-parameter multimodal model with a 1M-token context window. Alibaba claims about 60% lower task costs than Qwen3.8-Max on its own Work360 benchmark.",
+      "title": "Alibaba releases Qwen4-Max: 2.4T parameters, 1M context"
     }
   ],
   "data_science_ml": [
-    {
-      "first_seen": "2026-11-02",
-      "id": "torchtpu-native-pytorch-backend",
-      "last_seen": "2026-11-02",
-      "source_urls": [],
-      "summary": "Google and Meta's PyTorch team introduced TorchTPU, a native C++ PrivateUse1 backend meant to replace PyTorch/XLA's lazy-tensor approach. It combines TorchDynamo compilation with a hybrid eager mode and was reportedly validated on 5,000 Hugging Face models.",
-      "title": "TorchTPU brings native PyTorch execution to Google TPUs"
-    },
     {
       "first_seen": "2026-11-03",
       "id": "diffuspace-clover-35b-a3b-preview",
@@ -104,17 +106,19 @@
       ],
       "summary": "ExpertCrowd, Toptal AI and HUD released a coding-agent benchmark built from tasks in 87 open-source projects across 11 languages. Claude Opus 5.5 scored 67.3%, GPT-6 Astra 63.7% and Grok 4.6 32.2%.",
       "title": "ExpertCrowd-SWE benchmark: Claude Opus 5.5 leads realistic coding-agent test at 67.3%"
+    },
+    {
+      "first_seen": "2026-11-17",
+      "id": "mlperf-training-v6-1-results",
+      "last_seen": "2026-11-17",
+      "source_urls": [
+        "https://www.fidelity.com/news/article/technology/202611161100PRIMZONEFULLFEED9877739"
+      ],
+      "summary": "MLCommons published 250 results from 153 systems on November 16. The round adds DLRMv4-HSTU, an attention-based recommender trained on the Yambda dataset, and GRPO post-training of Qwen3.5-397B for software-engineering and tool-calling tasks.",
+      "title": "MLPerf Training v6.1 adds a recommender workload and GRPO post-training of Qwen3.5-397B"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-02",
-      "id": "lazy-tensors-vs-eager-execution",
-      "last_seen": "2026-11-02",
-      "source_urls": [],
-      "summary": "Lazy-tensor backends like PyTorch/XLA record operations into a graph and compile it later, while eager mode runs each op immediately. This explains why TPU support has needed workarounds.",
-      "title": "Lazy tensors vs. eager execution"
-    },
     {
       "first_seen": "2026-11-03",
       "id": "diffusion-language-models-parallel-decoding",
@@ -218,29 +222,17 @@
       "source_urls": [],
       "summary": "Underwriters collect investor orders at different prices during the roadshow and set the final price where demand clears, usually with a small discount to leave room for a first-day gain.",
       "title": "How an IPO gets its price: bookbuilding"
+    },
+    {
+      "first_seen": "2026-11-17",
+      "id": "grpo-group-relative-policy-optimization",
+      "last_seen": "2026-11-17",
+      "source_urls": [],
+      "summary": "GRPO samples a group of completions per prompt and uses each reward's deviation from the group mean as the advantage, which removes the critic.",
+      "title": "GRPO: policy-gradient RL without a value network"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-02",
-      "id": "binance-withdrawals-after-heist",
-      "last_seen": "2026-11-02",
-      "source_urls": [
-        "https://www.newsobserver.com/news/business/article317877174.html"
-      ],
-      "summary": "Binance resumed service after the $6.3B theft, which the FBI attributed to North Korea. Customers withdrew $3.64B, 2.1% of its assets, and bitcoin and ether rebounded slightly.",
-      "title": "Binance customers pull $3.64B after the $6.3B hack"
-    },
-    {
-      "first_seen": "2026-11-02",
-      "id": "brent-falls-us-iran-talks",
-      "last_seen": "2026-11-02",
-      "source_urls": [
-        "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates"
-      ],
-      "summary": "Brent fell to about $106 after Iran's supreme leader approved pursuing talks that could resolve the conflict. Stocks and bonds rose and tech led an S&P 500 rebound after its worst session since June.",
-      "title": "Brent falls to about $106 as Iran approves talks"
-    },
     {
       "first_seen": "2026-11-03",
       "id": "rba-fifth-hike-final-signal",
@@ -443,19 +435,25 @@
       ],
       "summary": "Nasdaq-100 futures fell 0.5% on November 16 after the cash index lost 1.2% on Friday, with semiconductors weak ahead of Nvidia earnings. Anthropic is scheduled to price its IPO on November 17 and begin Nasdaq trading later in the week.",
       "title": "Nasdaq-100 futures fall 0.5% after a 1.2% Friday drop, with Anthropic pricing its IPO Tuesday"
+    },
+    {
+      "first_seen": "2026-11-17",
+      "id": "us-china-chip-curbs-tech-selloff",
+      "last_seen": "2026-11-17",
+      "source_urls": [],
+      "summary": "Washington tightened restrictions on China's access to advanced AI chips. Taiwan and South Korea's tech-heavy indexes fell more than 1%, YTL Power dropped 5% and European tech fell 2% ahead of Nvidia's earnings.",
+      "title": "US tightens AI-chip curbs on China; Asian and European tech stocks fall"
+    },
+    {
+      "first_seen": "2026-11-17",
+      "id": "deutsche-bank-leaked-documents-plunge",
+      "last_seen": "2026-11-17",
+      "source_urls": [],
+      "summary": "Deutsche Bank dropped 6.2% after reports based on leaked documents on its dealings with clients including Russian oligarchs, Donald Trump and Jeffrey Epstein. The STOXX 600 fell 0.9% to 656.29 and the DAX and CAC 40 each fell about 1%.",
+      "title": "Deutsche Bank falls 6.2% on leaked-document reports; STOXX 600 down 0.9%"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-11-02",
-      "id": "almi-invest-eu-capital-rejection",
-      "last_seen": "2026-11-02",
-      "source_urls": [
-        "https://www.breakit.se/artikel/47855/efter-kritiken-almi-invest-overvager-att-nobba-eu-miljoner"
-      ],
-      "summary": "Almi Invest CEO Joachim Karlsson says the state-backed investor is weighing a stop to its use of EU capital. A Riksrevisionen report argued that EU-capital rules have restricted its investments and weakened returns.",
-      "title": "Almi Invest considers dropping EU funding after audit criticism"
-    },
     {
       "first_seen": "2026-11-03",
       "id": "creandum-sek-7-5b-fund",
@@ -511,6 +509,16 @@
       ],
       "summary": "The Danish Centre for AI Innovation, which operates the Gefion supercomputer, is receiving \u20ac67M. Netcompany joins as a shareholder with \u20ac43.6M and state investor EIFO contributes \u20ac20.1M.",
       "title": "Denmark's Gefion AI centre gets \u20ac67M, with Netcompany as new shareholder"
+    },
+    {
+      "first_seen": "2026-11-17",
+      "id": "course-corrected-second-fund",
+      "last_seen": "2026-11-17",
+      "source_urls": [
+        "https://www.swedishtechnews.com/swedish-tech-weekly-380/"
+      ],
+      "summary": "Stockholm-based Course Corrected closed an \u20ac80M second fund to invest in 20\u201330 early-stage European companies in the energy and resource transition.",
+      "title": "Stockholm's Course Corrected closes \u20ac80M second fund"
     }
   ],
   "swedish_tech": []
