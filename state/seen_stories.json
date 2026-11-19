@@ -32,16 +32,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-11-04",
-      "id": "google-mercor-physical-engineering-exam",
-      "last_seen": "2026-11-04",
-      "source_urls": [
-        "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents"
-      ],
-      "summary": "Google's AI & Infrastructure team and Mercor released PLE, a benchmark of 29 public physical-engineering tasks with grading scripts, an evaluation container and an open leaderboard.",
-      "title": "Google and Mercor release Physical-Engineering's Last Exam for engineering agents"
-    },
-    {
       "first_seen": "2026-11-06",
       "id": "google-xla-serving-engine-xse",
       "last_seen": "2026-11-06",
@@ -111,14 +101,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-04",
-      "id": "bond-tranches-multi-currency-issuance",
-      "last_seen": "2026-11-04",
-      "source_urls": [],
-      "summary": "A multi-part offering splits one raise into maturities priced separately off the yield curve, and a new currency widens the investor base.",
-      "title": "Why big issuers sell bonds in tranches and in several currencies"
-    },
     {
       "first_seen": "2026-11-05",
       "id": "breakeven-inflation-oil-link",
@@ -222,30 +204,17 @@
       "source_urls": [],
       "summary": "Comparing two agents on the same tasks lets you test the per-task difference, which cancels task difficulty and is more powerful than comparing two separate confidence intervals.",
       "title": "Why overlapping error bars don't mean two models are tied"
+    },
+    {
+      "first_seen": "2026-11-19",
+      "id": "vix-implied-move-arithmetic",
+      "last_seen": "2026-11-19",
+      "source_urls": [],
+      "summary": "The VIX is a strike-weighted average of S&P 500 option prices giving 30-day annualized implied volatility, which can be scaled by the square root of time into expected monthly and daily moves.",
+      "title": "What the VIX level implies about daily moves"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-04",
-      "id": "democrats-sweep-congress-market-reaction",
-      "last_seen": "2026-11-04",
-      "source_urls": [
-        "https://www.reuters.com/business/investors-ready-possible-shake-up-congress-election-day-arrives-2026-11-03/",
-        "https://www.reuters.com/world/china/global-markets-view-europe-2026-11-04/"
-      ],
-      "summary": "Democrats won both chambers in the November 3 midterms. Nasdaq futures fell as much as 1.5%, bitcoin dropped to about $75.7K, the dollar weakened across G10 and the 10-year yield fell 7 bp to 4.89%.",
-      "title": "Democrats win Senate and House; Nasdaq futures fall, Treasuries rally"
-    },
-    {
-      "first_seen": "2026-11-04",
-      "id": "meta-15b-bond-euro-debut",
-      "last_seen": "2026-11-04",
-      "source_urls": [
-        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-04/"
-      ],
-      "summary": "Meta Platforms was reported to be raising $15B through a five-part US-dollar bond offering and issued euro-denominated bonds for the first time.",
-      "title": "Meta raises $15B in five-part dollar bond and debuts in euros"
-    },
     {
       "first_seen": "2026-11-05",
       "id": "brent-plunges-after-midterms",
@@ -443,6 +412,27 @@
       ],
       "summary": "On November 17 the Dow fell 1.64% to 50,759.42, the S&P 500 1.03% to 7,340.53 and the Nasdaq Composite 0.74% to 24,328.38. The S&P 500 and Nasdaq both extended to four consecutive down sessions, and bitcoin traded near $64.3K.",
       "title": "Dow falls 849 points as S&P 500 and Nasdaq log a fourth straight loss"
+    },
+    {
+      "first_seen": "2026-11-19",
+      "id": "waller-50bp-fed-10y-5-percent",
+      "last_seen": "2026-11-19",
+      "source_urls": [
+        "https://sg.finance.yahoo.com/news/asia-stocks-set-snap-losing-014340794.html"
+      ],
+      "summary": "On Nov 18 the 10-year Treasury yield fell about 3.9 bp to 5.064% while the dollar hit a 19-month high after Waller argued for either a 50 bp December hike or a signal of faster hikes in 2027. Crude fell on a larger-than-expected US inventory build.",
+      "title": "Waller widens the case for hikes as dollar hits 19-month high; 10-year at 5.06%"
+    },
+    {
+      "first_seen": "2026-11-19",
+      "id": "sp500-fifth-loss-nasdaq-futures-rebound",
+      "last_seen": "2026-11-19",
+      "source_urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-19-132100065.html",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/"
+      ],
+      "summary": "On Nov 18 the Dow fell 1.1% to 50,198.17, the S&P 500 fell 0.2% to 7,323.63 and the Nasdaq rose 0.4%, with the VIX at 24.56. On Nov 19 Nasdaq futures indicated a roughly 2% opening gain and European tech rose over 1%.",
+      "title": "S&P 500 loses a fifth straight session; Nasdaq futures point 2% higher before Anthropic IPO"
     }
   ],
   "scandinavian_tech": [
@@ -501,6 +491,16 @@
       ],
       "summary": "Stockholm-based Course Corrected closed an \u20ac80M second fund to invest in 20\u201330 early-stage European companies in the energy and resource transition.",
       "title": "Stockholm's Course Corrected closes \u20ac80M second fund"
+    },
+    {
+      "first_seen": "2026-11-19",
+      "id": "cloudbackend-seed-svanberg",
+      "last_seen": "2026-11-19",
+      "source_urls": [
+        "https://www.finsmes.com/2026/11/cloudbackend-raises-e6-6m-in-seed-funding.html"
+      ],
+      "summary": "CloudBackend raised a \u20ac6.6M seed round led by Svanberg's family office, with M2 Asset Management participating. It provides hosting, authentication and payments infrastructure for turning AI-generated prototypes into production apps.",
+      "title": "Link\u00f6ping's CloudBackend raises \u20ac6.6M seed led by Carl-Henric Svanberg's family office"
     }
   ],
   "swedish_tech": []
