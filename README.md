@@ -16,7 +16,7 @@ Go to **Settings → Secrets and variables → Actions** and add:
 | `ANTHROPIC_API_KEY` | From [console.anthropic.com](https://console.anthropic.com) |
 | `GMAIL_USER` | Your full Gmail address |
 | `GMAIL_APP_PASSWORD` | 16-char app password from [Google Account](https://myaccount.google.com/apppasswords) (requires 2FA) |
-| `RECIPIENT_EMAIL` | Destination address (can be same as `GMAIL_USER`) |
+| `EMAIL_TO` | Destination address (can be same as `GMAIL_USER`) |
 
 ### 3. Trigger manually to test
 

@@ -6,7 +6,7 @@ Run locally:
     export ANTHROPIC_API_KEY=...
     export GMAIL_USER=...
     export GMAIL_APP_PASSWORD=...
-    export RECIPIENT_EMAIL=...
+    export EMAIL_TO=...
     python main.py
 """
 
@@ -29,7 +29,7 @@ def _require_env(name: str) -> str:
 async def main() -> None:
     gmail_user = _require_env("GMAIL_USER")
     gmail_app_password = _require_env("GMAIL_APP_PASSWORD")
-    recipient = _require_env("RECIPIENT_EMAIL")
+    recipient = _require_env("EMAIL_TO")
     # Pipeline reads PERPLEXITY_API_KEY and ANTHROPIC_API_KEY itself
     _require_env("PERPLEXITY_API_KEY")
     _require_env("ANTHROPIC_API_KEY")
