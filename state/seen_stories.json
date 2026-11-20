@@ -28,6 +28,16 @@
       ],
       "summary": "Alibaba released Qwen4-Max on November 16, a 2.4T-parameter multimodal model with a 1M-token context window. Alibaba claims about 60% lower task costs than Qwen3.8-Max on its own Work360 benchmark.",
       "title": "Alibaba releases Qwen4-Max: 2.4T parameters, 1M context"
+    },
+    {
+      "first_seen": "2026-11-20",
+      "id": "microsoft-mai-code-2-launch",
+      "last_seen": "2026-11-20",
+      "source_urls": [
+        "https://thenextweb.com/news/microsoft-mai-code-2-licensed-weights-ignite"
+      ],
+      "summary": "Microsoft released MAI Code 2 and MAI Code 2 Flash at Ignite 2026, claiming 98% of GPT-6.1 Sol's coding performance at 40% of the price. Promotional pricing is $0.50/$2.50 per million tokens until May 17, 2027.",
+      "title": "Microsoft launches MAI Code 2 coding models at a fraction of rival prices"
     }
   ],
   "data_science_ml": [
@@ -98,17 +108,29 @@
       ],
       "summary": "A study of software-engineering agents across 58,197 runs and seven benchmarks found that 27 of 35 adjacent accuracy\u2013cost comparisons had statistically unresolved accuracy differences. Leaderboard rank often cannot reliably separate competing agents.",
       "title": "Coding-agent study: 27 of 35 adjacent leaderboard gaps are statistically unresolved"
+    },
+    {
+      "first_seen": "2026-11-20",
+      "id": "postech-llm-designed-lookup-table-model",
+      "last_seen": "2026-11-20",
+      "source_urls": [
+        "https://aiweekly.co/alerts/postech-llms-writing-weights-by-hand-skip-transformers"
+      ],
+      "summary": "POSTECH researchers had Claude Opus 5.5, GPT-6.1 Sol and GPT-6 Astra design models, and all converged on sparse lookup tables. The best reached 54.4% on ARC with 3.35M parameters versus 29.8% for a similarly sized Transformer.",
+      "title": "LLM-designed lookup-table model beats same-size Transformer on ARC"
+    },
+    {
+      "first_seen": "2026-11-20",
+      "id": "visual-cipher-bench-release",
+      "last_seen": "2026-11-20",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.16861"
+      ],
+      "summary": "Einsia AI and Navers Lab tested eight frontier models on 40 visual puzzles over 3,480 attempts. The best, GPT-6 Astra at maximum reasoning, scored 26.7%.",
+      "title": "Visual Cipher Bench: no frontier model exceeds 30% on visual puzzles"
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-05",
-      "id": "breakeven-inflation-oil-link",
-      "last_seen": "2026-11-05",
-      "source_urls": [],
-      "summary": "The breakeven rate is the gap between nominal and inflation-linked Treasury yields, and it moves with oil because oil feeds near-term inflation expectations.",
-      "title": "Breakeven inflation: how bonds price inflation expectations"
-    },
     {
       "first_seen": "2026-11-06",
       "id": "verifiable-rewards-exploit-generation",
@@ -212,29 +234,17 @@
       "source_urls": [],
       "summary": "The VIX is a strike-weighted average of S&P 500 option prices giving 30-day annualized implied volatility, which can be scaled by the square root of time into expected monthly and daily moves.",
       "title": "What the VIX level implies about daily moves"
+    },
+    {
+      "first_seen": "2026-11-20",
+      "id": "sparse-lookup-table-models",
+      "last_seen": "2026-11-20",
+      "source_urls": [],
+      "summary": "A sparse lookup-table model predicts by retrieving a few stored rows keyed on the input, so each prediction is traceable to specific rows and edits are local.",
+      "title": "Lookup-table models: memory as parameters"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-05",
-      "id": "brent-plunges-after-midterms",
-      "last_seen": "2026-11-05",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/global-markets-global-markets-2026-11-05/"
-      ],
-      "summary": "Brent fell nearly 9\u201310%, briefly below $100 and to about $93.50 in Asian trading, on expectations that a Democratic Congress would constrain Trump's Iran war response. Treasury yields fell to a two-month low and the dollar weakened to about $1.1273 per euro.",
-      "title": "Brent plunges nearly 10% to about $93.50 as Treasury yields hit two-month low"
-    },
-    {
-      "first_seen": "2026-11-05",
-      "id": "sp500-rally-chip-stocks-fall",
-      "last_seen": "2026-11-05",
-      "source_urls": [
-        "https://www.fidelity.com/news/article/us-markets/202611050741RTRSNEWSCOMBINED_KCN3WG1HG-OUSTP_1"
-      ],
-      "summary": "The S&P 500 rose 1.6% on Wednesday, its best day in three months, and European shares hit a two-month high. Marvell fell 3.4%, Nvidia 0.8% and Intel 2% in premarket trading on data-center scrutiny under a Democratic Congress.",
-      "title": "S&P 500 gains 1.6% while Nvidia, Marvell and Intel fall"
-    },
     {
       "first_seen": "2026-11-06",
       "id": "sp500-tech-sector-rout",
@@ -433,6 +443,16 @@
       ],
       "summary": "On Nov 18 the Dow fell 1.1% to 50,198.17, the S&P 500 fell 0.2% to 7,323.63 and the Nasdaq rose 0.4%, with the VIX at 24.56. On Nov 19 Nasdaq futures indicated a roughly 2% opening gain and European tech rose over 1%.",
       "title": "S&P 500 loses a fifth straight session; Nasdaq futures point 2% higher before Anthropic IPO"
+    },
+    {
+      "first_seen": "2026-11-20",
+      "id": "global-equities-seventh-losing-session",
+      "last_seen": "2026-11-20",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+      ],
+      "summary": "On Nov 19 the S&P 500 fell 2.02% to 7,175 and the Nasdaq Composite 2.25%, and MSCI ACWI fell for a seventh session, its longest streak since September 2023. Anthropic's debut initially gained over 30% but did not lift AI stocks.",
+      "title": "Wall Street drops about 2% and global equities log a seventh straight loss despite Anthropic debut"
     }
   ],
   "scandinavian_tech": [
@@ -501,6 +521,14 @@
       ],
       "summary": "CloudBackend raised a \u20ac6.6M seed round led by Svanberg's family office, with M2 Asset Management participating. It provides hosting, authentication and payments infrastructure for turning AI-generated prototypes into production apps.",
       "title": "Link\u00f6ping's CloudBackend raises \u20ac6.6M seed led by Carl-Henric Svanberg's family office"
+    },
+    {
+      "first_seen": "2026-11-20",
+      "id": "seed-capital-fund-v-close",
+      "last_seen": "2026-11-20",
+      "source_urls": [],
+      "summary": "Copenhagen-based Seed Capital closed its fifth fund at \u20ac130M to back 15\u201317 Nordic startups with \u20ac3\u20136M initial cheques. Its focus is fintech, AI-driven B2B, cybersecurity and resilience, and it expands beyond Denmark into Sweden for the first time.",
+      "title": "Seed Capital closes \u20ac130M Fund V and expands into Sweden"
     }
   ],
   "swedish_tech": []
