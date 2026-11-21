@@ -1,17 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-11-06",
-      "id": "openai-gpt-6-cyber-release",
-      "last_seen": "2026-11-06",
-      "source_urls": [
-        "https://luongnv.com/news/reports/2026-11-06-morning.html",
-        "https://www.anothercodingblog.com/p/another-daily-ai-newsletter-november-c10"
-      ],
-      "summary": "OpenAI released GPT-6 Cyber to approved Daybreak Red customers, classified Critical under its Preparedness Framework. It scores 48.5% on ExploitGym and OpenAI's Linux pipeline produced 948 unique privilege-escalation exploits at about $359 each.",
-      "title": "OpenAI releases GPT-6 Cyber to vetted security teams, rated 'Critical'"
-    },
-    {
       "first_seen": "2026-11-08",
       "id": "openai-biobasicsbench-ligo-launch",
       "last_seen": "2026-11-08",
@@ -41,24 +30,6 @@
     }
   ],
   "data_science_ml": [
-    {
-      "first_seen": "2026-11-06",
-      "id": "google-xla-serving-engine-xse",
-      "last_seen": "2026-11-06",
-      "source_urls": [],
-      "summary": "Google released XSE under Apache 2.0 as an export and inference runtime for OpenXLA. On short requests it delivered 2-5x the throughput of the best Python server Google built, with 30-70% less CPU time per prediction.",
-      "title": "Google open-sources XLA Serving Engine with 2-5x higher throughput"
-    },
-    {
-      "first_seen": "2026-11-06",
-      "id": "frontierphysics-benchmark-agents",
-      "last_seen": "2026-11-06",
-      "source_urls": [
-        "https://www.techtimes.com/articles/330154/20261106/no-ai-agent-passes-more-46-168-physics-research-attempts-new-frontierphysics-benchmark.htm"
-      ],
-      "summary": "A benchmark of 56 physics research tasks from 42 physicists across 26 institutions found Claude Opus 5.5 leading with a 27.4% pass rate. The tasks cover the full research loop from literature review to manuscript writing.",
-      "title": "FrontierPhysics: no AI agent passes more than 46 of 168 research attempts"
-    },
     {
       "first_seen": "2026-11-07",
       "id": "thinking-machines-inkling-2-small",
@@ -131,14 +102,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-06",
-      "id": "verifiable-rewards-exploit-generation",
-      "last_seen": "2026-11-06",
-      "source_urls": [],
-      "summary": "Exploit generation has an automatic pass/fail check, so models can generate many candidates and keep only the verified ones, which makes search and RL work well compared with fuzzier domains like physics research.",
-      "title": "Why exploits are such a good target for AI: cheap verification"
-    },
     {
       "first_seen": "2026-11-07",
       "id": "rate-futures-implied-hike-probability",
@@ -242,19 +205,17 @@
       "source_urls": [],
       "summary": "A sparse lookup-table model predicts by retrieving a few stored rows keyed on the input, so each prediction is traceable to specific rows and edits are local.",
       "title": "Lookup-table models: memory as parameters"
+    },
+    {
+      "first_seen": "2026-11-21",
+      "id": "stock-bond-correlation-regimes",
+      "last_seen": "2026-11-21",
+      "source_urls": [],
+      "summary": "The stock-bond correlation depends on whether growth shocks or inflation shocks dominate: growth shocks push bonds up when stocks fall, inflation shocks push both down.",
+      "title": "Why bonds rally in equity selloffs, except when they don't"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-06",
-      "id": "sp500-tech-sector-rout",
-      "last_seen": "2026-11-06",
-      "source_urls": [
-        "https://www.reuters.com/business/wall-st-week-ahead-tech-swoon-roils-market-us-inflation-data-tap-2026-11-06/"
-      ],
-      "summary": "On November 5 the S&P 500 tech sector fell 7.3% and the Philadelphia Semiconductor Index more than 12%, both the largest one-day drops in over six years. The Nasdaq fell as much as 14% from its record and SoftBank's default-insurance cost hit a four-year high.",
-      "title": "S&P 500 tech falls 7.3% and semiconductor index over 12%, erasing nearly $3T"
-    },
     {
       "first_seen": "2026-11-07",
       "id": "nasdaq-100-rebound-taiwan-rout",
@@ -453,6 +414,27 @@
       ],
       "summary": "On Nov 19 the S&P 500 fell 2.02% to 7,175 and the Nasdaq Composite 2.25%, and MSCI ACWI fell for a seventh session, its longest streak since September 2023. Anthropic's debut initially gained over 30% but did not lift AI stocks.",
       "title": "Wall Street drops about 2% and global equities log a seventh straight loss despite Anthropic debut"
+    },
+    {
+      "first_seen": "2026-11-21",
+      "id": "global-selloff-nasdaq-treasury-rally",
+      "last_seen": "2026-11-21",
+      "source_urls": [
+        "https://www.reuters.com/5f374b32b07b/world/china/global-markets-global-markets-2026-11-20/",
+        "https://www.reuters.com/business/dollar-near-19-month-peak-ai-jitters-sap-risk-appetite-2026-11-20/"
+      ],
+      "summary": "On Nov 20 the Nasdaq Composite fell 2.37% to 23,314.06 and the S&P 500 fell 1.20%, while the 10-year yield fell about 10 bp to 4.948%. Gold fell 2.02% and bitcoin dropped below $60,000 for the first time since July.",
+      "title": "Nasdaq falls 2.4% as 10-year Treasury yield drops below 5%"
+    },
+    {
+      "first_seen": "2026-11-21",
+      "id": "japan-core-inflation-october-boj",
+      "last_seen": "2026-11-21",
+      "source_urls": [
+        "https://www.reuters.com/business/dollar-near-19-month-peak-ai-jitters-sap-risk-appetite-2026-11-20/"
+      ],
+      "summary": "Japan's October core inflation accelerated to 2.2% year over year, above the Bank of Japan's 2% target for a second straight month. The yen is near 159.50 per dollar, close to the 160 level that has raised intervention concerns.",
+      "title": "Japan's core inflation reaches 2.2%, above BoJ target for a second month"
     }
   ],
   "scandinavian_tech": [
