@@ -31,16 +31,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-11-07",
-      "id": "thinking-machines-inkling-2-small",
-      "last_seen": "2026-11-07",
-      "source_urls": [
-        "https://siliconangle.com/2026/11/06/thinking-machines-debuts-inkling-2-small-amid-reported-5b-fundraising-push/"
-      ],
-      "summary": "Thinking Machines Labs released Inkling 2 Small via its Tinker cloud service. In a company-reported test it doubled the forecasting score of a fine-tuned Qwen3.5-4B in 4.5 hours, and open weights are promised the following week.",
-      "title": "Thinking Machines releases Inkling 2 Small, which automates model fine-tuning"
-    },
-    {
       "first_seen": "2026-11-09",
       "id": "artificial-analysis-decision-index-v2",
       "last_seen": "2026-11-09",
@@ -102,14 +92,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-07",
-      "id": "rate-futures-implied-hike-probability",
-      "last_seen": "2026-11-07",
-      "source_urls": [],
-      "summary": "Short-term rate futures price the expected average policy rate, so the gap between the implied rate and the current rate, divided by the hike size, gives a market-implied hike probability.",
-      "title": "How hike probabilities are read from rate futures"
-    },
     {
       "first_seen": "2026-11-08",
       "id": "repeated-attempts-vs-task-sampling-noise",
@@ -213,30 +195,17 @@
       "source_urls": [],
       "summary": "The stock-bond correlation depends on whether growth shocks or inflation shocks dominate: growth shocks push bonds up when stocks fall, inflation shocks push both down.",
       "title": "Why bonds rally in equity selloffs, except when they don't"
+    },
+    {
+      "first_seen": "2026-11-22",
+      "id": "dealer-gamma-selloff-amplification",
+      "last_seen": "2026-11-22",
+      "source_urls": [],
+      "summary": "When dealers are net short options, delta-hedging forces them to sell into falling markets, which amplifies moves as volatility rises.",
+      "title": "Negative gamma: why option dealers can amplify a selloff"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-07",
-      "id": "nasdaq-100-rebound-taiwan-rout",
-      "last_seen": "2026-11-07",
-      "source_urls": [
-        "https://www.reuters.com/business/retail-consumer/trader-angst-pivots-inflation-growth-tech-rout-deepens-2026-11-06/",
-        "https://www.bloomberg.com/graphics/2026-ai-bubble-financial-markets/"
-      ],
-      "summary": "The Nasdaq 100 fell 6.4% as about $3.2T was erased, its deepest one-day drop since April 2025, then rebounded 1.4%. Taiwan stocks had their worst week since 2001 and tech bond spreads widened.",
-      "title": "Nasdaq 100 fell 6.4% in its worst day since April 2025, then rebounded 1.4%"
-    },
-    {
-      "first_seen": "2026-11-07",
-      "id": "december-fed-ecb-hike-odds-fall",
-      "last_seen": "2026-11-07",
-      "source_urls": [
-        "https://www.reuters.com/business/retail-consumer/trader-angst-pivots-inflation-growth-tech-rout-deepens-2026-11-06/"
-      ],
-      "summary": "Markets cut the implied chance of a December Fed hike from over 80% to roughly 70%, and of an ECB hike from 75% to about 60%, as growth fears from the tech rout outweighed the energy-driven inflation push.",
-      "title": "December hike odds drop to about 70% for the Fed and 60% for the ECB"
-    },
     {
       "first_seen": "2026-11-09",
       "id": "coreweave-cds-above-1000bp",
@@ -435,6 +404,17 @@
       ],
       "summary": "Japan's October core inflation accelerated to 2.2% year over year, above the Bank of Japan's 2% target for a second straight month. The yen is near 159.50 per dollar, close to the 160 level that has raised intervention concerns.",
       "title": "Japan's core inflation reaches 2.2%, above BoJ target for a second month"
+    },
+    {
+      "first_seen": "2026-11-22",
+      "id": "nasdaq-sp500-correction-selloff",
+      "last_seen": "2026-11-22",
+      "source_urls": [
+        "https://yahoo.com/finance/markets/stocks/articles/stocks-enter-correction-territory-driven-210818388.html",
+        "https://finance.yahoo.com/markets/stocks/articles/stock-market-selloff-could-block-151717373.html"
+      ],
+      "summary": "On Nov 20 the Nasdaq Composite fell 5.28% to 22,617.73, the S&P 500 fell 3.70% to 6,910.39 and the Dow fell 1.93% to 48,147.33. The VIX rose 25.49% to 35.69 while the 10-year yield fell to about 4.92% and December Fed hike odds stayed near 92%.",
+      "title": "Nasdaq closes down 5.3% and erases its 2026 gain; S&P 500 and Dow in correction"
     }
   ],
   "scandinavian_tech": [
