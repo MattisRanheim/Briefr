@@ -1,14 +1,6 @@
 {
   "ai_llms": [
     {
-      "first_seen": "2026-11-08",
-      "id": "openai-biobasicsbench-ligo-launch",
-      "last_seen": "2026-11-08",
-      "source_urls": [],
-      "summary": "OpenAI and enzyme-design company Ligo released BioBasicsBench, 100 routine bench-science tasks covering data interpretation, error detection and recognising insufficient evidence. GPT-6 Astra scored 66.7%, GPT-6.1 Sol 62.0% and GPT-5.6 Sol 43.8%.",
-      "title": "OpenAI and Ligo release BioBasicsBench; GPT-6 Astra tops wet-lab tasks at 66.7%"
-    },
-    {
       "first_seen": "2026-11-17",
       "id": "alibaba-qwen4-max-launch",
       "last_seen": "2026-11-17",
@@ -92,14 +84,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-08",
-      "id": "repeated-attempts-vs-task-sampling-noise",
-      "last_seen": "2026-11-08",
-      "source_urls": [],
-      "summary": "Repeating attempts averages out sampling noise within each task but not the noise from having only a small set of tasks, so small benchmarks still carry wide error bars.",
-      "title": "Why five attempts per task doesn't fix a 100-task benchmark"
-    },
     {
       "first_seen": "2026-11-09",
       "id": "cds-spread-implied-default-probability",
@@ -203,6 +187,14 @@
       "source_urls": [],
       "summary": "When dealers are net short options, delta-hedging forces them to sell into falling markets, which amplifies moves as volatility rises.",
       "title": "Negative gamma: why option dealers can amplify a selloff"
+    },
+    {
+      "first_seen": "2026-11-23",
+      "id": "hedge-fund-gross-vs-net-exposure",
+      "last_seen": "2026-11-23",
+      "source_urls": [],
+      "summary": "Hedge funds can have low net exposure but high gross exposure, so losses force them to cut positions on both sides, and crowded positions make that selling correlated.",
+      "title": "Gross vs. net exposure: why hedge funds de-risk together"
     }
   ],
   "quant_finance": [
@@ -415,19 +407,27 @@
       ],
       "summary": "On Nov 20 the Nasdaq Composite fell 5.28% to 22,617.73, the S&P 500 fell 3.70% to 6,910.39 and the Dow fell 1.93% to 48,147.33. The VIX rose 25.49% to 35.69 while the 10-year yield fell to about 4.92% and December Fed hike odds stayed near 92%.",
       "title": "Nasdaq closes down 5.3% and erases its 2026 gain; S&P 500 and Dow in correction"
+    },
+    {
+      "first_seen": "2026-11-23",
+      "id": "hedge-funds-worst-week-since-april-2025",
+      "last_seen": "2026-11-23",
+      "source_urls": [
+        "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KCN3WY0LL?channel=frL012"
+      ],
+      "summary": "JPMorgan said global hedge funds lost more than 3% in the week ending November 20, the largest weekly drawdown since April 2025. The average November decline reached 4%, accelerating de-risking.",
+      "title": "Hedge funds lose over 3% in worst week since April 2025"
+    },
+    {
+      "first_seen": "2026-11-23",
+      "id": "cleared-cds-margin-record-october",
+      "last_seen": "2026-11-23",
+      "source_urls": [],
+      "summary": "Risk.net data show margin held against centrally cleared CDS reached a record $84 billion in October as credit-market activity increased.",
+      "title": "Margin on cleared credit-default swaps hits record $84B in October"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-11-08",
-      "id": "tekever-series-d-denmark-presence",
-      "last_seen": "2026-11-08",
-      "source_urls": [
-        "https://www.eu-startups.com/2026/11/defencetech-unicorn-tekever-strengthens-nordic-ambitions-amid-e520-million-funding-round/"
-      ],
-      "summary": "Portuguese defence-drone company TEKEVER raised a \u20ac520M Series D at a reported \u20ac5.7B valuation, with \u20ac13M from Denmark's EIFO, and will set up its first operational Nordic presence in Denmark.",
-      "title": "TEKEVER raises \u20ac520M Series D and opens first Nordic base in Denmark"
-    },
     {
       "first_seen": "2026-11-09",
       "id": "claimlane-series-a-verb-ventures",
