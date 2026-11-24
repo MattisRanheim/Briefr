@@ -23,16 +23,6 @@
   ],
   "data_science_ml": [
     {
-      "first_seen": "2026-11-09",
-      "id": "artificial-analysis-decision-index-v2",
-      "last_seen": "2026-11-09",
-      "source_urls": [
-        "https://artificialanalysis.ai/es/articles/decision-index-v2"
-      ],
-      "summary": "Decision Index v2 (Nov 8) rewards correctness plus calibrated confidence, raises private datasets from 25% to 45% and adds EvalSafe-O*NET-AA at 15%. Claude Haiku 5.5 Max scores 77 and GPT-6 Luna Max 76, ahead of specialist models Drex Max v1.1 and GLiDE v1.2 at 73.",
-      "title": "Artificial Analysis launches Decision Index v2, scoring calibrated confidence; Claude Haiku 5.5 Max leads at 77"
-    },
-    {
       "first_seen": "2026-11-14",
       "id": "expertcrowd-swe-benchmark-launch",
       "last_seen": "2026-11-14",
@@ -84,14 +74,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-09",
-      "id": "cds-spread-implied-default-probability",
-      "last_seen": "2026-11-09",
-      "source_urls": [],
-      "summary": "A CDS spread is roughly the annual default hazard rate times one minus the recovery rate, so it can be inverted into a market-implied default probability.",
-      "title": "What a 1,000 bp CDS spread implies about default"
-    },
     {
       "first_seen": "2026-11-10",
       "id": "core-vs-headline-cpi",
@@ -195,29 +177,17 @@
       "source_urls": [],
       "summary": "Hedge funds can have low net exposure but high gross exposure, so losses force them to cut positions on both sides, and crowded positions make that selling correlated.",
       "title": "Gross vs. net exposure: why hedge funds de-risk together"
+    },
+    {
+      "first_seen": "2026-11-24",
+      "id": "volume-vs-open-interest",
+      "last_seen": "2026-11-24",
+      "source_urls": [],
+      "summary": "Volume counts contracts traded in a day, while open interest counts positions still outstanding, so record volume can reflect churn rather than larger net risk.",
+      "title": "Volume vs. open interest in futures"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-09",
-      "id": "coreweave-cds-above-1000bp",
-      "last_seen": "2026-11-09",
-      "source_urls": [
-        "https://www.fidelity.com/news/article/us-markets/202611090304RTRSNEWSCOMBINED_KCN3WH2ER-OUSBS_1"
-      ],
-      "summary": "Five-year credit-default-swap spreads on neocloud company CoreWeave rose above 1,000 bp, a record high and distressed territory, as investors reassessed the AI investment cycle.",
-      "title": "CoreWeave five-year CDS tops 1,000 bp to a record"
-    },
-    {
-      "first_seen": "2026-11-09",
-      "id": "fed-december-hike-odds-81",
-      "last_seen": "2026-11-09",
-      "source_urls": [
-        "https://www.fidelity.com/news/article/international/202611090509RTRSNEWSCOMBINED_L6N46Q0HM_1"
-      ],
-      "summary": "Markets price about an 81% chance of a Fed hike on December 9, up from 71% a week earlier, after stronger-than-expected US employment data. The dollar index had its largest one-day gain in nearly six months on Friday.",
-      "title": "Fed December hike odds rise to 81% after strong jobs data; dollar had biggest gain in six months"
-    },
     {
       "first_seen": "2026-11-10",
       "id": "brent-below-90-iran-deescalation",
@@ -425,27 +395,29 @@
       "source_urls": [],
       "summary": "Risk.net data show margin held against centrally cleared CDS reached a record $84 billion in October as credit-market activity increased.",
       "title": "Margin on cleared credit-default swaps hits record $84B in October"
+    },
+    {
+      "first_seen": "2026-11-24",
+      "id": "nvidia-reinstates-huang-rally",
+      "last_seen": "2026-11-24",
+      "source_urls": [
+        "https://www.reuters.com/world/asia-pacific/global-markets-view-europe-2026-11-24/"
+      ],
+      "summary": "Nvidia rose 31% on Monday after reinstating Jensen Huang as CEO, lifting the S&P 500 by 4.7% and the Nasdaq 100 by 6.5%. By Tuesday AI shares were retreating and Nasdaq futures were lower.",
+      "title": "Nvidia jumps 31% as Huang is reinstated as CEO; rally fades Tuesday"
+    },
+    {
+      "first_seen": "2026-11-24",
+      "id": "cme-record-daily-volume",
+      "last_seen": "2026-11-24",
+      "source_urls": [
+        "https://www.morningstar.com/news/dow-jones/202611245332/cme-group-hits-new-volume-record-amid-nvidia-interest-rate-volatility"
+      ],
+      "summary": "CME traded nearly 71.5M contracts on Monday, beating the 67.1M record from February 2025. Treasury-futures volume hit a record 41.4M contracts.",
+      "title": "CME sets single-day volume record of 71.5M contracts"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-11-09",
-      "id": "claimlane-series-a-verb-ventures",
-      "last_seen": "2026-11-09",
-      "source_urls": [],
-      "summary": "Danish company Claimlane raised a \u20ac5.6M Series A led by Verb Ventures to build AI agents that resolve after-sales issues such as returns, repairs and refunds, and to expand in the US.",
-      "title": "Copenhagen's Claimlane raises \u20ac5.6M Series A for AI after-sales agents"
-    },
-    {
-      "first_seen": "2026-11-09",
-      "id": "matters-ai-bank-pre-seed",
-      "last_seen": "2026-11-09",
-      "source_urls": [
-        "https://ground.news/article/matters-emerges-from-stealth-with-5m-in-pre-seed-funding-to-build-ai-native-consumer-bank"
-      ],
-      "summary": "Stockholm-based Matters raised a $5M pre-seed round led by Swedish angel Jakob Johansson to build an AI-powered consumer bank.",
-      "title": "Stockholm's Matters emerges from stealth with $5M pre-seed for an AI-native consumer bank"
-    },
     {
       "first_seen": "2026-11-12",
       "id": "sumary-25m-seed-singular",
@@ -491,6 +463,16 @@
       "source_urls": [],
       "summary": "Copenhagen-based Seed Capital closed its fifth fund at \u20ac130M to back 15\u201317 Nordic startups with \u20ac3\u20136M initial cheques. Its focus is fintech, AI-driven B2B, cybersecurity and resilience, and it expands beyond Denmark into Sweden for the first time.",
       "title": "Seed Capital closes \u20ac130M Fund V and expands into Sweden"
+    },
+    {
+      "first_seen": "2026-11-24",
+      "id": "trustly-60m-funding-round",
+      "last_seen": "2026-11-24",
+      "source_urls": [
+        "https://www.breakit.se/artikel/48117/trustly-stanger-rundan-tar-in-600-miljoner"
+      ],
+      "summary": "Swedish fintech Trustly closed a $60M (about SEK 600M) round with existing owners Nordic Capital and Alfv\u00e9n & Didrikson plus BlackRock funds. CEO Johan Tj\u00e4rnberg says the money supports its AI strategy.",
+      "title": "Trustly closes $60M round with Nordic Capital and BlackRock funds"
     }
   ],
   "swedish_tech": []
