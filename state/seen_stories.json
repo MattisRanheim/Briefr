@@ -75,14 +75,6 @@
   ],
   "explainers": [
     {
-      "first_seen": "2026-11-10",
-      "id": "core-vs-headline-cpi",
-      "last_seen": "2026-11-10",
-      "source_urls": [],
-      "summary": "Core CPI strips out food and energy because they are volatile and mean-revert, so it is a better signal of persistent inflation, though energy can still leak into core and into expectations.",
-      "title": "Why central banks watch core CPI, not headline"
-    },
-    {
       "first_seen": "2026-11-11",
       "id": "two-year-yield-policy-path",
       "last_seen": "2026-11-11",
@@ -185,19 +177,17 @@
       "source_urls": [],
       "summary": "Volume counts contracts traded in a day, while open interest counts positions still outstanding, so record volume can reflect churn rather than larger net risk.",
       "title": "Volume vs. open interest in futures"
+    },
+    {
+      "first_seen": "2026-11-25",
+      "id": "cds-spread-default-probability",
+      "last_seen": "2026-11-25",
+      "source_urls": [],
+      "summary": "A CDS spread is roughly the annual default probability times the loss given default, so it can be converted into a market-implied default probability, which includes a risk premium.",
+      "title": "Reading a CDS spread as a default probability"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-10",
-      "id": "brent-below-90-iran-deescalation",
-      "last_seen": "2026-11-10",
-      "source_urls": [
-        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-10/"
-      ],
-      "summary": "Brent fell more than 2% to below $90 after Trump said he would hold off on new strikes on Iran, down 22% since end-October. The US two-year yield rose to about 4.56-4.58% and December Fed hike odds reached 84%.",
-      "title": "Brent falls below $90 for the first time since August as Trump holds off on Iran strikes"
-    },
     {
       "first_seen": "2026-11-11",
       "id": "waller-50bp-december-hike-cpi",
@@ -415,6 +405,26 @@
       ],
       "summary": "CME traded nearly 71.5M contracts on Monday, beating the 67.1M record from February 2025. Treasury-futures volume hit a record 41.4M contracts.",
       "title": "CME sets single-day volume record of 71.5M contracts"
+    },
+    {
+      "first_seen": "2026-11-25",
+      "id": "nasdaq-futures-tariff-selloff-hike-odds",
+      "last_seen": "2026-11-25",
+      "source_urls": [
+        "https://www.reuters.com/business/nasdaq-futures-slide-over-2-fresh-us-tariff-concerns-inflation-data-focus-2026-11-25/"
+      ],
+      "summary": "On Nov 25 Nasdaq-100 futures fell 3% and S&P 500 futures 2% on fresh US tariff concerns, while the 10-year yield fell 9 bp to 4.84%. Fed-funds futures priced a 97% chance of a December hike and 63% for another in January.",
+      "title": "Nasdaq-100 futures drop 3% on tariff fears; December hike now 97% priced"
+    },
+    {
+      "first_seen": "2026-11-25",
+      "id": "softbank-cds-record-ai-credit-stress",
+      "last_seen": "2026-11-25",
+      "source_urls": [
+        "https://www.reuters.com/business/media-telecom/global-markets-ai-cds-urgent-2026-11-25/"
+      ],
+      "summary": "SoftBank's five-year CDS widened to 501 bp, the highest since October 2022, while Oracle, Alphabet, SpaceX and CoreWeave CDS also hit records. S&P Global Market Intelligence estimates CoreWeave's five-year default probability at 68%.",
+      "title": "SoftBank CDS hits 501 bp as AI-linked credit spreads reach records"
     }
   ],
   "scandinavian_tech": [
@@ -473,6 +483,16 @@
       ],
       "summary": "Swedish fintech Trustly closed a $60M (about SEK 600M) round with existing owners Nordic Capital and Alfv\u00e9n & Didrikson plus BlackRock funds. CEO Johan Tj\u00e4rnberg says the money supports its AI strategy.",
       "title": "Trustly closes $60M round with Nordic Capital and BlackRock funds"
+    },
+    {
+      "first_seen": "2026-11-25",
+      "id": "stegra-2-billion-funding-shortfall",
+      "last_seen": "2026-11-25",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-11-24/wallenberg-backed-green-steel-startup-is-said-to-need-2-billion"
+      ],
+      "summary": "Bloomberg reports Wallenberg-backed green-steel company Stegra needs at least $2B in additional funding to complete its first plant in Boden, after construction costs rose. It follows an earlier financing crisis.",
+      "title": "Stegra reportedly needs at least $2B more to finish its Boden plant"
     }
   ],
   "swedish_tech": []
