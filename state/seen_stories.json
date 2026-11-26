@@ -19,6 +19,16 @@
       ],
       "summary": "Microsoft released MAI Code 2 and MAI Code 2 Flash at Ignite 2026, claiming 98% of GPT-6.1 Sol's coding performance at 40% of the price. Promotional pricing is $0.50/$2.50 per million tokens until May 17, 2027.",
       "title": "Microsoft launches MAI Code 2 coding models at a fraction of rival prices"
+    },
+    {
+      "first_seen": "2026-11-26",
+      "id": "openai-matmul-exponent-nine-fourths",
+      "last_seen": "2026-11-26",
+      "source_urls": [
+        "https://www.iqimath.com/2026/11/the-matrix-multiplication-exponent-is-nine-fourths/"
+      ],
+      "summary": "OpenAI published a preprint titled 'The matrix multiplication exponent is nine fourths', claiming \u03c9 = 9/4 over every field via matching upper and lower bounds. It is an unvalidated claim and would not directly speed up practical matrix operations.",
+      "title": "OpenAI preprint claims the matrix-multiplication exponent is exactly 9/4"
     }
   ],
   "data_science_ml": [
@@ -74,14 +84,6 @@
     }
   ],
   "explainers": [
-    {
-      "first_seen": "2026-11-11",
-      "id": "two-year-yield-policy-path",
-      "last_seen": "2026-11-11",
-      "source_urls": [],
-      "summary": "The 2-year yield is roughly the average expected policy rate over two years plus a term premium, so it reprices fastest when the expected Fed path changes.",
-      "title": "What the 2-year Treasury yield actually measures"
-    },
     {
       "first_seen": "2026-11-12",
       "id": "central-clearing-margin-default-waterfall",
@@ -185,29 +187,17 @@
       "source_urls": [],
       "summary": "A CDS spread is roughly the annual default probability times the loss given default, so it can be converted into a market-implied default probability, which includes a risk premium.",
       "title": "Reading a CDS spread as a default probability"
+    },
+    {
+      "first_seen": "2026-11-26",
+      "id": "matrix-multiplication-exponent-omega",
+      "last_seen": "2026-11-26",
+      "source_urls": [],
+      "summary": "\u03c9 is the exponent in the best possible n^\u03c9 cost of multiplying two n\u00d7n matrices; upper bounds come from algorithms, lower bounds are far harder, and record-setting algorithms are impractical.",
+      "title": "What the matrix-multiplication exponent \u03c9 measures"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-11",
-      "id": "waller-50bp-december-hike-cpi",
-      "last_seen": "2026-11-11",
-      "source_urls": [
-        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-11/"
-      ],
-      "summary": "After hotter-than-expected US CPI, Fed Governor Waller said a 50 bp December hike should be considered if core monthly inflation again reaches 0.3% or more. Two-year yields rose by as much as 20 bp, the S&P 500 fell 0.38% and Nvidia fell 5.4%.",
-      "title": "Hot US CPI: Waller floats a 50 bp December hike, 2-year yield jumps up to 20 bp"
-    },
-    {
-      "first_seen": "2026-11-11",
-      "id": "anthropic-ipo-roadshow-valuation",
-      "last_seen": "2026-11-11",
-      "source_urls": [
-        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-11/"
-      ],
-      "summary": "Anthropic began marketing an IPO of almost $90B in new shares at an indicated valuation of about $1.4T. That is below the roughly $2T discussed in the market several months earlier.",
-      "title": "Anthropic starts IPO roadshow at about $1.4T valuation, raising almost $90B"
-    },
     {
       "first_seen": "2026-11-12",
       "id": "nvidia-huang-removal-report-selloff",
@@ -493,6 +483,16 @@
       ],
       "summary": "Bloomberg reports Wallenberg-backed green-steel company Stegra needs at least $2B in additional funding to complete its first plant in Boden, after construction costs rose. It follows an earlier financing crisis.",
       "title": "Stegra reportedly needs at least $2B more to finish its Boden plant"
+    },
+    {
+      "first_seen": "2026-11-26",
+      "id": "monterro-hoglund-sek-1-7bn-venture",
+      "last_seen": "2026-11-26",
+      "source_urls": [
+        "https://www.breakit.se/artikel/48132/epidemic-grundaren-oscar-hoglund-startar-miljardfond-hos-monterro-ska-bygga-bolag-fran-grunden"
+      ],
+      "summary": "Monterro and Epidemic Sound founder Oscar H\u00f6glund are launching a SEK 1.7 billion venture to build niche software companies from scratch. They are recruiting founders with established industry backgrounds.",
+      "title": "Monterro and Oscar H\u00f6glund launch SEK 1.7B venture to build AI-era software companies"
     }
   ],
   "swedish_tech": []
