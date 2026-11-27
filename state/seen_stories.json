@@ -85,14 +85,6 @@
   ],
   "explainers": [
     {
-      "first_seen": "2026-11-12",
-      "id": "central-clearing-margin-default-waterfall",
-      "last_seen": "2026-11-12",
-      "source_urls": [],
-      "summary": "A central counterparty steps between buyer and seller, earns per-contract fees, and covers default risk with margin and a layered loss buffer.",
-      "title": "How a clearing house earns on volume without betting on direction"
-    },
-    {
       "first_seen": "2026-11-13",
       "id": "interest-rate-differentials-currency-carry",
       "last_seen": "2026-11-13",
@@ -195,29 +187,17 @@
       "source_urls": [],
       "summary": "\u03c9 is the exponent in the best possible n^\u03c9 cost of multiplying two n\u00d7n matrices; upper bounds come from algorithms, lower bounds are far harder, and record-setting algorithms are impractical.",
       "title": "What the matrix-multiplication exponent \u03c9 measures"
+    },
+    {
+      "first_seen": "2026-11-27",
+      "id": "pension-funds-venture-access-frictions",
+      "last_seen": "2026-11-27",
+      "source_urls": [],
+      "summary": "Large pension funds face ticket-size and fixed-cost frictions in backing venture funds, so they must allocate big sums through a limited number of vehicles.",
+      "title": "Why pension money struggles to reach venture capital"
     }
   ],
   "quant_finance": [
-    {
-      "first_seen": "2026-11-12",
-      "id": "nvidia-huang-removal-report-selloff",
-      "last_seen": "2026-11-12",
-      "source_urls": [
-        "https://www.reuters.com/business/retail-consumer/global-markets-view-europe-2026-11-12/"
-      ],
-      "summary": "Nvidia fell 7.7% premarket on unconfirmed reports that its board was considering removing CEO Jensen Huang. Nasdaq-100 futures fell about 1%, and Intel, Marvell, Micron and CoreWeave also dropped.",
-      "title": "Nvidia drops 7.7% premarket on reports its board is weighing removing Jensen Huang"
-    },
-    {
-      "first_seen": "2026-11-12",
-      "id": "cme-record-revenue-volume",
-      "last_seen": "2026-11-12",
-      "source_urls": [
-        "https://www.investing.com/news/stock-market-news/while-banks-fear-volatility-cme-group-surged-15-is-it-a-buy-5018813"
-      ],
-      "summary": "CME Group reported record quarterly revenue of $1.74B against a $1.71B consensus, and record average daily volume of 29.4M contracts, up 16% year over year. Its shares are up more than 15% since early October.",
-      "title": "CME posts record quarterly revenue of $1.74B on record volume"
-    },
     {
       "first_seen": "2026-11-13",
       "id": "nvidia-huang-resigns-europe-stocks",
@@ -415,17 +395,29 @@
       ],
       "summary": "SoftBank's five-year CDS widened to 501 bp, the highest since October 2022, while Oracle, Alphabet, SpaceX and CoreWeave CDS also hit records. S&P Global Market Intelligence estimates CoreWeave's five-year default probability at 68%.",
       "title": "SoftBank CDS hits 501 bp as AI-linked credit spreads reach records"
+    },
+    {
+      "first_seen": "2026-11-27",
+      "id": "global-stocks-rebound-yields-rise",
+      "last_seen": "2026-11-27",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-27/"
+      ],
+      "summary": "Nasdaq futures rose 2.4% and S&P 500 futures 1.6%, with the Nikkei up 1.9%, while the 10-year Treasury yield rose 7 bp to 4.92%. Gold gained 1.8%, silver 4.8% and Brent was near $98.",
+      "title": "Global stocks rebound as AI worries ease; Treasury yields and metals rise"
+    },
+    {
+      "first_seen": "2026-11-27",
+      "id": "global-equity-fund-outflow-record",
+      "last_seen": "2026-11-27",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-flows-graphic-2026-11-27/"
+      ],
+      "summary": "Investors pulled a net $22.73B from global equity funds in the week through November 25, per LSEG Lipper. Bond funds had a third straight weekly outflow of $3.51B and gold and precious-metals funds lost $2.14B.",
+      "title": "Global equity funds see largest weekly outflow in 14 months"
     }
   ],
   "scandinavian_tech": [
-    {
-      "first_seen": "2026-11-12",
-      "id": "sumary-25m-seed-singular",
-      "last_seen": "2026-11-12",
-      "source_urls": [],
-      "summary": "Sumary raised a $25M seed round led by Singular, with byFounders, Partech and Tenity participating. It builds AI software for accounting firms and calls it Europe's largest accounting-software seed round.",
-      "title": "Copenhagen-founded Sumary raises $25M seed for AI accounting software"
-    },
     {
       "first_seen": "2026-11-13",
       "id": "gefion-danish-ai-centre-funding",
@@ -493,6 +485,26 @@
       ],
       "summary": "Monterro and Epidemic Sound founder Oscar H\u00f6glund are launching a SEK 1.7 billion venture to build niche software companies from scratch. They are recruiting founders with established industry backgrounds.",
       "title": "Monterro and Oscar H\u00f6glund launch SEK 1.7B venture to build AI-era software companies"
+    },
+    {
+      "first_seen": "2026-11-27",
+      "id": "denmark-pension-funds-startup-capital",
+      "last_seen": "2026-11-27",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-11-26/denmark-looks-to-france-to-unlock-pension-billions-for-startups"
+      ],
+      "summary": "Denmark's Ministry for Taxation and Growth is partnering with 13 pension funds to make investing in European venture and growth funds easier and cheaper, partly modeled on France's approach. The aim is to reduce Danish companies' reliance on US capital.",
+      "title": "Denmark enlists 13 pension funds to channel money into European venture funds"
+    },
+    {
+      "first_seen": "2026-11-27",
+      "id": "audun-3m-debt-collection-seed",
+      "last_seen": "2026-11-27",
+      "source_urls": [
+        "https://techfundingnews.com/norwegian-ai-debt-collection-startup-audun-raises-3m-from-y-combinator-and-alliance-vc/"
+      ],
+      "summary": "Audun raised $3M from Y Combinator and Alliance VC. It holds a Norwegian debt-collection licence, serves several dozen clients and plans to expand to Sweden first, then other markets next year.",
+      "title": "Norway's Audun raises $3M from Y Combinator and Alliance VC for AI debt collection"
     }
   ],
   "swedish_tech": []
